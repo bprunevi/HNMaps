@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Leaflet Map Hello World</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+  <script src="js/leaflet.ajax.min.js"></script>
+</head>
+
+<body>
+  <div id="map" style="height: 400px"></div>
+  <button id="toggleMarkerBtn">Hide Marker</button>
+  <script>
+    var map = L.map("map").setView([40.73, -73.94], 12); // Set initial center and zoom
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // Add geoJson
+    //var marker = new L.GeoJSON.AJAX("testing.geojson");
+    //marker.addTo(map);
+
+    const markers_array = [];
+
+    fetch('testing.geojson')
+      .then(response => response.json())
+      .then(data => {
+        // Loop through each feature in the GeoJSON
+        data.features.forEach((feature, index) => {
+          if (feature.geometry.type === 'Point') {
+            // Create a marker for each point
+            const coords = feature.geometry.coordinates;
+            const marker = L.marker([coords[1], coords[0]]).addTo(map);
+
+            // Optionally, bind a popup with the feature properties
+            if (feature.properties) {
+              marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+            }
+
+            // Push the marker into the markers array
+            marker.name = feature.properties.name;
+            markers_array.push(marker);
+          }
+        });
+      })
+      .catch(error => console.error('Error loading GeoJSON:', error));
+
+    var markerVisible = true;
+
+    function toggleMarker() {
+      markers_array.forEach(marker => {
+        if (marker.name === "Roosevelt Island - Main St") {
+          if (markerVisible) {
+            map.removeLayer(marker); // Hide the marker
+          } else {
+            marker.addTo(map); // Show the marker
+          }
+          markerVisible = !markerVisible; // Toggle the visibility state
+        }
+      });
+    }
+    // Add event listener to the button
+    document.getElementById('toggleMarkerBtn').addEventListener('click', toggleMarker)
+  </script>
+</body>
+
+</html>
