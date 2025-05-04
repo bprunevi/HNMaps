@@ -1,0 +1,21 @@
+#map {
+    height: 400px;
+}
+
+#marker-list-box {
+    overflow: auto;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin : 20px;
+    padding: 20px;
+}
+
+#marker-list {
+    list-style-type: none;
+}
+
+#box-list {
+    display: inline-flex;
+    margin : 20px;
+}
