@@ -1,11 +1,17 @@
+html, body{
+    margin: 0;
+   padding: 0;
+}
 #map {
-    height: 400px;
+    height: 100vh;
+    position:relative;
 }
 
 #marker-list-box {
     overflow: auto;
     height: 300px;
     width: 300px;
+    background-color: white;
     border: 2px solid black;
     margin : 20px;
     padding: 20px;
@@ -16,6 +22,10 @@
 }
 
 #box-list {
-    display: inline-flex;
+    position:absolute;
+    top:20px;
+    left:20px;
+    z-index:1000;
+    display: grid;
     margin : 20px;
 }

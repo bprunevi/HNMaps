@@ -16,15 +16,40 @@
     <div id="marker-list-box">
       <ul id="marker-list"></ul>
     </div>
-    <div id="marker-list-box">
+      <div id="marker-list-box">
+      <?php
+      $servername = "localhost";
+      $username = "tocard";
+      $password = "tocard";
+      $dbname = "kovacs1";
+
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "SELECT idLieu, description, coordonnees FROM lieu";
+      $result = $conn->query($sql);
+
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+          echo "id: " . $row["idLieu"]. " - Desc : " . $row["description"]. " " . $row["coordonnees"]. "<br>";
+        }
+      } else {
+        echo "0 results";
+      }
+      $conn->close();
+      ?>
       <p>Bienvenue dans la carte d'élise reclus !</p>
       <p>Actuellement, il la liste de points est <a href="/testing.geojson">générée à partir du geojson disponible ici.</a></p>
       <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
     </div>
   </div>
-
   <script>
-    var map = L.map("map").setView([40.73, -73.94], 4); // Set initial center and zoom
+    var map = L.map("map").setView([40.73, -73.94], 12); // Set initial center and zoom
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
@@ -37,7 +62,7 @@
 
     const markers_array = [];
 
-    fetch('pull.php')
+    fetch('testing.geojson')
       .then(response => response.json())
       .then(data => {
         // Loop through each feature in the GeoJSON
@@ -55,12 +80,6 @@
             // Push the marker into the markers array
             marker.name = feature.properties.name;
             markers_array.push(marker);
-
-            // MARKER
-            marker.on('click', function() {
-              // You can run any JavaScript code here
-              console.log('Marker coordinates:', marker.getLatLng());
-            });
           }
         });
       })
@@ -76,8 +95,6 @@
               //checkbox.name = marker.name; // Set the name for the checkbox
               //checkbox.value = "Afficher/Cacher"; // Set the value for the checkbox
 
-              // LABEL
-              {
               // Create a label for the checkbox
               const label = document.createElement('label');
               label.htmlFor = marker.name; // Associate the label with the checkbox
@@ -100,7 +117,6 @@
 
               // Append to the unordered list
               document.getElementById('marker-list').appendChild(listItem); 
-              }
             });
           }
       )
