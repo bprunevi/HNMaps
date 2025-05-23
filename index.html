@@ -9,75 +9,115 @@
   <script src="js/leaflet.js"></script>
   <script src="js/leaflet.ajax.min.js"></script>
 </head>
-
 <body>
   <div id="map"></div>
   <div id="box-list">
-    <div id="marker-list-box">
-      <ul id="marker-list"></ul>
+    <div class="marker-list-box">
+      <div class="tab-buttons">
+        <button id="default-tab" class="tablink tab-selected" onclick="openCity(event, 'Accueil')">Accueil</button>
+        <button class="tablink" onclick="openCity(event, 'Lieux')">Lieux</button>
+        <button id="Lettre-tab" class="tablink" onclick="openCity(event, 'Lettre')" style="display:none;">Lettre</button>
+      </div>
+    
+      <div>
+        <div id="Accueil" class="tab-content" style="display:block">
+        <h3>Bienvenue dans la carte d'élise reclus !</h3>
+        <p>Actuellement, il la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a></p>
+        <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
+        </div>
+    
+        <div id="Lieux" class="tab-content" style="display:none">
+        <ul id="marker-list"></ul>
+        </div>
+    
+        <div id="Lettre" class="tab-content" style="display:none">
+        </div>
+      </div>
     </div>
-    <div id="marker-list-box">
-      <p>Bienvenue dans la carte d'élise reclus !</p>
-      <p>Actuellement, il la liste de points est <a href="/testing.geojson">générée à partir du geojson disponible ici.</a></p>
-      <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
-    </div>
-  </div>
+    
+    <script>
+      // 1. Charger leaflet
+      var map = L.map("map").setView([40.73, -73.94], 4); // Set initial center and zoom
 
-  <script>
-    var map = L.map("map").setView([40.73, -73.94], 4); // Set initial center and zoom
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
+      // 2. Sélectionner un onglet (tab)
+      function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("tab-content");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" tab-selected", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " tab-selected";
+      }
 
-    // Add geoJson
-    //var marker = new L.GeoJSON.AJAX("testing.geojson");
-    //marker.addTo(map);
+      // 3. Charger une liste de marqueurs
+      const markers_array = [];
 
-    const markers_array = [];
+      fetch('pull.php')
+        .then(response => response.json())
+        .then(data => {
+          // Loop through each feature in the GeoJSON
+          data.features.forEach((feature, index) => {
+            if (feature.geometry.type === 'Point') {
+              // Create a marker for each point
+              const coords = feature.geometry.coordinates;
+              const marker = L.marker([coords[1], coords[0]]).addTo(map);
 
-    fetch('pull.php')
-      .then(response => response.json())
-      .then(data => {
-        // Loop through each feature in the GeoJSON
-        data.features.forEach((feature, index) => {
-          if (feature.geometry.type === 'Point') {
-            // Create a marker for each point
-            const coords = feature.geometry.coordinates;
-            const marker = L.marker([coords[1], coords[0]]).addTo(map);
+              // Bind a popup with the feature properties
+              if (feature.properties) {
+                marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+              }
 
-            // Optionally, bind a popup with the feature properties
-            if (feature.properties) {
-              marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+              // Push the marker into the markers array
+              marker.name = feature.properties.name;
+              markers_array.push(marker);
+
+              // Function : toggle marker selected/unselected
+              function changeMarkerColor() {
+                document.getElementById('Lettre-tab').click()
+                marker.getElement().classList.add('marker-highlight');
+                document.getElementById('Lettre-tab').style.display = 'block';
+                document.getElementById('Lettre').innerHTML = marker.name;
+              }
+              // Function : remove highlight when anything is clicked
+              function removeHighlight() {
+                if (document.getElementById('Lettre-tab').style.display == 'block') {
+                  document.getElementById('default-tab').click()
+                }
+                marker.getElement().classList.remove('marker-highlight');
+                document.getElementById('Lettre-tab').style.display = 'none';
+              }
+
+              // Marker event to enable ".marker-highlight" on click
+              marker.on('click', changeMarkerColor);
+              // Map event to remove ".marker-highlight" on click
+              map.on('click', removeHighlight);
             }
+          });
+        })
+        .then(make_list => {
+          markers_array.forEach((marker) => {
+            const listItem = document.createElement('li');
+            //listItem.textContent = marker.name; // Set the text to the marker's name
 
-            // Push the marker into the markers array
-            marker.name = feature.properties.name;
-            markers_array.push(marker);
+            // Create a checkbox
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = marker.name; // Set the id for the checkbox
+            //checkbox.name = marker.name; // Set the name for the checkbox
+            //checkbox.value = "Afficher/Cacher"; // Set the value for the checkbox
 
-            // MARKER
-            marker.on('click', function() {
-              // You can run any JavaScript code here
-              console.log('Marker coordinates:', marker.getLatLng());
-            });
-          }
-        });
-      })
-      .then(make_list => {
-            markers_array.forEach((marker) => {
-              const listItem = document.createElement('li');
-              //listItem.textContent = marker.name; // Set the text to the marker's name
-
-              // Create a checkbox
-              const checkbox = document.createElement('input');
-              checkbox.type = 'checkbox';
-              checkbox.id = marker.name; // Set the id for the checkbox
-              //checkbox.name = marker.name; // Set the name for the checkbox
-              //checkbox.value = "Afficher/Cacher"; // Set the value for the checkbox
-
-              // LABEL
-              {
+            // LABEL
+            {
               // Create a label for the checkbox
               const label = document.createElement('label');
               label.htmlFor = marker.name; // Associate the label with the checkbox
@@ -99,13 +139,13 @@
               });
 
               // Append to the unordered list
-              document.getElementById('marker-list').appendChild(listItem); 
-              }
-            });
-          }
-      )
-      .catch(error => console.error('Error loading GeoJSON:', error));
-  </script>
+              document.getElementById('marker-list').appendChild(listItem);
+            }
+          });
+        }
+        )
+        .catch(error => console.error('Error loading GeoJSON:', error));
+    </script>
 </body>
 
 </html>

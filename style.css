@@ -1,4 +1,4 @@
-html, body{
+html, body, h1, h2, h3, h4, h5, h6, ul{
     margin: 0;
    padding: 0;
 }
@@ -7,25 +7,44 @@ html, body{
     position:relative;
 }
 
-#marker-list-box {
+.marker-list-box {
+    /*
     overflow: auto;
     height: 300px;
     width: 300px;
-    background-color: white;
     border: 2px solid black;
-    margin : 20px;
     padding: 20px;
+    */
 }
 
+.tab-buttons{
+    display:flex;
+}
+
+.tab-content{
+    margin : 0px;
+    padding : 10px;
+    background-color: white;
+    border : 2px solid rgba(0,0,0,0.2);
+    max-width: 40vw;
+}
 #marker-list {
     list-style-type: none;
 }
 
 #box-list {
     position:absolute;
-    top:20px;
-    left:20px;
+    top:0px;
+    left:0px;
+    margin: 10px 10px 10px 60px;
     z-index:1000;
     display: grid;
-    margin : 20px;
+}
+
+.marker-highlight {
+    filter: saturate(3);
+}
+
+.tab-selected {
+    color:red;
 }

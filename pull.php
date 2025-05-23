@@ -1,4 +1,6 @@
 <?php
+header('Content-Type: application/json; charset=utf-8');
+
 /*
 $servername = "localhost";
 $username = "bprunevielle";
@@ -16,6 +18,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
+
+$conn -> set_charset("utf8");
 
 $sql = "SELECT idLieu, description, coordonnees FROM lieu";
 $result = $conn->query($sql);
