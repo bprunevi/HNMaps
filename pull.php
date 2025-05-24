@@ -28,20 +28,10 @@ if (json_last_error() === JSON_ERROR_NONE) {
 } else {
   $sql = "SELECT idLieu, description, coordonnees FROM lieu";
   $sql = $sql . ";";
-}
-
-/*
-$servername = "localhost";
-$username = "bprunevielle";
-$password = "REMOVED";
-$dbname = "bprunevielle";
-*/
-$servername = "localhost";
-$username = "tocard";
-$password = "tocard";
-$dbname = "kovacs1";
+};
 
 // Create connection
+require 'config.php';
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {

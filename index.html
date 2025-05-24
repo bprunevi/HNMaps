@@ -86,7 +86,7 @@
           body: JSON.stringify(data)
         })
           .then(response => response.json())
-          .then(init => {  
+          .then(init => {
             if (typeof markers_array !== 'undefined') {
               for (var i = 0; i < markers_array.length; i++) {
                 map.removeLayer(markers_array[i]);
@@ -188,59 +188,58 @@
       //4. initialisations des personnes
       function load_people(location, listId) {
         fetch(location)
-        .then(response => response.json())
-        .then(data =>
-          data.features.forEach((feature) => {
+          .then(response => response.json())
+          .then(data =>
+            data.features.forEach((feature) => {
               const listItem = document.createElement('li');
               const checkbox = document.createElement('input');
               checkbox.type = 'checkbox';
               checkbox.checked = true;
               checkbox.id = feature.properties.idPersonne;
-                const label = document.createElement('label');
-                label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
-                label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
+              const label = document.createElement('label');
+              label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
+              label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
 
-                listItem.appendChild(checkbox);
-                listItem.appendChild(label);
-                document.getElementById(listId).appendChild(listItem);
+              listItem.appendChild(checkbox);
+              listItem.appendChild(label);
+              document.getElementById(listId).appendChild(listItem);
 
-          }
-        ))
+            }
+            ))
       }
       //5. initialisations des dates
       function load_date(location, divId) {
-        const date_liste = [['Date de début', 'date_deb', date_begin], ['Date de fin', 'date_fin', date_end]];
-        const date_values = [date_begin, date_end];
-        date_liste.forEach((date) => {
-          date_elem = document.createElement('input');
-          date_elem.type = 'date';
-          date_elem.value = date[2];
-          label = document.createElement('label');
-          label.htmlFor = date[1];
-          label.appendChild(document.createTextNode('')); // Set the text for the label
-          date_elem.addEventListener('change', (event) => {
-            date_begin = event.target.value;
-            console.log(date_begin);
-          });
-          document.getElementById(divId).appendChild(date_elem);
-          document.getElementById(divId).appendChild(label);
-        });
-        /*
-        label = document.createElement('label');
-             label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
-                label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
-
-                listItem.appendChild(checkbox);
-                listItem.appendChild(label);
-                document.getElementById(listId).appendChild(listItem);
-                */
+        fetch(location)
+          .then(response => response.json())
+          .then(data =>
+            data.features.forEach((feature) => {
+              date_begin = feature.properties.date_begin;
+              date_end = feature.properties.date_end;
+            }
+            ))
+          .then(wait => {
+            const date_liste = [['Date de début', 'date_deb', date_begin], ['Date de fin', 'date_fin', date_end]];
+            const date_values = [date_begin, date_end];
+            date_liste.forEach((date) => {
+              date_elem = document.createElement('input');
+              date_elem.type = 'date';
+              date_elem.value = date[2];
+              label = document.createElement('label');
+              label.htmlFor = date[1];
+              label.appendChild(document.createTextNode('')); // Set the text for the label
+              date_elem.addEventListener('change', (event) => {
+                date_begin = event.target.value;
+                console.log(date_begin);
+              });
+              document.getElementById(divId).appendChild(date_elem);
+              document.getElementById(divId).appendChild(label);
+            });
+          }
+          )
       }
       //6. main()
       load_people('pull_people.php', 'destinataire-list');
       load_people('pull_people.php', 'mentionne-list');
-      date_begin = '1850-04-04';
-      date_end = '1870-04-20';
-      date_modified = false;
       load_date('pull_date.php', 'Dates');
       data = {
       };
@@ -255,6 +254,6 @@
       load_geojson('pull.php', data);
       */
     </script>
-    </body>
+</body>
 
 </html>

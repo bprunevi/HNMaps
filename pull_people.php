@@ -5,25 +5,15 @@ header('Content-Type: application/json; charset=utf-8');
 // Check if decoding was successful
 if (json_last_error() === JSON_ERROR_NONE) {
   $sql = "SELECT idPersonne, nom, description FROM personne;";
-}
-
-/*
-$servername = "localhost";
-$username = "bprunevielle";
-$password = "REMOVED";
-$dbname = "bprunevielle";
-*/
-$servername = "localhost";
-$username = "tocard";
-$password = "tocard";
-$dbname = "kovacs1";
+};
 
 // Create connection
+require 'config.php';
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
-}
+};
 
 $conn -> set_charset("utf8");
 
