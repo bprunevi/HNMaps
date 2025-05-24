@@ -9,6 +9,7 @@
   <script src="js/leaflet.js"></script>
   <script src="js/leaflet.ajax.min.js"></script>
 </head>
+
 <body>
   <div id="map"></div>
   <div id="box-list">
@@ -16,25 +17,41 @@
       <div class="tab-buttons">
         <button id="default-tab" class="tablink tab-selected" onclick="openCity(event, 'Accueil')">Accueil</button>
         <button class="tablink" onclick="openCity(event, 'Lieux')">Lieux</button>
-        <button id="Lettre-tab" class="tablink" onclick="openCity(event, 'Lettre')" style="display:none;">Lettre</button>
+        <button class="tablink" onclick="openCity(event, 'Destinataires')">Destinataires</button>
+        <button class="tablink" onclick="openCity(event, 'Mentionnes')">Mentionnés</button>
+        <button class="tablink" onclick="openCity(event, 'Dates')">Dates</button>
+        <button id="Lettre-tab" class="tablink" onclick="openCity(event, 'Lettre')"
+          style="display:none;">Lettre</button>
       </div>
-    
+
       <div>
         <div id="Accueil" class="tab-content" style="display:block">
-        <h3>Bienvenue dans la carte d'élise reclus !</h3>
-        <p>Actuellement, il la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a></p>
-        <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
+          <h3>Bienvenue dans la carte d'élise reclus !</h3>
+          <p>Actuellement, il la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a>
+          </p>
+          <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
         </div>
-    
+
         <div id="Lieux" class="tab-content" style="display:none">
-        <ul id="marker-list"></ul>
+          <ul id="marker-list" class="checklist"></ul>
         </div>
-    
+
+        <div id="Destinataires" class="tab-content" style="display:none">
+          <ul id="destinataire-list" class="checklist"></ul>
+        </div>
+
+        <div id="Mentionnes" class="tab-content" style="display:none">
+          <ul id="mentionne-list" class="checklist"></ul>
+        </div>
+
+        <div id="Dates" class="tab-content" style="display:none">
+        </div>
+
         <div id="Lettre" class="tab-content" style="display:none">
         </div>
       </div>
     </div>
-    
+
     <script>
       // 1. Charger leaflet
       var map = L.map("map").setView([40.73, -73.94], 4); // Set initial center and zoom
@@ -59,27 +76,47 @@
         evt.currentTarget.className += " tab-selected";
       }
 
-      // 3. Charger une liste de marqueurs
-      const markers_array = [];
-
-      fetch('pull.php')
-        .then(response => response.json())
-        .then(data => {
-          // Loop through each feature in the GeoJSON
-          data.features.forEach((feature, index) => {
-            if (feature.geometry.type === 'Point') {
-              // Create a marker for each point
-              const coords = feature.geometry.coordinates;
-              const marker = L.marker([coords[1], coords[0]]).addTo(map);
-
-              // Bind a popup with the feature properties
-              if (feature.properties) {
-                marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+      // 3. Fonction : demander un geojson à pull.php et le charger, remplir la liste de marqueurs
+      function load_geojson(location, data) {
+        fetch(location, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        })
+          .then(response => response.json())
+          .then(init => {  
+            if (typeof markers_array !== 'undefined') {
+              for (var i = 0; i < markers_array.length; i++) {
+                map.removeLayer(markers_array[i]);
               }
+            }
+            markers_array = [];
+            document.getElementById('marker-list').innerHTML = '';
+            return init;
+          })
+          .then(data => {
+            // Loop through each feature in the GeoJSON
+            data.features.forEach((feature, index) => {
+              if (feature.geometry.type === 'Point') {
+                // Create a marker for each point
+                const coords = feature.geometry.coordinates;
+                const marker = L.marker([coords[1], coords[0]]).addTo(map);
 
-              // Push the marker into the markers array
-              marker.name = feature.properties.name;
-              markers_array.push(marker);
+                // Bind a popup with the feature properties
+                if (feature.properties) {
+                  marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+                }
+
+                // Push the marker into the markers array
+                marker.name = feature.properties.name;
+                markers_array.push(marker);
+              }
+            });
+          })
+          .then(make_list => {
+            markers_array.forEach((marker) => {
 
               // Function : toggle marker selected/unselected
               function changeMarkerColor() {
@@ -92,8 +129,9 @@
               function removeHighlight() {
                 if (document.getElementById('Lettre-tab').style.display == 'block') {
                   document.getElementById('default-tab').click()
-                }
+                };
                 marker.getElement().classList.remove('marker-highlight');
+
                 document.getElementById('Lettre-tab').style.display = 'none';
               }
 
@@ -101,51 +139,122 @@
               marker.on('click', changeMarkerColor);
               // Map event to remove ".marker-highlight" on click
               map.on('click', removeHighlight);
-            }
+            });
+          })
+          .then(make_list => {
+            markers_array.forEach((marker) => {
+              const listItem = document.createElement('li');
+              //listItem.textContent = marker.name; // Set the text to the marker's name
+
+              // Create a checkbox
+              const checkbox = document.createElement('input');
+              checkbox.type = 'checkbox';
+              checkbox.checked = true;
+              checkbox.id = marker.name; // Set the id for the checkbox
+              //checkbox.name = marker.name; // Set the name for the checkbox
+              //checkbox.value = "Afficher/Cacher"; // Set the value for the checkbox
+
+              // LABEL
+              {
+                // Create a label for the checkbox
+                const label = document.createElement('label');
+                label.htmlFor = marker.name; // Associate the label with the checkbox
+                label.appendChild(document.createTextNode(marker.name)); // Set the text for the label
+
+                // Append the checkbox and label to the list item
+                listItem.appendChild(checkbox);
+                listItem.appendChild(label);
+
+                // Add listener to react on click
+                checkbox.addEventListener('click', () => {
+                  if (checkbox.checked) {
+                    marker.addTo(map); // Show the marker
+                    console.log(`${marker.name} is checked`);
+                  } else {
+                    map.removeLayer(marker); // Hide the marker
+                    console.log(`${marker.name} is unchecked`);
+                  }
+                });
+
+                // Append to the unordered list
+                document.getElementById('marker-list').appendChild(listItem);
+              }
+            });
+          }
+          )
+          .catch(error => console.error('Error loading GeoJSON:', error));
+      }
+
+      //4. initialisations des personnes
+      function load_people(location, listId) {
+        fetch(location)
+        .then(response => response.json())
+        .then(data =>
+          data.features.forEach((feature) => {
+              const listItem = document.createElement('li');
+              const checkbox = document.createElement('input');
+              checkbox.type = 'checkbox';
+              checkbox.checked = true;
+              checkbox.id = feature.properties.idPersonne;
+                const label = document.createElement('label');
+                label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
+                label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
+
+                listItem.appendChild(checkbox);
+                listItem.appendChild(label);
+                document.getElementById(listId).appendChild(listItem);
+
+          }
+        ))
+      }
+      //5. initialisations des dates
+      function load_date(location, divId) {
+        const date_liste = [['Date de début', 'date_deb', date_begin], ['Date de fin', 'date_fin', date_end]];
+        const date_values = [date_begin, date_end];
+        date_liste.forEach((date) => {
+          date_elem = document.createElement('input');
+          date_elem.type = 'date';
+          date_elem.value = date[2];
+          label = document.createElement('label');
+          label.htmlFor = date[1];
+          label.appendChild(document.createTextNode('')); // Set the text for the label
+          date_elem.addEventListener('change', (event) => {
+            date_begin = event.target.value;
+            console.log(date_begin);
           });
-        })
-        .then(make_list => {
-          markers_array.forEach((marker) => {
-            const listItem = document.createElement('li');
-            //listItem.textContent = marker.name; // Set the text to the marker's name
+          document.getElementById(divId).appendChild(date_elem);
+          document.getElementById(divId).appendChild(label);
+        });
+        /*
+        label = document.createElement('label');
+             label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
+                label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
 
-            // Create a checkbox
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.id = marker.name; // Set the id for the checkbox
-            //checkbox.name = marker.name; // Set the name for the checkbox
-            //checkbox.value = "Afficher/Cacher"; // Set the value for the checkbox
-
-            // LABEL
-            {
-              // Create a label for the checkbox
-              const label = document.createElement('label');
-              label.htmlFor = marker.name; // Associate the label with the checkbox
-              label.appendChild(document.createTextNode(marker.name)); // Set the text for the label
-
-              // Append the checkbox and label to the list item
-              listItem.appendChild(checkbox);
-              listItem.appendChild(label);
-
-              // Add listener to react on click
-              checkbox.addEventListener('click', () => {
-                if (checkbox.checked) {
-                  map.removeLayer(marker); // Hide the marker
-                  console.log(`${marker.name} is checked`);
-                } else {
-                  marker.addTo(map); // Show the marker
-                  console.log(`${marker.name} is unchecked`);
-                }
-              });
-
-              // Append to the unordered list
-              document.getElementById('marker-list').appendChild(listItem);
-            }
-          });
-        }
-        )
-        .catch(error => console.error('Error loading GeoJSON:', error));
+                listItem.appendChild(checkbox);
+                listItem.appendChild(label);
+                document.getElementById(listId).appendChild(listItem);
+                */
+      }
+      //6. main()
+      load_people('pull_people.php', 'destinataire-list');
+      load_people('pull_people.php', 'mentionne-list');
+      date_begin = '1850-04-04';
+      date_end = '1870-04-20';
+      date_modified = false;
+      load_date('pull_date.php', 'Dates');
+      data = {
+      };
+      load_geojson('pull.php', data);
+      /*
+      data = {
+        list_places: "('Berlin')",
+        list_people: "('Elie Reclus')",
+        date_begin: '04-04-1850',
+        date_end: '20-04-1870'
+      };
+      load_geojson('pull.php', data);
+      */
     </script>
-</body>
+    </body>
 
 </html>
