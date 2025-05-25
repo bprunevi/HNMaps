@@ -13,11 +13,18 @@ $json = file_get_contents('php://input');
 // Decode the JSON data
 $data = json_decode($json, true);
 
+function convert_array($array) {
+  if ($array == []) {
+    return '';
+  }
+  return '(\''. implode('\',\'', $array) . '\')';
+}
+
 // Check if decoding was successful
 if (json_last_error() === JSON_ERROR_NONE) {
     // Access the data
-  $one = $data['list_places'];
-  $two = $data['list_people'];
+  $one = convert_array($data['list_places']);
+  $two = convert_array($data['list_people']);
   $sql = "SELECT idLieu, description, coordonnees FROM lieu WHERE true";
   if ($one != '') {
     $sql = $sql . " AND description IN " . $one;
