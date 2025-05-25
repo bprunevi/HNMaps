@@ -24,7 +24,7 @@ function convert_array($array) {
 if (json_last_error() === JSON_ERROR_NONE) {
     // Access the data
   $one = convert_array($data['list_places']);
-  $two = convert_array($data['list_people']);
+  //$two = convert_array($data['list_people']);
   $sql = "SELECT idLieu, description, coordonnees FROM lieu WHERE true";
   if ($one != '') {
     $sql = $sql . " AND description IN " . $one;
@@ -82,7 +82,7 @@ if ($result->num_rows > 0) {
   ]
 }';
 } else {
-  echo "errror";
+  echo "error : sql rows empty";
 }
 // Close connection
 $conn->close();
