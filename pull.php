@@ -22,19 +22,44 @@ function convert_array($array) {
 
 // Check if decoding was successful
 if (json_last_error() === JSON_ERROR_NONE) {
-    // Access the data
-  $one = convert_array($data['list_places']);
-  //$two = convert_array($data['list_people']);
-  $sql = "SELECT idLieu, description, coordonnees FROM lieu WHERE true";
-  if ($one != '') {
-    $sql = $sql . " AND description IN " . $one;
+  $lieux = convert_array($data['list_places']);
+  $destinataires = convert_array($data['list_people']);
+  $mentions = convert_array($data['list_mentions']);
+  $date_begin = $data['date_begin'];
+  $date_end = $data['date_end'];
+  $sql = "
+  SELECT DISTINCT l.idLettre, l.titre, ml.qualite, pe.nom, li.idLieu, li.description, li.coordonnees
+  FROM lettres l
+  INNER JOIN mention_lieu ml ON l.idLettre = ml.idLettre
+  INNER JOIN lieu li ON ml.idLieu = li.idLieu
+  INNER JOIN mention_personne mp ON l.idLettre = mp.idLettre
+  INNER JOIN personne pe ON mp.idPersonne = pe.idPersonne
+  WHERE (false";
+  if ($lieux != '') {
+    $sql = $sql . " OR mp.qualite IN ('reception', 'lesdeux')";
+    $sql = $sql . " AND pe.idLieu IN " . $lieux;
   }
-  if ($two != '') {
-    $sql = $sql . " AND description IN " . $two;
+  if ($destinataires != '') {
+    $sql = $sql . " OR ml.qualite IN ('destinataire', 'lesdeux')";
+    $sql = $sql . " AND pe.idPersonne IN " . $destinataires;
   }
+  if ($mentions != '') {
+    $sql = $sql . " OR ml.qualite IN ('mention', 'lesdeux')";
+    $sql = $sql . " AND pe.idPersonne IN " . $mentions;
+  }
+  if ($date_begin != '' AND $date_end != '') {
+  $sql = $sql . ") AND (l.dateEnvoi BETWEEN '". $date_begin ."' AND '". $date_end . "'";
+  }
+  $sql = $sql . ")";// ORDER BY li.coordonnees ASC";
 } else {
-  $sql = "SELECT idLieu, description, coordonnees FROM lieu";
-  $sql = $sql . ";";
+  $sql = "
+  SELECT DISTINCT l.idLettre, l.titre, ml.qualite, pe.nom, li.idLieu, li.description, li.coordonnees
+  FROM lettres l
+  INNER JOIN mention_lieu ml ON l.idLettre = ml.idLettre
+  INNER JOIN lieu li ON ml.idLieu = li.idLieu
+  INNER JOIN mention_personne mp ON l.idLettre = mp.idLettre
+  INNER JOIN personne pe ON mp.idPersonne = pe.idPersonne
+  WHERE true";
 };
 
 // Create connection
@@ -65,10 +90,11 @@ if ($result->num_rows > 0) {
       "type": "Feature",
       "properties": {
         "name": "' . $row["description"] .'",
-        "url": "http://web.mta.info/nyct/service/",
-        "line": "FIELD",
+        "auteur": "'. $row["nom"] .'",
+        "titre": "'. $row["titre"] .'",
         "objectid": "' . $row["idLieu"]. '",
-        "notes": "FIELD"
+        "idLettre": "'. $row["idLettre"]. '",
+        "qualite": "'. $row["qualite"]. '"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +108,11 @@ if ($result->num_rows > 0) {
   ]
 }';
 } else {
-  echo "error : sql rows empty";
+  echo '
+{
+  "type": "FeatureCollection",
+  "features": []
+}';
 }
 // Close connection
 $conn->close();

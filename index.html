@@ -26,10 +26,12 @@
 
       <div>
         <div id="Accueil" class="tab-content" style="display:block">
-          <h3>Bienvenue dans la carte d'élise reclus !</h3>
-          <p>Actuellement, il la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a>
-          </p>
-          <p>Vous êtes libres d'activer/désactiver l'affichage d'un point via la liste ci-contre.</p>
+          <h3>Bienvenue dans la carte d'Élisée Reclus !</h3>
+          <p>Jacques Élisée Reclus, né le 15 mars 1830 à Sainte-Foy-la-Grande (Gironde) en France et mort à Thourout en Belgique le 4 juillet 1905, est un géographe et militant anarchiste français.</p>
+          <p>Communard, théoricien anarchiste, c'est un pédagogue et un écrivain prolifique. Membre de la Première Internationale, il rejoint la Fédération jurassienne après l'exclusion de Michel Bakounine. Avec Pierre Kropotkine et Jean Grave, il participe au journal Le Révolté.</p>  
+          <p><b>Actuellement, la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a>
+          </b></p>
+          <p><b>Vous êtes libres de filtrer l'affichage d'un lieu de réception, d'un.e destinataire, d'un personne mentionnée ou d'une date d'envoi via les onglets ci-dessus.</b></p>
         </div>
 
         <div id="Lieux" class="tab-content" style="display:none">
@@ -98,20 +100,27 @@
           })
           .then(data => {
             // Loop through each feature in the GeoJSON
+            marker = L.marker(0.0);
             data.features.forEach((feature, index) => {
               if (feature.geometry.type === 'Point') {
-                // Create a marker for each point
-                const coords = feature.geometry.coordinates;
-                const marker = L.marker([coords[1], coords[0]]).addTo(map);
+                if (feature.properties.name == marker.name) { // Si le marqueur est au même endroit que le précédent
+                  if (feature.properties) {
+                    marker.bindPopup(marker.getPopup().getContent().replace('</ul>', '') + '<li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(' + feature.properties.idLettre + '); return false;">' + feature.properties.titre + ' (' +  feature.properties.auteur + ")</a></li></ul>");
+                  }
+                } else {
+                  // Create a marker for each point
+                  const coords = feature.geometry.coordinates;
+                  marker = L.marker([coords[1], coords[0]]).addTo(map);
 
-                // Bind a popup with the feature properties
-                if (feature.properties) {
-                  marker.bindPopup('<a href="' + feature.properties.url + '">' + feature.properties.name + '</a>');
+                  // Bind a popup with the feature properties
+                  if (feature.properties) {
+                    marker.bindPopup('<h5 class="popuptitle">' + feature.properties.name + '</h5><ul class="popup"><li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(' + feature.properties.idLettre + '); return false;">' + feature.properties.titre + ' (' + feature.properties.auteur + ')</a></li></ul>');
+                  }
+
+                  // Push the marker into the markers array
+                  marker.name = feature.properties.name;
+                  markers_array.push(marker);
                 }
-
-                // Push the marker into the markers array
-                marker.name = feature.properties.name;
-                markers_array.push(marker);
               }
             });
           })
@@ -120,10 +129,7 @@
 
               // Function : toggle marker selected/unselected
               function changeMarkerColor() {
-                document.getElementById('Lettre-tab').click()
                 marker.getElement().classList.add('marker-highlight');
-                document.getElementById('Lettre-tab').style.display = 'block';
-                document.getElementById('Lettre').innerHTML = marker.name;
               }
               // Function : remove highlight when anything is clicked
               function removeHighlight() {
@@ -186,7 +192,7 @@
       }
 
       //4. initialisations des personnes
-      function load_people(location, listId) {
+      function load_people(location, listId, type) {
         const list_of_people = [];
         return fetch(location)
           .then(response => response.json())
@@ -201,15 +207,29 @@
               label.htmlFor = feature.properties.idPersonne; // Associate the label with the checkbox
               label.appendChild(document.createTextNode(feature.properties.name)); // Set the text for the label
 
-                // Add listener to react on click
-                checkbox.addEventListener('click', () => {
-                  if (checkbox.checked) {
-                    g_list_people.push(checkbox.id)
-                  } else {
-                    g_list_people = g_list_people.filter(id => id !== checkbox.id);
-                  }
-                  load_geojson('pull.php', build_data());
-                });
+              // Add listener to react on click
+              switch (type) {
+                case 'mention':
+                  checkbox.addEventListener('click', () => {
+                    if (checkbox.checked) {
+                      g_list_mentions.push(checkbox.id)
+                    } else {
+                      g_list_mentions = g_list_mentions.filter(id => id !== checkbox.id);
+                    }
+                    load_geojson('pull.php', build_data());
+                  });
+                  break;
+                case 'people':
+                  checkbox.addEventListener('click', () => {
+                    if (checkbox.checked) {
+                      g_list_people.push(checkbox.id)
+                    } else {
+                      g_list_people = g_list_people.filter(id => id !== checkbox.id);
+                    }
+                    load_geojson('pull.php', build_data());
+                  });
+                  break;
+              }
 
               listItem.appendChild(checkbox);
               listItem.appendChild(label);
@@ -229,7 +249,7 @@
               g_date_begin = feature.properties.date_begin;
               g_date_end = feature.properties.date_end;
             });
-            return [g_date_end, g_date_begin];
+            return [g_date_begin, g_date_end];
           }
           )
           .then(wait => {
@@ -261,7 +281,30 @@
           )
       }
 
-      //6. build data
+      //6. load letter
+      function load_lettre(idLettre) {
+        data = {
+          idLettre: idLettre
+        };
+        response = fetch('pull_lettre.php', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        })
+        .then(rep => rep.text())
+        return response;
+      }
+      //6. show lettre letter
+      async function show_lettre(idLettre) {
+        document.getElementById('Lettre-tab').click()
+        document.getElementById('Lettre-tab').style.display = 'block';
+        document.getElementById('Lettre').innerHTML = await load_lettre(idLettre);
+        return idLettre;
+      }
+
+      //7. build data
       function build_data() {
         return data = {
           date_begin: g_date_begin,
@@ -271,11 +314,12 @@
           list_mentions: g_list_mentions
         };
       }
-      //7. main()
+
+      //8. main()
       async function main() {
         g_list_places = [];
-        g_list_people = await load_people('pull_people.php', 'destinataire-list');
-        g_list_mentions = await load_people('pull_people.php', 'mentionne-list');
+        g_list_people = await load_people('pull_people.php', 'destinataire-list', 'people');
+        g_list_mentions = await load_people('pull_people.php', 'mentionne-list', 'mention');
         g_date_begin = '';
         g_date_end = '';
         [g_date_begin, g_date_end] = await load_date('pull_date.php', 'Dates');
