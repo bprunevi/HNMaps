@@ -61,10 +61,10 @@ html, body, h1, h2, h3, h4, h5, h6, ul{
  color: blue;
 }
 .popupreception a { 
- color: blue;
+ color: green;
 }
 .popupdestinataire a {
- color: green;
+ color: blue;
 }
 .popupmention a {
  color: skyblue;

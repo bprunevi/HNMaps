@@ -56,7 +56,7 @@
 
     <script>
       // 1. Charger leaflet
-      var map = L.map("map").setView([40.73, -73.94], 4); // Set initial center and zoom
+      var map = L.map("map").setView([-14.2350, -51.9253], 4); // Set initial center and zoom
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
@@ -101,20 +101,24 @@
           .then(data => {
             // Loop through each feature in the GeoJSON
             marker = L.marker(0.0);
+            previous_coords = [0.0000, 0.0000];
             data.features.forEach((feature, index) => {
               if (feature.geometry.type === 'Point') {
                 if (feature.properties.name == marker.name) { // Si le marqueur est au même endroit que le précédent
                   if (feature.properties) {
-                    marker.bindPopup(marker.getPopup().getContent().replace('</ul>', '') + '<li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(' + feature.properties.idLettre + '); return false;">' + feature.properties.titre + ' (' +  feature.properties.auteur + ")</a></li></ul>");
+                    marker.bindPopup(marker.getPopup().getContent().replace('</ul>', '') + '<li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(\'' + feature.properties.idLettre + '\' ); return false;">' + feature.properties.titre + ' (' +  feature.properties.auteur + ")</a></li></ul>");
                   }
                 } else {
                   // Create a marker for each point
                   const coords = feature.geometry.coordinates;
-                  marker = L.marker([coords[1], coords[0]]).addTo(map);
+                  previous_coords = feature.geometry.coordinates;
+                  console.log(coords[1]);
+                  console.log(coords[0]);
+                  marker = L.marker([coords[0], coords[1]]).addTo(map);
 
                   // Bind a popup with the feature properties
                   if (feature.properties) {
-                    marker.bindPopup('<h5 class="popuptitle">' + feature.properties.name + '</h5><ul class="popup"><li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(' + feature.properties.idLettre + '); return false;">' + feature.properties.titre + ' (' + feature.properties.auteur + ')</a></li></ul>');
+                    marker.bindPopup('<h5 class="popuptitle">' + feature.properties.name + '</h5><ul class="popup"><li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(\'' + feature.properties.idLettre + '\'); return false;">' + feature.properties.titre + ' (' + feature.properties.auteur + ')</a></li></ul>');
                   }
 
                   // Push the marker into the markers array

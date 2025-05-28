@@ -21,6 +21,7 @@ function convert_array($array) {
 }
 
 // Check if decoding was successful
+// POURQUOI FREJUS N'APPARAIT PAS TJRS
 if (json_last_error() === JSON_ERROR_NONE) {
   $lieux = convert_array($data['list_places']);
   $destinataires = convert_array($data['list_people']);
@@ -28,7 +29,7 @@ if (json_last_error() === JSON_ERROR_NONE) {
   $date_begin = $data['date_begin'];
   $date_end = $data['date_end'];
   $sql = "
-  SELECT DISTINCT l.idLettre, l.titre, ml.qualite, pe.nom, li.idLieu, li.description, li.coordonnees
+  SELECT DISTINCT l.idLettre, l.titre, mp.qualite, pe.nom, li.idLieu, li.description, li.coordonnees
   FROM lettres l
   INNER JOIN mention_lieu ml ON l.idLettre = ml.idLettre
   INNER JOIN lieu li ON ml.idLieu = li.idLieu
@@ -36,21 +37,22 @@ if (json_last_error() === JSON_ERROR_NONE) {
   INNER JOIN personne pe ON mp.idPersonne = pe.idPersonne
   WHERE (false";
   if ($lieux != '') {
-    $sql = $sql . " OR mp.qualite IN ('reception', 'lesdeux')";
+    $sql = $sql . " OR ml.qualite IN ('reception', 'lesdeux')"; // dans la liste des lieux, comme récepteur
     $sql = $sql . " AND pe.idLieu IN " . $lieux;
   }
   if ($destinataires != '') {
-    $sql = $sql . " OR ml.qualite IN ('destinataire', 'lesdeux')";
+    $sql = $sql . " OR mp.qualite IN ('destinataire', 'lesdeux')"; // OU dans la liste des destinataires, comme destinataires
     $sql = $sql . " AND pe.idPersonne IN " . $destinataires;
   }
   if ($mentions != '') {
-    $sql = $sql . " OR ml.qualite IN ('mention', 'lesdeux')";
+    $sql = $sql . " OR mp.qualite IN ('mention', 'lesdeux')"; // OU dans la liste des mentionnés, comme mention
     $sql = $sql . " AND pe.idPersonne IN " . $mentions;
   }
   if ($date_begin != '' AND $date_end != '') {
-  $sql = $sql . ") AND (l.dateEnvoi BETWEEN '". $date_begin ."' AND '". $date_end . "'";
+  $sql = $sql . ") AND (l.dateEnvoi BETWEEN '". $date_begin ."' AND '". $date_end . "'"; // ET entre begin_date et end_date
   }
-  $sql = $sql . ")";// ORDER BY li.coordonnees ASC";
+  $sql = $sql . ") AND (ml.qualite IN ('reception', 'lesdeux', 'mention')";
+  $sql = $sql . ") ORDER BY li.coordonnees ASC, l.titre ASC, mp.qualite DESC";
 } else {
   $sql = "
   SELECT DISTINCT l.idLettre, l.titre, ml.qualite, pe.nom, li.idLieu, li.description, li.coordonnees
@@ -72,6 +74,7 @@ if ($conn->connect_error) {
 
 $conn -> set_charset("utf8");
 
+//print_r($sql);
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
