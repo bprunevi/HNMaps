@@ -52,7 +52,7 @@ if (json_last_error() === JSON_ERROR_NONE) {
   $sql = $sql . ") AND (l.dateEnvoi BETWEEN '". $date_begin ."' AND '". $date_end . "'"; // ET entre begin_date et end_date
   }
   $sql = $sql . ") AND (ml.qualite IN ('reception', 'lesdeux', 'mention')";
-  $sql = $sql . ") ORDER BY li.coordonnees ASC, l.titre ASC, mp.qualite DESC";
+  $sql = $sql . ") ORDER BY li.coordonnees ASC, l.idLettre ASC, mp.qualite DESC";
 } else {
   $sql = "
   SELECT DISTINCT l.idLettre, l.titre, ml.qualite, pe.nom, li.idLieu, li.description, li.coordonnees

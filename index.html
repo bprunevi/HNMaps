@@ -29,9 +29,9 @@
           <h3>Bienvenue dans la carte d'Élisée Reclus !</h3>
           <p>Jacques Élisée Reclus, né le 15 mars 1830 à Sainte-Foy-la-Grande (Gironde) en France et mort à Thourout en Belgique le 4 juillet 1905, est un géographe et militant anarchiste français.</p>
           <p>Communard, théoricien anarchiste, c'est un pédagogue et un écrivain prolifique. Membre de la Première Internationale, il rejoint la Fédération jurassienne après l'exclusion de Michel Bakounine. Avec Pierre Kropotkine et Jean Grave, il participe au journal Le Révolté.</p>  
-          <p><b>Actuellement, la liste de points est <a href="/pull.php">générée à partir du geojson générable ici.</a>
+          <p><b>Actuellement, la liste de points est <a href="pull.php">générée à partir du geojson générable ici.</a>
           </b></p>
-          <p><b>Vous êtes libres de filtrer l'affichage d'un lieu de réception, d'un.e destinataire, d'un personne mentionnée ou d'une date d'envoi via les onglets ci-dessus.</b></p>
+          <p><b>Vous êtes libres de filtrer l'affichage d'un lieu de réception, d'un.e destinataire, d'une personne mentionnée ou d'une date d'envoi via les onglets ci-dessus.</b></p>
         </div>
 
         <div id="Lieux" class="tab-content" style="display:none">
@@ -102,18 +102,22 @@
             // Loop through each feature in the GeoJSON
             marker = L.marker(0.0);
             previous_coords = [0.0000, 0.0000];
+            previous_id = "none";
             data.features.forEach((feature, index) => {
               if (feature.geometry.type === 'Point') {
-                if (feature.properties.name == marker.name) { // Si le marqueur est au même endroit que le précédent
-                  if (feature.properties) {
-                    marker.bindPopup(marker.getPopup().getContent().replace('</ul>', '') + '<li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(\'' + feature.properties.idLettre + '\' ); return false;">' + feature.properties.titre + ' (' +  feature.properties.auteur + ")</a></li></ul>");
+                if ((previous_coords[0] == feature.geometry.coordinates[0]) && (previous_coords[1] == feature.geometry.coordinates[1])) {
+                  if (previous_id === feature.properties.idLettre) {// Si le marqueur est au même endroit que le précédent
+                  marker.bindPopup(marker.getPopup().getContent().replace('</li></ul>', '') + '<span class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(\'' + feature.properties.idLettre + '\' ); return false;">' + ' (' +  feature.properties.auteur + ")</a></li></ul>");
+                  } else {
+                  marker.bindPopup(marker.getPopup().getContent().replace('</ul>', '') + '<li class="popup' + feature.properties.qualite + '"><a href="#" onclick="show_lettre(\'' + feature.properties.idLettre + '\' ); return false;">' + feature.properties.titre + ' (' +  feature.properties.auteur + ")</a></li></ul>");
+                  //ICI
                   }
+                  previous_id = feature.properties.idLettre;
                 } else {
                   // Create a marker for each point
                   const coords = feature.geometry.coordinates;
                   previous_coords = feature.geometry.coordinates;
-                  console.log(coords[1]);
-                  console.log(coords[0]);
+                  previous_id = feature.properties.idLettre;
                   marker = L.marker([coords[0], coords[1]]).addTo(map);
 
                   // Bind a popup with the feature properties
