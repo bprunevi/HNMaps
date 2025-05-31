@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.73">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 73</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date>Sans date</date>. <placeName xml:id="NouvelleOrleans" type='sender'>Plantation Fortier, près la Nouvelle-Orléans</placeName>.</p>
+         <p><persName xml:id="ElieReclus"><addName>Mon brave</addName></persName>.</p>
+         <p>Je ne pourrai t'envoyer de quibus que le 8 avril, et alors 10£ seront bien le tout dont je pourrai disposer. Tu n’as pas besoin de m envoyer d'habits, à moins qu'ils ne soient déjà commandés, car en fait de vêtements « canailles » en vue de la chaleur, j'en ai autant qu'il me faut et, à la Nouvelle-Grenade, je ne serai pas « would be gentleman » (1) en habit à la française, mais je serai un gentleman en cotonnade. Du reste, Cape était presque censé devoir me faire une redingote. Apporte livres sérieux : je ne te dis pas lesquels, tu sais comment je les aime et du reste nos études seront communes quand nous serons. ensemble.</p>
+         <!-- <hr >-->
+         <p>Pélissier dit à qui veut l'entendre que tu es une barre de fer entourée de soie.</p>
+         <p>Quant à moi, je m'ennuierais si je voulais bien me l'avouer à moi-même. La campagne est uniforme et sans horizon comme la mer ; je suis seul dans uns grande maison ; deux fois par jour, je vais donner des leçons d'A B C à des enfants qui l'apprennent depuis quatre ans sans le savoir encore et je raccroche tous les livres possibles, entr'autres (écoute et frémis) les romans écrits par l’auteur de Waverley.</p>
+         <p>Pendant que je t'écris, j'ai à côté de moi deux serpents à sonnettes et, bien qu'ils soient gentiment pelotonnés dans une boîte, je me retourne de temps en temps pour voir s'ils ne me grimpent pas sur les jambes comme à feu Zinzendorf de défunte mémoire.</p>
+         <p>Salut.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname></persName></p>   
+         <p>(1) Un aspiránt gentleman.</p>
+      </body>
+   </text>
+</TEI>

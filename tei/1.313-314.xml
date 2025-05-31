@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.313">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Elie Reclus en Espagne. Sans date.1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.313-314</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, en <placeName xml:id="Espagne" type='receiver'>Espagne</placeName>.</p>
+            <p>Sans date. <date when="1868-01-01">1868</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon bien cher Elie</addName></persName>,</p>
+            <p>Je ne te cacherai pas que <persName type="mention"><forename>Noémi</forename></persName> est fort abattue depuis qu'elle a reçu la lettre où tu lui dis de ne pas songer à un prochain retour. Je comprends sa tristesse et celle de <persName type="mention"><forename>Poulot</forename></persName>, qui ne dit rien, mais qui, lui aussi, est assez affecté et baisse souvent la tête.</p>
+            <p>Trois éditeurs de <placeName xml:id="Paris" type="mention">Paris</placeName> pourraient seuls entreprendre la publication de l’ouvrage de <persName type="mention"><surname>Garrido</surname></persName> (1). <persName type="mention"><surname>Lacroix</surname></persName>, <persName type="mention"><surname>Dentu</surname></persName> et <persName type="mention"><surname>Lechevalier</surname></persName>. <persName type="mention"><surname>Lacroix</surname></persName> est hors de question, et je sais d'avance que <persName type="mention"><surname>Dentu</surname></persName> refuserait. Je me suis donc rendu chez <persName type="mention"><surname>Lechevalier</surname></persName>. Il a refusé d'abord catégoriquement, déclarant qu'il ne pourrait éditer un ouvrage condamné d'avance à n'avoir au plus que trois cents acheteurs. Cependant, le fils de <persName type="mention"><surname>Lechevalier</surname></persName> étant arrivé, m'a prêté son appui, et l'affaire est encore en suspens. L'éditeur ne dit pas non, mais il demande le changement du titre en celui d'Espagne Révolutionnaire. — ce ne sera pas difficile — et la condensation de l'ouvrage en un volume. Cela se pourra-t-il? En outre il demande des renseignements détaillés : nombre des pages, nombre des exemplaires tirés en <placeName xml:id="Espagne" type="mention">Espagne</placeName> (2) etc.</p>
+            <p>La ligue des éditeurs contre les ouvriers imprimeurs n'a pas encore abouti. Les journaux et les « ouvrages de ville » représentent les deux tiers de toutes les impressions de Paris, les éditeurs ne sont pas certains de réduire les ouvriers de <placeName xml:id="Paris" type="mention">Paris</placeName> en s'adressant à la province ou à l'étranger : de là incertitude</p>
+            <p>Je ne sais si je t'ai dit que je cesserai probablement d'écrire dans la Revue des Deux Mondes. <persName type="mention"><surname>Buloz</surname></persName> voudrait me faire modifier mon article sur les Femmes en Amérique et je ne veux pas (3). Me voilà donc malgré moi lancé dans la Géographie pure, jusqu'à nouvel ordre du moins.</p>
+            <p>Nous faisons réimprimer les statuts d’ « Agis comme tu penses » (4). Pour 10 francs,1.500 exemplaires.</p>
+            <p>A vous de cœur, mes bons amis,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p><persName type="mention"><forename>Clarisse</forename></persName> tousse toujours, et commence à ne pouvoir guère se tenir debout.</p>
+            <p>(1) <persName type="mention"><forename>FERNANDO</forename><surname>Garrido</surname></persName>, auteur de Historia del reinado del Ultimo Borbon de Espana (1863), y donne, d’après <persName type="mention"><surname>Nettlau</surname></persName> (Bibliographie de l'Anarchie, p. 137), quelques éclaircissements sur les origines du mouvement ouvrier et de la propagande socialiste en Espagne.</p>
+            <p>(2) Cette traduction, nous assure t-on n'a jamais été publiée. Les ouvrages de <persName type="mention"><surname>Garrido</surname></persName> étant très volumineux, on comprend l'hésitation des éditeurs, même en un moment d'intérêt considérable pour l'Espagne.</p>
+            <p>(3) En effet, aucun article d'<persName type="mention"><forename>Elisée</forename></persName> ne parut dans la Revue des Deux Mondes depuis l'Election Présidentielle de la Plata (15 août 1868). Son premier article dans la Revue Politique et Litiéraire, Le Paraguay est du 5 septembre 1868.</p>
+            <p>(4) Agis comme tu penses : Société fondée par <persName type="mention"><forename>Aristide</forename> <surname>Rey</surname></persName>, lisons-nous dans <persName type="mention"><surname>Nettlau</surname></persName> (Vie de <persName type="mention"><surname>Bakounine</surname></persName>, p. 426). Elle avait, croyon-snous, pour objet de sauvegarder à ses membres l'enterrement civil</p>
+            
+        </body>
+    </text>
+</TEI>
+

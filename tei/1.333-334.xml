@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.333">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Elie Reclus. Sans date. Londres, septembre 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.333-334</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname>.</persName></p>
+            <p>Sans date. <placeName xml:id="Londres" type='sender'>Londres</placeName>, <date when="1869-09-01">septembre 1869</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>J'achète le Public Opinion à partir du 1er juillet. Je t'enverrai lundi prochain les deux premiers numéros, puis je les expédierai régulièrement et t'abonnerai avant mon départ. L'<placeName xml:id="Angleterre" type="mention">Angleterre</placeName> change certainement, et à son avantage ; mais elle est toujours, excepté dans le monde ouvrier, bien indifférente et bien ignorante à l'égard des choses continentales. La Sunday League pour la violation systématique du dimanche prend des dimensions extraordinaires. L'aristocratie sera forcée de céder avant quelques années. L’autre jour, quinze mille violateurs, précédés de bandes de musiques, se sont rendus à <placeName xml:id="Hastings" type="mention">Hastings</placeName> pour y violer le sabbat en chantant, dansant, faisant des ricochets sur la mer, ramassant des coquillages et semant sur leur route des « antisabbatarian tracts ». — Assisté à une séance de l'Internationale. Les Anglais sont plus communistes que je ne l'aurais cru. Pas un, parmi ces ouvriers, qui ne réclame la nationalisation de la terre, même celle des houillières, des mines. « Droit à l'existence, droit à la terre. » Telle est leur formule. Du reste, la nationalisation des télégraphes, réclamée maintenant par <persName type="mention"><surname>Gladstone</surname></persName>, est interprétée par eux dans le sens communiste. Après les télégraphes viendront les chemins de fer, puis après la circulation, la production. D'abord ce qui est sous le sol, puis ce qui est dessus. A <placeName xml:id="Bâle" type="mention">Bâle</placeName> (1), ils veulent représenter le communisme pur, non seulement, parce qu'il est une nécessité sociale, mais parce que c'est 1' « idéal. » J'étais fort étonné d'entendre parler ce langage. Du reste, ils considèrent le communisme comme d'invention anglaise. C'est pour eux le « national policy » devenant une « international policy ». Les nouvelles de <placeName xml:id="France" type="mention">France</placeName> m’intéressent fort.</p>
+            <p>A toi,</p>
+            <p>Ton frère</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) <placeName xml:id="Bâle" type="mention">Bâle</placeName>, c'est-à-dire au Congrès annuel de l'Internationale, tenu
+            à <placeName xml:id="Bâle" type="mention">Bâle</placeName> en septembre 1869.</p>
+            
+        </body>
+    </text>
+</TEI>

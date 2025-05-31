@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.185">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Sans date. Décembre 1858.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 185</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="AmisReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date when="1858-12-01">Sans date. Décembre 1858</date>.</p>
+         <p>Amis,</p>
+         <p>Le mariage aura lieu lundi dans' la soirée, et mardi à cinq heures, nous filons. Attendez-nous jeudi soir. J'ai échappé au contrat. La scène a été excellente. On m'avait dit que le contrat était nécèssaire pour régula riser les ventes du Sénégal et, moi, je me résignais comme un mouton qu'on va tondre. On introduit G. qui me serre la main avec une gravité sereine et commence à expliquer la nature de l'acte à dresser. J'écoute avec attention l'honnête sire parlant de communauté par acquêts, de meubles et mmeubles et nous exposant, avec une charmante précision, que le contrat de mariage n'a d'autre utilité que de sauvegarder les intérêts du mari contre la femme et les intérêts de la femme contre le mari. Mais les ventes du Sénégal peuvent-elles se faire sans contrat? — Oui, l'acte de mariage en tiendra lieu. — Alors nous n'avons pas besoin de contrat? - Mais je vous ferai observer que le maire écrira en grosses lettres que les époux n'ont pas été fiancés. — Eh bien ! nous lui dirons de souligner ses grosses lettres ! — Ah ! ne pas se fiancer, c'est bien grave ! Savez-vous que si vous faites un héritage, si on vous laisse 6.000 francs par exemple, vous en perdrez trois mille qui passeront à votre femme? Savez-vous cela? Les perdre ce sera les gagner ! Je lui dirai de prendre les trois mille autres. Ah vraiment ! Et le pauvre homme était ahuri, consterné, il voyait le contrat s'envoler à grands coups d’aile.</p>
+         <p>Le tuteur vient à son secours en faisant observer que l'un de nous peut mourir et laisser l'autre dans la misère. — Alors nous faisons notre testament, dis-je et nous n'avons pas besoin de contrat ; je n'ai rien, mais je vais écrire sur une feuille de papier que je lègue tout à ma femme. En même temps, Clarisse s'écrie qu'elle va aussi écrire ses dernières volontés et léguer tout à son mari. Le tabellion n'y tient plus ; il se lève, bouche béante, cheveux hérissés, œil arrondi par la stupeur. Et moi je le raccompagne jusqu'à la porte en le félici¬ tant de son explication lumineuse. Quant au tuteur, il était enchanté et me serrait la main. Ah ! vous êtes un bon jeune homme, et moi aussi, je suis un homme de la nature, un homme de la nature. Etc., etc.</p>
+      </body>
+   </text>
+</TEI>

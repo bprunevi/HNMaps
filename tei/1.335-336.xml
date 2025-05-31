@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.335">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A sa sœur Louise, à Vascœuil. Sans date. Paris 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.335-336</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A sa sœur <persName xml:id="LouiseReclus" type="recepteur"><forename>Louise</forename></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName> <date when="1869-01-01">1869</date>.</p>
+            <p>Je suis doublement coupable, dois-tu penser : je n’ai point répondu à ta lettre, et je ne me suis point arrêté à <placeName xml:id="Vascœuil" type="mention">Vascœuil</placeName>. Excusons-nous d'abord relativement au premier grief. J'ai été rappelé inopinément pour affaires pressantes et je n'aurais pas voulu commettre le crime envers moi-même et envers vous de ne passer qu'un instant à <placeName xml:id="Vascœuil" type="mention">Vascœuil</placeName> pour me donner seulement le temps de vous embrasser. Quand j'irai vous voir, je veux pouvoir jouir de votre compagnie en loisir et tranquillité d'esprit et de cœur.</p>
+            <p>L'avenir est bien incertain pour moi. Cependant, voici comment, je le crois, pourront se présenter les choses. Vers le 15 septembre, je me rends à <placeName xml:id="Nice" type="mention">Nice</placeName> pour guidifier. Je suis de retour vers le 15 octobre et prêt alors à vous piloter et à écrire avec vous l'Histoire d'une Montagne sur le <placeName xml:id="mont Agel" type="mention">mont Agel</placeName>, au milieu des bruyères et des cystes.</p>
+            <p>A vous de cœur.</p>
+            <p>Je vous embrasse tous. Dis à <persName type="mention"><forename>Jeanne</forename></persName> que tous ses amis de <placeName xml:id="Londres" type="mention">Londres</placeName> l'ont beaucoup regrettée. Elle ne sera point oubliée en <placeName xml:id="Angleterre" type="mention">Angleterre</placeName>. Elle a été bien aimable de m'écrire une lettre et, si je ne lui ai pas répondu, c'est que j'espérais être bientôt l'un des heureux hôtes de l'heureux <placeName xml:id="Vascœuil" type="mention">Vascœuil</placeName>.</p>
+            <p>A vous tendrement,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

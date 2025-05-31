@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.180">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Paris. Sans date, peut-être février 1858.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 180</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName>.</p>
+         <p><date when="1858-01-01">Sans date, peut-être février 1958</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Nous n'avons pas le droit de nous plaindre de ton long silence, car nous aussi sommes restés bien long temps sans te donner signe d'existence, mais notre vie est si calme et uniforme que les semaines s'écoulent pour nous avec autant de rapidité que les jours ; nos habitudes sont tout à fait bourgeoises, et c'est à peine si nous nous apercevons de la marche du temps.</p>
+         <p>Aucun changement n a encore eu lieu dans notre position. Je donne toujours des leçons chez M. Fézandié, mais je n'ai trouvé encore qu'une seule leçon particulière de géographie à donner par semaine. On me la paie 5 francs le cachet, de sorte que j'ai à la fois le plaisir de m'occuper de géographie et d'aider à faire bouillir la marmite.</p>
+         <p>J'ai fini depuis longtemps le travail de géographie dont je t'avais parlé, et j'ai été le présenter à M. Maltebrun, secrétaire de la Société de Géographie. Celui-ci ma fait inscrire sur l'ordre du jour pour lire quelques fragments de mon travail, et, quand M. de Silva, ambassadeur du Brésil à Londres, M. Varnhagen, ambassadeur à Madrid, auront fini leur lecture, j'espère que mon tour viendra. Quand j’aurai les 60 francs nécessaires pour payer mon diplôme de membre, j'ai l’intention d'entrer dans la société, et, grâce à l'appui de M. Maltebrun et de M. Maury, je suis à peu près sûr d'y entrer. Là, j’aurai l'avantage d’avoir à mon service une bibliothèque géographique admirablement fournie, de pouvoir consulter les cartes et les plans de tous les savants et de suivre d'aussi près que possible tous les mouvements de la science. Voilà, chère mère, mes rêves d'ambition : tu vois que c'est une ambition peu agressive. M. Maltebrun m'a aussi demandé un travail sur la Sierra Nevada de Sainte-Marthe, pour ses Annales de Géographie, et M. Hachette m'a dit que, dans huit ou dix mois, il serait assez disposé à publier le récit de mes voyages ; maintenant, il a trop d'affaires sur les bras pour s'occuper de cette publication. Pourvu que je ne me laisse pas dominer par la paresse, je crois que, tôt ou tard, je trouverai les moyens de gagner quelque chose en écrivant. Pour le moment, je donne ma prose, je ne la vends pas encore.</p>
+         <p>Nous sommes très casaniers, tellement que je ne connais pas encore Paris, si ce n'est l'extrémité ouest, où nous habitons. Je n'ai pas encore été faire une seule course à la campagne, ni à Saint-Cloud, ni à Sèvres, ni à Saint-Denis, et, d'ailleurs, il fait si froid que lorsque je suis sorti j'ai hâte de venir me chauffer les tibias devant un bon feu.</p>
+         <p>Nous allons quitter notre délicieux logement : on nous a encore augmenté notre loyer ; nous payons maintenant 600 francs de rente.</p>
+         <p>J'espère qu'on n'a pas fait d'arrestatione à Orthez (1). Donne-nous des renseignements à cet égard, je te prie.</p>
+         <p>Nous t'embrassons, chère mère. Nous envoyons notre affection à notre père et à la famille.</p>
+         <p>Ton fils</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>  
+         <p>(1) Allusion aux tracasseries policières, consécutives à l'attentat d'Orsini.</p>
+      </body>
+   </text>
+</TEI>

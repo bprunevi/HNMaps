@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.113">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère, Riohacha, 19 février 1856.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 113</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type="recepteur">sa Mère</persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1856-02-19">19 février 1856</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Très bonne mère</addName></persName>,</p>
+         <p>Je t’en supplie, ne te décourage pas de m'écrire, ne me fais pas trop longtemps at endre tes paroles d'affection maternelle qui me font tant de bien. Je crois que tes lettres m'arrivent régulièrement depuis que je suis connu à la poste, et, d'ailleurs, quand elles mettraien plusieurs mois à faire la navette entre Sainte-Marthe et Bogota, je ne les en recevrai pas moins. En tout cas, tu peux te dispenser d'écrire par l'entremise de M. Lagrange, car le communi ations entre la Guayra et Riohacha sont absolument nulles. C'est tout au plus si je pourrais espérer rece¬ voir de tes nouvelles tous les ans ou tous les dix huit mois. La Guayra est virtuel ement aux anti¬ podes.</p>
+         <p>Tu redoutes pour moi le séjour de la Sierra Nevada et tu me fais à cet égard quelques observations. Peut-être que si tu étais ici, tu changerais de langage. Il est certamnement plus agréable de respirer un air pur et la vapeur fraîche des torrents que les émanations sur¬ chauffées des marécages de la plaine. Ces belles mon tagnes avec leurs puissantes assises de granit rose, leurs roches de micaschiste, si lisses et si brillantes que de loin on les prendrait pour de gigantesques plaques d’argent, leurs forêts riches en plantes de tous les climats, depuis celui du Spitzberg jusqu'à celui de la Guyane, leurs glaciers bleus, verts ou roses selon le cours du soleil et le mouvement des nuages, toutes ces belles choses-là ne valent-elles pas la pauvre ville de Riohacha et sa plaine aride où ne poussent que des plantes à épines, cactus, acacias ou mimosas ? Et crois¬ tu que mon intelligence, avide de quelques bons livres, ne trouverait pas quelque aliment dans la contempla¬ tion de la nature, contemplation qui bientôt se trans¬ formerait en étude. Quant à la société, je t'assure que les Aruaques, ces Indiens encore enfants, qu'un rien étonne, qui poussent des cris d'admiration à la vue d'une allumette chimique, me plaisent mieux que les boutiquiers avides et les nègres ivrognes qui forment la population de Riohacha. Quant à mon associé. M. Chassaigne, ci-devant de Monlieu (Charente-Infé¬ rieure), il a, je dois l'avouer, quelques défauts du vieillard d'Horace, mais, quand il répète une his¬ toire pour la cent et unième fois, je puis m'en aller; quand il me contredit, je puis me taire, quand il gronde ton cher fils, je puis écouter patiemment. Ses petits défauts que j'ai eu le tort de remarquer ne l'empêchent pas d’être probe, généreux, intelligent, bon ami. J'avoue que je serais très fâché de me séparer de lui, d'abord parce que je lui suis dé¬voué, ensuite parce que je désire vivement que no¬ tre plantation de la Sierra soit une plantation sé¬ rieuse.</p>
+         <p>Je viens de t'exposer les raisons qui m'auraient fait ardemment souhaiter de demeurer à la Sierra Nevada ; malheureusement, d'autres raisons m'en ont empêché. Nous manquons de capital et les semences, pas plus à la Nouvelle-Grenade qu'en France, ne lèvent d'un jour à l'autre. J’ai vu qu'il fallait redescendre à Riohacha et recommencer à donner des leçons. Cette fois, j'ai plus d'élèves que pendant mon premier séjour et je gagnerai probablement assez pour vivre et fonder notre habitation. C'est le café qui nous semble offrir le plus d'avantage, car il croît admirablement dans la Sierra Nevada, et l'on a vu des caféiers, arbustes dont le bois est pourtant très élastique et très fort, casser sous le poids des baies dont leurs branches étaient chargées. On ne cultive pas le cacao dans ce pays, et celui qui voudrait en entreprendre la culture devrait attendre cinq ou six ans avant de faire sa première récolte. Cependant il ne me sera peut-être pas impos¬ sible de t'envoyer une caisse de cacao, car, à douze lieues d'ici, il y a une forêt de cacaotiers sauvages que j’ai l’intention de visiter et de piller..</p>
+         <p>Depuis longternps sans doute, tu n'as reçu de mes nouvelles, mais cette fois, il ne faut pas accuser de négligence les courriers de la Nouvelle Grenade ou les vapeurs anglais. Mon séjour à la Sierra Nevada m'avait empêché d'écrire, car il n'y a pas de boîte aux lettres là-haut et, pour descendre à Riohacha, il faut franchir des marécages à gué, passer des nuits sur le sable de la plage, se faire laver par les vagues de la mer, et ce n'est qu'après huit jours d'un pareil voyage qu'on arrive à Riohacha, heureux quand on a pu conserver ses effets en bon état. Chère mère, j'attends de tes nouvelles avec impatience. Embrasse ceux que j'aime, surtout mon bon père.</p>
+         <p>Ton fils,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

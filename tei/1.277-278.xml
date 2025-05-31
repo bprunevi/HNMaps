@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.277">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Paris. Sans date. 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.277-278</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A Mme <persName xml:id="NoemiReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p> <placeName xml:id="Paris" type='sender'>Paris</placeName>. Sans date. <date when="1868-01-01">1868</date>.</p>
+            <p>Je suis de l'avis d'<persName type="mention"><forename>Elie</forename></persName> : nous irons plutôt rejoindre nos amis à <placeName xml:id="Buenos-Ayres" type="mention">Buenos-Ayres</placeName> qu'ils ne viendront nous retrouver ; mais aujourd'hui la traversée de la mer n'a rien de bien effrayant, et, de plus, nous aurions la consolation de mettre comme eux le pied sur une terre de liberté...</p>
+            <p>Je n’ai point reçu la lettre annoncée par <persName type="mention"><surname>Blahos</surname></persName>. Je suis heureux qu'<persName type="mention"><forename>Elie</forename></persName> ait enfin le plaisir de pouvoir varier son travail ; mais qu'il n'interrompe pas complètement la traduction, car <persName type="mention"><surname>Alphand</surname></persName> en est très pressé. Il sera bon de lui faire parvenir le commencement.</p>
+            <p>Autre chose : Aujourd’hui, je monte chez <persName type="mention"><surname>Hetzel</surname></persName>. Ne voilà-t-il pas que cet étonnant personnage a changé d’avis au sujet d'<persName type="mention"><surname>Agassiz</surname></persName> et tombe des nues quand je lui dis qu'il a dit non à propos de la traduction. Cette fois, il dit énergiquement : Oui ! Oui ! Vite je lui fais signer un petit papier d'après lequel il s'engage à nous payer 600 francs, au reçu du manuscrit de la traduction, signée par le réviseur <persName type="mention"><forename>Elie</forename> <surname>Reclus</surname></persName>. Comme il fallait aller vite en besogne, j'ai pris sur moi d'agir sans vous consulter. Il n'a pas voulu d'une signature de femme, parce que les noms féminins ne poussent pas assez à la vente. Il me demandait une préface : une préface de moi à un ouvrage d'<persName type="mention"><surname>Agassiz</surname></persName> ! J’ai réussi à lui faire comprendre combien saugrenue était son idée.</p> 
+            <p> Autre chose encore. On pense que l'Encyclopédie<persName type="mention"><surname>Pichat</surname></persName> sera constituée vers le mois de février. On nous a demandé d’en être (1). Je t ai proposé pour la mythologie, à quatre sous la ligne : toutefois, avant de nous décider, j'ai dit que nous voudrions savoir quels sont nos collaborateurs. — Nous verrons. — On nous demande aussi de faire des cours libres pour des femmes et jeunes filles. Nous verrons.</p>
+            <p>Il y a beaucoup d'articles sur mon livre (2), me dit-on. Mais je ne puis vous les envoyer, ne les ayant point lus. D'ailleurs, je suis sceptique. Je sais bien que la maison Hachette sait pousser à la vente, à vous de cœur, à bientôt...</p>
+            <p>J'ai pour <persName type="mention"><forename>Elie</forename></persName>, la collection de la Reoue Libérale, de la Science Sociale. On lui demande des articles.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) La Géographie, article d'<persName type="mention"><forename>Elisée</forename> <surname>Reclus</surname></persName> dans l'Almanuch d'Encyclopédie, Générale, pour 1868, <placeName xml:id="Paris" type="mention">Paris</placeName>.</p>
+            <p>(2) La Terre.</p>
+            </body>
+    </text>
+</TEI>
+          

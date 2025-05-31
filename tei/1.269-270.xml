@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.269">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Paris, novembre 1867.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p.269-270</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1867-11-01">novembre 1867</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Nous recevons à l'instant la bonne lettre de <persName type="mention"><forename>Noémi</forename></persName>, à laquelle <persName type="mention"><forename>Clarisse</forename></persName> répondra quand elle aura le temps. Une autre lettre nous arrive aussi de <placeName xml:id="Berne" type="mention">Berne</placeName>, avec le timbre du 4 novembre. « Je suis toujours sans réponse de la part de votre frère ; veuillez lui rappeler ma lettre et le prier d’y répondre. Agréez, etc. <persName type="mention"><forename>G</forename>. <surname>Vogt</surname></persName>. » Avais-tu répondu avant le 2 novembre ? Dans ce cas, ta lettre se serait perdue et tu devrais t'empresser d'en envoyer une autre. De mon côté, j'écrirai également en donnant le résumé de ta réponse, d'après <persName type="mention"><forename>Noémi</forename></persName>.</p>
+            <p><placeName xml:id="Berne" type="mention">Berne</placeName> me sourit de plus en plus pour toi ; <placeName xml:id="Saint-Etienne" type="mention">Saint-Etienne</placeName> me semble de plus en plus difficile, sinon impossible Les chambres se rassembleront, je le veux bien ; on leur présentera un projet de loi, je le veux encore ; mais la nouvelle campagne de <placeName xml:id="Rome" type="mention">Rome</placeName> à l'intérieur va commencer avec une violence inouie et ce n'est pas à<placeName xml:id=" Saint-Etienne" type="mention"> Saint-Etienne</placeName>, si bien surveillée par les fureteurs de la Bibliothèque populaire, que tu aurais la chance de pouvoir lutter avec succès : tu en aurais pour quinze jours, avant d'avoir perdu ta feuille de chou.</p>
+            <p>Si tu vas à <placeName xml:id="Berne" type="mention">Berne</placeName>, il me semble que tu ferais bien de partir tout seul d'abord, afin de tâter le terrain. <persName type="mention"><forename>Noémi</forename></persName> et les enfants suivraient quelque temps après. Tu irais au devant d’eux jusqu'à la frontière.</p>
+            <p>Sois très prudent, très mesuré dans tes lettres. Actuellement, cela est indispensable. Colle et cachète tes enveloppes.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>
+

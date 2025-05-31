@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.85">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa mère. Chez MM. Fortier, Nouvelle-Orléans, 28 juin 1855.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 85</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type="recepteur">sa mère</persName>.</p>
+         <p><placeName xml:id="NouvelleOrleans" type='sender'>Chez MM. Fortier, Nouvelle-Orléans</placeName>, .<date when="1855-06-28">28 juin 1855</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>J'ai reçu ta lettre ce matin et j'y réponds uniquement pour te donner signe de vie, car tes peines me semblent trop profondes et trop invétérées pour qu'un souvenir de moi puisse aider à leur guérison, et, pour¬ tant, Dieu sait combien je serais heureux si je pouvais te consoler quelque peu. Beaucoup de choses qui se sont passées ont amèrement contristé ton âme et tu sembles tout craindre de l'avenir. Je ne veux pas revenir sur le passé de peur d'émettre une opinion ou d'écrire un mot qui te blesse, et d'ailleurs à quoi bon revenir sur ce qui n'est plus et que force ni rage ne pourront jamais nous rendre. Je préfère, si tu as quelque confiance en mes paroles, essayer de te rassurer sur l’avenir.</p>
+         <p>J'ignore encore si mon frère a l'intention arrêtée de venir en Amérique ; mais s'il vient, ce serait une chimère de votre part que de craindre la faim pour lui et sa famille. Ici on n'a pas besoin de talent, ni même de courage pour vivre à son aise. Il suffit pour cela d'un peu de bonne volonté, et certes personne ne pourra contester que mon frère soit un homme d'énergie et de talent. Quand je me rappelle que nous avons pu vé¬ géter, et que nous aurions même pu vivre à notre aise, si nous n'avions pas eu tant d'amis, dans cette Angle¬ terre surchargée de population, où des milliers d'ins¬ tituteurs et d'institutrices se disputent avec acharne¬ ment un dur morceau de pain, il me semble parfaite¬ ment impossible que nous ne sachions pas nous tirer d'affaire dans cette Amérique où la terre appelle le cultivateur, où le travail appelle l’ouvrier. Pour ma part, si mes opinions ne me faisaient pas considérer la richesse comme un véritable crime, et que je fusse assez éhonté pour laisser pâtir ceux que je sais dans le mal¬ heur, je me ferais fort de devenir riche dans l'espace de quelques années. Heureusement que, par goût, je préfère vivre pauvrement, et je sais que, sur ce sujet, Elie pense comme moi. Il est très heureux selon moi que mon frère n'ait pas ce qu'on appelle une fonction en France ; là il n’y a pas de position sans autorité plus ou moins tyrannique, et certes il n'est pas douteux que les opi¬ nions de mon frère le mettraient en mauvaise odeur auprès de tous ces grands hommes décorés d'une écharpe ou d'un titre. Il ne prendrait une position que pour la perdre ; et que faire ensuite dans un pays où l'on peut à peine se retourner sans marcher sur les pieds de son voisin, tant il y a foule? Pour ma part, plutôt que d’aller encenser le veau d'or en France, je préfèrerais cent fois habiter quelque vallée de Saint-Domingue, n'ayant qu'un pagne pour me couvrir et que des bananes à manger. Quant à devenir pasteur, un jésuite seul pourrait conseiller cette alternative à mon frère : si je ne me trompe, ce jésuite s’est trouvé. Crois-moi, chère mère, la petite colonie que nous allons établir sera charmante et la famille de mon frère pourra y jouir du bonheur ; alors, quand tu sauras que tes craintes ne se sont pas réalisées, il ne restera qu'à oublier le passé qui t'a fait souffrir.</p>
+         <p>Je t’ai envoyé mon portrait. S’il ne t'arrive pas, je t’en enverrai un second. Demande aussi à M. P. s’il a reçu un baril de patates douces que je lui avais envoyé, car <persName type="mention">M. Fortier</persName> m'a offert d'en envoyer un second si le premier n'était pas arrivé à destination.</p>
+         <p>Je suis en bonne santé, mais il y a toujours quelques petites maladies dans la famille de M. Fortier, c'est tantôt l'un, tantôt l'autre qui se plaint.</p>
+         <p>Adieu, chère mère.</p>
+         <p><persName type="emetteur"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName></p>     
+      </body>
+   </text>
+</TEI>

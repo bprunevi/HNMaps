@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.88">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 88</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p>Sans date <date when="1855-01-01">1855</date>. <placeName xml:id="NouvelleOrleans" type='sender'>Chez M. Fortier. Nouvelle-Orléans</placeName>.</p>
+         <p><persName xml:id="ElieReclus"><addName>Frère fratissime</addName></persName>,</p>
+         <p>Ma lettre n’est point argenteuse et je t’en ai déjà donné les raisons. Je suis même jusqu'à un certain point dans les dettes, puisque je n'ai pas encore payé 7 livres que Darrigrand (1) a prêtées à Mannering. Ainsi si tu pars de Liverpool, le 5 avril? tâche d'aller jusqu'à New-York, moyennant les quelques sous que tu auras épargnés ou empruntés d’un bord et de l’autre. Arrivé à New-York ou à Boston, écris-moi, par télégraphe ou autrement et, moi, j'arrive à ton secours avec une bordée de piastres. Si je devais t'envoyer des matières argenteuses avant le 5 avril, je n'en aurais même pas matériellement le temps, car pour cela il me faudrait faire un voyage à la Nouvelle-Orléans, et je ne m'absente pas comme je le veux. Kéfa ! kéfa?... Mais voilà ce que je vais faire dans un mois, c'est-à-dire vers le 15 avril, j’expédierai 10 ou 12 livres, c'est tout ce dont je pourrai disposer alors, soit pour te faire filer en Amérique si tu n'es pas encore parti, soit pour rembourser l'honnête homme qui t'aurait avancé la même somme. La lettre serait adressée à Lady F. et tu lui expliquerais le meaning (2) de la dite lettre si tu partais avant son arrivée.</p>
+         <p>Darrigrand est censé devoir mourir de la poitrine. Il va partir pour l'Europe.</p>
+         <p>Reçu une lettre mamanternelle. Résumé : O mon fils, fils de mon cœur, mets des gilets de flanelle. Du reste, elle est bien bonne : de-peur de me blesser et de réveiller entre nous des sentiments douloureux, elle s'abstient soigneusement de parler de la Bible, de conversion, de grâce d'en haut et autres choses pieuses, et certes j’ai été touché profondément de cette délica¬ tesse de mère, qui est en même temps un abandon de la cause du Très Haut.</p>
+         <p>Je ne suis pas d’avis d’aller d’abord à Mexico. Il y a des passeports, de la police, des gendarmes, des ... (3), et Santa-Anna, autre Napoléon III, élu par la volonté du peuple.</p>
+         <p>Le Popocatepetl et l'Orizaba et le Perote et le plateau de l'Anahuac et les mines de Xihuatitlan et les magueys et les voleurs, tout cela est sans doute fort intéressant à voir, mais dans la Nouvelle-Grenade, nous trouverons une nature tout aussi belle que celle du Mexique et beaucoup plus imprévue. La Nouvelle-Grenade est un pays à découvrir : c’est le pays qui porte les destinées de l'Amérique méridionale, parce que c'est là que toutes les forces viennent s'accumuler et se déverser à la fois dans deux mers, etc. Que dis-tu du plateau d'Ambato où les saisons sont superposées plus que partout ailleurs et où, d'un même coup d'œil, on peut embrasser les flots bleus du Pacisique et les tor¬ rents qui descendent vers l'Amazone... Là, point de passeports et de gendarmes, et, si je ne me trompe, de braves gens fort peu yankees. Autre raison concluante : de Nouvelle-Orléans à Vera-Cruz, 25 piastres ; de Nouvelle-Orléans à Chagres, 25 piastres ; de Chagres à Darien, supposons rien pour mieux nous entendre. De Darien à Bogota, pedibus, joie, tourteaux de mais, aboiements à la lune et plaisirs pantagruelesques... Mexico viendra plus tard. Qu'en dis-tu?</p>
+         <p>Mannering n'a encore rien trouvé. Il ne voudrait pas d'un travail facile et par conséquent ne trouvera rien du tout. Il fait son éducation, qui e t un peu longue du reste.</p>
+         <p>Ce que tu dis du vomito yankee est d'une justesse profonde. Dans ce vomito, on ne vomit pas se en¬ trailles, on vomit son espr t, son cœur, on se vomit soi-même. Il ne reste plus de vous que quelque chose de flasque comme une outre vide qui aurait été ci-devant remplie de Val de Penas. De plus la maladie est chronique.</p>
+         <p>Ainsi, frère de mon âme,</p>
+         <p><persName type='emetteur'><forename>ÉLISÉE.</forename></persName></p>
+         <p>(1) Darrigrand, le boulanger d'Orthez qui avait si généreuse ment aidé Elisée lors de son arrivée en Amérique.</p> 
+         <p>(2) Sens.</p>
+         <p>(3) Mot illisible.</p>
+      </body>
+   </text>
+</TEI>

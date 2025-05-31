@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.117">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Nouvelle-Grenade. Deuxième lettre, 5 mai 1856.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 117</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="NouvelleGrenade" type='sender'>Nouvelle-Grenade</placeName>. Deuxième lettre, <date when="1856-05-05">5 mai 1856</date>.</p>
+         <p>Frère Elie,</p>
+         <p>Je t'envoie la première lettre en même temps que celle-ci pour ne pas faire l'hypocrite avec toi et pour que tu puisses mieux juger les deux côtés de la question. Mais, aujourd'hui que je connais Sainte-Marthe à fond, je vois que ce serait une véritable trahison de te faire venir ici avec Noémi. Certainement, ce pays est le plus beau que j'aie encore vu sous la calotte du ciel, certai¬ nement il est facile de venir ici, et tu ne courrais aucun risque de mourir de faim si tu venais t'y établir, mais ce n'est pas tout que d'avoir des bananes et de contem¬ pler de belles montagnes, il faut encore avoir une cer¬ taine liberté d'action qu'il nous serait absolument im¬ possible de conquérir.</p>
+         <p>Notre seule et unique ressource serait le jardi¬ nage et, certes, j'ai été singulièrement tenté de me reposer à l'ombre de mes bananiers et de ma vigne quand on m'a offert pour une somme de 48 francs un charmant jardin situé entre un chemin et la rivière Manzanarez, ombragé de mangos et d'orangers. En effet, j'aurais pu t'offrir, à toi qui es latigué du travail aride des bureaux, quelques jours de paresse rêveuse et de farniente, mais en même temps, je t'aurais à peu près condamné à ne jamais faire un travail sérieux de ta vie, car une fois dans ce pays-ci, et une fois dans ton jardin, il te faudrait une chance merveilleuse et une indomptable énergie pour te dégager de nouveau.</p>
+         <p>Actuellement, le commerce offre très peu de ressources à Sainte-Marthe, et, comme il est tout entier entre les mains de cinq ou six négociants du pays, leurs bureaux sont assiégés de postulants et d'aspirants à la postu¬ lance. Les nègres et les Indiens qui forment la plus grande partie de la population vivent généralement au jour le jour et le; quelques blancs aristocratiques qui font les affaires les font d’une manière bien tran¬ quille et posée. Que veux-tu? Sainte-Marthe est un Sainte-Foy néo-grenadin. Sous ce rapport, toutes les villes de la côte lui ressemblent. Il n’y a que Baranquilla où le commerce ait un peu d'énergie, mais Baranquilla est dans une plaine sableuse et ce sont des juifs et des Américains qui ont la direction des affaires. A Bogota, je crois qu’il en est autrement, mais il faut plus d'ar¬ gent pour aller de Sainte-Marthe à Bogota que pour venir de France ici. Nous ne sommes pas assez riches pour nous y rendre... Noémi pourrait devenir modiste, avais-je dit, mais si elle demande plus de 3 francs pour la façon d’'une robe de soie, il est sûr qu’elle ne trouvera pas de travail ; du reste, elle aurait à lutter contre une concurrence active. Reste autre chose, l'état de pro¬ fesseur. Mais ici tu te récries : Grâce, grâce ! Et, en effet, puisque nous ne traînons plus le boulet, ne le rivons pas de nouveau à notre pied. Ainsi donc, malgré toute la peine que je me suis donnée, je ne trouve que le jardi¬ nage, qui peut en effet nous donner le pain de chaque jour mais non pas l'indépendance que nous cherchons. Pour gagner dix sous, il faudrait deux cents mangos, les charger sur le dos d'une bourrique et les faire porter au marché. Comment avec de pareilles ventes pour¬ rions-nous espérer jamais de revoir l'Europe? Comment pourrions-nous acheter un seul livre, apprendre quoi que ce soit? Nous sommes hors du monde réel, et tu sais qu’il n’y a pas de travail plus fatigant et plus dou¬ loureux que celui de l'esprit qui se dévore lui-même en cherchant un travail qui lui échappe. Depuis la Havane, je n’ai pas encore lu un seul journal, et cepen¬ dant c'est une rare jouissance que de pouvoir tous les matins passer le monde en revue sur une feuille de papier...</p>
+         <p>Cher et bon grand ami de mon cœur, tu sais com¬ bien j’aurais vivement désiré te procurer ici quelques années de repos, mais je ne puis cependant te tendre un guet-apens. J'espère que vous m'approuverez et que vous consentirez à vivre encore à Paris avec vos bons amis de là-bas ; je tâcherai moi-même d'aller partager ton collier, tâche de me trouver une place de n'importe quoi, de balayeur ou de marmiton. Ce qui me plairait le mieux serait le commerce à côté de toi. Je vais tâcher de partir aussitôt que possible. Si je n'ai pas l'argent nécessaire, ce qui, par Jupiter ! est fort à craindre, je reviendrai travailler au jardinage chez un Italien, qui me donnera le logement et la nour¬ riture en échange de mon travail. Si je reste, je vous écrirai ; si vous ne recevez pas de nouvelles de moi, c'est un signe que je suis en route. Ne dites rien à la pa¬ renté.</p>
+         <p>Allons, Elie, pardonnez-moi la déception involon¬ taire que je t'ai causée et sois content. Réserve-toi pour l’Egypte, Chypre, etc. etc.</p>         
+      </body>
+   </text>
+</TEI>
+
+<!--
+
+
+CORRESPONDANCE D'ÉLISEE RECLIS
+119
+   -->

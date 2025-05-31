@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.329">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Bordeaux. Sans date, avril 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.329-330</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Bordeaux" type='sender'>Bordeaux</placeName>. Sans date, <date when="1869-04-01">avril 1869</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+            <p>Bien malgré moi, je suis encore à <placeName xml:id="Bordeaux" type="mention">Bordeaux</placeName>, et peut-être même ne serai-je à <placeName xml:id="Pons" type="mention">Pons</placeName> que dans la journée d'après demain...</p>
+            <p>Lorsque j'ai quitté <placeName xml:id="Laroche" type="mention">Laroche</placeName>, ma grand'mère était un peu enrhumée. Mais son état ne nous paraissait point grave et maman est repartie pour <placeName xml:id="Orthez" type="mention">Orthez</placeName> sans trop d'inquiétude. Grand'maman a insisté avec beaucoup de tendresse pour me faire revenir à <placeName xml:id="Laroche" type="mention">Laroche</placeName> pendant les vacances. Quant à ma mère, elle était ce que je ne l'avais jamais vue : gaie, enfantine avec ses enfants ; elle me suivait de chambre en chambre et me montrait une tendresse que je ne lui avais point connue. Que de temps on passe à se réprimer pour le plus grand malheur des uns et des autres. Ah sainte liberté !</p>
+            <p>A <placeName xml:id="Bordeaux" type="mention">Bordeaux</placeName>, je n'ai encore vu que la <persName type="mention">tante <surname>Reclus</surname></persName>, plongée dans son mémoire contre le cardinal <persName type="mention"><surname>Donnet</surname></persName>, et le brave <persName type="mention"><forename>Franz</forename></persName> (1), toujours tel que vous l'avez connu.</p>
+            <p>A toi de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>Si j'ai pu terminer mes affaires, nous partirons aujourd'hui pour <placeName xml:id="Arcachon" type="mention">Arcachon</placeName> et je montrerai aux enfants les belles dunes et les plages. Si le temps le permet, nous ferons aussi une petite excursion en bateau.</p>
+            <p>Quant à <persName type="mention"><forename>Magali</forename></persName>, le sort en est jeté. Elle reste à <placeName xml:id="Orthez" type="mention">Orthez</placeName> sous les bons soins de <persName type="mention">M. <surname>Curie</surname></persName>. Lorsque le temps deviendra désagréable à <placeName xml:id="Nîmes" type="mention">Nîmes</placeName>, <persName type="mention"><forename>Jeannie</forename></persName> viendra la rejoindre, tels sont les plans, s'il m'est permis d'en faire.</p>
+            <p>Reçu une lettre de <persName type="mention"><surname>Négrin</surname></persName>, qui me donne sur la vie matérielle de <placeName xml:id="Nice" type="mention">Nice</placeName> des renseignements encourageants.</p>
+            <p>(1) <persName type="mention"><forename>Franz</forename> <surname>Schrader</surname></persName>, cousin des Reclus par sa grand'mère.</p>
+        </body>
+    </text>
+</TEI>
+
+          

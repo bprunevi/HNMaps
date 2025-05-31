@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.254">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus Sans date. 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 254</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName></p>
+            <p>Sans date. <date when="1865">1865</date>.</p>
+            <p>Mes chers amis,</p>
+            <p>Quant à notre voyage avec <persName type="mention"><forename>Julie</forename></persName> et <persName type="mention"><forename>Magali</forename></persName>, sur le bord de la mer, nous n'avons encore rien décidé... En réalité, nous ne pouvons songer à nous rendre soit à <placeName xml:id="Arcachon" type="mention">Arcachon</placeName>, soit à <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName>. A <placeName xml:id="Arcachon" type="mention">Arcachon</placeName>, la vie est trop chère, le monde est trop frivole et trop ennuyeux. D’ailleurs, la société de <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName> a cette année changé un peu de caractère : elle est plus raide, plus compacte, plus solennelle... Ce qui me sourit le plus, en fait de villégiature, c'est le <placeName xml:id="Boucau de Bayonne" type="mention">Boucau de Bayonne</placeName>.  Là, nous aurons pour <persName type="mention"><forename>Magali</forename></persName> l'air des pins et l'air de la mer ; en outre nous aurons le magnifique spectacle de la barre de l'Adour et le voisinage de Bayonne où j'ai une bibliothèque, les journaux du consul américain et la propagande pour le Crédit. Tu nous enverras <persName type="mention"><forename>Paul</forename></persName>, bien plus facilement encore qu'à <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName> et tu penses bien que nous saurons le soigner et lui apprendre de bonnes choses. J'ose espérer que les dépenses ne seront pas plus fortes qu’ailleurs......</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

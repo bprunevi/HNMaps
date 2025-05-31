@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.82">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa mère. At Fortier’s, Care of Roman and Kenion, New Levee, N.-Orléans.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 82</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>sa mère.</persName>. <date>Sans date</date>.</p>
+         <p>At <placeName xml:id="NouvelleOrleans" type='sender'>Fortier’s, Care of Roman and Kenion, New Levee, N.-Orléans.</placeName></p>
+         <p>Chère mère,</p>
+         <p>J'ai été touché jusqu'au fond de l'âme de ta solli¬ citude : avant que je fusse malade, tu avais déjà de grandes anxiétés sur ma santé, et depuis que je suis guéri, tu redoutes des conséquences fâcheuses. Je puis te rassurer, chère mère, te dire que je jouis d'une santé rèmarquable. Grâce à mon manque de mémoire, j'ai déjà presque oublié mes quelques jours de maladie ; aussi j'espère que tu voudras bien me permettre de ne pas mettre à mon âge de gilet de flanelle. Mais penses¬y donc, chère mère, j'ai vingt-cinq ans, et tous les matins je fais de l'hydrothérapie pratique en me lavant le corps tout entier. Qu'il me soit donc permis, bonne mère, de me bien porter sans flanelle sur la peau ; si j'avais de la flanelle, je me sentirais tellement vieux que je ne manquerais pas d'avoir bientôt des rhumatismes. Permets-moi de te dire que tu t'es singulièrement trompée en pensant que j'ai trouvé dans cette maison un père et une mère. Si l'expression de la reconnaissance que je leur dois pour les soins qu'ils m'ont prodigués pendant ma maladie a pu te faire supposer que mes rapports avec M. Fortier étaient ceux de fils à père, certes je t'ai complètement induite en erreur. Non. vraiment, et je ne sais pas si j'ai le droit de dire que j'ai trouvé un ami dans cette famille. Bien que j'y sois depuis plus d'une année, je n'ai jamais cessé d'y être traîté comme un étranger qu'on estime, qu'on affec¬ tionne même un peu, mais avec lequel on se tient sur la réserve parce que on ne le connaît pas encore et qu'on ne désire pas le connaître. Il n'y a pas d'amitié possible là où il n'y a pas de confidence, or, entre nous, il n'y a jamais eu de confidences, tout au plus quelques petites indiscrétions. Avec ces messieurs, je vis sur le pied de la plus parfaite égalité, et M. Septime chez lequel je demeure est pour moi un bon camarade qui rit, plai¬ sante et raconte des historiettes ; mais à table, il me traite toujours cérémonieusement comme un invité.</p>
+         <p>Avec l'autre de ces Messieurs, j'en suis encore aux profonds coups de chapeau, au serrement de main officiel et au « j'espère que vous allez bien » sacra mentel: si je restais vingt ans ici, ce serait toujours la même chose, car je suis un étranger. Dans ces milieux créoles, l'esprit de famille est si puissant que l'on subit à regret tout contact avec les étrangers ; quand on est obligé de les admettre chez soi, on les admet comme un mal nécessaire et, par la cérémonieuse politesse qu'on a pour eux, on leur témoigne journellement qu'il faut bien se garder de se croire chez soi. Ah ! chère mère, combien tu te trompes en pensant que j'ai pu trouver ici une mère, (quand même je l'aurais cherchée) ; c'est à peine si je suis censé connaître Mme Fortier, avec laquelle pourtant je cause gravement et poliment pendant deux heures de la soirée ; quand elle va à sa maison de la ville et que, moi, je prends quelques jours de vacances, je ne crois pas que j'eusse le droit, d'après les convenances, d'aller la visiter. Ne crois pas que je veuille médire' de personnes que j'aime sincèrement et qui m'aiment elles-mêmes autant qu'elles croient qu'il est convenable de le faire, j'ai voulu simplement t'expliquer quels sont les rapports que nous avons ensemble.</p>
+         <p>Ainsi tu vois que je suis un peu seul et, pendant deux jours de la semaine sans exception, je suis parfai¬ tement solitaire et ne parle à âme qui vive. Mes seuls amis sont sur la table, ce sont mes livres ; quand j'ai bien lu et écrivassé, je vais me promener le long du Mississipi et je regarde en silence ces eaux tranquilles qui vont se perdre dans le courant du golfe, et, dans leur long voyage à travers l'Atlantique, iront peut-être se briser sur les rochers de Biarritz. Je les suis de la pensée et je vais te visiter en imagination.</p>
+         <p>Je t'enverrai mon portrait par la première occasion puisque tu y tiens, mais je n'ai pas changé.</p>
+         <p>Soyez tous heureux.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname></persName></p>
+      </body>
+   </text>
+</TEI>

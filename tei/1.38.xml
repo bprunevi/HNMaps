@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.38">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Reclus, à Orthez. Berlin, Sans date. 1851.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 38</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>Mme <surname>Reclus</surname></persName>, à <placeName xml:id="Orthez" type='receiver'>Orthez</placeName>.</p>
+         <p><placeName xml:id="Berlin" type='sender'>Berlin</placeName>, <date when="1851-01-01">Sans date. 1851;</date></p>
+         <p>Chère <persName xml:id="MereReclus"><addName>mère</addName></persName>,</p>
+         <p>Ce sera une grande joie pour moi de vous revoir, et un frinson de plaisir me parcourt les membres quand je pense à ces platanes que je verrai d'abord onduler au-dessus des maisons, puis au jardin et à ceux qui sy proménent, Puissiez-vous n'avoir alors que bénédie¬ tions et actions de grâce à rendre à notre sujet, et puissiez-vous trouver que tout ce que Dieu veut est bien voulu, et qu'il peut ineliner diversement les coeurs, comme deux fleuves qui, partis de la même montagne, vont aboutir à deux golfes différents de la même mer. Nous me demandez si j'ai besoin d'argent pour faire le voyage ; je vous remercie, chers parents, j'aurai suffisamment pour aller jusqu'à vous. Le Seigneur m'a donné bien souvent plus que je n'avais besoin et les jours de disette m'ont été utiles plus que tous les autres, mon corps surtout s'est fortifié et mon âme à été heureuse. Béni soit mon Dieu qui bénit toujours, qu'il donne ou qu'il retire !</p>
+         <p>Les cours sont terminés ici, mais je ne sais quand M. d'Ortich viendra pour me relayer, aussi ne m'at¬ tendez pas à époque lixe; supposez que je vienne dans un ou deux mois et ne vous en tenez à aucune date précise ; en tous cas, j'ai la ferme espérance de vous voir et de rester quelque temps avec vous. Ce que nous deviendrons plus tard est l'affaire du bon Dieu et il ne permettra pas au mauvais ange de nous toucher Quant à ce qui est du mariage, c'est là une question bien déficate que nous pourrions traiter tout au long, mais je ne suis nullement pressé ; je ne veux pas m'exciter moi-même pour trouver femme, j'attendrai patiemment l'amour sans vouloir le produire d'une manière galvanique.</p>
+         <p>Je quitterai Bertin presque avec regret, mais c'est une ville pour laquelle j'ai trop d'affection pour ne pas espérer d'y revenir tôt ou tard, les chemins de fer aidant. J'y ai été reçu avec affection et sympathie par ceux mêmes qui ne me connaissaient pas ; j'ai trouvé des amis vrais là où j'espérais à peine trouver des con¬ naissances et, moi-même, j'ai été en retard d'affection, ne pouvant croire qu'on m'aimat si vite avec sincérité. On ne veut pas croire à l'amour, on se refuse longtemps à reconnaître cette supériorité dans autrui, mais entin il faut bien céder et admettre celui qui vous aime dans P'intimité de vos pensées. Je tiendrai aussi à revoir plus tard mon élève ; il est aujourd'hui tant soit peu vaniteux, en vrai noble allemand, et je voudrais savoir à quel point les circonstances et son oncle auront intlué sur lui.</p>
+         <p>Ma santé est excellente, <persName xml:id="MereReclus"><addName>chère mère</addName></persName>, Qu'il en soit ainsi de la tienne !</p>
+         <p>Soyer bénis, bénissez-moi.</p>
+         <p>Ton fils</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>
+      </body>
+  </text>
+</TEI>

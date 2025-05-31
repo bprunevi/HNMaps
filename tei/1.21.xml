@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.21">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A. M Reclus, pasteur à Orthez, Basses-Pyrénées.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 21</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="PereReclus" type='recepteur'><surname>M. Reclus</surname>, <title>pasteur</title></persName>à <placeName xml:id="Orthez" type='receiver'>Orthez, Basses-Pyrénées</placeName>.</p>
+         <p><date when="1850-04-04">4 avril 1850</date></p>
+         <p>Cher <persName xml:id="PereReclus"><addName>père</addName></persName>, chère <persName xml:id="MereReclus"><addName>mère</addName></persName>,</p>
+         <p>Je suis enfin arrivé chez les Frères Moraves, sain de corps, léger de bourse, plein d'espérances. Quand même j'aurais été complètement écrasé de fatigue, j'aurais été subitement délassé par l'accueil si gracieux et si touchant que m'ont fait les Frères. Assis au milieu d'eux, près de la table de bienvenue, tutoyé par mes nouveaux amis comme par d'anciens compagnons, félicité cordialement par ces voix allemandes qui expriment si bien l'affection, j'étais tellement ébloui que je ne songeais point à les remercier de cet amour fraternel qu'ils manifestaient si bien par leurs voix, leurs regards, leurs serrements de mains. Soutenu par cette affection qui m'entoure, mon séjour dans la pension sera un beau temps de halte entre mes années d'étude, et je pourrai peut-être d'autant mieux apprendre que j'aurai déjà enseigné le peu que je sais. Réjouissez-vous avec moi.</p>
+         <p>Je ne sais pas encore trop de quelle manière je m'installerai. Pour le moment, je suis Lehrer (1) dans la seconde chambre, mais seulement pour tenir la place d'un frère qui n'est pas encore venu de Herrnhut. Je donne deux leçons de français par jour et tiens une heure d'études. Cependant toutes ces dispositions me paraissent ne pas être définitives et je suis à la merci du premier coup de vent. Heureusement que ce coup de vent ne peut pas m'emporter. Je n'ai pas voulu vous écrire avant d'être à <placeName xml:id='Neuwied' type='sender'>Neuwied</placeName> où je ne suis que depuis hier soir. Le passeport qu'on m'avait donné à Sainte-Foy était comme nul et non avenu, de telle sorte que, sans la bienveillante protection de <persName xml:id="Schloessing" type="mention">M. Schloessing</persName>, j'aurais dû retenir à Paris pour faire signer mes papiers ou bien encore passer la frontière comme les contrebandiers. Mais il m'a fallu rester jusqu'à mercredi matin à Strasbourg où j'ai eu le plaisir de voir mon frère et d'admirer la cathédrale.</p>
+         <p>Que Dieu vous bénisse et vous garde</p>         
+         <p>Votre fils bien aimé,</p>
+         <p><persName type="emetteur">Elisée</persName>.</p>
+         <p>(1) Professeur.</p>         
+      </body>
+  </text>
+</TEI>

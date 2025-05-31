@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.259">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus. Sans date. Bordeaux, 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 259</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename><surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Bordeaux" type='sender'>Bordeaux</placeName>, <date when="1865-01-01">1865</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon frère</addName></persName>,</p>
+            <p>J'ai travaillé pour le Crédit au Travail... B. m'a promis d'envoyer sa souscription avant le 15, et m'a fait, en outre, cinq bulletins de souscription pour les faire remplir. <persName type="mention">Lavertujon</persName> m'a donné 100 francs, et m'a réitéré l'assurance que, dans un certain temps, lorsqu'une certaine besogne serait faite, il se mettrait de tout cœur au service de notre œuvre. <persName type="mention">Guépin</persName>, le fils du grand <persName type="mention">Guépin de Nantes</persName>, m'a dit avec enthousiasme qu'il était des nôtres et doit à son retour me présenter à plusieurs de ses amis. <persName type="mention">B</persName>., ouvrier millionnaire, tout fier d'être le fils de ses œuvres, m'a écouté avec une grande complaisance, et c'est avec une certaine confiance que j’espère son concours et sa propagande.</p>
+            <p>J'enverrai les sommes recueillies quelques jours avant le 15.</p>
+            <p>Ton frère, <persName type="emetteur"><forename>ELISÉE</forename></persName>. </p>
+        </body>
+    </text>
+</TEI>
+

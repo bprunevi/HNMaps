@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.214">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère Sans date. Paris. 1861.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 214</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName></p>
+         <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1861">1861</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Ma très chère mère</addName></persName>,</p>
+         <p>J’éprouve un très grand plaisir à t'envoyer mon pre¬ mier ouvrage littéraire : c est la reproduction de mes articles de la Revue des Deux Mondes, considérablement modifiés et augmentés d’une soixantaine de pages (1). Je désire vivement que ce livre te plaise : tu sais com bien ton suffrage m'est précieux.</p>
+         <p>Bientôt je vais m’occuper d'un autre ouvrage plus considérable, un traité de géographie physique en plu¬ sieurs volumes avec planches et cartes. M. Hachette m'a promis de le publier et s'offre à passer un traité avec moi dès que je lui aurai fourni le plan de mon livre (2). Ce travail sera, je pense, l'œuvre sérieuse de ma vie : depuis dix ans j'amasse des matériaux et j’emploierai probablement plusieurs années à le rédiger.</p>
+         <p>Dernièrement j'ai eu l'occasion de parler de la mer et de ses courants devant un assez nombreux auditoire duquel faisaient partie MM. Michelet, Carnot, Legouvé, J. Simon et Pelletan. Malheureusement, j'ai été beau¬ coup plus ifftimidé que je ne m’y attendais et j'ai un peu pataugé : j'espère avoir l'occasion de prendre bi en¬ tôt ma revanche.</p>
+         <p>Tu sais par Onésime qu'il a trouvé de l'ouvrage à son arrivée. M. Joanne semble content de lui ; quant à M. Garnier, il en est ravi et il n'a pas tort, car Onésime a fait à ses cartes d'excellentes corrections et additions. Une seule chose pourrait nous faire regretter l'arrivée de notre frère : l'absence de nouvelles directes de ta part. Je t'en prie, ne nous enlève pas ce bonheur que tu avais la bonté de nous donner de temps en temps.</p>
+         <p>Tu as reçu le portrait d'Elie sans doute. Nous avions l'intention de t'envoyer tous les nôtres par la même occasion ; mais l'état de notre bourse nous a empêchés de nous procurer ce plaisir.</p>
+         <p>Toute la famille va bien. Paul commence à déchif¬ frer quelques lettres ; Magali fait ses dents et s'essaie à prononcer papa. La grossesse de Noémi ne la fatigue pas trop.</p>
+         <p>A toi, chère mère et à mon père nos vœux les plus sincères.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>         
+         <p>(1) Le voyage à la Sierra Nevada, Bibliothèque des Chemins de fer, 23 mars.</p>
+         <p>(2) La Terrre, parue en 1867.</p>
+      </body>
+   </text>
+</TEI>

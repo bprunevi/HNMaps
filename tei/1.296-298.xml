@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.296">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Oscar Peschel. Paris, 24 octobre 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.296-298</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="OscarPeschel" type="recepteur"><forename>Oscar</forename> <surname>Peschel</surname></persName> (1).</p>
+            <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1868-10-24">24 octobre 1868</date>.</p>
+            <p><persName ref="OscarPeschel"><addName>Mon cher Monsieur</addName></persName>,</p>
+            <p>Je viens de terminer le deuxième volume de la Terre, que je me hâterai de vous faire expédier dès qu'il aura paru. Bientôt, je l'espère, je pourrai me mettre à l'œuvre pour faire une seconde édition corrigée, où vous reconnaîtrez sans peine l'effet des bons avis que vous m’avez donnés dans l'Ausland.</p>
+            <p>Mais, depuis longtemps, j’ai un projet plus considérable, celui de rédiger une Géographie Générale. Cette œuvre, vous le savez, nous manque en France, car le Précis de Géographie de Malte-Brun, excellent pour l’époque où il a été rédigé, a singulièrement vieilli depuis cinquante ans, et les éditions revues qui ont été publiées récemment laissent beaucoup à désirer au point de vue de la méthode, de l'exactitude et de la largeur des idées.</p>
+            <p>La Géographie que j'ai l'intention d'écrire, et pour laquelle j'amasse des matériaux, aurait à peu près la longueur de dix volumes comme votre livre Geschichte der Erdkunde. Elle serait donc moins développée que plusieurs des grandes encyclopédies géographiques publiées en Allemagne ; mais elle aurait plus d'étendue que l'ouvrage de Malte-Brun et serait certainement assez longue pour donner en style clair et simple une description complète des diverses contrées, sans tomber dans l'infini des détails et dans le fastidieux des nomenclatures. Ce qui, d'ailleurs, donnerait un caractère distinctif à mon'ouvrage et lui assurerait une place tout à fait à part au milieu des livres du même genre, qui ont paru jusqu'à maintenant en France et en Allemagne, c'est que chaque livraison renfermerait un certain nombre de cartes spéciales, de plans, de figures, de profils, de coupes géographiques ou autres. L'ouvrage entier contiendrait deux ou trois milliers de ces cartes ou figures. Il y a là, je crois, un grand élément de succès.</p>
+            <p>Pour cette œuvre considérable, à laquelle je serais très heureux de consacrer la plus grande part de ma vie je m'adresserais naturellement aux <persName type="mention">MM. <surname>Hachette</surname></persName>, qui m'ont rendu déjà le service immense d'éditer la Terre ; toutefois l'entreprise proposée est, je ne me le cache pas, de nature à faire longuement réfléchir un éditeur. Les chances de réussite seraient incomparablement plus certaines si un éditeur anglais et un éditeur allemand consentaient à prendre leur part dans la publication de l'ouvrage et, de cette manière, obtenaient le double avantage de diminuer relativement les frais considérables de l'entreprise et d'accroître, de tripler même le nombre des lecteurs. Je ne doute pas que cette combinaison, dût-elle n'aboutir que partiellement, et laisser aux <persName type="mention">MM. Hachette</persName> la plus grosse part des frais préalables, permit à ces éditeurs d'accepter mon projet de Géographie Générale dans toute son étendue.</p>
+            <p>La proposition que je vous soumets me semble être d'autant plus acceptable par une maison allemande que je serais très heureux de faire revoir par un de vos compatriotes toute la partie de mon ouvrage consacrée à l'Allemagne. Mais ce qui, dans cette combinaison, me tiendrait le plus à cœur, c'est que votre Geschichte der Erdkunde, complétée par vous jusqu'à nos jours, servit d'Introduction à la Géographie. Pour ma part, je n'ai pas besoin de vous exprimer combien je serais heureux de me mettre pour ainsi dire sous votre ombre, car votre Histoire me semble être sans rivale, et vous, de votre côté, vous auriez l'avantage sérieux de pouvoir publier votre ouvrage à la fois en Allemagne, en France, en Angleterre, aux Etats-Unis, et cela, je n'en doute pas, avec toutes les cartes et les figures qu'il vous paraîtrait utile d'intercaler dans le texte. Quant au soin de la traduction, c'est à moi ou à l'un de mes amis que je vous prierais de le confier.</p>
+            <p>Je vous demande, mon cher Monsieur, de vouloir bien me donner au plus tôt votre avis sur cette importante question et de me dire si vous consentiriez à devenir pour ce projet mon intermédiaire auprès de la maison Gotta.</p>
+            <p>Agréez, je vous prie, l'assurance de mon profond respect.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>
+            <p><placeName xml:id="Paris" type="sender">91, rue des Feuillantines, Paris</placeName>.</p>
+            
+            <p>(1) <persName type="mention"><forename>Oscar</forename> <surname>Peschel</surname></persName>, illustre géographe allemand.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.190">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aux Elie Reclus. Stettin. Sans date. Août 1859. Mardi soir.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 190</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Aux <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Stettin" type="sender">Stettin</placeName>. <date when="1859-08-01">Sans date. Août 1859</date>. Mardi soir.</p>
+         <p>Depuis Cologne, je suis absolument sans nouvelles de vous et de Clarisse, aussi suis-je parfois bien mélancolique à votre sujet. Voir tous les jours des milliers et des milliers de figures indifférentes appartenant à des Juifs, à des Allemands, à des Polackes, à des Wendes, entendre jargonner dans tous les dialectes et dans tous les patois les plus laids du nord, et ne pas savoir si les visages de mes amis sont toujours joyeux et en bonne santé, si leur voix est toujours heureuse, avouez que cela est un peu dur, et ne m’en veuillez pas d’avoir quelque anxiété : le bébé avait un peu mal de gorge lors des dernières nouvelles que j'en ai reçues, a-t-il de nouveau retrouvé sa petite voix cristalline? Noémi a-t-elle aujourd'hui ses yeux brillants ou ses yeux sans flamme, des joues de névralgie? Elie a-t-il enfin son congé, et vous préparez-vous à prendre votre volée vers quelque plage bien soleilleuse? Evidemment, je trouverai à Berlin, «i peut-être à Dresde, une lettre qui me renseignera parfaitement sur toutes ces choses. Une bonne partie de mon être ne vit plus et je ne puis en aucune occasion jouir complètement tant que ma vie est ainsi scindée : une moitié court la pretentaine, je ne sais où, du côté de Rugen, de Swinemunde, de Breslau, que sais-je? tandis que l'autre moitié est restée en France, mais, comme dans un rêve, attendant toujours le moment de son réveil.</p>
+         <p>Dans tout notre voyage, nous (1) n'avons encore vu, sauf quelques petites fadaises intéressantes ici et là, qu'une chose véritablement belle : l'ile de Rugen; les rochers de Stubbenkammer ont de beaucoup dépassé mon attente. La forêt de hêtres de la déesse Hertha recouvre toute la partie orientale de l'ile jusque sur le bord même de la falaise. Celle-ci est déchirée par des ravins et bordée par des talus d'éboulement où croissent des arbres magnifiques. Les pyramides ou les aiguilles de craie jaillissent donc d'une mer de verdure et se dressent jusqu'à une hauteur de plus de cent mètres. Au-dessous des rochers et des arbres qui en entourent la base, la mer se brise sur d'énormes rochers de granit portés en hiver par la débâcle des glaces. Quand nous avons vu ce promontoire, les vagues étaient furieuses et les arbres se tordaient sous le vent.</p>
+         <p>Au point de vue géographique, les dunes de la mer du Nord, les grandes plaines marécageuses du Hanovre, les prairies inondées de l'embouchure de l'Oder ont bien leur intérêt, mais elles ne m'ont offert rien d'imprévu, et sous le rapport de la beauté, la moindre colline des environs de Paris leur est supérieure.</p>
+         <p>J'ai eu très souvent l'occasion de causer politique avec les gens du crû. Tous, presque sans exception, étaient franchement italiens, garibaldistes, anti-autri¬ chiens, et tous protestaient l'avoir été, avant et pendant aussi bien qu'après la guerre. La grande accusation qu’ils portent contre Bismarck est non pas d'avoir troublé le repos du grand Schnarcher (2), mais d’avoir trahi la cause italienne. Partout où je suis entré en conversa tion, ce sentiment-là s'est manifesté avec une telle una nimité que je n'ai pu m'empêcher de croire à sa sincé¬ rité. Les journaux sont tellement habitués à tirer leurs inepties des régions officielles, ils en sont venus à ignorer tellement le peuple qu'ils n'ont plus aucune idée du courant de l'opinion publique. Ils nous disaient que le nord de l'Allemagne se prononçait pour le saint empire Romain et l'asservissement de l'Italie, et ce nord de l'Allemagne ne se composait que du prince régent et du parti des chevaliers.</p>
+         <p>Bien que les Allemands du nord aient vu clair dans cette affaire de l'Italie, ce n'est pas une raison pour que j'espère le moins du monde un mouvement sérieux de leur part dans le sens de la liberté. Ils voient parfaite¬ ment ce qui est bien, mais ils ne le font pas; pour eux l'Autriche et Napoléon sont l'hyène et le chacal ; la bureaucratie, une bande de vautours ; le Bundestag, le Zollverein, de vieilles chaînes baroques. Ils le voient et ils en rient, mais ils obéiront toujours, car ils aiment la servitude. Il y a tant de noblesse, tant de générosité, tant de biederkeit (3) à faire hommage à un roi idiot (4) de son intelligence, de sa fortune, de son avenir ! Soyons d'autant plus fidèles que nous connaissons le faible de la royauté. C'est là le comble de la grandeur d'âme !</p>
+         <p>Je vous embrasse, mes amis.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>   
+         <p>(1) Il voyageait avec un cousin, Ernest Ardouin, médecin, mort très jeune d'une piqûre anatomique.</p>
+         <p>(2) Ronfleur.</p>
+         <p>(3) Loyauté.</p>
+         <p>(4) Le roi de Prusse, Fréd. Guill. IV, était notoirement atteint de maladie mentale. </p>
+      </body>
+   </text>
+</TEI>

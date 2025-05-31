@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.301">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus. Sans date. 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.301-302</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <date when="1868-01-01">1868</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Cher Elie</addName></persName>,</p>
+            <p><persName type="mention">Rey</persName> n’est pas encore parti.</p>
+            <p><persName type="mention">Mme <surname>Champseix</surname></persName> m'a écrit une fort bonne lettre. Il paraît que son roman fait scandale (1). « Tant pis », dit-elle, cela ne l'empêchera pas d'aller de l'avant.</p>
+            <p>Hier, première réunion à la Redoute pour discuter la question de l'intérêt du capital, de la propriété. Cela promet de devenir chaud. Un des plus violents interrupteurs était <persName type="mention">P. R.</persName> J'étais obligé de le modérer. Nota bene qu'il se croit partisan de la propriété à outrance et sectateur de la rue de Poitiers.</p>
+            <p>Des dames nihilistes russes sont venues nous demander de les piloter dans leurs recherches et leurs études.</p>
+            <p>Rien de neuf, tout va bien.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) Ce roman avait pour titre Un Mariage scandaleux, excellent ouvrage de <persName type="mention">Mme <surname>Champeseix</surname></persName>, qui écrivait, sous le pseudonyme d'<persName type="mention"><forename>André</forename> <surname>Léo</surname></persName>, nombre de romans, brochures, articles à tendances socialistes féministes. Après la Commune, elle épousa <persName type="mention"><forename>Benoist</forename> <surname>Malon</surname></persName> et se mêla en Suisse et, plus tard en Italie, à l'ardente politique des journaux avancés. Elle était grande amie des Reclus et l'on verra de nouveau son nom dans la Correspondance.</p>
+           
+        </body>
+    </text>
+</TEI>

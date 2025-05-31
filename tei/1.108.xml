@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.108">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa mère. 13 novembre 1855.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 108</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>sa mère</persName>.</p>
+         <p><date when="1855-11-13">13 novembre 1855.</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>A l’absence de lettres, je m’aperçois que je suis bien véritablement dans un autre monde ; mais une seule de tes bonnes et douces paroles suffit pour me faire oublier de longs mois d'attente ; cela me fait du bien de m'en¬ tendre appeler de temps en temps mon fils, moi qui, faute d’amis, ai été obligé de me faire un petit monde à part de livres, de cartes, de pensées et de souvenirs. Tes lettres me font du bien : elles me reportent auprès de toi, là où j'ai laissé la meilleure part de moi-même, mon affection. Ecris-moi quelques fois, chère mère, pour remplir ma solitude.</p>
+         <p>En tout cas, si tu veux que ta lettre me parvienne, tâche de me répondre au plus tard vers la fin du mois de janvier, car il est très probable que je vais quitter la famille de M. Fortier. Il y a longtemps déjà que ces messieurs connaissent mon intention de partir à la fin de la seconde année de mon séjour chez eux. Je crois qu'ils seraient très contents de me voir rester, mais il ne leur sera certes pas difficile de trouver un pro¬ fesseur plus ferré que moi sur la règle des participes et plus enthousiaste des beautés de Noël et Chapsal.</p>
+         <p>Il me semble que mon corps s'énerve et s'affadit sous cette atmosphère lourde et moite, il me faut retrouver la vigueur et l'élasticité dans un pays de montagnes et de torrents. J'ai besoin de marcher, de voir de nouveaux pays, de contempler surtout ces Cordillères auxquelles je rêve depuis mon enfance et qui sont si près, de l'autre côté du golfe du Mexique. Tant que je n'aurai pas de famille, que je ne me serai pas acheté un petit lopin de terre pour m'enraciner dans le sol, je crois que ce désir de marcher et de voir ne me laissera pas de repos. D'ailleurs voir la terre ; c'est pour moi l'étudier ; la seule étude véritablement sérieuse que je fasse est celle de la géographie, et je crois qu'il vaut beaucoup mieux observer la nature chez elle que de se l'imaginer du fond de son cabinet. Aucune descrip¬ tion, aussi belle qu'elle soit, ne peut être vraie, car elle ne peut reproduire la vie du paysage, la fuite de l'eau, le frémissement des feuilles, le chant des oiseaux, le parfum des fleurs, les formes changeantes des nuages ; pour connaître, il faut voir. J'avais lu bien des phrases sur la mer des Tropiques, mais je ne l'ai pas comprise tant que je n'ai pas vu de mes yeux ses iles vertes et ses traînées d'algues et ses longues processions de nautiles oses et ses grandes nappes de lumière phos¬ phorescente. Voilà pourquoi je veux voir les volcans de l'Amérique du Sud. Chère mère, qui sait? peut¬ être avant longtemps, je reviendrai t'en parler.</p>
+         <p>Ne redoute pas la misère pour moi, une crainte pa¬ reille serait tout à fait chimérique. Je saurai travailler dans le Sud comme j'ai su travailler dans le Nord et j'ai bien peu de besoins factices à satisfaire. Un végéta¬ rien comme moi fait un délicieux repas avec du manioc et des bananes, et, de cette manière, il peut vivre avec trois sous par jour. Il est même certaines parties du Haut Amazone où l'on peut acheter cinquante livres de bananes pour trois aiguilles. Aussi a-t-on beau être paresseux, il est impossible d'y être pauvre. Quand même je serais tenté de me lancer dans quelque spécula¬ tion d'agriculture ou de commerce, je crois que nulle part je ne pourrais mieux réussir que là. Peut-être essaierai-je de m’établir définitivement sur l'un des affluents grenadins ou péruviens, j'aurai peut-être le bonheur d'attirer auprès de moi quelques paysans du vieux monde qui, là-bas, sont condamnés à une misère de tous les jours, tandis que, dans l'Amérique du Sud, il leur est presque impossible de n'être pas à leur aise. Déjà l'émigration semble se détourner des Etats-Unis et commence à se déverser sur l'Amérique du Sud et, sous l'influence de ce flot d'étrangers, les républiques espagnoles progressent à vue d'œil en civilisation, en commerce, en industrie. Elles n'ont pas besoin de craindre une surabondance de population, comme les Know Nothing(1) des Etats-Unis affectent de le craindre pour leur pays, car la vallée de l'Amazone est assez ri¬ che et vaste pour faire vivre dans l'abondance et le luxe les douze cent millions d'hommes qu'il y a sur la terre.</p>
+         <p>Mon oncle a sans doute reçu depuis longtemps la lettre où je lui parle de mes voyages sur le Missis¬ sippi (2) et de ma visite à Chicago sur le lac Michigan. Je suis fort content de mon voyage. Ce Mississippi qui, à quatorze cents milles au dessus de son embouchure, est toujours aussi large et aussi profond qu'à son entrée dans la mer, qui ronge des iles entières dans l'espace de quelques mois, et engloutit à la fois plusieurs cen¬ taines d'arbres avec un bruit de tonnerre, ne peut que laisser dans l'esprit une profonde impression de puis¬ sance et de sublimité.</p>
+         <p>Adieu, ma chère mère. Embrasse mes frères et mes sœurs pour moi. J'embrasse mon père que je suis bien reconnaissant de savoir en bonne santé... Mon succes¬ seur chez MM. Fortier est une charmante demoiselle de la Nouvelle Angleterre.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+         <p>(1) « Ne sachant rien », Appellation adoptée par les Nationalistes des Etats-Unis.</p>
+         <p>(2) Publiés par la Revue des Deux-Mondes des 15 juillet et 1er août 1856 : Le Mississipi et ses bords.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.267">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus. Sans date. Paris, 1867.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p.267-268</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1867-01-01">1867</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Il me semble que dans tes appréciations générales tu ne rends pas suffisamment justice aux Etats-Unis d'Europe et à la position qui t’y serait faite. Il n'est pas bien sûr que le gros de la bataille doive se transférer de sitôt en <placeName xml:id="France" type="mention">France</placeName>, et que l’ère des discussions philosophiques sur la liberté fédérative et républicaine doive finir par suite de ce grand imbroglio d'<placeName xml:id="Italie" type="mention">Italie</placeName>. Nous sommes trop portés à nous figurer que le grand jour est arrivé et cela même nous fait commettre des fautes qui le retardent.</p> 
+            <p>Toutes choses égales d'ailleurs, le journal de <placeName xml:id="Berne" type="mention">Berne</placeName> me semble plus sûr que celui de <placeName xml:id="Saint-Etienne" type="mention">Saint-Etienne</placeName>. Celui-là, tu le dirigerais pendant quinze jours, car il est difficile de marcher sans broncher, au milieu des embûches. A <placeName xml:id="Berne" type="mention">Berne</placeName>, au moins, tu aurais la liberté, et cette liberté triplerait tes forces.</p>
+            <p>Quant aux conditions matérielles qui ne sont point à dédaigner, car elles sont une force aussi, Berne vaut infiniment mieux, moitié d'un journal hebdomadaire devant te laisser plus de temps que tout un journal quotidien. Et le climat? Et l'éducation des enfants? Deux questions tout à fait capitales. Vu <persName type="mention"><surname>Couturier</surname></persName> qui est enchanté à la pensée que tu pourrais devenir le directeur des Etats-Unis et qui te promet des commandites en masse. Vu <persName type="mention">O</persName>. qui te conjure d’accepter. Va, ne te mets pas trop sur la défensive, car ce journal de <placeName xml:id="Saint-Etienne" type="mention">Saint-Etienne</placeName> est encore dans le royaume des ombres. Celui de <placeName xml:id="Berne" type="mention">Berne</placeName> peut devenir une réalité d'un jour à l’autre.</p>
+            <p>La manifestation <persName type="mention"><surname>Manin</surname></persName> était, hélas ! peu de chose. Tout l'état-major républicain était là, mais pas de soldats, des flots de bourgeois et bien peu d’ouvriers. Quant aux sergents de ville, aux municipaux et aux mouchards, ils étaient innombrables. Dans un coin du cimetière brillaient les baionnettes des soldats.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

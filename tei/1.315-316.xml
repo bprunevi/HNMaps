@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.315">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Elie Reclus en Espagne. Fin 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.315-317</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, en <placeName xml:id="Espagne" type='receiver'>Espagne</placeName>.</p>
+            <p>Fin <date when="1868-01-01">1868</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Nous avons été fort heureux de recevoir de tes nouvelles, car, depuis quinze jours, nous n'avions pas une ligne de toi. <persName type="mention"><forename>Noémi</forename></persName> surtout était fort inquiète et nous a fait part de ses transes. Tâche de lui écrire plus fréquemment. Elle est toujours à <placeName xml:id="Pons" type="mention">Pons</placeName>.</p>
+            <p>Tu me dis que tu iras « probablement » à <placeName xml:id="Malaga" type="mention">Malaga</placeName>. Et cependant tu me dis de t'y envoyer 100 francs. Je le fais à tout hasard, mais n'oublie pas de m'écrire immédiatement, pour m'en accuser réception et pour me donner ta nouvelle adresse. Quant à moi, j'ai reçu les trois placards des discours prononcés à <placeName xml:id="Barcelone" type="mention">Barcelone</placeName> et à <placeName xml:id="Sabadell" type="mention">Sabadell</placeName>. Merci.</p> <p>Je suis de l’avis de <persName type="mention"><surname>Rey</surname></persName> : c'est par l'audace révolu¬ tionnaire seulement, que le parti républicain peut triompher. S'il fait des transactions et des compromis, il est perdu. De toutes les manières, il est probable que les républicains seront battus ; qu'ils aient eu au moins le mérite d'avoir été francs dans le combat ! En un mot, je suis de l'avis des républicains grincheux que tu fais parler dans ton article de la Revue Politique. Le numéro du journal dans lequel cet article a paru a, d'ailleurs, été saisi à cause de cinq ou six articles de <persName type="mention"><surname>Brisson</surname></persName>, <persName type="mention"><surname>Challemel</surname></persName>, <persName type="mention"><forename>Allain</forename> <surname>Targé</surname></persName>, etc., tous consacrés au 2 décembre. La souscription <persName type="mention"><surname>Baudin</surname></persName> a singulièrement surexcité les esprits. Les correspondances de France publiées dans les journaux espagnols doivent vous en parler. Le discours de <persName type="mention"><surname>Gambetta</surname></persName> a été étonnant.</p>
+            <p>Qu'est-ce que ce Voyage de Croque notes en pays de Révolution? Est-ce ta correspondance russe ? <persName type="mention"><forename>Noémi</forename></persName> ne men parle point et ne me dit pas qu’elle ait transmis le moindre travail de toi (1).</p>
+            <p>Autre chose : Que sont devenues les Confessions d'un Pin Maritime? Faut-il que j'en parle à <persName type="mention"><surname>Hetzel</surname></persName>? Je suis temporairement en délicatesse avec <persName type="mention"><surname>Buloz</surname></persName> pour mon article sur les Femmes en Amérique, article non encore inséré.</p>
+            <p>Je vous serre les mains. Travaillez, travaillez, même sans espérance, et le moins possible de compromis. Vu <persName type="mention"><surname>Clémenceau</surname></persName>. Idem tous les amis. <persName type="mention"><surname>Dumesnil</surname></persName> est ici. <persName type="mention"><surname>Chaté</surname></persName> (2), est marié.</p> 
+            <p>L'affaire du Crédit en est toujours au même point.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>
+            <p>Tu me parles d'écrire à <persName type="mention"><surname>Fauvety</surname></persName> (3) pour l'édition française de Croque notes, impossible : Fauvety n'a pas d'influence. Le chef est le <persName type="mention">père <surname>Loyson</surname></persName>, qui n'a pas voulu de ton article sur le Mariage ni d'un article de <persName type="mention"><surname>Garcin</surname></persName> sur la Terre. Je l'ai repris de son journal.</p>
+            <p>(1) Il s'agissait, en effet, de la correspondance d'<persName type="mention"><forename>Elie</forename></persName> avec son journal russe : n'ayant pas toujours en voyage le temps de rédiger des articles, il avait imaginé ce titre fantaisiste à ses communications.</p>
+            <p>(2) <persName type="mention"><forename>Emile</forename> <surname>Chaté</surname></persName>, jardinier à <placeName xml:id="Saint-Mandé" type="mention">Saint-Mandé</placeName>, novateur en horticulture et socialiste ardent, ami des <persName type="mention"><surname>Dumesnil</surname></persName> et des <persName type="mention"><surname>Reclus</surname></persName>.</p>
+            <p>(3) <persName type="mention"><surname>Fauvety</surname></persName>, ancien phalanstérien, ami des Reclus.</p>
+        </body>
+    </text>
+</TEI>
+
+                

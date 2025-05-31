@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.99">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. 22 juillet 1855.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 99</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date when="1855-07-22">22 juillet 1855.</date>.</p>
+         <p>Je suis à la <placeName xml:id="NouvelleOrleans" type='sender'>Nouvelle-Orléans</placeName> pour quatre ou cinq heures. J'y suis venu pour venir et pour m'occuper des affaires de l'Homme (1). Je connais un bon diable de boulanger qui me vendait du pain pendant mon premier mois de misère. Il est socialiste et républicain depuis la gueule jusqu'à l'âme. Je l'ai chargé de trouver des abonnés, et, comme de juste, je lui ai dit que je l’abonnais. Ainsi donc, sans tarder d'un jour, si possible, va de tes propres deniers souscrire à l'Homme pour Londès, Rue Dauphine, 159, Nouvelle-Orléans. Il a déjà trouvé un autre abonnement, et il se chargera lui-même de te l’envoyer. Ainsi prépare-toi à payer des ports de lettres pour le service de la République démocratique et sociale. Je t'aurais envoyé par la même occasion 4 livres pour solder l'abonnement, mais aucune banque n'a voulu me donner une traite aussi minime. D'un autre côté, j'ignore le sort des deux premiers envois, l’un de 2, l’autre de 6 livres. N'oublie donc pas de me dire si tu as reçu ces deux traites et une autre de 24 liv. parce que si tu ne les as pas reçues, je pourrais peut-être encore te les faire parvenir. En tout cas, j'espère dans deux mois d’ici pouvoir t’envoyer un millier de francs. Sacré nom d'un chien ! que le journal l'Homme est loin de répondre à son titre ! Et à quand le branle-bas universel ?</p>
+         <p>« Et Hickel? Et tous les cinq cents diables? Ecris donc ! et un peu plus souvent que tu ne le fais ! Si tu savais combien je suis loin de toute science, de toute littérature ! chacune de tes lettres est une bouffée de ce monde étrange où l'on pense, où la vie ne ressemble pas absolument au cheval de manège tournant autour d'un même pieu toute sa vie.</p>
+         <!-- <hr> -->
+         <p>Salut, homme.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p> 
+         <p>(1) Journal publié par Charles Ribeyrolles (de l'ancienne Réforme), à Saint-Hélier (île de Jersey) et à Londres, après l'expulsion des réfugiés politiques de l'Ile de Jersey.</p>
+      </body>
+   </text>
+</TEI>

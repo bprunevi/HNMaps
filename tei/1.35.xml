@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.35">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A M. et Mme Reclus, à Orthez. Berlin, 11 février 1851.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 35</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><persName xml:id="ParentsReclus" type='recepteur'>M. et Mme <surname>Reclus</surname></persName>, à <placeName xml:id="Orthez" type='receiver'>Orthez</placeName>.</p>
+         <p><placeName xml:id="Berlin" type='sender'>Berlin</placeName>, <date when="1851-02-11">11 février 1851</date></p>
+         <p>Chers bien aimés <persName xml:id="ParentsReclus"><addName>parents</addName></persName>,</p>
+         <p>Mon adresse, pour ne pas l'oublier, est : Behren¬ strasse, 64, 65, beim Herrn Schmidt ; Car tous les Allemands s'appellent Schmidt. Je me souviens très bien d'avoir rouvert l'une de mes lettres pour écrire à la hâte mon adresse sur la couver¬ ture ; mais il n'y a pas grand mal, car, à Berlin, la police est assez exacte pour que mon nom soit déjà inscrit sur le grand livre, accompagné de notes et d'apostilles.</p>
+         <p>Il est vrai qu'au commencement, j'ai eu des diff¬ cultés avec la police, parce que l'ambassadeur prussien n'a pas signé mon passe-port à Paris ; j'ai eu même l'honneur d'avoir trois fois le gendarme à recevoir dans ma chambre et j'ai eu à lui rendre nombre de visites. Enfin j'ai été chez le recteur qui m'a donné un petit billet de séjour pour une semaine ; cela a levé les diffi¬36 cultés et, sans que M. Hengstenberg ait eu besoin de s'en mêler, j'ai été immatriculé, et maintenant si un constable veut m'emmener au corps de garde, je n'ai qu'à lui montrer ma carte d'étudiant et je puis m'en retourner, tandis que mon voisin va coucher au violon. Justice distributive !</p>
+         <p>Tu me demandes, chère mère, s'il y a un recteur de l’Université à Berlin. I'y en a un, je crois bien, et même quand on lui écrit, il ne faut pas oublier son titre de magnifique "Magnifico Rectori Principi," car les Allemands sont à cheval sur les titres, et gare à ceux qui les oublient. On reconnaît à l'instant que je suis Français quand j'appelle quelqu'un Monsieur, tout court. Je n'ai pas encore reçu la lettre de mon oncle dont tu me parlais, mais ce n'est pas étonnant puis¬ qu'elle passe par le canal universitaire.</p>
+         <p>L'Université est un immense bâtiment sur la même place que l'Opéra, le Palais Royal, le Musée, le Dôme, l'Arsenal et autres splendeurs de Berlin. A la même heure, on y donne des cours de théologie, de sténographie, de philosophie, de médecine, d'économie politique, d'histoire, de chinois. Toutes les semaines, on arrive à un total de cent vingt professeurs qui ont crié sur tous les tons et joué sur toutes les cordes, les uns, bien rares, devant un auditoire de quatre à cinq cents étudiants, d'autres, plus modestes, devant deux audi¬ teurs, seulement. Il en est même qui se trouvent seuls dans leur salle de cours, se contentant d'accepter le traitement.</p>
+         <p>Mais il n'est pas nécessaire qu'un étudiant en théologie suive les cours de théologie : cela dépend de lui ; on n'exige qu'une chose, c'est qu'il suive deux cours au moins, cours de grec ou de chinois, peu importe, pourvu que ce soient des cours. Maintenant, s'il ne veut pas même suivre ces deux cours, peu importe encore, il n'a qu'à les payer et cela suffit. Mais heureusement, parmi cent vingt professeurs, on trouve encore qui écouter : entr'autres <persName type="mention">M. Mitsch</persName>, dans sa Dogmatique ; <persName type="mention">M. Ritter</persName>, dans sa Description de la terre ; Schmidt, l'Economie politique ; Schultz, l'Histoire des Maladies ; <persName type="mention">Hergstemberg</persName> (1), et autres. La Théologie y est moins bien représentée que les autres sciences ; ces Messieurs là déposent tout leur savoir dans de gros livres et puis nous donnent les reliefs avec une mine, avec des gestes, certes inconnus à Montauban.</p>
+         <p>J'ai déjà trouvé, grâce aux Petites Affiches, deux élèves auxquels je donne séparément deux leçons par semaine à 25 sols le cachet : aussi je gagne déjà plus que ne me coute le restaurant, modeste d'ailleurs, où je vais dîner. Je n'ai pas pu m'accorder avec une troisième personne qui voulait prendre des leçons d'italien ; au reste, cette troisième personne était une jeune demoi¬ selle. M. Hergstemberg m'a offert une place de précep¬ teur chez un comte, à condition que je ne fusse pas républicain ; je me suis incliné et j'ai refusé. — En <persName type="mention">M. Montandon</persName>, secrétaire de l'ambassade turque, m'a offert le choix entre trois places dont l'une à Shaffhouse et deux autres en Thuringe : elles seront vacantes jusqu’à Pâques, mais j'espère bien n'en pas venir là.</p>
+         <p>Votre fils</p>
+         <p><persName type='emetteur'><forename>ELISÉE.</forename></persName></p>         
+         <p>(1) J. Hergstemberg, 1802-1869, professeur de théologie à Berlin, chef et prototype de l'orthodoxie luthérienne pendant de longues années.</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.169">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Sans date. Paris.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 169</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus">Mère</persName>.</p>
+         <p><date>Sans date</date>. <placeName xml:id="Paris" type='sender'>Paris</placeName>.</p>
+         <p>Chère <persName type="mention">mère</persName>,</p>
+         <p>Je reçois ta lettre maintenant, et je réponds de suite pour te donner des explications de plusieurs choses qui te semblent étranges de ma part. J’eusse bien pré¬ féré répondre à tes questions de vive voix, car il est fâcheux que nos premières lettres échangées ne soient pas uniquement des lettres d'affection, mais il vaut mieux ne laisser jamais le moindre doute se glisser entre nous.</p>
+         <p>Pour ce qui est de la Double (1), je n'ai pas reçu la lettre que tu m'as écrite à ce sujet, et je n'ai su que lors de mon arrivée à Paris la bonne proposition que me font mon oncle et ma grand'mère ; encore ce plan a-t-il été effleuré, par ta lettre et par celle de Lois, d'une manière si vague que je ne sais nullement à quoi m'en tenir. Loin d'avoir de la répugnance pour un projet semblable, je le trouverais au contraire fort attrayant ; puisque, déjà, j'ai tenté à plusieurs reprises de faire de l'agriculture d'une manière sérieuse, rien ne pourrait me sourire davantage que de réaliser le projet de toute ma vie. Mais (il y a des mais), serais-je parfaitement libre de cultiver la terre uniquement comme je l'entendrais, et qui me prêterait des capitaux pour faire des expériences que mon oncle et ma grand'mère appelle¬ raient certainement des folies? Le travail et l'industrie ne sont rien sans la liberté, et je comprends tout le premier que mon oncle y regarderait à deux fois avant de me laisser employer son capital d'une manière qui lui semblerait contraire à ses intérêts et aux miens. Voilà ce qui arriverait certainement, chère mère, et plutôt que de devenir simple métayer, et non pas culti¬ vateur indépendant, je préfère ajourner la réalisation de mon rêve. Il est encore autre chose : mon vœu, et mon vœu le plus ardent, a toujours été de vivre avec Elie, c’est surtout pour nous y préparer l'aisance et la liberté que j'étais parti pour l'Amérique et, quand j'ai reconnu l'impossibilité de trouver cette retraite à cause du climat, du manque de ressources et des maladies, je suis revenu. Maintenant que je suis avec mon frère, il me serait amèrement douloureux de ne pas rester avec lui ; il est devenu comme une partie de ma vie, et jamais je ne tenterai d'entreprise si la figure de mon frère ne se dessine au premier plan.</p>
+         <p>Je m'étonne que la fin de ma dernière lettre t'ait surprise. Il est vrai : j'aime peu le métier de professeur quand il s'agit d'enseigner des alphabets absurdes et des jargons contre lesquels se révolte mon sens intellectuel, mais je suis heureux quand je parle de géologie, d'histoire, de sciences véritablement utiles ; l'idée que peut-être je pourrais devenir professeur de géographie, me remplit de joie. Je t'ai parlé aussi de journalisme : il y a journal et journal, il y a le Moniteur, la Patrie et autres feuilles stipendieés ; mais il y a aussi le Journal de Géographie, le Journal Asiatique, le Journal Statis¬ tique, et mon orgueil ne souffrirait nullement d'avoir à signer des articles sur le Mississipi ou sur la Sierra Nevada. C’est justement pour avoir accès dans de sem¬ blables journaux que je me suis fait présenter chez MM. d’Orbigny (2), Cordier (3), Alfred Maury (4) ; malheureusement ces messieurs étaient en voyage. Si, par impossible, je pouvais entrer à la rédaction d'un journal politique, je ne serais nullement humilié : j'aurais tout simplement des dangers à courir, puisqu'il est dangereux de dire la vérité.</p>
+         <p>Reste le travail ingrat de l'employé, à supposer que je ne puisse devenir ni professeur de géographie ni sous¬ rédacteur d'une revue scientifique. Qu’y a-t-il donc de si vil à aligner des chiffres et à salir des paperasses? Ces chiffres et ces paperasses servent après tout, et de plus ils ont l'avantage de ne pas trop occuper l'intelligence et à lui laisser du temps pour la réflexion et l'étude. Mon frère est bien certainement un homme de tête, et, cependant, les chiffres ne l'ont pas stupéfié. Il est vrai, le métier d’employé ne serait encore pour moi qu'un pis aller ; mais j'accepterais ce pis aller avec joie parce qu'il me permettra de rester avec mon frère, de me retrouver dans une atmosphère d'art, de science, de vie, qui ma fait défaut pendant de si longues années. Du reste, ce n est pas à moi qu'il appartient de faire fi d'un gagne-pain quelconque, moi qui ai été porteur, porte¬ faix, menuisier, marchand de morue, moi qui ai brigué d'un cordonnier l'honneur de devenir un de ses commis. Pourvu que je travaille et que mon travail soit utile, que m'importe !</p>
+         <p>Mais supposons qu'avec la meilleure volonté du monde, je ne réussisse pas à me gagner un pauvre sou dans ce grand Paris, je tâcherai de me retourner vers une autre ville où ma séparation d'Elie ne sera que temporaire.</p>
+         <p>Je serais parti presque immédiatement pour Orthez, si je n’avais cru que mon père reviendrait d'Angle terre au moins pour la fin du mois d'août ; nous atten¬ dons une de ses lettres ; s'il doit revenir immédiate¬ ment, j'aurai le bonheur de l'accompagner, mais, si sa lettre nous annonce la prolongation de son séjour en Angleterre, je partirai le jour même.</p>
+         <p>Je t'embrasse, chère mère, ainsi que mes sœurs et frères.</p>
+         <p>Encore une fois, reçois mon affection de fils.</p>
+         <p><persName type="mention"><forename>ÉLISÉE.</forename></persName></p>  
+         <p>(1) Forêt du Périgord, avec clairières exploitables.</p>
+         <p>(2) et (3) Charles Dessalines d’Orbigny, 1806-1816, géologue français, écrivit avec Cordier, autre géologue, la « Description des roches composant l'écorce terrestre ».</p>
+         <p>(4) Alfred Maury, né à Meaux en 1817, médecin, archéologue, linguiste. Son savoir était encyclopédique : on peut en juger par le titre d'un de ses ouvrages : Histoire des grandes forêts de la Gaule et de l'ancienne France ; précédée de recherches sur les forêts de l'Angleterre, de l'Allemagne et de l'Italie et de considérations sur les caractères des forêts de diverses parties du Globe. Bibliothécaire des Tuileries, professeur au Collège de France, membre de l'Académie des Inscriptions et Belles-Lettres, Maury fonda en collaboration avec d'autres savants la Société d'Ethnographie de Paris. Voir Notice nécrologique, par Elisée RECLUS, Bulletin de la Société d'Ethnographie, 1892.</p>
+      </body>
+   </text>
+</TEI>

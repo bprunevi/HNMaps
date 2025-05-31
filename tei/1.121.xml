@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.121">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Riohacha, juin 1856.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 121</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>sa Mère</persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1856-05">juin 1856</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Mère bien aimée</addName></persName>,</p>
+         <p>Je me suis encore rapproché de toi d'environ cent cinquante kilomètres, et mes vœux ont à traverser une moins grande étendue pour arriver jusqu'à toi. J'ai peur que tu ne t'attristes de me voir continuer ces çourses aventureuses, mais il faut me pardonner, car je n'ai cédé en venant ici qu’à l'ambition bien modeste de pouvoir gagner sans trop de peine la nourriture de chaque jour.</p>
+         <p>A Sainte-Marthe, la vie est extrêmement facile et quelques sous par jour suffisent pour subvenir aux besoins bien simples et bien peu nombreux d'un homme comme moi, mais ce bon marché de la vie rend prèsque impossible la vente des produits et fait de la paresse la première des voluptés. Un travail aride et la vente de quelques centaines de mangos et de bananes m'aurait à peine rapporté dix sous par jour, et j'aurais été obligé de vivre dans le plus complet isolement sans amis, sans livres et sans journaux. D'ailleurs te le dirai-je? quand je me suis vu dans ce jardin de bananiers qu'on s'offrait à me vendre pour la modique somme de 48 franes, quand j'ai vu le bourriquet qui était destiné à porter mes produits au marché, j'ai frémi jusqu'à la moelle des os à l’idée de m'enrégimenter dans la phalange hon¬ nête et modérée des propriétaires. Sans capitaux pour entreprendre de ces cultures industrielles, comme le sésame, l'arachide ou le coton, que l'on peut expédier sur les marchés d’Europe ou de l'Union, sans perspec¬ tive de pouvoir jamais trouver une occupation sérieuse dans cette ville furieusement endormie de Sainte¬ Marthe, j’ai pensé que me condamner à ne pas gagner un sou de longtemps, c'était aussi me condamner à ne pas te revoir de longtemps, et je me suis décidé à quitter la ville enchanteresse de Sainte-Marthe.</p>
+         <p>Riohacha est loin d’être aussi belle, mais en re¬ vanche il y a beaucoup plus d'activité commerciale et la ville, au lieu de tomber en ruines comme Sainte¬ Marthe, s'agrandit presque à vue d'œil. Elle est située dans une grande plaine sablonneuse à l'embouchure de la jolie rivière de Calancala, et si ce n'était la Sierra Nevada qui dentelle au loin l’horizon de ses pics neigeux, la campagne parsemée d'acacias épineux, de cactus et de cierges en colonnes ne laisserait pas que d'avoir un aspect singulièrement triste ; mais n'y a-t-il pas la mer, la mer, dont j'entends en ce moment la mugissante respiration et qui me parle sans cesse des rocs pyrénéens sur lesquels elle s'est brisée?</p>
+         <p>Riohacha est bien intéressante aussi à un autre titre, c'est la dernière ville que les Espagnols aient osé fonder sur les confins de la province encore sauvage des Goajiros. On peut même dire que c'est une ville assiégée, comme jadis Sébastopol, car dès qu'on a mis le pied sur la rive droite du Calancala, on est entré sur le territoire Goagire, et il faut aussi peu compter sur la protection du gouvernement néogrenadin que sur celle du Ras Ali de Gondar. Les sauvages ont encore leurs mœurs, leur langage, leur religion et leurs caciques, et, malgré leur douceur naturelle, gardent toujours un sentiment d'aversion profonde envers les descendants de ces Espagnols qui commettaient sur les Indiens de si abominables horreurs. Maintenant encore les navires qui viennent prendre des chargements de cuirs ou de bestiaux sur la côte des Goajires boutent toujours la gueule de leurs canons sur la plage et tirent sur les groupes à la moindre alarme.</p>
+         <p>Cependant, ces mêmes Indiens qui assiègent la ville, pour ainsi dire, l'approvisionnent aussi et, sans eux, il suffirait de quelques jours pour réduire Riohacha à la famine, ils apportent le bois de Brésil, le bois jaune, les cuirs, le dividivi pour le chargement des na¬ vires, le manioc, les plantains, les poissons, la viande, les poulets, les œufs, le bois, le charbon et jusqu'à l'eau pour l'approvisionnement journalier de la ville. Chaque matin, on les voit arriver, par longues caravanes, à travers la barre de Calacala, et je t'assure qu'il est impossible de ne pas être saisi d'admiration quand on les voit passer dans leur beauté fière et sauvage, l'arc à la main, et, sur leurs longs cheveux noirs, la couronne de feuillage ou les plumes de toucan.</p>
+         <p>Mais j oubliais de te dire ce que je fais ici. Pour remplir ma bourse qui se vide, chère mère, j'ai recom¬ mencé à courir le cachet, je donne des leçons d'anglais et de français à des jeunes gens blancs et mulâtres, car ici on ne fait point de distinction des couleurs, le maire lui-même est un peu noir et le premier caballero de la ville l'est tout à fait. Quand j'aurai ramassé quelques sous, j'ai l'intention d'acheter une petite propriété et d'y cultiver du sésame ou autre chose ; pour la somme de 40 francs, je puis avoir un kilomètre carré de terres d’une intarissable fécondité.</p>
+         <p>Je t'embrasse, chère mère, écris-moi souvent, sou¬ vent, souvent.</p>
+         <p><persName type='emetteur'><forename>ÉLISÉE</forename> <surname>RECLUS</surname>.</persName></p>
+         <p>(por el favor del Sr Chassaigne)</p>
+         <p> Cette adresse suffit.</p>
+         <p> Riohacha, Nouvelle-Grenade.</p>       
+      </body>
+   </text>
+</TEI>

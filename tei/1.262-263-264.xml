@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.262">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Sans date. Paris, fin octobre 1867.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 262-263-264</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p> Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>, fin <date when="1867-10-01">octobre 1867</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Tu n'ignores pas combien les circonstances sont graves et dans quelle fièvre politique nous vivons. L'empire se suicide, et <persName type="mention">Garibaldi</persName> est peut-être à <placeName xml:id="Rome" type="mention">Rome</placeName>. Préparons-nous aux grandes choses.</p>
+            <p>1° Je reçois ce matin pour toi, une lettre des plus importantes et que je te prie de me laisser garder encore pendant douze heures. C’est une lettre de <persName type="mention"><forename>Gustave</forename> <surname>Vogt</surname></persName> en date du 25 octobre, qui te propose d’être le directeur français du journal les Etats-Unis d'Europe.</p>
+            <p>Je la copie : « Dans la séance du 20 octobre, vous avez été proposé par un de vos amis pour la rédaction du journal les Etats-Unis d'Europe organe de la Ligue, et je suis chargé de vous demander quelles seront vos dispositions à cet égard.</p>
+            <p>Ce que nous avons en vue, c'est un journal hebdomadaire et, comme il faut espérer que nous aurons de nombreux collaborateurs, il me semble qu'il suffirait d'avoir un seul rédacteur, surtout pour la partie française. Pour l'allemand, je pense que nous trouverions facilement ici, sur place, ce qu'il nous faut.</p>
+            <p>Je crois que la rédaction vous laisserait assez de temps libre pour d'autres occupations. Le traitement fixe que nous pourrions accorder dépend du nombre des actions qui seront souscrites, et nous n'en connaissons pas encore le chiffre ; mais j'estime que pour le traitement du rédacteur, on ne pourrait aller au delà de 3.000 francs. Il me serait agréable de savoir si vous pourriez vous rendre ici, avant le nouvel an, pour nous aider à rédiger les quatre numéros spécimen qui paraîtront en novembre et en décembre.</p>
+            <p>On vous adressera le programme du journal, aussitôt qu'il sera imprimé. Les dispositions définitives concernant la rédaction, le mode de publication, etc. ne seront prises que dans une séance de la commission intérimaire qui doit avoir lieu le 8 décembre.</p>
+            <p>Je ne vous écris, Monsieur, qu'en mon nom personnel, mais je n'hésite pas à vous dire que, pour le moment, je ne connais pas d'autre candidature qui me fût plus sympathique que la vôtre. Veuillez, après avoir consulté vos amis de <placeName xml:id="Paris" type="mention">Paris</placeName>, me donner une réponse, et agréer l'assurance, etc.</p>
+            <p><persName type="mention"><forename>GUSTAVE</forename> <surname>VOGT</surname> </persName>.» </p>
+            <p>Pour ma part, il va sans dire que je te conseille d'accepter préalablement, et sans hésitation. Je ferai ici à <placeName xml:id="Paris" type="mention">Paris</placeName> toutes les démarches nécessaires et dès que l'affaire sera conclue, tu aviseras au départ.</p>
+            <p>Si je garde la lettre aujourd'hui, c'est pour aller la montrer à <persName type="mention"><surname>Chassin</surname></persName>; avant-hier, il m'avait donné communication d'une lettre de <persName type="mention">Barni</persName>, par laquelle celui-ci lui annonçait avoir posé la candidature de <persName type="mention">Chassin</persName> à la rédaction du journal, au traitement de 4.000 francs par an. Il est donc indispensable que j'aille chez <persName type="mention">Chassin</persName> lui annoncer ta candidature afin que la franchise reste entière et qu'il ne puisse y avoir de soupçons. Du reste <persName type="mention">Chassin</persName> est tróp occupé de sa Démocratie Européenne, pour songer beaucoup aux Etats Unis d'Europe. Je vais le voir, et je me hâterai de te dire quelle est son impression.</p>
+            <p>Nous avons déjà échangé plusieurs lettres avec Berne au sujet d’un programme à rédiger. <persName type="mention"><surname>Naquet</surname></persName> insistait pour que le mot républicain fût inséré dans le programme et nous avons insisté avec lui. Peut-être à la veille du jour où les masses crieront le mot, il est de notre dignité que nous osions au moins le dire à demi-voix.</p>
+            <p>En ce moment, je reçois un billet assez mystérieux d'<persName type="mention"><surname>Acollas</surname></persName> qui m’a l’air de faire allusion à ta candidature et qui me donne rendez-vous pour demain. J'irai et te tiendrai au courant. En tout cas, il est inutile que tu viennes ici : tu aurais l'air de te poser ; il vaut mieux attendre encore. Vu <persName type="mention"><surname>Dobrowolsky</surname></persName> qui est un bien gentil jeune homme et qui a beaucoup plu à ces dames.</p>
+            <p>Ton frère, <persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.56">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Londres, Sans date. 1852.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 56</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Londres" type='sender'>Londres</placeName>, <date when="1852-01-01">Sans date. 1852</date>.</p>
+         <p><persName xml:id="ElieReclus"><addName>Homme bien aimé</addName></persName>.</p>
+         <p>Je n'accompagne ni ne suis ma lettre, bien que ce voyage soit parfaitement arrangé, ce que je me garde de contredire.</p>
+         <p>1° Me soucie peu de l’hospitalité des grands ; lesvoler, comme tu le sais, c'est autre chose.</p>
+         <p>2° Donner des leçons aux petites nymphes, non tant par heure, mais tant par quarter, ce qui change totalement la question et m'oblige à donner conscien¬ cieusement tout le temps requis.</p>
+         <p>3° De plus Mannering qui m'avait prêté une livre m'écrit parce qu'il est en détresse. Je lui avais parté d’une vieille qui peut-être pourrait me prêter deux livres à quatre shellings d'intérêt par mois, et il me prie de m'adresser pour lui à la vieille. Tu comprends que je lui porterai samedi les 2 livres que je destinais au tailleur strasbourgeois. Feris-lui en échange une lettre charmante et parle-lui du mois prochain. En tout cas, tu auras jeté une pomme d'or dans la queule de Cerbère.</p>
+         <p> Tu vois donc que mes fonds, diminués de Ritrenthaler, de Mannering, des bottes nécessaires, d'indispensables brecches (1), d’un avis dans le Times, d'un Prédérie Lemaitre, ne me laisseront pas à la tête d'un assez puissant capital pour aller entreprendre un voyage d'agrément.</p>
+         <p>Puis, ami, <persName type="mention">Prédérie Lemaitre</persName> m'a trop réjoui hier soir, pour que je n'aille pas l'entendre lundi. Viens plutôt avec moi ; je l'invite à me savoir très heureux lundi soir, à Saint-James-theater, Qu'en dis-tut Avais-tu des motifs cachés et mystérieux pour m'inviterl.. Me préparais-tu des bonheurs inimaginés? Mais ces bonheurs ne pourraient-ils prendre la route de Londres ou bien attendre encore un tantinetf Je t'enverrai ton fixatif par le Great Northern.</p>
+         <p>Salut, à homme, j'aimerais bien pourtant être avec toi, mais je préfère encore rester à Londres.</p>
+         <p><persName type='emetteur'><forename>ELISÉE.</forename></persName></p>         
+         <p>(1) Culottes.</p>
+      </body>
+  </text>
+</TEI>

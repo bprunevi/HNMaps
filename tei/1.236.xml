@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.236">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus. Nîmes. Sans date. 1864.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 237</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme Elie Reclus</persName>.</p>
+         <p><placeName xml:id="Nimes" type='sender'>Nîmes</placeName>. Sans date. <date when="1864-01-01">1864</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma très chère Noémi</addName></persName>,</p>
+         <p>Tu as encore souffert, et cela pendant que nous prenions du bon temps. Vraiment c est une chose triste de ne pouvoir, même entre frères, se réjouir ensemble. Pendant que tes pauvres muscles se tordaient sous ta peau et que ta pauvre tête oscillait sous la pression de la névralgie, nous étions peut-être occupés à admirer un beau coucher de soleil ou les arêtes pittoresques d'une montagne. Et pourtant nous ne sommes point des hommes sans cœur. Pardonne-moi, chère sœur, j'ai du moins cette consolation que le jour viendra où moi¬ même je serai malade et souffrant tandis que le monde des amis continuera d'être joyeux et plein de vie, et cela sans trahir leur amitié. Mais pourquoi te dis-je toutes ces choses? Maintenant sans doute, tu es guérie : l'orage a passé, tes yeux ont repris leur clarté. Empresse-toi de me l'écrire soit à Cannes, soit à Nice.</p>
+         <p>Quant à moi, je vais mieux : l'air du Midi, si doux à respirer, m'a fait du bien. Je n'ai qu'une chose à craindre, celle d'avoir à trop parler. Heureusement que Marie (1) n'a pas oublié de mettre au nombre des personnes conviées à notre intention le célèbre M. Penchinat, avocat et parleur émérite, qui me permettra de rester bouche close. Je m'en félicite.</p>
+         <p>L'appartement de ma sœur est simplement délicieux. De grandes chambres aux grandes fenêtres, aux plafonds élevés, aux moelleux tapis : d'un côté, la vue des promenades et du canal de la Fontaine ; de l'autre, la Tour Magne et sa colline couverte de pins : des rossignols dans les branches, de l'air, de la lumière en abondance, des livres, des gravures, de la musique : c'est vraiment très agréable. Avec cela la généreuse hospitalité que tu connais. Grotz vient d'être nommé pasteur titulaire : c'est important comme position. Au point de vue matériel, il est maintenant plus rassuré.</p>
+         <p>Depuis mon départ de Paris, je n'ai pas encore entendu un mot qui me permit d'apprécier si nous sommes en république ou bien sous l'empire, si la Pologne ou l'Amérique existent, le marasme semble universel. J'ai prêté l'oreille à toutes les conversations dans les cafés, dans les hôtels dans les wagons, mais je n'ai encore entendu parler que de vins, de gigots de mouton, de femmes, de bière et de propriétés. C'est triste de faire deux cents lieues pour n'entendre sur sa route que fadaises et balivernes. O grande nation!</p>
+         <p>A Sens, tout va bien. Jeannie va mieux, la mère se hasarde à la faire sortir, Magali est assez sage ; la dame anglaise fait bon ménage avec Clarisse et pousse la complaisance jusqu'à lui présenter des bouquets de violettes.</p>
+         <p>Et vous, mes chers, je vous embrasse tendrement. Paul et André, je vous bise.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p> 
+         <p>(1) Macie, Mme Grotz, la seconde des sœurs d'Elisée.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.23">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A M. et Mme Reclus, à Orthez. Sans date. 1850</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 23</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ParentsReclus" type='recepteur'>M. et Mme Reclus</persName>, à <placeName xml:id="Orthez" type='receiver'>Orthez</placeName>.</p>
+         <p><date when="1850-01-01">Sans date. 1850.</date></p>
+         <p>Chers <persName xml:id="ParentsReclus"><addName>parents</addName></persName>,</p>
+         <p>Sans votre dernière et bien aimée lettre, je serais encore à attendre des nouvelles de ma famille en général et de vous en particulier. Ni ma grand'mère, ni mon oncle, ni mes amis de Montauban ne m'ont encore écrit, et, pourtant, je suis transporté dans un pays bien éloigné et dans une atmosphère bien différente. Ce serait bon pour moi de ne pas écrire, et je suis, vous le savez, peut-être pour excuser ma paresse, un adversaire déclaré des lettres, qui trompent peut-être plus qu'elles n'instruisent, parce que chacun juge avec une pensée différente des phrases plus que simples ; celui qui a écrit n'est pas la pour rectifier, et peu à peu son image se transforme dans l'esprit de ceux qu'il aime, et quand il revient dans la maison paternelle, on se demande si c'est bien lui. Oui, bien des points de mon individu qui commençaient à s'illuminer pour vous vont replonger dans l'ombre et, à la place de la réalité, vous dessinerezpeut-être bien des traits inexacts, bien des linéaments étrangers. En tout cas, si, par suite de l'éloignement, vous jugez mal mon esprit, vous ne jugerez point mal mon coeur, et vous saurez toujours que je vous aime, que je suis votre fils et votre fils bien aimant.</p>
+         <p>Je vais donc vous parler de moi, entrer à mon égard dans les détails les plus minimes, non par égoisme, mais par amour, car en cela je vous ferai plaisir. Je vous ai dit, je crois, que je remplissais un intérim dans la seconde chambre laissée vacante par le départ d'un Suisse, M. Borrel. J'ai rempli cet intérim pendant à peu prés six semaines, et, depuis quelques jours seulement, je suis entré dans la quatrième chambre, qui, à propre¬ ment parler, m'a toujours été destinée. J'ai quitté la deuxième chambre à regret, car je m'étais déjà affectionné aux enfants et je m'entendais parfaitement avec mon co-professeur ; puis il est plus facile pour un jeune homme de connaître les jeunes gens et de les diriger que de conduire une troupe de petits enfants ; il faut redevenir enfant soi-même pour bien les connaître et les instruire, mais je suis loin d'en être là ; c'est ainsi qu'il est difficile à un jeune homme d'être simple et naturel : son être tout entier est encore dans la période d’élan ; il veut apprendre, il faut que son lendemain dépasse toujours les limites du jour précédent, il est dans la période d’action, et redescendre lui serait diffi¬ cile ; mais la plupart du temps, en apprenant, il oublie ; sa riche jeunesse lui fait oublier les impressions de son enfance et il faut que l'âge aride vienne passer son niveau sur son âme inassouvie, il faut que ses forces exubérantes s'affaiblissent peu à peu pour qu'il se rattache à son passé presqu'évanoui, pour qu'il rappelleen lui les souvenirs presqu'éteints, pour que son être se modèle aussi peu à peu sur ces souvenirs. Il serait beau le chrétien qui deviendrait homme mûr, tout en gardant la naiveté de l'enfance, à la fois deux et simple, généreux persécuteur de l'idéal, impatient des bornes qui l'enferment et, par-dessus tout, enfant de Dieu.</p>
+         <p>Il n'y a plus guère dans l'Institut que des Anglais, et les Allemands qui s'y trouvent parsemés ne sont généralement que des paresseux, renvoyés des Gymnasiums ; aussi ne se distinguent-ils guère que par leur paresse et leur servilité ; les Anglais sont bien meilleurs sous ce rapport, car ils ne sont pas de cire, et leur vo¬ lonté pour être impressionnée doit être combattue par une autre volonté ; mais cette volonté dégénère le plus souvent en entêtement, et cet entêtement est déjà une faiblesse. Ce n'est pas à dire que, pour cela, ils aient beaucoup d'intelligence ; bien au contraire, pour tout ce qui est théorie, affaire d'intelligence pure ou d'imagination, ils sont complètement nuls, mais, pour la pratique, ce sont tous des machines plus ou moins bien perfectionnées. Le niveau des études a aussi com¬ plètement baissé, surtout pour le latin, et c'est tout au plus si on ose s'attaquer aux Commentaires de César. Mais en revanche, maintenant, le français s'apprend avec une espèce d'enthousiasme ; chaque pro¬ fesseur presque donne une leçon de français et chaque élève l'apprend ; un autre professeur français est aussi depuis quelque temps dans l'Institut, c'est presque une colonie... Mais mon soleil et mes montagnes loin¬ taines et mon printemps et vous, le père Rhin et la forêt Thuringienne ne pourront point me le rendre. Je suis obligé d'aller vous chercher dans mon passé, de mebâtir dans ce lointain déjà nébuleux une cabane pleine d’ombre et de paix.</p>
+         <p>Chers <persName xml:id="ParentsReclus"><addName>parents</addName></persName>,</p>
+         <p>Chers <persName xml:id="ParentsReclus"><addName>parents</addName></persName>,</p>
+         <p>Soyez bénis, bénissez-moi.</p>
+         <p>Votre fils</p>
+         <p>ELISÉE.</p>         
+         <p>Je t'enverrai, chère mère, un dessin, la prochaine fois.</p>
+      </body>
+  </text>
+</TEI>

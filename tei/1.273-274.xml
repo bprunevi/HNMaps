@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.273">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Sans date. Paris. 1867.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.273-274</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1867-01-01">1867</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher ami</addName></persName>,</p>
+            <p><persName type="mention"><surname>Prat</surname></persName> vient de me proposer un travail pour toi.
+            <persName type="mention"><surname>Alphand</surname></persName> lui demande de faire traduire un livre allemand intitulé Lehrbuch der Schoenen Gartenkunst (1), bei von Meyer. C'est un in-4 de 954 pages, contenant d'après mes évaluations 25 feuilles de la Reoue des Deux Mondes : il est vrai que plusieurs gravures et tableaux synoptiques intercalés dans le texte rendraient le travail un peu plus court qu'on ne le dirait à première vue. Le style me semble assez facile et l'ouvrage lui-même très bien fait, et intéressant, même pour les non amateurs de jardinage.</p>
+            <p>Je n'ai point fixé de prix, puisqu'il s'agit d'un ouvrage de longue haleine. A 50 francs la feuille seulement, ce serait déjà 1200 francs, si <persName type="mention"><surname>Alphand</surname></persName> consentait être en extraire un article pour la Reoue Moderne, et
+            <persName type="mention"><surname>Prat</surname></persName> proposerait à <persName type="mention"><surname>Rothschild</surname></persName> de t'acheter la traduction du livre. C'est une affaire à considérer mûrement. Prat doit revoir Alphand et je te donnerai immédiatement les renseignements obtenus.</p>
+            <p>Du reste, c'est là, de même que l'Introduction au Dictionnaire (1), un travail que tu pourrais faire à Berne tout en dirigeant le journal. C'est encore pour moi une raison de désirer pour toi la position qui t'est offerte. J'ai écrit à <persName type="mention"><surname>Vogt</surname></persName>, en lui demandant des bulletins de souscription pour les Etats-Unis d'Europe.</p>
+            <p>J’ai donné ton portrait à <persName type="mention">Mme <surname>Verdier</surname></persName>, à <persName type="mention"><surname>Beluze</surname></persName>, à <persName type="mention"><surname>Schmahl</surname></persName>. Vu le jeune de <persName type="mention"><surname>Coutouly</surname></persName> qui est venu se mettre à notre service pour toutes les œuvres de dévouement. J’en ai été vivement touché.</p>
+            <p>Mon livre est fini, mais non complètement tiré : du 15 au 20 , j'aurai des exemplaires. En attendant, je m’occupe de mon article sur le <placeName xml:id="Brésil" type="mention">Brésil</placeName>.</p>
+            <p>Salue bien et embrasse tous les amis...</p>
+            <p>Salut fraternel,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) Manuel d'horticulture artistique.</p>
+            <p>(1) Introduction au Dictionnaire des Communes de France, par
+            <persName type="mention"><forename>ELIE</forename></persName> et <persName type="mention"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>, Hachette et Cle, août 1869.</p>
+            
+            
+            
+   
+            
+        </body>
+    </text>
+</TEI>

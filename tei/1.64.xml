@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.64">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Kippure. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 64</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Blessington" type='sender'>Kippure</placeName>. <date>Sans date.</date></p>
+         <p>J'aimerais assez savoir à quoi je dois m'en tenir sur le compte de Kylemore.</p>
+         <p>Le nouveau stewrard (régisseur) de céans, est déjà installé, de sorte que j'apparais encore plus inutile que par le passé, Roberts aussi est plus vexé qu'il ne veut bien l'avouer, et, de fait, on l'a traité d’une façon quelque peu cavalière. J'apprends à le respecter de plus en plus, il ne se ment jamais à lui-même. Son amour à pris les allures d'un roman ; mais il se tire de toutes les difficultés avec un partait sang-froid. Certes, un homme vivant dépasse de cent coudées tous les héros de romans. Je le raconterai le tout plus tard. Ce que j'admire le plus dans la vie, c'est qu'elle est si naturelle (si matier of course) : au lieu de se fendre la tête à son sujet, c'est de l'accepter telle qu'elle est.</p>
+         <p>Salut frère.</p>
+         <p>Si tu as des sous, souviens-toi qu'il me faut des souliers ; sinon, je tâcherai de make shift (trouver un expédient).</p>
+      </body>
+  </text>
+</TEI>

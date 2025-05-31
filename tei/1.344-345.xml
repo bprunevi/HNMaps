@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.344">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Sans date. Nimes, printemps 1870.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.344-345</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Nimes" type='sender'>Nimes</placeName>, printemps <date when="1870-01-01">1870</date>.</p>
+            <p><persName ref="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+            <p>Ce n’est point à moi de donner des consolations sur la mort du pauvre <persName type="mention">Hickel</persName>. C'est un nouveau coup pour nous. Il faut le recevoir. La mort l'a frappé bien vite, et cela me fait d'autant plus de peine que, justement, pendant sa maladie, il semblait s’être attaché à l'existence dont auparavant il faisait fi.</p>
+            <p>Avant sa mort, a-t-il eu le temps de léguer à sa sœur ce qui lui appartenait? Et s'il n'en a pas eu le temps, son frère a-t-il du moins rempli ses intentions dans ce sens?</p>
+            <p>La petite <persName type="mention"><forename>Jeannie</forename></persName> est ici tout à fait à son aise, et ma sœur <persName type="mention"><forename>Marie</forename></persName> commence à l'aimer beaucoup. Est-ce là un nouveau chagrin qu'elle se prépare, car il n'est pas probable que cette enfant reste sienne. Toutes nos joies sont des douleurs en perspective.</p>
+            <p>Je viens de recevoir une lettre de <persName type="mention"><forename>Magali</forename></persName> qui me parle de ses petites amies. Pour le moment, cela va bien, mais je n'en suis pas moins perplexe, car si le climat d'<placeName xml:id="Orthez" type="mention">Orthez</placeName> est excellent pour <persName type="mention"><forename>Magali</forename></persName>, je n'ai pas pour cela le droit d'immobiliser ma sœur. Je ne voudrais à aucun prix être cause que la chère amie se momifiât dans cette triste ville. Comment faire? Je ne sais pas. En y pensant chaque jour et avec votre aide, je trouverai peut-être.</p>
+            <p>J’ai lu le discours de <persName type="mention"><surname>Garrido</surname></persName>. J'en suis bien content. Ce trait final : « Je suis prêt à répéter mes paroles pour l'honneur de l'<placeName xml:id="Espagne" type="mention">Espagne</placeName> », est d'une grande beauté. Ce qui me réjouit aussi, c'est qu'une voix, la sienne, ait osé, malgré <placeName xml:id="Barcelone" type="mention">Barcelone</placeName>, <placeName xml:id="Cadix" type="mention">Cadix</placeName>, tous les intérêts des ports de mer et tout le chauvinisme espagnol, glorifier les insurgés de <placeName xml:id="Cuba" type="mention">Cuba</placeName>.</p>
+            <p>A vous bien tendrement</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

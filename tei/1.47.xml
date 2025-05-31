@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.47">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A M. Richard Heath. Sans date, 1852.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 47</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="RichardHeath" type='recepteur'>M. <forename>Richard</forename> <surname>Heath</surname></persName>.</p>
+         <p><placeName xml:id="Londres" type='sender'>26 Tichborne Street, Edeware Road</placeName>, <date when='1852-01-01'>Sans date, 1852.</date></p>
+         <p>Monsieur,</p>
+         <p><persName type="mention"><addName>M. le pasteur</addName> Martin</persName>, ayant eu la bonté de m'adresser votre lettre, je m'empresse d'y répondre et d’accepter vos offres bienveillantes. Si, de mon côté, je vous agrée, nous tâcherons d'étudier ensemble la littérature française, les étymologies de notre langue, ses rapports avec l'anglais, car, il me semble, vous êtes déjà fixé sous le rapport des règles et des principes.</p>
+         <p>Veuiller me dire dans votre réponse à quelle heure vous désireriez que j'allasse vous visiter, et tâchez, je vous prie, de ne pas choisir une heure de la matinée, au moins jusqu'au 10 avril prochain. Saut cette restriction, vous pouvez disposer de mon temps à votre volonté.</p>
+         <p>Quant au prix de l'heure, ce n'est qu'avec répugnance que j'en parle, car vous serez aussi bon juge que moi-même de mon rêle, de mon travail et de vos grés. En tout cas, si le prix de 5 shillings le cachet ne vous convenait point, dites-le franchement ; ce n'est pas à ce sujet que dispute s'élévera jamais entre nous. J'aurais pu vous écrire en anglais, mais comme j'eusse fait quelques fautes, j'ai préféré vous écrire dans ma langue maternelle.</p>
+         <p>Je vous salue, Monsieur, avec respect.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname>.</persName></p>
+      </body>
+  </text>
+</TEI>

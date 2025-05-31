@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.156">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Riohacha, 18 février 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 156</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><surname>Elie</surname> <forename>Reclus</forename></persName>.</p>
+         <p><placeName xml:id="Riohacha" type="sender">Riohacha</placeName>, <date when="1857-02-18">18 février 1857</date>.</p>
+         <p>Je suis descendu de la Sierra tout exprès pour mettre cette lettre à la poste et, pour faire avec toutes les ressources de la civilisation grenadine les vingt lieues qui me séparent des montagnes, j'ai mis huit longues journées semées d'accidents tels que barques chavirées, nuits pluvieuses et passées en compagnie des moustiques sur le sable mouillé. Heureusement que la mer a beau être forte, on ne risque guère de se noyer, car les canots, tous creusés dans un tronc d'arbre plus ou moins gigantesque, suivent toujours la plage. En cas de malheur, on se jette à l'eau et on se fait balayer par les vagues sur la rive. Le pittoresque est satisfait. Il ne reste plus qu'à trembler le froid et la fièvre.</p>         
+         <p>En arrivant, j'ai trouvé les deux caisses de livres que j'attendais vainement depuis quatre mois. Je les croyais perdus. Quel bien vous m'avez fait, mes chers! Je mourais de faim et de soif. J'en étais à la troisième ou quatrième étude d’un livre d'Agassiz qui composait toute ma bibliothèque. J'avais commis la platitude d'emprunter et de lire d'Holbach, et je ne suis pas de ceux qui savent étudier la nature et l'inventer à la fois. Maintenant, je passe des heures d'un bonheur complet, et ce bonheur je vous le dois. Chaque bonne phrase, chaque sentiment généreux, me parle de vous. Déjà mes livres circulent et j'espère qu'avant longtemps, chacun en représentera dix. Quant à la photographie, bràvo ! et je suis heureux que tu saches ce que tu n'au¬ rais jamais pu apprendre ici.</p>
+         <p>Ce qui a causé le retard des livres c'est que F. n'est plus à Sainte-Marthe depuis deux ou trois ans. Son successeur est un certain M. de M., qui vient de me demander un rapport sur la Sierra Nevada. Quand vous aurez l'intention de m'envoyer quelque joie, des livres, des dessins ou même quelques vilains écus, il vaudra mieux vous adresser au correspondant du vice¬ consul de Riohacha, L., bourgeois qui n'est après tout qu'une poche à sous et, cependant, feint d'avoir de l'affection pour moi. Je vous enverrai l'adresse du correspondant.</p>
+         <p>J'ai vu qu'il était bon de changer quelque peu mes plans : je vais rester à Riohacha pour donner de sales leçons de français. De cette manière, je pourrai envoyer la moitié de mes maigres profits à Ch., pour qu'il puisse faire marcher l'habitation. A la Sierra, je ne pouvais ni gagner de l’argent ni travailler, tandis que d’ici je pourrai lui envoyer 100 francs par mois, ce qui est pour le moins suffisant...</p>
+         <p>Je vous quitte, parce que je suis bête et que j'ai toujours la fièvre : je suis comme une longue-vue dont les tubes sont fermés ; je n'y vois plus; sans doute que mon intelligence s'est réfugiée quelque part dans les intestins, car j'y entends des bourdonnements comme s'il s'agissait de l'expulsion d'un étranger.</p>
+         <p>Salut, mes bons.</p>
+         <p>Salut, <persName type="mention">Hickel</persName>, <persName type="mention">Grimard</persName>, et autres, die ganze Welt.</p>
+         <p>Dis à Z. que je ne lui écris pas de peur que mes lettres ne tombent dans quelque souricière.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.242">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus. Hyères. Sans date. 1864.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 242</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Hyeres" type='sender'>Hyères</placeName>. Sans date. <date when="1864-01-01">1864</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+         <p>Mon voyage est vraiment commencé puisqu'en mettant ma tête à la fenêtre, je vois des palmiers et des orangers, la mer bleue, des iles lointaines. Mais j’ai mal débuté au point de vue hygiénique. Les vingt-quatre heures de wagon poussiéreux, la chaleur du Midi, le melon de Valence et les raisins de Toulon ont de concert travaillé ’mon estomac, et ce soir, au lieu de dîner, j'ai dû prudemment prendre du thé. J'espère que le sommeil de cette nuit me rafistolera tout à fait.</p>
+         <p>J’ai rarement trouvé le Midi plus beau que maintenant. Certainement, les rochers sont blancs, mais, au pied des escarpements, les pentes sont verdoyantes, les plaines sont une mer de feuilles, les ruisseaux babillent partout. Il a dû pleuvoir longtemps, car la nature est ici d’une fraîcheur à laquelle je ne m'attendais point. J’ai pu faire de longues courses à pied le long de la mer et sur les routes blanches sans que mes yeux aient eu à en souffrir. Il est vrai que, s’il y a du soleil, il n’y a pas encore de vent. Si le mistral avait soufflé, je me serais enfermé.</p>
+         <p>Ma visite aux Zurcher et Margollé (1) a été en partie infructueuse. Je n'ai point vu ces deux Messieurs, mais j'ai causé avec une des dames, que je pense être Mme Margollé, car dans son discours revenaient des phrases de livres, et je pense que, des deux amis, c'est Margollé qui est le véritable auteur. Cette dame, grâce aux soins hygiéniques, à la gymnastique, aux promenades, aù bon air, aux bains, a su garder ses huit enfants en bonne santé, les sauver de graves maladies; maintenant, la tribu pousse magnifique de force et de gaieté. Ah certainement ! quand les parents auront à la fois le bien-être, la science, la facilité de se déplacer, ils ne perdront jamais plus un des leurs. Ce crime individuel ou social de voir périr ceux qu'on aime avant l'âge ne se renouvellera plus.</p>
+         <p>A bientôt, chers amis.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>         
+         <p>(1) Zurcher et Margollé, deux Alsaciens, beaux-frères, écrivaient en commun des ouvrages de science vulgarisatrice.</p>
+      </body>
+   </text>
+</TEI>

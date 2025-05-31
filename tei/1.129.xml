@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.129">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 129</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>sa Mère</persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1856-08-30">30 août 1856</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Très chère mère</addName></persName>,</p>
+         <p>Il y a plus de six mois que je n'ai reçu de nouvelles d'Europe et que j'ignore complètement ce qui arrive à ceux dont l'existence me fait aimer la vie. Je suis affligé et presque effrayé de ce long silence que rien ne m'assure devoir se rompre de sitôt. Il me semble presque que je suis mort, depuis que rien, pas même un écho, si ce n'est celui qui retentit au fond de mon cœur, ne me rappelle votre existence ; car l'absence, lorsqu'une douce parole d'amour ne vient jamais en adoucir la peine, qu'est-elle, sinon une mort anticipée? Ecris-moi donc, bonne mère, et fais-moi parvenir l'adresse de Lois (1) et d'Elie. Je suis assez triste dans un pays où pourtant je pourrais être fort heureux, tu peux me rendre la joie et l'amour courageux du travail en m'écrivant une lettre rassurante.</p>
+         <p>Je dois partir après demain pour la Sierra Nevada pour aller faire de moi un paysan montagnard. Je pourrais bien continuer à gagner honorablement ma vie à Riohacha, mais le professorat n' est pas ma voca¬ tion, surtout lorsque les élèves apprennent peu, et, puisqu'il s'agit de vendre, je préfère vendre des bananes et des aracachas que des participes. Ma conscience me dira d'une voix bien plus haute et bien plus claire que je suis utile à mes semblables. D'ailleurs, tout est à faire en fait d'agriculture, et ceux qui mettent du cœur à l’ouvrage ne peuvent que réussir.</p>
+         <p>Autour de Riohacha, il n’y a que deux ou trois mi¬ sérables jardins, et les choses les plus nécessaires à la vie viennent de Sainte-Marthe, de Maracaybo ou des Etats-Unis. Cependant la Sierra Nevada est d’une in¬ comparable fécondité et produit de tout en abondance, depuis les plantes de la zone torride jusqu'à celles du cercle polaire, puisque tous les climats superposés ont attaché leur ceinture de végétation autour des flancs de ces montagnes. Mais que peuvent faire dans ce beau pays quelques centaines de timides Aruaques, presque abrutis par les exactions des prêtres et des trai ants espagnols? Une compagnie française demande la con¬ cession de la Sierra Nevada et s'engage à y jeter cin¬ quante mille colons, dans l’espace de cinq ans. Quel bonheur ce serait pour un pays où il n’y a pas encore une seule charrue, et où tous les travaux de l'agricul¬ ture, le labourage y compris, se font au moyen d'un sabre ! Quoi qu’il en soit, l'avenir de ces belles mon¬ tagnes est aussi beau que celui de la Suisse, et je veux être l’un des pionniers de cet avenir.</p>
+         <p>Si j’ai attendu si longtemps à Riohacha, avant de partir pour la Sierra, c'est que j'attendais un compa¬ gnon. Je me suis associé avec M. Chassaigne, menuisier ci-devant de Monlieu ; c'est un excellent homme, un peu grondeur, très intelligent, et, depuis plus de trois mois que je le connais, je vis avec lui en parfaite har¬ monie de sentiments. J'apprends, en attendant, l'art de la menuiserie et, soit bonté d'âme, soit amour de la vérité, il veut bien louer mes mortaises et mes coups de rabot. Il est évident que M. Chassaigne sera beaucoup plus utile que moi dans l'association que nous allons former, mais ce serait aussi trop d'orgueil de ma part de vouloir être le premier en tout. Je puis bien me rési¬ gner pour cette fois, à être l'obligé ; d'ailleurs, je suis jeune encore et je me promets d'abattre plus d'un arbre à moi tout seul.</p>
+         <p>Ainsi, chère mère, dans quelques jours, j’étendrai ma natte à l'ombre d'un ciner ou d'un fromager, et j'aiderai à monter sur quatre pieux un misérable toit de latanier, pour nous mettre tant bien que mal à l’abri de la pluie. Si votre souvenir ne faisait ma peine, qu’il me serait doux d'aller m’établir ainsi dans la forêt vierge, près d'une cascade, en vue de la mer et de ses blancs navires, en vue des neiges roses qui nous regar¬ dent d'une hauteur de six mille mètres ! Mais tant que je n’aurai pas reçu de tes nouvelles, je me sentírai seul ! Ecris-moi donc pour que je puisse remplir de toi la forêt et les montagnes. Tous les quinze jours, je descen¬ drai à Riohacha pour savoir si ta lettre est arrivée. Mon adresse est tout simplement Riohacha Nouvelle Gre¬ nade, car ici il n'y a pas de distribution de lettres, et chacun est obligé d’aller les chercher.</p>
+         <p>Que te dirai-je de plus, chère mère ? Te parlerai-je de moi. Tu le sais, je suis triste. L'histoire naturelle de ce pays? Il faudrait un livre. La politique? Je suis socia¬ liste ici comme ailleurs. Aujourd'hui même, on vote dans la Nouvelle Grenade pour l'élection d'un nouveau Président. Les trois candidats sont Ospina, le jésuite, Mosquera, le soldat, et Murillo, l'homme de liberté. J’espère.</p>
+         <p>Adieu, chère mère, toi et les tiens.</p>
+         <p>Dis à mon oncle de vouloir bien envoyer pour moi 60 francs à M. J. Dugerdil, professeur à Penay près Genève. Il se peut qu'il ne soit pas à Penay, mais ça ne fait rien, puisque c'est là que réside sa famille. J'avais contracté cette dette à Neuwied et je l’avais oubliée. Je suis heureux de me la rappeler.</p>
+         <p>A toi,</p>
+         <p><persName type='emetteur'><forename>ÉLISÉE.</forename></persName></p>
+         <p>(1) Lois, l'aînée de ses sœurs, au nombre de six.</p>       
+      </body>
+   </text>
+</TEI>

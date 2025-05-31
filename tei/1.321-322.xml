@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.321">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A sa sœur Louise, à Vascœuil. Sans date. Février 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.321-322</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A sa sœur <persName xml:id="LouiseReclus" type="recepteur"><forename>Louise</forename></persName>, à <placeName xml:id="Vascœuil" type='receiver'> Vascœuil</placeName>.</p>
+            <p><placeName xml:id="Paris" type='sender'>Paris</placeName>. Sans date, <date when="1868-02-01">février 1868</date>.</p>
+            <p>Certainement <persName type="mention"><forename>Elie</forename></persName> est à <placeName xml:id="Paris" type="mention">Paris</placeName> et, naturellement, je croyais que vous le saviez, ce qui m a empêché de vous l'annoncer. D'ailleurs nous avons été un peu préoccupés et nous le sommes encore. <persName type="mention"><forename>Clarisse</forename></persName> n'est pas entièrement guérie : elle tousse encore et n'en a pas fini avec ses haut-le cœur. Est-ce la raison pour laquelle la bébette refuse de prendre le sein? Nous ne savons. Quoi qu'il en soit, nous sommes obligés de nourrir l'enfant à la cuiller. Elle n'a pas encore mordu énergiquement à la vie et nous avons eu bien des inquiétudes. Aujourd'hui, elle va assez bien. Elle n'a qu'un moment de bonheur, celui. où on la baigne. Alors, elle ouvre'les yeux, presque toujours fermés, et prend quelques notions fugitives sur les choses d’alentour.</p>
+            <p>Mon frère est allé chez <persName type="mention"><surname>Malespine</surname></persName> pour vos commissions. Jusqu'à présent, la Presse Libre est restée un journal honnête, mais assez mal rédigé. Tout brave homme peut y écrire sans crainte et je vais me le permettre un de ces jours. Nous avons négligé de vous l'envoyer, parce que nous nous figurions que votre abonnement était régulièrement servi.</p>
+            <p>En hâte, mes amis. Merci de la bonne nouvelle que tu nous donnes : une visite prochaine.</p>
+            <p>Ton frère</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>P. S. — A la Revue Politique, on a rendu l'article de l'ami <persName type="mention"><surname>Dumesnil</surname></persName> à mon frère <persName type="mention"><forename>Elie</forename></persName>. Je suppose que la raison vraie est l'antipathie de <persName type="mention"><forename>Challemel</forename> <surname>Lacour</surname> </persName>pour <persName type="mention">M. <surname>Quinet</surname></persName> (1).</p>
+            <p>(1) Pendant l’exil d'<persName type="mention"><forename>Edgar</forename> <surname>Quinet</surname></persName>, son ami et ancien suppléant au Collège de France, <persName type="mention"><forename>Alfred</forename> <surname>Dumesnil</surname></persName>, s'était chargé de procéder à la publication de ses Œuvres complètes. L'article refusé par la Revue Politique devait annoncer les Mémoires d'exil, écrits par <persName type="mention">Mme <surname>QUINET</surname></persName>.</p>
+        </body>
+    </text>
+</TEI>

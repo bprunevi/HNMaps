@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.260">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus. Sans date. Paris. 1866.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 260-261</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1866-01-01">1866</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Je t'ai envoyé une légende serbe : je te la recommande, c'est un ouvrage précieux. Plusieurs de nos collègues désireraient la lire. Hâte-toi si tu le peux, et renvoie le livre au plus tôt.</p>
+            <p>Il y a quelques jours, <persName type="mention"><surname>Naquet</surname></persName> me dit qu'on revenait à la charge pour me faire entrer dans le comité de l'Encyclopédie <persName type="mention"><surname>Mottu</surname></persName>. J'ai répondu ce que tu sais, en répétant que je rendrais officieusement tous les services possibles. On ma pris au mot, et, hier, <persName type="mention"><surname>Mottu</surname></persName> m'a prié de me rendre chez lui. Il voudrait me confier la géographie. Je pourrai, je crois, lui rendre en effet des services, car ils doivent se faire une bien drôle d'idée de la géographie : ils l'avaient intercalée entre l'épigraphie et l'héraldique ! Il me priait de faire une nomenclature des sujets qui demanderaient un article spécial. Cette nomenclature, je la ferai. Il va sans dire que je serai chargé ensuite de faire ou de confier à d'autres les articles relatifs à ma partie. C'est du travail pour <persName type="mention">Onésime</persName>.</p>
+            <p>Je me suis empressé, tu le penses bien, de regarder à la mythologie. C'était pris, j'ai vu le nom d'<persName type="mention"><forename>André</forename> <surname>Lefèvre</surname></persName>. J’ai regardé à la démographie, j'ai lu le nom de <persName type="mention">Bertillon</persName>, puis à la statistique, personne ne s'en est encore chargé et je t'ai proposé : ton nom est accepté pour la statistique. Demain, je t'enverrai la nomenclature de <persName type="mention">Bertillon</persName> pour que tu n'empiètes pas sur la sienne. Prix des articles : vingt-cinq centimes, la ligne de soixante-six lettres. C'est pour la page de cinquante lignes 12 francs 50. Relativement, c'est presque deux fois moins payé que l’est le dictionnaire Joanne.</p>
+            <p>La botanique est prise : <persName type="mention">Bertillon</persName>. A bientôt d'autres détails.</p>
+            <p>Rien de neuf, politiquement. Reçu deux de tes correspondances californiennes ; mais j'aime autant ne pas te les envoyer par la poste. Quant aux journaux que je t'expédie, tu vois que les langues de feu ne sont pas descendues sur les nouveaux rédacteurs.</p>
+            <p>Votre frère bien aimé.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p><persName type="mention">Pauline Grimard</persName> a signé le Manifeste du Droit des Femmes, manifeste que nous n'avons pas encore eu le temps de vous copier.</p>
+        </body>
+    </text>
+</TEI>

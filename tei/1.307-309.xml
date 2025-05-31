@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.307">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Mme Elie Reclus. Sans date. 29 novembre ou 6 décembre 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.307-309</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <date when="1868-11-29">29 novembre</date> ou 6 décembre 1868.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère sœur</addName></persName>,</p>
+            <p>Je ne saurais te dire si l'article d'<persName type="mention"><forename>Elie</forename></persName> a paru dans le numéro d'hier de a Revue Politique. Quand je l'ai porté, il était déjà bien tard pour l'impression, quelques heures à peine avant la mise en page. Ce matin je n'ai pas reçu mon exemplaire. Cependant je ne crois pas que le numéro ait été saisi : il est probable qu'on aura envoyé l'exemplaire que j'attendais, à Malaga, poste restante.</p>
+            <p>Je t'envoie a traduction exacte du discours prononcé par <persName type="mention"><forename>Elie</forename></persName> à Sabadell. La voici :</p>
+            <p>« Le citoyen <persName type="mention"><forename>Elias</forename> <surname>Reclus</surname></persName>, à la demande de son ami, <persName type="mention"><forename>Ruban</forename> <surname>Donaden</surname></persName>, prit la parole en ces termes :</p>
+            <p>« Catalans, je ne suis pas venu ici comme orateur, mais à titre de citoyen de la République Française, aussi bien que de la République Universelle. C'est à ce titre que je me trouve dans une réunion de frères politiques, tous habitants de l'immense cité du Droit, tous concitoyens dans la Justice, la Liberté et le Progrès.</p>
+            <p>« Je vous félicite de votre glorieuse Révolution : votre œuvre a été plus grande que vous-mêmes ne le pensez. En faisant la Révolution, vous avez non seulement mis un terme aux iniquités d'une <persName type="mention"><forename>Isabelle</forename></persName>, vous avez aussi eu la gloire de préserver l'Europe d'une conflagration que les despotes nous préparaient; vous avez rendu impossible une guerre sanglante qui eût coûté au peuple travailleur deux cent ou quatre cent mille hommes.</p>
+            <p>« Si vous établissez une République fédérale, vous travaillerez non seulement pour vous, mais aussi pour deux cent millions d'hommes, vous aurez acquis la gloire immense d'être les fondateurs de la République Universelle.</p>
+            <p>« Catalans, nous nous devons tous à la liberté, à la justice. Faites que la République Fédérale s'établisse en Espagne, et vous aurez contribué en même temps à la prospérité de votre pays et au progrès du monde entier.</p>
+           <p> « Vivent les Républicains espagnols ! »</p>
+            <p>« A ce moment, l'assemblée répondit par d'autres vivats enthousiastes pour la France républicaine.</p>
+            <p>« <persName type="mention">M. <forename>Ruban</forename> <surname>Donaden</surname></persName>, se levant alors et parlant au nom des républicains espagnols, demanda à ses amis <persName type="mention"><surname>Garrido</surname></persName> et <persName type="mention"><surname>Reclus</surname></persName> de s'embrasser fraternellement pour témoigner ainsi de l'union sincère, cordiale de la France et de l'Espagne, fédérées un jour avec les autres nations des Etats Unis d'Europe, et pour montrer aux tyrans que les peuples s’entendent et que le jour de la revendication est proche. Impossible de décrire l'enthou siasme de l'assemblée à la vue de ces républicains, le Français et 1'Espagnol, dans les bras l'un de l’autre. »</p>
+            <p>Merci ma chère sœur de défendre la bonne cause à Pons (1). Il est regrettable que, dès le premier jour, on n'ait pas pris part à la souscription Baudin.</p>
+            <p><persName type="mention"><forename>Magali</forename></persName> est décidément inscrite parmi les élèves de l'Ecole professionnelle. Mais elle n'y est pas encore allée, parce qu'elle toussait un peu. <persName type="mention"><forename>Clarisse</forename></persName> toussille aussi, ce qui m'ennuie beaucoup, sans pourtant m'in quiéter.</p>
+            <p>Aujourd'hui, grande réunion au Crédit au Travail. Naturellement, ceux qui n'ont rien fait pour la société pendant qu’elle était prospère, accablent <persName type="mention"><surname>Beluze</surname></persName> (1), maintenant qu'il est tombé. Quel bonheur qu'Elie ne soit pas ici ! Un grand chagrin lui est ainsi évité.</p>
+            <p>A toi et à vous de cœur. Quand aurons-nous le bonheur de te revoir?</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) Charente-Inférieure.</p>
+            <p>(2) Beluze, directeur du Crédit au Travail.</p>
+        </body>
+    </text>
+</TEI>
+

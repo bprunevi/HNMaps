@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.65">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. En visite, chez M. Ponneleather, à Cappagmhite, Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 65</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p>En visite, <placeName xml:id="Cappawhite" type='sender'>chez M. Ponneleather, à Cappawhite</placeName>, <date>Sans date</date>.</p>
+         <p>Capparwhité ressemblerait aux Eglicottes ou à Saint-Miche: l'Eparron (Dordogne) si les maisons avaient une apparence plus splendide et si une rivière coulait auprés. La campagne environnante ressemble aussi aux campagnes du Périgord ; mais, à mesure qu'on gravit les collines du nord de Capparh, l'horizon s'élargit et s'accroit et n'est limité que par les montagnes de Galta, espèces de Pyrénées en petit. Du haut de la colline de Cappagh, on peut voir à la fois Cachel, les montagnes de Killarney, Limerick et le golle du Shannon. J'ai eu l'insigne bonheur d'avoir ce magnifique horizon sous les yeux par un jour de soleil.</p>
+         <p>En fait de renseignements statistiques, Cappagh à quinze tavernes, mais pas un seul water-closet. En fait de jolies filles, cette partie de l'Irlande est remarquable : les hommes sont robustes et bien batis et les femmes ne le cédent en rien aux hommes sous le rapport de la force et de la beauté ; elles n'ont pas non plus l'air aussi naif que dans le comté de Nicklow. On voit à leurs yeux vifs qu'elles savent observer, rire et mépriser.</p>
+         <p>Notre jeune homme est franc, vil, paillard et super¬ ficiel jusqu'à l'absurde ; il n'a jamais su ce que c'était que penser, et, en vérité, il ne serait pas généreux de le lui demander. En dinant, il m'a dit cette phrase mémorable : 1delight in mi queen, in mi noblemen, in mi (1) gentlemen (Je chéris ma Reine, mes Seigneurs, mes gentlemen) mais il me serait impossible de te donner une idée des gestes d'extase dont il accompa¬ gnait cette tirade. Il aime Nebster amazingly (éton- namment), ce qui m'explique partaitement pourquoi Nebster ne l'aime que tout juste.</p>
+         <p>Du reste, la propriété est en désarroi, et le mécon¬tentement à pris des proportions effroyables. Salut.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>         
+         <p>(1) mi idiotisme irlandais, au lieu de my.</p>
+      </body>
+  </text>
+</TEI>

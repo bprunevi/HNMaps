@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.27">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Reclus, à Orthez. Sans date. 1850</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 27</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>Mme <surname>Reclus</surname></persName> à <placeName xml:id="Orthez" type='receiver'>Orthez</placeName>.</p>
+         <p><date when="1850-01-01">Sans date. 1850.</date></p>
+         <p>Chère <persName xml:id="MereReclus"><addName>mère</addName></persName>,</p>
+         <p>Tout est bien, je le trouve aussi, bien que tout ne soit pas pour le mieux dans le meilleur des mondes possibles ; mais " tant qu'il y aura sur la terre une aurore pour raconter les merveilles de Dieu, une montagne pour témoigner sa gloire, une page sainte pour annoncer aux peuples la grandeur de son nom", tout est bien et tout cœur doit s'ouvrir sous le profond regard de Dieu. Du reste, à quoi bon chercher des défauts à ce jour d’aujourd'hui, si haï, si méprisé, si calomnié parmi les hommes, chrétiens et païens, blancs et noirs ? Le lendemain apporte toujours un changement dans les circonstances, et ce changement lui-même est un bien, quand même il nous ferait déchoir extérieure¬ ment, car le malheur vaut mieux que l'ennui. C'est un bien pour nous que le monde passe devant nos yeux comme une fantasmagorie tantôt lugubre, tantôt risible, et que ses rapides images, aussitôt évanouies que formées, viennent nous annoncer le soleil qui ne28 s'éteint point, le Dieu qui reste immuable au milieu de l'espace et du temps.</p>
+         <p>Aussi j'accepte avec joie ce séjour d’une année dans une ville assez ennuyeuse, au milieu de gens moins sympathiques que je ne l'avais cru d'abord. Trois mois sont déjà passés, rapides pour nous tous, trois mois qui nous ont rapprochés de ce ciel infini, si grand et si beau que notre coeur se serre d'attente et qu'on fris¬ sonne de bonheur. Ces trois mois ont perdu leur ennui puisqu'ils ne sont plus, mais ils ont laissé avec nous leurs joies, leur amour, leur expérience ; même le mal qu'ils nous ont apporté se transforme par le souvenir ; tout est bien dans le passé quand ce passé n'est plus que le parvis de l'avenir ; toute route rocailleuse est douce quand au bout on aperçoit les vagues sauvages de la mer ou l'é her bleu des Pyrénées.</p>
+         <p>Ainsi, chère mère, réjouis-toi avec ton fils, bien que, si la boîte de Pandore m'était ouverte, je choisirais, pour beaucoup de choses, plus que l'espérance, c'est-à¬ dire la réalité même. Peu importe après tout, car pour vivre et pour se développer, on n'a pas besoin de s'appuyer sur une amitié de tous les jours, on n'a pas besoin d’une espèce de camaraderie de lit avec ceux qu'on aime ; il suffit pour la conscience d'aimer, et, pour le bonheur, de posséder un de ces puissants amours qui ne reculent ni devant le temps ni devant l'espace. Je suis donc bien heureux, car je vous aime devant Dieu, et je sais que vous m'aimez encore bien plus que je ne vous aime.</p>
+         <p>Je n'ai pas besoin de vous expliquer plus au tong ma situation, vous la connaissez aussi bien que moi, mieux même, direz-vous, parce que vous la considèrez avec des yeux différents des miens ; je vis ici comme n'y vivant pas, car peut-on vivre, là où l'on n'a pas placé son cœur ? Entre les Frères et moi, régne une camaraderie délicieuse, un tutoiement perpétuel, un sans façon admirable, mais ce n'est qu'une simple forme et sous tout ce laisser-aller, il ne vit aucune amitié ; nos caractères et nos tendances ne se comportent nullement ; vers Geller seul, je me sens em¬ porté par une confiance presqu'enfantine, et mon coeur s'émeut de joie quand je suis avec lui ; mais quant aux autres, je ne leur connais vraiment d'autre occupation que celles de parler des punitions, ou bien, dans les jours libres, d'aller se promener vers quelque auberge sur les bords du Rhin ; tout cela est fort bien, mais quand la vie est ainsi claquemurée, je ne vois pas pourquoi on claquemurerait également son esprit. Les Frères ne font plus des miracles comme au temps de Zinzendorf ; quand, dans une conversation, j'ai eu l'air de croire aux merveilles de la vie du fondateur de leur église, ils m'ont ri au nez. Leur loi participe aussi singulièrement de l'habitude, car le nom de Dieu n'est guère prononcé que dans l'église, à la bénédiction matinale, avant les repas, avant les leçons de religion. Si pour eux, je suis un hérétique, du moins mon hérésie m'est chère et profonde. L'église des Frères s'en va, s'il faut en croire l'apparence, s'il faut en croire Neuwied ; les vieux maîtres que nous avions autrefois et ces sœurs qui enseignent encore dans l'Institut des demoiselles me paraissent tout autres que les jeunes gens, mes collègues. — Du reste, je puis bien me dédommager largement dans cette belle contrée, dont tu pourras contempler vaguement et de loin la beauté quand je saurai dessiner à la fois le Rhin, les montagnes les arbres, les vieux châteaux et les lontains ; car tout est30 ici, sauf le soleil, dont nous avons partois la copie. Adieu, chère mère, songe à m'envoyer bientôt une sœur que je soignerai comme une mère, et qui me rendrait Neuwied si doux, surtout si ce changement était utile pour elle.. Ce dessin est celui du vieux château de Coberco, tout près d'ici, qui n'a rien de bien particulier.</p>      
+         <p><persName type="emetteur"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>
+     
+      </body>
+  </text>
+</TEI>

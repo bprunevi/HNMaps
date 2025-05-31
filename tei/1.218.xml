@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.218">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus Sans date. Saint-Tropez, samedi matin. 1862.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 218</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme Elie Reclus</persName></p>
+         <p>Sans date. <placeName xml:id="SaintTropez" type='sender'>Saint-Tropez</placeName>, samedi matin. <date when="1862">1862</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma chère Noémi</addName></persName>,</p>
+         <p>Nous sommes dans un village des plus immondes de la France et en face de l'un des paysages les plus splendides des bords de la Méditerranée. Les rues à peine assez larges pour laisser passer deux hommes de front sont remplies par des détritus de fucus et de poissons des passages qui servent aussi d'égoûts s'enfoncent sous de sombres arcades et quand on y pénètre on se demande avec effroi si l'on reverra la lumière. Mais la nature, qu'elle est belle en revanche ! Des rochers, des montagnes lointaines disposées sur plusieurs plans d'un azur de plus en plus vaporeux, un golfe uni comme un lac, des bateaux pêcheurs, des pins parasol qui se penchent au-dessus de l'eau, des ruines qui se dressent sur les escarpements, toutes ces choses composent un délicieux paysage. Il ne manque qu'un peu de fumée dans un coin du tableau pour que nous pensions être sur les bords du golfe de Naples. Et partout sur ces bords enchantés nous retrouvons le même spectacle. Nous l'avons vu à Hyères, nous le verrons à Fréjus, à Cannes, à Menton. Et ne faut-il pas que je contemple toutes ces belles choses avec un remords au cœur, celui de ne pas vous avoir pour compagnons ? J'admire toujours avec une pointe de tristesse. Je ne sais pas admirer d'une manière complète de crainte de paraître trop égoiste.</p>
+         <pb/>
+         <p>Nos plans de voyage se précisent un peu plus. Il est probable qu'une fois arrivés à Gênes, la société se dissoudra. Ardouin prendra son vol vers Florence, Milan et les lacs, tandis que, Mme Ermance (1) et moi, nous reviendrons par la Corniche et le col de Tende vers les vallées vaudoises. Mme E. veut contempler les pays où ses ancêtres ont vu le jour. Là, je dois la quitter pour re¬ venir par le mont Cenis. Elle partira plus tard se dirigeant vers Genève.</p>
+         <p>J'attends une lettre de vous à Cannes : je l’y trouverai, n'est-ce pas ? Parlez-moi de la bonne vie journalière de là-bas... Nous serrons la main aux amis.</p>
+         <p>Ton frère,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>         
+         <p>(1) Mme Ermance Trigant, amie des Grimard et, par ceux-ci, des Reclus, prisait fort les voyages et se joignait souvent à Elisée et à ses amis en camarade très accommodante.</p>
+      </body>
+   </text>
+</TEI>
+

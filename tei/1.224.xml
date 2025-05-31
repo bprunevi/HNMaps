@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.224">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus Londres. Sans date, septembre ou octobre 1862.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 224</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="CoupleReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Londres" type='sender'>Londres</placeName>. Sans date, <date when="1862-09">septembre ou octobre 1862</date>.</p>
+         <p><persName xml:id="CoupleReclus"><addName>Très chers amis</addName></persName>,</p>
+         <p>Tout va bien. Le temps n’a cessé d’être aussi favorable qu’il peut l’être en Angleterre, et nous en avons largement profité. Nous avons consacré le premier jour à faire les arrangements d'installation, à quitter l'hôtel, où un Français à l'apparence de mouchard nous écorchait en compatriote, à nous loger chez une dame anglaise très prévenante et très aimable, à visiter les jardins zoologiques. Le dimanche nous allions à Kew. C'était un beau spectacle. Les prairies des bords de la Tamise étaient d'un vert admirable ; malgré la saison avancée, les arbres touffus avaient encore gardé toutes leurs feuilles. Les petites barques se croisaient sur la rivière, une vapeur bleuâtre étendait son voile transparent sur tous les lointains. Quant au jardin de Kew, il était ce qu'il est toujours, admirable, et nous en avons tous joui à notre manière. Hickel et Morin (1) ont raisonné leur enthousiasme, Julie (2) et moi, nous avons été heureux tout simplement, Mme Ermance a pu contempler une collection de fuchsias, de cystus, de mesambryanthemum, de cactus, de cercus, aussi belle et plus belle que celles de M. Lebougre et du Palais de l'Industrie. Tout le monde a donc été satisfait. A ce, ajoutez que nous sommes bons compagnons, que nous savons nous attendre, nous retrouver aux rendez-vous indiqués, nous faire toutes les petites concessions nécessaires à l'intimité pendant le voyage. Mme Ermance est toujours ce que vous savez, un bon compagnon... Julie est dans une jubilation vraiment outrecuidante: si bien que, hier, elle avait une envie féroce de se mettre au piano et de jouer un morceau de sa composition dans la salle d'hôtel où nous sommes descendus et devant tout un monde d'Anglais. Hickel est le plus facile des hommes, s'accommodant de tout, optimiste par raison autant que par conviction, donnant son bras avec plaisir ou dévouement, ce qui revient au même. Morin est le plus inquiet de la troupe : il prévoit, il redoute, il appréhende, il craint, et parfois, quand l'événement justifie ses prévisions, il établit la supériorité de son bon sens sur nos légèretés ; du reste, spirituel, aima¬ ble, dévoué, galant envers ces dames.</p>
+         <p>Hier lundi, nous avons été au Palais de Cristal. Jamais nous ne l'avions vu si beau. La vue était admirable : du haut des terrasses et de la tour, on avait sous les yeux un vrai paysage de Claude Loirain, vaporeux, infini, plein de mouvement, de grâce et, çà et là, illuminé par des rayons égarés. La foule était grande, les fontaines jaillissaient ; malheureusement pour les uns, heureusement pour les autres, Blondin se promenait aussi sur sa corde, portait des sacs, poussait des brouettes et faisait des tours de force indignes d'un homme. En prévision de l'Exposition, on a considérablement rafistolé le Palais de Cristal depuis l'année dernière : toutes les collections sont complétées, de nouvelles galeries sont ouvertes, on s'est mis en frais pour recevoir les étrangers. Le palais, ses jardins et l'ensemble du paysage représentaient assez bien une scène des Iles Fortunées, telles que peuvent les rêver les peintres. La soirée s'est terminée par une course comique à la recherche d'un dîner : pour l'atteindre, il nous a fallu monter en chemin de fer. Morin, torturé par la faim, offrait un spectacle lamentable à voir.</p>
+         <p>Aujourd’hui l'Exposition. Une foule à étourdir, à ahurir, à abêtir. Tohu bohu de statues, de dentelles de bustes, d'assiettes, de terres, de cartes géographiques et de couteaux. Poussière dans les salles, odeur de l'huile et du charbon dans l'annexe des machines, parfums de lard et de beurre rance dans les restaurants, rien n’y manquait. En outre, j'ai dû passer la moitié de la journée à raccrocher Morin qui se perdait toujours. Mais ce que nous avons vu de l'exposition est vraiment admirable. La France a certainement la palme du goût et l'Autriche celle de la science. Les innombrables cartes, les plans, les reliefs, les travaux d'anatomie, de physiologie, de géologie envoyés par les savants de Prague et de Vienne demanderaient de longues semaines d'étude, et c'est à peine si j'ai pu les voir en passant : je ne me faisais aucune idée d'un tel mouvement scientifique en Autriche. A côté d'elle, les autres nations s'exposent à se faire juger comme tout à fait infécondes dans la grande œuvre du mouvement intellectuel.</p>
+         <p>Inutile de dire que nous sommes revenus fatigués, migraineux. Mes yeux se ferment malgré moi, ma plume ne demande qu'à écrire des bêtises et, pour l'empêcher de me compromettre, je suis obligé de l'arrêter. Mais auparavant, je vous envoie autant de baisers qu'il y a de feuilles à tous les rosiers.</p>
+         <p>A vous tous, mes très chers.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>  
+         <p>(1)Ernest Morin, professeur à Paris et collègue d'Elisée à la Société de Géographie.</p>
+         <p>(2)Belle-soeur d'Elisée, plus tard Mme Germain Casse.</p>
+      </body>
+   </text>
+</TEI>
+

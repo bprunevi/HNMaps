@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.230">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Noémi Reclus Vascœuil. Sans date. 1863.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 230</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Noémi Reclus</persName>.</p>
+         <p><placeName xml:id="Vascœuil" type='sender'>Vascœuil</placeName>. Sans date. <date when="1863-01-01">1863</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma chère sœur</addName></persName>,</p>
+         <p>Ta dernière lettre n'était pas de nature à nous encourager autant que la lettre précédente. Il ne s'agit point de nous séparer, de nous démembrer, comme tu le dis, mais au contraire de fortifier, de consolider notre famille en lui donnant un point d’appui qu’elle n’avait pas. Bien que nous n'ayons certainement pas à nous plaindre de la destinée, nous étions sans cesse exposés aux chances et aux aventures de cette vie de Paris où, coûte que coûte, il faut pour résister être dispos et bien portant. Maintenant, grâce à notre excellent ami Dumesnil, nous pourrons tenter de nous soustraire à ce grand imprévu de Paris pour doubler nos forces en nous associant et cela dans un lieu où nos enfants trou¬ veront à la fois sous nos yeux la santé physique et l'instruction. Provisoirement chacun pourra vaquer à ses affaires loin du home. L'un pourra s'occuper de son journal à Paris, l’autre de sa géographie dans les Alpes, mais nous ne serons pas plus démembrés que nous ne le sommes aujourd'hui. C'est toujours vers le but commun que tendront nos efforts. En résumé, je crois que l'association de Vascœuil constitue pour nous une force de plus.</p>
+         <p>Quant aux détails de l'organisation, nous les discu¬ terons plus tard : d'ici à l'hiver, plusieurs mois riches d'événements ont encore à s'écouler et les avis de chacun de nous en seront peut-être modifiés...</p>
+         <pb/>
+         <p>Bravo les ouvriers de Londres (1) ! Mais tous ces grands événements d'Europe prennent une mauvaise tournure. Je vous embrasse. Un bon serrement de main à notre ami Talandier (2) et à Madame.</p>
+         <p>Ton frère <persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>   
+         <p>(1) Une des premières manifestations des ouvriers anglais, réu¬ nis pour protester contre les égorgements de la Pologne. Elles se re¬ nouvelèrent fréquemment, secondées par des ouvriers de toute natio¬ nalité et pour des causes générales très diverses. On y a vu le germe de l'Internationale.</p>
+         <p>(2) Talandier (Alfred), ami des Reclus, proscrit sous l'Empire, député après la guerre.</p>
+      </body>
+   </text>
+</TEI>

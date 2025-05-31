@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.220">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus Nimes, Sans date, samedi soir. 1862.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 220</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName></p>
+         <p><placeName xml:id="Nimes" type='sender'>Nîmes</placeName>, Sans date, samedi soir. <date when="1862">1862</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma bonne Noémi</addName></persName>,</p>
+         <p>Combien de fois j'eusse désiré t'écrire pour te parler de mon affection et te faire part de mes impressions diverses sur les mille choses que je voyais et que j'entendais ; mais, en premier lieu, j'ai été arrêté par l'idée que tu habitais Sens, puis quand j'ai su que tu étais restée à Paris, j'avais déjà tant à te dire que je ne savais par quel bout commencer. J'ai, dans les cahiers de ma mémoire, bien des faits, bien des historiettes à vous raconter, mais le temps passe et de toutes ces conversations idéales que j'ai tenues avec vous, de toutes ces causeries silencieuses que nous avons eues ensemble au milieu des neiges, sous les mélèzes et sur le bord des torrents, il ne restera sans doute que de bien faibles échos pour le jour du revoir. Toutes ces bonnes paroles que j'avais enfermées dans le bon trésor de mon cœur pour vous les répéter en vous embrassant, ne seront jamais prononcées ; elles seront perdues comme les objets qu'on serre précieusement dans un coffret et qu'on cache avec mystère ; ensuite on les cherche inutilement et on ne les retrouve plus.</p>
+         <p>N'importe, chère sœur, vous accueillerez Elisée taciturne avec autant de tendresse et de joie que vous pourriez accueillir un Elisée bavard et, pour ma part, je n'aurai pas besoin d'avoir la parole aux lèvres pour vous témoigner mon affection et me sentir heureux auprès de vous. Déjà loin de Paris, je me sens si profondément ému en pensant à notre doux intérieur, je savoure tellement nos petites joies de famille et je souffre tant de tous nos chagrins communs...</p>
+         <pb/>
+         <p>Ardouin vous a raconté la première partie de notre voyage, nos promenades à Nice, notre odyssée de la Corniche, nos visites aux palais de Gênes. La vue de toutes ces belles choses nous a fait beaucoup de plaisir : j'ai singulièrement joui de me trouver en présence de toutes ces merveilles de l'ancien art italien, de tous ces palais à colonnades, de ces fresques, de ces tableaux qui émoignent d'un si haut degré de prospérité et de grandeur dans l'ancienne république génoise. Ce n'était point un peuple de laquais que celui qui pouvait accumuler dans un si petit espace tant de grandes œuvres. Mais ce qui me réjouissait partout et me permettait d'admirer tout à mon aise, c'est que je pensais parfaitement qu'une nouvelle ère de renaissance a commencé pour Gênes. Elle se relève, elle s'agite, son peuple se développe, les journaux et les livres se montrent partout ; les curés et les moines, qui formaient autrefois le dixième de la population, ne se montrent plus que çà et là et sous un aspect rechigné ; un nouvel esprit, plus généreux que celui de l'ancienne république aristocratique commence à souffler. Les impressions de ceux qui visitaient Gênes et les autres villes de l'Italie devaient être bien différentes lorsque toutes ces cités étaient d'ignobles mendiantes ou de honteuses prostituées. Le contraste offert par l'ancienne grandeur et par la dégradation présente devait produire une sen¬ sation d'amertume et de tristesse. Maintenant il n'en est pas ainsi. La morte est ressuscitée et sa nouvelle vie vaudra mieux que la première. Si je visite jamais Rome, je désire pouvoir le faire quand elle aussi sera libre et vivante ; je ne tiens pas à voir des ruines et des fumiers sur lesquels un ignoble cancéreux gratte ses ulcères avec les têts du pot de Saint-Pierre.</p>
+         <p>J'ai vivement regretté de ne point voir d'amis politiques à Gênes. A la poste, je n’ai point trouvé de lettres de Dall'Ongaro et déjà il était trop tard pour que je lui en demandasse. Je voyais donc des yeux brillants, j'entendais çà et là des paroles éfergiques ; mais je devais passer à côté des braves gens comme un vulgaire étranger. Du moins en allant porter une souscription pour la Pologne aux bureaux du Moviemento ai-je eu la satisfaction de voir que ces bureaux étaient installés dans un des plus magnifiques palais de Gênes : Ca m’a fait un sensible plaisir de voir mes amis aussi bien logés.</p>
+         <p>Ne pouvant aller visiter les républicains amis, j'ai fait acte de superstition et j'ai rendu visite au Rocher de Quarto. C'est au pied de ce rocher que les Mille se sont embarqués pour Marsala. Maintenant un petit obélisque en marbre s'élève sur ce rocher et de temps en temps les Gênois viennent en pèlerinage s'installer sur les escarpements voisins pour faire des discours et chanter des hymnes à la liberté. J'ai regardé cette colonne et je me suis senti plus fier d'être républicain que je ne le suis d'être Français en regardant la colonne Vendôme.</p>
+         <p>Tu sais que j'avais une lettre pour un vieux général géographe, qui demeure aux environs de Gênes, à Nervi. J’ai été le voir la veille de mon départ. C'est un bon vieux à cheveux blancs qui m'a reçu à bras ouverts, au nom de la science. Mais à peine les premières félicitations sont-elles échangées qu'il s'écrie : « Ah ça, aimez vous les prêtres? — Non, je les abhorre! » Nouvelles félicitations, nouvelles embrassades. Puis il me demande des nouvelles de tous ses amis de Paris. « Celui-là aime-t-il les prêtres? Mangerait-il du curé? » Dans le courant de la conversation, le brave vieillard me dit tout simplement : « J’ai donné mon unique fils à Garibaldi, et il est mort à la bataille de Vulturne. » Et la vieille mère, qui était présente, opina gravement de la tête. Elle aussi avait donné son fils.</p>
+         <p>Un salut d'amour, chère sœur, j'aurais à te parler longuement encore ; mais je ne vois pas pourquoi je finirais et la lettre ne partirait pas. Salut donc à toi, aux amis, aux chers enfants.</p>
+         <p>Ton <persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>         
+      </body>
+   </text>
+</TEI>

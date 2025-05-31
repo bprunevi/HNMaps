@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.248">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus. Paris. Sans date. 1865.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 248</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme Elie Reclus</persName>.</p>
+         <p><placeName xml:id="Paris" type='sender'>Paris</placeName>. Sans date. <date when="1865-01-01">1865</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma très chère Noémi</addName></persName>,</p>
+         <p>Nous sommes ici depuis quarante-huit heures, et c'est à peine si nous avons pu nous reposer un peu : Clarisse s'occupe de ses mille arrangements de ménage et moi je vais voir les amis, je reçois les visites, je corrige les épreuves et parcours rapidement les journaux.</p>
+         <p>Grimard est bien. Il a complétement terminé son livre ; mais les premiers exemplaires ne seront guère en vente avant une quinzaine, Macé devant faire une préface à l’ouvrage. Je crois que le succès en sera grand (1).</p>
+         <p>Espérons qu'Elie aura recruté beaucoup d'adhérents pour le Crédit au Travail, car, pendant le mois de septembre, les souscriptions n'ont pas du tout marché. Six associés, c'est tout ce qu'aura produit le mois. Nous n'avons pas encore atteint les fameux cent mille francs. Cl. vient d'apporter spontanément ses deux cents fr.</p>
+         <p>Toutefois, si le capital souscrit ne s'accroit guère, les autres opérations prennent un grand développement; le mois de mai, on a fait pour soixante mille francs d'escompte. La société des Boulonnais achète des machines à vapeur, la société des fondeurs, composée de quarante-cinq gars, fait des affaires magnifiques ; la société des modeleurs vient de se constituer ; nous créditons une association de consommation au Havre.</p>
+         <pb/>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>    
+         <p>(1) Grimard s'occupait surtout d'histoire naturelle et a écrit, entr'autres, un manuel de Botanique, très apprécié.</p>
+      </body>
+   </text>
+</TEI>

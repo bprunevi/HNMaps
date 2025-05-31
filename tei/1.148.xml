@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.148">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 71</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A son <persName xml:id="PereReclus" type="recepteur">Père</persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1856-11">novembre 1856</date>.</p>
+         <p><persName xml:id="PereReclus"><addName>Très excellent père</addName></persName>.</p>
+         <p>Je reçois seulement aujourd'hui la lettre touchante que tu m'avais écrite dès la fin de l'année dernière, et c'est avec une profonde reconnaissance, presque avec un sentiment d'humiliation que je l'ai lue et relue, pour la lire et la relire encore. Je me sens plus qu'ému, en pensant que toi, mon père, t'abaisses au point de me remercier avec effusion parce que moi, ton fils, je me suis souvenu de toi. Vraiment, c'est une grande chose que l'amour d'un père tel que le mien.</p>
+         <p>Mais as-tu donc pu croire pendant un seul instant que j'omettais d'écrire ton nom par suite d'un indigne oubli? Cependant je n'écrivais pas une ligne sans t'avoir présent à l'esprit ; jamais je ne prononçais le nom de ma bonne mère sans me souvenir que j'avais un père aussi. Mes lettres étaient donc bien froides puisque, dans les expressions de mon amour filial, quelque. chose ne te disait pas que je pensais à toi aussi bien qu'à ma mère ! C'était pourtant un sentiment de respect et de vénération qui me fermait la bouche, je n'osais pas t'adresser directement de peur que mon langage trop mondain ne réveillât quelques-unes de tes souffrances et ne te rappelât douloureusement que tout n'est pas entre nous harmonie, paix et concorde. Ai-je tort, cher père, de te parler avec franchise? Il ma semblé que si je t'écrivais pour te parler de mille choses et de mille autres encore, ma loquacité sur de pareils sujets ne pourrait que faire remarquer mon silence sur les grandes questions qui seules intéressent vraiment l’homme, et voilà pourquoi j'ai préféré me taire complètement, pourquoi je romps aujourd'hui mon long silence avec amertume de cœur. Je parle, cher père, pour te témoigner tout mon amour de fils, mais c'est justement parce que j'éprouve pour toi une si vive et si profonde affection qu'il m'est bien triste de ne pas te crier : Sois heureux, mon père, je sens, j'aspire et je prie comme toi !</p>
+         <p>Telle est aussi, je l'avoue, la grande raison qui m'a empêché de revenir en France. Te revoir et t'embrasser serait une bien douce chose, et faire le tour du monde n'est rien pour aller jouir d'un moment semblable, mais dans ces premiers embrassements et dans tes premières paroles, n'y aurait-il pas quelque chose de triste et de poignant qu'aucun élan d'amour de ton fils pour toi ne pourrait alléger? Et puis ma présence ne serait-elle pas comme un remords vivant? mes paroles, mes actions, le souffle de ma vie morale seraient une souffrance pour toi. Non, il vaut mieux que je reste à part et que mon amour de fils ne soit pas sans cesse contrarié par la tristesse de te déplaire.</p>
+         <p>Ai-je tort de te parler ainsi? Je ne sais, et je désire ardemment que ma mère et toi vous approuviez ma franchise. Il ma semblé qu'après ta bonne lettre, c'ent été une véritable hypocrisie de ma part que de me renfermer plus longtemps dans mon triste silence.</p>
+         <p>Je t’embrasse, cher père ; j'embrasse aussi ma mère. J’avais l'intention de lui raconter un voyage instructif que j'ai fait dans la Cordillère Orientale des Andes, mais, tant que je demeure sous le poids de ton émou¬ vante lettre, je ne puis avoir le cœur aux récits. Adieu ! Je crois que demain je partirai pour la Sierra Nevada en compagnie de <persName type="mention">M. Chassaigne</persName>.</p>
+         <p>Ton fils,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

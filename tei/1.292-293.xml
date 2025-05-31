@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.292">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Sans date. Octobre 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.292-293</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <date when="1868-11-01">Octobre 1868</date>.</p>
+            <p>Je ne sais que te conseiller (1). Peut-être as-tu raison et, mieux que personne, tu peux dire : Voilà ce que je ferai. Cependant il ne faut pas te cacher que tu auras bien des obsacles à surmonter. En qualité d’étranger, sachant mal la langue, tu auras à triompher de l'aversion naturelle qu'éprouve l'Espagnol pour un homme d'outre-monts. En outre, ton action ne pouvant s’improviser en huit jours, tu te condamnes par cela même à rester longtemps en Espagne et, si tu ne parviens pas à retrouver <persName type="mention"><surname>Garrido</surname></persName>, dont nous n'entendons pas souffler mot, tu pourras te trouver dans une position des plus difficiles. D’ailleurs, la réaction n'a-t-elle pas déjà commencé? Autant que j'ai compris les choses, « la glorieuse armée » continuera les « sublimes traditions » ; le beau <persName type="mention"><forename>Serrano</forename></persName> et l'héroïque <persName type="mention"><forename>Prim</forename></persName> sauront « maintenir l'ordre ». L'accueil fait par la junte à l'adresse présentée par les républicains français de Madrid ne me semble pas des plus encourageants. Mais je te le répète, juge et agis. Si j'ai des doutes au sujet de l'importance de ton œuvre en Espagne, je n'en ai point relativement à l'œuvre qui nous incombe ici à Paris. Tu sais mieux que personne que la guerre sociale est en permanence et qu'une grande crise se prépare. A nous, à toi surtout, qui prévoyons la bataille, il revient de travailler d'avance à la victoire. Peut-être l'époque que nous traversons est-elle la plus grave de toutes celles où nous aurons une œuvre à faire. Que d'avertissements donnés au vieux corps social depuis les assemblées de Vienne, de Nuremberg, de Bruxelles, jusqu'à celles de Berne et de Berlin ! Ce sont là des craquements sourds, présageant une révolution bien autrement importante que la révolution d’Espagne.</p>
+            <p>Rien de neuf si ce n'est que <persName type="mention"><surname>Gambuzzi</surname></persName> (2) est à Paris depuis deux jours. Si tu vas en Espagne, il sera un de tes mandants.</p>
+            <p>Je te, je vous embrasse,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) La révolution qui renversa du trône le gouvernement de la reine <persName type="mention"><forename>Isabelle</forename></persName> venait d'éclater en Espagne. <persName type="mention"><forename>Elie</forename></persName>, désirant voir de près les événements pour son journal et faire une certaine propagande républicaine, demandait l'avis de son frère.</p>
+            <p>(2) <persName type="mention"><forename>Carlo</forename> <surname>Gambuzzi</surname></persName>, Napolitain, ami de <persName type="mention"><surname>Bakounine</surname></persName>.</p>
+            
+            
+        </body>
+    </text>
+</TEI>

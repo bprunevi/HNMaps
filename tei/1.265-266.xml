@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.265">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœil</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p.265-266</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p> A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœil" type='receiver'>Vascœil</placeName></p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1867-11-01">novembre 1867</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher ami</addName></persName>,</p>
+            <p>Vu <persName type="mention"><surname>Chassin</surname></persName>, auquel j'ai très bien fait de montrer la lettre de <persName type="mention"><surname>Vogt</surname></persName>, car il s'attendait à ce qu'on lui fit la même proposition. D'ailleurs, lui n'accepterait à aucun prix d'être le rédacteur des Etats-Unis d'Europe pour la somme de 3.000 francs, vu que, dans une ville alle mande, il ne trouverait pas à gagner sa vie par d'autres occupations, et, d'un autre côté, il ne veut point abandonner la fondation de la Démocratie Européenne (1) à laquelle il tient par dessus tout. Il lui serait en effet absolument impossible de vouloir mener de front les deux entreprises. Tu n'as donc point en lui de rival, et j'en suis très heureux, car les petites jalous es sont une chose bien lamentable. Nous en avons fait la triste expérience à l'Association.</p>     
+            <p>Si tu n’as pas encore écrit à <persName type="mention"><surname>Vogt</surname></persName>, dis-lui qu'avant d'accepter, tu désires que le terrain soit absolument déblayé de toute misérable question de personnalité, afin que tu puisses commencer ton travail en paix et t'occuper seulement de la chose publique. Demande-lui aussi des renseignements de l'ordre matériel : si la vie matérielle est bien chère, de quelle nature seraient les travaux que tu pourrais entreprendre en outre de la direction du journal ; quelles seraient tes chances d'occupation au cas où l'entreprise du journal succomberait. Ce sont là, des renseignements indispensables. Consulte <persName type="mention"><surname>Dumesnil</surname></persName> à cet égard.</p>
+            <p>Je verrai <persName type="mention"><surname>Naquet</surname></persName> ce jour : il me donnera, je l'espère, tous les renseignements nécessaires sur les débats de <placeName xml:id="Berne" type="mention">Berne</placeName> et sur leurs résultats pratiques : je te les ferai parvenir demain.</p>
+            <p>Ce soir, réunion de quelques amis pour aviser d'une manière générale aux événements et constater une fois de plus que nous sommes impuissants contre l'empire.</p>
+            <p>A toi de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>La composition de mon premier volume finit aujourd’hui (1).</p>
+            <p>(1) La Démocratie, journal hebdomadaire de <persName type="mention"><forename>Ch</forename>.-<forename>L</forename>. <surname>Chassin</surname></persName>. Plusieurs numéros-programmes avec de nombreuses lettres d'adhésion furent distribués à partir du 30 mars 1868. Le journal parut de 1868 à 1870.</p>
+            <p>(2) La Terre, premier volume : Continents, Hachette et Cle, 1868.</p>
+            
+        </body>
+    </text>
+</TEI>

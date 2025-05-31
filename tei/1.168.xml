@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.168">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Sans date. Paris. 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 168</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName>.</p>
+         <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1857">1857</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Ton fils Elisée est revenu pour te voir : je n’avais pas voulu t'avertir de mon départ de peur que tu n'at¬ tendisses la nouvelle de mon heureuse arrivée avec trop d'anxiété : chaque coup de vent qui aurait courbé les arbres de ton jardin, t'aurait semblé devoir faire aussi tomber mon navire.</p>
+         <p>La traversée a été assez heureuse, cependant nous avons eu quelques désagréments en entrant dans la Manche, et je me trouve un peu fatigué.</p>
+         <p>J'ai appris avec plaisir que mon père est en Ecosse. Il reviendra bientôt, et j'aurai le plaisir de l'accompagner pour aller t'embrasser.</p>
+         <p>Ton fils aimé</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

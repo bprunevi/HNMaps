@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.50">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus, chez Lady O. Sparron, Bampton Park, Huntingdon. Londres, 2 mars 1852</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 50</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>, <placeName xml:id="Huntingdon" type='receiver'>chez Lady O. Sparron, Bampton Park, Huntingdon.</placeName></p>
+         <p><placeName xml:id="Londres" type='sender'>Londres</placeName>, <date when='1852-03-02'>2 mars 1852</date>.</p>
+         <p>Salut à homme!</p>
+         <p>Si je m'ennuie par trop ici sans livres, j'irai le pousser une visite un de ces jours, mais n'y compte pas. Salut encore. Tout va bien et très bien. Nebster aimerait que Foumentère fût maître d'école à Kylemore. Il lui donnerait une maisonnette et des champs à cultiver. Qu'en penses-tu ?</p>
+         <p>Lettre de l'oncle qui ne contient pas une seule récrimination, je dis pas une seule.</p>
+         <p>Entendu Louis Blanc, Pierre Leroux, Lachambaudie qui vaut mieux que ses vers, et autres. Louis Blanc est plus éloquent que je ne pensais, P'etit homme voix d'une plénitude merveilleuse, traits profondément accusés. Visage remarquable, nain, nullement joli comme je le pensais. Pierre Leroux, trois fois brave homme, ne sachant trouver ses paroles, faisant des gestes risibles ; ayant réellement la chevelure dont le dotait Cham, la chevelure où venaient nicher les hirondelles en revenant d'Afrique. Pour les entendre, dépensé mon dernier shelling. Avant-hier donné à une pauvre femme mon dernier haff-penny. Vendu de vieux habits à un juit qui les a emportés, oubliant de me payer, ce que je n'ai pas su prévoir, moi le fameux. Pauvre comme leu Job, désirant ton retour.</p>
+         <p>Reçu les 5 chalers de <persName type="mention">Mickel</persName>, sans quoi j'en serais réduit depuis une diraine de jours à l'extrémité d'aujourd'hui. <persName type="mention">R. Mannering</persName> ne peut rien me prêter ; sans que je le lui aie demandé, il a voulu emprunter 5 guinées à son père, mais tu comprends que non seulement le papa a refusé, mais encore qu'il m'a représenté comme un brigand : "Mon fils, prends garde surtout des hommes d'esprit qui n'ont pas le sou ; ils sont encore plus dangereux que de simples misérables !" Comme d’ailleurs, Mannering donne tout ce qu'il gagne, il ne peut rien me prêter. Ainsi soit-il !</p>
+         <p>Si je pouvais emprunter, mais ouiche ! il n'y a plus de juits ! Reviens, car si je voulais vivre à crédit ici, ma délicatesse me dirait d'y rester. Or, ne veux point. Mon Japon (1), raté de plus en plus, c'était mal commencé et plus malin que je ne supposais. Puis la chambre est si petite et tant d’autres misères. I1 faudra je pense, à moins que tu sois riche et reviennes bientôt, tâter des grands moyens. Encore faut-il trouver ces grands moyens.</p>
+         <p>Salut, prospère, pauvre diable, comment as-tu fait avec P.?</p>
+         <p><persName type='emetteur'><forename>ELISÉE.</forename></persName></p>         
+         <p>(1) Sans doute, un premier essai de description géographique ou politique qui, pensons-nous, ne vit jamais le jour.</p>
+      </body>
+  </text>
+</TEI>

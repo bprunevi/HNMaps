@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.346">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Sans date. Nimes, printemps 1870.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.346-347</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Nimes" type='sender'>Nimes</placeName>, printemps <date when="1870-01-01">1870</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+            <p>Je viens de recevoir ta lettre pressante, qui me fait craindre que la mienne se soit égarée. Je t'en avais écrit une, et il me semble bien qu'elle aurait dû te parvenir hier dans la matinée. Je t’y disais que tout allait bien. <persName type="mention"><forename>Jeannie</forename></persName> est en assez bonne santé, toujours joyeuse, se souvenant toujours des bons amis de <placeName xml:id="Paris" type="mention">Paris</placeName>, toujeurs prétendant à la main de <persName type="mention"><addName>Titis</addName></persName> (1). Elle voudrait beaucoup me suivre à <placeName xml:id="Paris" type="mention">Paris</placeName>, mais tout bien considéré, il vaudra mieux, je crois, qu'elle aille d'abord à <placeName xml:id="Orthez" type="mention">Orthez</placeName> rejoindre sa sœur, puis elles viendront toutes les deux en même temps dans <placeName xml:id="le Nord" type="mention">le Nord</placeName>, si elles doivent y venir.</p>
+            <p>Il est probable que je ne resterai pas longtemps à <placeName xml:id="Nimes" type="mention">Nimes</placeName>. Demain, je vais à <placeName xml:id="Aigues-Mortes" type="mention">Aigues-Mortes</placeName>, malheureusement l'affaire s'est mal emmanchée, et j'irai voir <placeName xml:id="le Grau" type="mention">le Grau</placeName> (2), en compagnie, je le crains. Je serai obligé de m'isoler par la pensée. Peut-être partirai-je pour <placeName xml:id="les Cévennes" type="mention">les Cévennes</placeName> vendredi ou samedi : ce qui m'effraie, ce sont les neiges qui pèsent encore sur les hauts sommets ; pour ne pas geler dans la diligence, je crois que je ferai la plus grande partie de la traversée des montagnes à pied. A <placeName xml:id="Moret" type="mention">Moret</placeName>, j'espère rencontrer les <persName type="mention"><surname>Mancel</surname></persName> auxquels j'ai donné rendez-vous pour me faire, sous leur direction, une idée du pays.</p>
+            <p>Reçu une bonne lettre de ma mère.</p>
+            <p>Mon frère <persName type="mention"><forename>Armand</forename></persName> (3) est en <placeName xml:id="Chine" type="mention">Chine</placeName> sur le Yangtsekiang.</p>
+            <p>A bientôt, de cœur</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) Surnom d'<persName type="mention"><forename>André</forename></persName>, second fils d'Elie.</p>
+            <p>(2) <placeName xml:id="Le Grau du Roi" type="mention">Le Grau du Roi</placeName>, près d'<placeName xml:id="Aigues-Mortes" type="mention">Aigues-Mortes</placeName>.</p>
+            <p>(3) <persName type="mention"><forename>Armand</forename></persName>, le quatrième des frères Reclus, alors lieutenant de marine.</p>
+        </body>
+    </text>
+</TEI>

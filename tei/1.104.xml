@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.104">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date, campagne près de la Nouvelle-Orléans.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 104</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="CoupleElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date>Sans date</date>, <placeName xml:id="NouvelleOrleans" type='sender'>campagne près de la Nouvelle-Orléans.</placeName></p>
+         <p><persName xml:id="CoupleElieReclus"><addName>Homme, et toi femme</addName></persName>,</p>
+         <p>C'est bien puisque vous le voulez, mais ce serait bien aussi si vous vouliez autre chose. Pour ma part, je suis très décidé, et, à moins qu'un coup de tonnerre m'écrase, d'ici au mois de mars, je me mets en route pour Santafé. Dans quelques jours même, je vais courir tous les hôtels et tous les bordels de la Nouvelle-Orléans pour y trouver un professeur qui consente à endosser le carcan et à manger des piastres à ma place. J'ai mes raisons pour filer. Ces raisons là sont folles, cela va sans dire, et c'est justement pour cela que je les aime, car elles sont bien à moi, et ce n'est pas dans la « Science du bonhomme Richard » que je les ai puisées. D'abord je suis las de manger et de boire, de dormir dans un lit et de frapper sur un gousset rempli, voire même de regarder l'heure sur une montre authentique (proh pudor !) J'ai besoin de crever quelque peu de faim, de dormir sur les cailloux et de vendre ma montre (sou¬ venir d’éternelle amitié) pour un morceau de singe hurleur. Certes tout cela me vaudrait mieux que de voler les nègres qui ont bien gagné par la sueur et le sang l'argent que je mets dans la poche ; de répercussion en répercussion, c'est bien moi qui tiens le fouet et cela ne m'agrée que fort peu.</p>
+         <p>J’ai bien une autre raison...</p>
+         <p>Ainsi donc la vertu et la morale, mais surtout l’horreur que j'ai pour l'esclavage et l'église et la cheva¬ lerie créole, tout cela m'engage à décamper au plus vite. « Que ferai-je là-bas? » demandes-tu toujours, chère et sage Noémi? Que le Dieu inventé jadis par Voltaire me garde de le savoir ! J’irai devant moi et je m'arrê¬ terai quand j'aurai vendu mon dernier bouton. Je regar¬ derai le manque de picaillons ou de maravédis comme une manifestation évidente de la prédilection céleste pour l'endroit où je me trouverai, et, c'est là que je tâcherai encore de violer la misère pour lui faire pro¬ créer un morceau de pain, un peu de paille et des pale¬ tots. Je me ferai ou berger ou tondeur de chiens, ou peintre de bâtiments ou professeur d'obstétrique, ou bien même je me badigeonnerai la figure en noir pour tâter un peu de l'état de nègre. Tout m'est bon, pourvu que je marche. Mais dès que tu me diras, chère sœur : « je viens ! » alors je vais m'arrêter dans quelque charmante vallée, au pied de l'Ande sourcilleuse, sur les bords d’un fleuve qui descend en grondant vers l'Amazone ; je réclame de la Nouvelle Grenade mes dix hectares, et j'y construis une charmante cabane. Viens, ce sera délicieux ; plus tard, lorsque trois ou quatre années de paradis t'auront fatiguée, il sera temps de revoir le vieux monde.</p>
+         <p>Cependant quand même vous ne viendrez pas de sitôt (ce qu’à Dieu ne plaise !) j'ai bien quelques sem¬ blants de projets que la chance pourrait me faire réali¬ ser. Vous savez, ou plutôt vous ne savez pas que je suis enceint depuis longtemps d'un Mistouflet géographique que je veux mettre au monde sous forme de livre ; j'ai déjà suffisamment griffonné ; mais cela ne me sussit pas, je veux aussi voir les Andes pour jeter un pou de mon encre sur leur neige immaculée. Pour ce, je m'achète un mulet, mulet auquel déjà je cherche vainement un nom magnifique, je le charge d'une caisse remplio de fils, d'aiguilles et d'épingles, et je vais de montagne en montagne et de ville en ville les vendre aux hommes reconnaissants. Là-bas, on peut achèter cinquante livres de bananes pour trois aiguilles ; ajoutons-y géné¬ reusement sept aiguilles pour cinquante livres de ma¬ nioc et je vis avec une profusion toute sardanapalesque pour une aiguille par jour. N'est-ce pas, Noémi, que tous ces plans sont fort sages ?</p>
+         <p>Quant à Mannering, le pauvre ami est mort, mort misérablement de la fièvre jaune. Il m'a fait demander par le télégraphe pendant sa maladie, mais la dépêche a mis quinze jours pour faire quarante lieues. La vie du pauvre Johnny était manquée. Ce qui l'a tué mora lement, c'est d'abord d'avoir été un brave homme sans avoir su se tailler une vie à soi à grands coups d'épée ce qui l’a tué physiquement, c'est d'avoir trop mangé de beefsteak. Pour ralentir le sang et la respiration, il serait bon, surtout ici, de vivre uniquement de fruits et de légumes, mais lui se précipitait avidement sur les chairs saignantes des tables américaines ; aussi dès que la mort l'a saisi, elle l'a brûlé comme une allumette chimique. Quand j'ai su la mort, j'ai frappé sur ma table, et j'ai crié « Mannering, viens ici, sacré nom d'un tonnerre ! » Mais l'évocation n'a rien fait, je n'ai pas vu le moindre fantôme ; décidément, s'il y a des esprits, il faut avouer qu'ils sont bien prudes ! A propos d'idées américaines, en voici deux qui sont bonnes : Fulton a donné à Harris, le grand-prêtre des spiritua¬ listes, le plan d'une machine mâle et d'une machine femelle, lesquelles se livrent à des transports d'amour à toute vapeur et procréent de délicieuses petites ma¬ chinettes qui grandissent et pensent et se développent pour l'âge des amours. Ce n'est pas tout : Napoléon. Tuscaloosa, Jésus-Christ, Socrate et Toussaint-Lou¬ verture ont fondé un journal par actions, où ils célè¬ brent un peu les merveilles de l'Elysée, mais surtout le caoutchouc de Goodyear, le cirage de Bell et les seringues de Thomisson. C'est Napoléon qui est chargé de faire la réclame. Les Anglais disent : « Time is money. » Ceux-ci : « Humbug is money. »</p>
+         <p>Le libraire Paya se chargera de la Revue, je lui parlerai.</p>
+         <p>D’abonnés, je t'enverrai deux ou trois si même je les trouve.</p>
+         <p>Je t’enverrai bientôt un article sur le Mississipi Il faudra que tu attendes plus longtemps avant que je t’envoie un article sur l’esclavage.</p>
+         <p>Je t’enverrai des sous dans une quinzaine de jours. Pour cela, il faudra que j'aille en ville.</p>
+         <p>Ecris-moi souvent. Tes lettres me renouvellent.</p>
+         <p>Souviens-toi que je file à la fin du mois de mars et que tes lettres mettent souvent plus d'un mois à venir.</p>
+         <p>Adresse tes lettres Roman and Kenion, etc.</p>
+         <p>Soyez et vivez.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

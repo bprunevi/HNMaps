@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.216">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère Sans date. Paris. 1862.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 216</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName></p>
+         <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1862">1862</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Outre la lettre que nous avons reçue de toi, il y a huit jours, nous avons reçu, encore par un tiers, d'excellentes nouvelles sur votre santé et nous espérons que rien de fâcheux ne sera survenu dans l'intervalle : aux peines morales que nous avons la douleur de vous voir éprouver trop souvent, il est bon qu'il ne vienne pas se mêler de souffrances physiques ; s'il nous était permis de joindre notre part à la vôtre, il est certain que vous ne souffririez jamais.</p>
+         <p>Notre petite vie continue à suivre son train bourgeois et tranquille. L'enfant est dans un florissant état de santé et les remèdes homœopathiques que lui donne M. Jahr ont jusqu'à maintenant guéri les désagréments inévitables dans les premiers jours de la vie. L'enfant n'a pas encore beaucoup de physionomie, il est encore assez laid, mais sa figure se forme visiblement (1). Mon Guide des Pyrénées est à peu près terminé, et mainte¬ nant j'ai à faire la partie la plus ennuyeuse du travail ; c'est-à-dire à revoir le manuscrit, à corriger les épreuves par trois et quatre fois, à effacer, ajouter, retrancher. J’espère que j'aurai fini vers la fin du mois et que l'ou¬ vrage paraîtra vers le 15 juillet. J'aurai alors un peu de répit pour aller jouir de la belle verdure. Un petit voyage me fera certainement du bien : maintenant je suis tellement habitué au mouvement que je dépéris quand je reste au même endroit, le changement d'horizon est devenu un besoin pour moi.</p>
+         <p>Dernièrement j'ai lu devant les membres de la So ciété de Géographie un travail qui a paru faire plaisir, du moins le Président s'est cru obligé de m'adresser des félicitations. Je vais continuer à lire pendant quel¬ ques séances. Quand j'aurai 72 francs de reste, je me ferai admettre au nombre des membres afin de jouir de la magnifique bibliothèque et des superbes cartes de la Société.</p>
+         <p>Il est très probable qu'Elie va passer du bureau du Contentieux dans celui des Chemins de fer autrichiens où il aura moins de fatigue, de meilleurs appointe¬ ments et un chef de bureau beaucoup plus agréable. Ce changement dans sa position aura probablement lieu au mois d'août, et mon frère pense qu'en même temps il pourra obtenir un congé pour aller faire un petit voyage avec moi. Il est certain que, par simple devoir d'hygiène, il faut quitter Paris au moins pendant un mois.</p>
+         <p>Nous t'embrassons ainsi que notre père. Salut à toute la famille et aux amis.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>      
+         <p>(1) Il s'agit de Jeannie, la seconde fille d'Elisée.</p>
+      </body>
+   </text>
+</TEI>

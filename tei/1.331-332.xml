@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.331">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Sans date. Londres 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.331-332</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Londres" type='sender'>Londres</placeName> <date when="1869-01-01">1869</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+            <p>A l'heure qu'il est, tu dois avoir reçu des nouvelles de ton fils, de retour à Vascœuil. Je n'ai pu l'accompagner au delà de <placeName xml:id="Redhill" type="mention">Redhill</placeName>, parce que je devais me trouver le soir à <placeName xml:id="Londres" type="mention">Londres</placeName>, à un dîner donné en l'honneur de <persName type="mention"><surname>Bradlaugh</surname></persName>, mais j’ai mis les voyageurs dans le train, je me suis occupé de leurs bagages et j'ai eu la satisfaction en les voyant s'éloigner de constater que le temps était beau et que le vent était doux. J'espère qu'ils n'auront pas eu à souffrir du mal de mer.</p>
+            <p>La fête des sécularistes républicains (1) a été des plus intéressantes. Le dîner était succinct et mauvais, je dois l'avouer, mais la cordialité était grande et les discours excellents. <persName type="mention"><surname>Talandier</surname></persName> (2), qui ne s'attendait point à parler, a répondu à <persName type="mention"><surname>Bradlaugh</surname></persName> avec une éloquente émotion qui a profondément remué l'assemblée. Nous étions là cent vingt hommes et femmes, tous unis, libres penseurs, républicains, socialistes, et nous étions heureux de nous trouver ensemble. La veille, j'avais aussi vu le vieil <persName type="mention"><surname>Allsop</surname></persName> (3), pour lequel j'éprouve une bien vive sympathie.</p>
+            <p>Elie ferait très bien de passer un de ces matins chez <persName type="mention"><surname>Hetzel</surname></persName> et de lui demander, soit directement, soit par <persName type="mention">M. G.</persName> ou <persName type="mention">M. M.</persName>, où en est l’impression de mon bouquin (4). Pourquoi n'on ai-je pas reçu d'épreuves? Attend-on mon retour? Mon manuscrit est-il oublié dans quelque tiroir? Ca ne m'irait pas du tout.</p>
+            <p>J'espère fortement que <persName type="mention"><forename>Louise</forename></persName> et les <persName type="mention"><surname>Dumesnil</surname></persName> vont passer l'hiver à <placeName xml:id="Nice" type="mention">Nice</placeName>.</p>
+            <p>A vous bien tendrement,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>Resalut tendre...</p>
+            <p>(1) Libres-penseurs anglais groupés autour de <persName type="mention"><surname>Bradlaugh</surname></persName>, et dont étaient <persName type="mention"><addName>Sir</addName> <forename>Charles</forename> <surname>Dilke</surname></persName>, <persName type="mention"><surname>Hyndman</surname></persName>, etc., en vue principalement d'une propagande républicaine, qui s'éteignit plus tard dans le « loyalisme » ardent des admirateurs de <persName type="mention"><forename>Victoria</forename></persName> et de la « plus grande Angleterre » <placeName xml:id="Greatest England" type="mention">Greatest England</placeName>.</p>
+            <p>(2) <persName type="mention"><forename>Alfred</forename> <surname>Talandier</surname></persName>, ami des Reclus depuis l’exil qui suivit le Coup d’Etat napoléonien, plus jeune qu’eux et moins intransigeant. Fixé en <placeName xml:id="Angleterre" type="mention">Angleterre</placeName>, il y resta longtemps professeur à l'Ecole Militaire de <placeName xml:id="Sandhurst" type="mention">Sandhurst</placeName>, et n’en revint qu’à l’époque de la guerre franco-allemande. Pendant la Commune, il chercha, sinon à concilier les «frères ennemis », du moins à pallier les horreurs de la répression versaillaise, et nommé député par les électeurs de <placeName xml:id="Limoges" type="mention">Limoges</placeName>, il ne quitta jamais les bancs de l'opposition. Il était spirituel, fort aimable, artiste plutôt qu’homme politique.</p>
+            <p>(3) <persName type="mention"><forename>Thomas</forename> <surname>Allsop</surname></persName>, radical anglais, lié avec <persName type="mention"><surname>Orsini</surname></persName>.</p>
+            <p>(4) Histoire d'un Ruisseau, 1 vol. in-12, Paris, Hetzel, 1869.</p>
+            
+            
+            
+        </body>
+    </text>
+</TEI>

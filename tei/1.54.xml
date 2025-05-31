@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.54"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus, en Irlande. Sans date. 1852, Londres.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 54</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc> 
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>, en <placeName xml:id="Irlande" type='receiver'>Irlande.</placeName></p>
+         <p><date when='1852-01-01'>Sans date. 1852</date>, <placeName xml:id="Londres" type='sender'>Londres</placeName>.</p>
+         <p>Brave homme,</p>
+         <p>Sur ces entrefaites moi avoir reçu 8 livres, shellings de <persName type="mention">Lady Gosford</persName>, je ne sais si par suite de tes instructions ou non. En tout cas, cela vient à propos, bien que :</p>
+         <p>Malgré les envieux, Eut vécu le rat goutteux.</p>
+         <p>Ne ferai-je pas bien de t'envoyer 2 ou 3 pounds (livres st) pour l'acheter des bottes et des culottes ? De plus, dois-je payer le tailleur ou D2 (le tailleur 50 sh., D. 40), ou bien veux-tu que j'envoie 100 francs à R. P J'attends la réponse.</p>
+         <p>C'est bien. Continue, ô homme ! ça le fait 2600 fr. ou plus par an. Je ne m'oppose nullement à ce que, di coup, tu paies nos dettes et nous fasses vivre dans le joie.</p>
+         <p>Il n'y a plus guère dans l'Institut que des Anglais, et les Allemands qui s'y trouvent parsemés ne sont généralement que des paresseux, renvoyés des Gymna- siums aussi ne se distinguent-ils guère que par leur paresse et leur servilité les Anglais sont bien meilleurs sous ce rapport, car ils ne sont pas de cire, et leur vo- ,lonté pour être impressionnée doit être combattue par une autre volonté mais cette volonté dégénère le plus souvent en entêtement, et cet entêtement est déjà une faiblesse. Ce n'est pas à dire que, pour cela, ils aient beaucoup d'intelligence bien au contraire, pour tout ce qui est théorie, affaire d'intelligence pure ou d'ima- gination, ils sont complètement nuls, mais,pour la pra- tique, ce sont tous des machines plus ou moins bien perfectionnées. Le niveau des études a aussi com- plètement baissé, surtout pour le latin, et c'est tout au plus si on ose s'attaquer aux Commentaires de César. Mais en revanche, maintenant, le français s'ap- prend avec une espèce d'enthousiasme chaque pro- fesseur presque donne une leçon de français et chaque élève l'apprend un autre professeur français est aussi depuis quelque temps dans l'Institut, c'est presque une colonie. Mais mon soleil et mes montagnes lointaines et mon printemps et vous, le père Rhin et la forêt Thuringiénne ne pourront point me le rendre. Je suis obligé d'aller vous chercher dans mon passé, de mebâtir dans ce lointain déjà nébuleux une cabane pleine d'ombre et de paix.</p>
+         <p>A nous deux, si tu restes où tu es, cela nous fait plus de 7000 francs par an. Quels aristocrates !</p>
+         <p>Si je puis, je vais tâcher de traduire quelque bou¬ quin : cela nous sera utile de toutes manières. Je pense que tu restes là-bas, car <persName type="mention">M. Haldane</persName> m'a dit hier que probablement tu t'étais décidé à rester. Oui, tu le dis, de grandes choses se préparent ; tout était mal commencé, comme certains corps qui sont amorphes tant que la chaleur n'est pas suffisante, mais qui deviennent cristallins par quelques degrés de plus ; ainsi la vie d'amour et de liberté n'était pas assez puissante pour transformer la société jusqu'à aujour- d’hui ; mais les gouvernements font tabula rasa de tous nos rudiments tronqués, afin qu'ensuite nous puissions tout recommencer sur une nouvelle échelle.</p>
+         <p>Salut, homme qui vois.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename></persName></p>         
+      </body>
+  </text>
+</TEI>

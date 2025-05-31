@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.255">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Sans date. Sainte-Foy. 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 255-256</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="SainteFoy" type='sender'>Sainte-Foy</placeName>. <date when="1865-01-01">1865</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma très chère sœur</addName></persName>,</p>
+            <p><placeName xml:id="Le Boucau" type="mention">Le Boucau</placeName> est un endroit très salubre, il y a bien des flaques d'eau derrière les dunes, comme à <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName>, à <placeName xml:id="Arcachon" type="mention">Arcachon</placeName> et sur tout le littoral, mais ces flaques d'eau sont entourées de grands pins qui arrêtent les miasmes, s'il y en a : ce sont plutôt de petits lacs que des marécages.</p>
+            <p>Autant qu'il m'en souvient, le <placeName xml:id="Boucau" type="mention">Boucau</placeName> est bien plus rapproché de la mer que tu ne le supposes ; mais, dans tous les cas, ce n'est jamais à l'embouchure que j'irai baigner <persName type="mention"><forename>Paul</forename></persName>, la mer y est généralement trop mauvaise, c'est dans <placeName xml:id="Adour" type="mention">l’estuaire de l'Adour</placeName>, au fond de quelque crique de sable blanc, là où l’eau sera tranquille, que je le ferai gigoter dans l'eau : nous trouverons bien certainement un endroit de ce genre à moins d'un kilomètre de chez nous, quand même nous irions nous installer dans une petite maison des bois, aux environs du village. A marée montante, l'eau de l'estuaire est au moins aussi salée que celle de <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName>.</p>
+            <p>Nous ne savons pas encore quand nous partirons, mais ce sera probablement quand <persName type="mention"><forename>Julie</forename></persName> pourra licencier ses élèves vers le 15 août... Pour ma part, je crois qu'il est peu d'endroits en France où <persName type="mention"><forename>Paul</forename></persName> pourrait voir et apprendre plus de choses : la mer, le fleuve, les marées, les brisants, les pins, les lacs, les grandes dunes, les Basques, les Espagnols, choses et gens laisseront, je l’espère, une impression durable dans son esprit.</p>
+            <p><persName type="mention"><forename>Magali</forename></persName> nous semble assez bien, cependant la matité persiste. Nous sommes à peu près décidés à la laisser tout cet hiver à <placeName xml:id="Sainte-Foy" type="mention">Sainte-Foy</placeName> : ce sera un grand déchirement de cœur pour la mère et pour l'enfant, mais je crois qu’il faudra nous y résigner.</p>
+            <p>L'excellent frère <persName type="mention"><forename>Paul</forename></persName> (1) est ici. Quel être aimant et consciencieux.</p>
+            <p>Nous vous embrassons de cœur et d'âme, vous, tous les bons habitants de <placeName xml:id="Vascolium" type="mention">Vascolium</placeName>.</p>
+            <p>Votre frère, <persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) <persName type="mention"><forename>Paul</forename></persName>, le cinquième et dernier des frères Reclus.</p>
+        </body>
+    </text>
+</TEI>

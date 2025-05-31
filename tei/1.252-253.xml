@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.252">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Orthez, 15 juin 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 252-253</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A Mme <persName xml:id="NoemiReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Orthez" type='sender'>Orthez</placeName>, <date when="1865-06-15">15 juin 1865</date>.</p>
+            <p>Ma chère sœur,</p>
+            <p>Je viens de traverser <placeName xml:id="Bordeaux" type="mention">Bordeaux</placeName>, où l'on est bien triste en ce moment, ma tante <persName type="mention">Ducos</persName> passant par une crise de sa maladie des plus aiguës...</p>
+            <p>« Je n'ai pu faire aucune propagande. J'ai pourchassé <persName type="mention">B.</persName> toute une journée sans pouvoir le dénicher. J’ai chargé <persName type="mention">F.</persName> de lui faire la morale.</p>
+            <p>A <placeName xml:id="Orthez" type="mention">Orthez</placeName>, là veine n'est point encore épuisée. Notre sœur <persName type="mention"><forename>Joana</forename></persName> nous procurera d'autres adhérents ; en outre, elle prendra des mesures pour attaquer <placeName xml:id="Pau" type="mention">Pau</placeName>. Figure-toi que l'affaire a été si chaudement menée pardes amis de <persName type="mention"><surname>Navarreinx</surname></persName>, auxquels elle en avait parlé, qu'on a eu l'idée de recourir au moyen de publicité le plus bruyant. Le tambour de ville, suivi de tous les gamins en loques, a fait sur sa peau d'âne de magnifiques effets de roulement à tous les coins des rues et aux portes de la ville : « Le public est prévenu que la Société du Crédit au Travail a été fondée à <placeName xml:id="Paris" type="mention">Paris</placeName>, pour le bien des ouvriers. Tout le monde est invité à y déposer son argent. » Et rantanplan, rantanplan, rantanplan.</p>
+            <p>Tout le monde a admiré et personne n'a souscrit. Ainsi vont les choses humaines ! Néanmoins, l'histoire est bonne : il ne faut pas négliger de l'insérer dans les Annales du Crédit au Traçail.</p>
+            <p>Cette chère <persName type="mention"><forename>Joana</forename></persName>, est une fille admirable, et, en me servant de ce mot, je ne dis pas encore d'elle, tout le bien que j'en pense...</p>
+            <p>Ma mère m'a revu avec un plaisir très sensible et reste avec moi aussi longtemps que le lui permettent ses leçons. <persName type="mention"><forename>Armand</forename></persName> (1) pense revenir en <placeName xml:id="France" type="mention">France</placeName> dans six mois. <persName type="mention">Maman</persName> ira le voir à <placeName xml:id="Toulon" type="mention">Toulon</placeName>. Ces vacances, elle va au <placeName xml:id="Puy" type="mention">Puy</placeName> pour voir <persName type="mention"><forename>Lois</forename></persName>, et surtout pour voyager. Lesinstincts du voyageur sont probablement beaucoup plus forts chez elle que chez tous ses enfants ; le plus grand malheur de sa vie est certainement d'avoir été confinée à <placeName xml:id="Laroche" type="mention">Laroche</placeName>, à <placeName xml:id="Sainte-Foy" type="mention">Sainte-Foy</placeName>, à <placeName xml:id="Orthez" type="mention">Orthez</placeName>.</p>
+            <p>Mon père est gras, fleuri, jeune. Il vient de faire un voyage à <placeName xml:id="Mazamet" type="mention">Mazamet</placeName>, qui lui a fait le plus grand bien. On dirait qu'il y a au moins quinze années de différence, entre ton père et lui (2).</p>
+            <p>Il fait toujours mauvais temps. Si la pluie doit m'accompagner dans mon voyage des <placeName xml:id="Landes" type="mention">Landes</placeName> (3), mes promenades ne seront pas toujours agréables. Le jeune <persName type="mention"> <forename>G</forename>. <surname>Paraige</surname></persName> viendra peut-être avec moi, mais je pense qu’il ne me suivra pas jusqu'au bout.</p>
+            <p>Votre <persName type="mention"><forename>ELISÉE</forename></persName>.</p>
+            <p>Je bise <persName type="mention"><forename>Paul</forename></persName> et <persName type="mention"><forename>André</forename></persName>.</p>
+            
+            <p>(1) <persName type="emetteur"><forename>Armand</forename></persName>, le quatrième des frères Reclus.</p>
+            <p>(2) Le père d'<persName type="mention"><forename>Elie</forename></persName> et celui de sa femme étaient frères, et la tante.<persName type="mention">Ducos</persName> dont il est parlé au commencement de la lettre était leur sœur.</p>
+            <p>(3) En vue d'une Etude sur Les Dunes. Bulletin de la Société de Géographie de Paris, mars 1865.</p>
+        </body>
+    </text>
+</TEI>
+

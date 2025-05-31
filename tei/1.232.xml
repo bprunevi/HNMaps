@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.232">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus. Sainte-Foy. Sans date. 1863.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 232</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme Elie Reclus</persName>.</p>
+         <p><placeName xml:id="SainteFoy" type='sender'>Sainte-Foy</placeName>. Sans date. <date when="1863-01-01">1863</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Ma chère sœur</addName></persName>,</p>
+         <p>Nous recevons ta bonne lettre à l'instant et je vais tâcher d’y répondre avant que le courrier de deux heures parte pour Libourne ; mais gare aux visites, car depuis notre arrivée, les amis, les connaissances, les curieux se succèdent à notre porte. Nous parlons de vous avec les amis ; quant aux connaissances, on parle surtout de Jeannie : « K'ey blanco ! Mon Dieu ! ma chère ! » Nous avons été touchés de ce que tu dis de ce cher petit Paul, si résigné, si calme, si doux, si charmant dans sa tendresse. La lettre de Louise, les paroles d'Elie nous font d'autant plus regretter de n'avoir pu l'embrasser avant le départ, de n'avoir pu célébrer sa chère petite fête, de n'avoir pas entendu les cris et les trépignements de joie, les exclamations de bonheur à la vue du cheval et de la lanterne magique et du petit garçon qui fait' des saletés. Mais nous verrons, nous entendrons mieux que cela, n'est-ce pas? Nous danserons avec la chère marmaille sur la plage de Saint-George, et nous jouerons à colin-maillard sur le sable ferme que l'eau de marée vient de quitter. Il faut rendre nos enfants heureux ; il faut que leur petite mémoire soit remplię d'images gracieuses où ils voient toujours dans une belle nature les êtres qui les aiment.</p>
+         <p>Magali a passé une bonne nuit à Libourne. Le voyage de Libourne à Sainte-Foy n'a pas été trop fati¬ gant ; cependant l'extrême chaleur a peut-être aug menté la fièvre. Aujourd'hui, Magali est assez bien... Notre médecin fait de la médecine expectante. Dans tous les cas, l'état de l'enfant est incomparablement meilleur qu'il n'était à Paris.</p>
+         <p>Quant à Jeannie, il n’y a pas moyen de la voir, Mademoiselle est toujours en visite...</p>
+         <p>La grand'mère de Clarisse est assez bien. Une des premières paroles par lesquelles elle m'a accueilli a été celle-ci : « Je suis vieille, mais je suis patriote » (1). Les nouvelles télégraphiques qui représentent la position des fédéraux comme très compromise l'attristent et l'empêchent de dormir. Je l'ai rassurée : elle est mainte¬ nant tout heureuse.</p>
+         <p>A vous de cœur, votre frère aimé,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>    
+         <p>(1) La grand'mère de Mme Elisée était américaine.</p>
+      </body>
+   </text>
+</TEI>

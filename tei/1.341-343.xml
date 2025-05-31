@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.341">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Sans date. Nice, lundi soir, printemps 1870.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.341-343</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <placeName xml:id="Nice" type='sender'>Nice</placeName>, lundi soir, printemps <date when="1870-01-01">1870</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère sœur</addName></persName>,</p>
+            <p>Avant de partir, j'ai le plaisir de recevoir ta troisième lettre et je m’empresse d'y répondre pour te mettre au courant de mes allées et venues. J'ai fait ma pointe en <placeName xml:id="Italie" type="mention">Italie</placeName> jusqu'à <placeName xml:id="San Remo" type="mention">San Remo</placeName>, je me suis baigné de nouveau dans l'air de <placeName xml:id="Menton" type="mention">Menton</placeName>, de <placeName xml:id="Bordighera" type="mention">Bordighera</placeName>, de <placeName xml:id="Ventimiglia" type="mention">Ventimiglia</placeName> ; j'ai joui de toutes ces belles choses ; malheureusement ma jouissance était en même temps une douleur aiguë, à cause du sentiment de ma solitude.</p>
+            <p>Mais, si vous donnez suite à mon idée de la maison de <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName>, je crois que vous nous créerez, par cela même, un centre de ralliement, qui peut être pour nous a prolongation de la vie et du bonheur domestique, la santé des enfants. Nous pouvons nous fonder ici une demeure dans des conditions exceptionnelles de bien-être, de poésie, de salubrité. Voilà une maison qui est vraiment unique par sa position, et que nous pouvons avoir indéfiniment pour 1200 francs par an, meublée, et pour 600 francs, non meublée. Et c'est là, dans ce paradis, que peuvent pousser nos enfants, à deux pas des <placeName xml:id="Alpes" type="mention">Alpes</placeName>, à deux pas de l'<placeName xml:id="Italie" type="mention">Italie</placeName>, dans la plus sauvage nature et à la porte des villes les plus commerçantes et les plus civilisées, <placeName xml:id="Gênes" type="mention">Gênes</placeName>, <placeName xml:id="Marseille" type="mention">Marseille</placeName>. <placeName xml:id="Turin" type="mention">Turin</placeName>. Si je perds cette occasion, je ne m'en consolerai guère pour moi, et je ne m'en consolerai pas du tout pour <persName type="mention"><forename>Magali</forename></persName> et pour le cher <persName type="mention"><forename>Elie</forename></persName> ; il a besoin de repos sur le bord de la mer, (et le repos, il pourra toujours le trouver, moyennant 80 francs de voyage), quand nous aurons jeté la pierre du foyer.</p>
+            <p>Aussi pressé-je les <persName type="mention"><surname>Dumesnil</surname></persName>, certain que j'ai raison de les presser et que ma sœur, <persName type="mention"><forename>Jeanne</forename></persName>, <persName type="mention"><forename>Camille</forename></persName>, <persName type="mention"><surname>Dumesnil</surname></persName> auront lieu de s'en féliciter. S'ils ne venaient pas, par impossible, je m'adresserais aux <persName type="mention"><surname>Prat</surname></persName> ou bien à <persName type="mention">Mme <surname>L’Herminez</surname></persName>. Que sais-je ? Mais pour <persName type="mention"><forename>Elie</forename></persName>, bien plus encore que pour moi, je tiens à <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName>. Quant à toi, je sais que le midi du Boucau ne t'a pas fait de bien; mais le midi de <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName>, sous la brise douce et fraîche, entre deux golfes tranquilles, ne pourrait te faire du mal. Cela me semble impossible.</p>
+            <p>J'ai oublié la question des approvisionnements. Nous avons sur place l'huile, quelques légumes et des fruits ; le poisson, la viande, le vin sont meilleur marché à <persName type="mention">Villefranche</persName> (15 minutes) qu’à <persName type="mention">Nice</persName>, parce qu’il n’y a pas d'octroi, et les gros légumes, haricots, pommes de terre, on les achète en gros. Tous ceux que j'ai vus, les <persName type="mention"><surname>Negrin</surname></persName>, les <persName type="mention"><surname>Behm</surname></persName> m'ont dit que je faisais une excellente affaire. Ils ajoutent seulement avec amabilité qu'ils regrettent de n'avoir pas plus souvent notre société.</p>
+            <p>A bientôt. Je pars ce soir pour <placeName xml:id="Cannes" type="mention">Cannes</placeName> où je dois m'arrêter. Demain je vais à <placeName xml:id="Solliès-Farlède" type="mention">Solliès-Farlède</placeName>, près d'<placeName xml:id="Hyères" type="mention">Hyères</placeName> ; le surlendemain, je suis à <placeName xml:id="Marseille" type="mention">Marseille</placeName>, puis je cours à <placeName xml:id="Nîmes" type="mention">Nîmes</placeName>, pour voir enfin si je puis avoir des nouvelles de ma petite <persName type="mention"><forename>Jeannie</forename></persName>, car <persName type="mention"><forename>Marie</forename></persName> me tient encore rigueur, ce qui me désole ; puis j'ai pour étapes <placeName xml:id="Lyon" type="mention">Lyon</placeName>, <placeName xml:id="Sens" type="mention">Sens</placeName>, <placeName xml:id="Paris" type="mention">Paris</placeName>, <placeName xml:id="Vascœuil" type="mention">Vascœuil</placeName>.</p>
+            <p>A vous, mes bons amis.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            
+          </body>
+    </text>
+</TEI>

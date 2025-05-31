@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.91">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date. De la plantation Fortier frères, près la N.-Orléans.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 91</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date>Sans date</date>. <placeName xml:id="NouvelleOrleans" type='sender'>De la plantation Fortier frères, près la N.-Orléans.</placeName></p>
+         <p>Je t'envoie 24 livres ; mais il m'a fallu près de quinze jours de négociations pour avoir la traite. Avec ces 24 livres, tâche de faire ce que tu pourras : payer quelque dette, quelques sou aux marmots, que sais-je ? Moi, je ne puis rien envoyer directement à la maison, de sorte que, s'il y a lieu, cela t'incombe de fait et de droit. Mon avis est que tu leur envoies quelque chose si possible ; puis, au bout de deux ou trois mois, je leur enverrai un crocodile empaillé et quelques autres sau¬ grenuités de ce genre qui feront à la maman autant de plaisir qu’une centaine d’écus...</p>
+         <p>Tu juges bien les Etats-Unis, mais pas avec assez de sévérité. C'est une grande sallé d'encan où tout se vend, les esclaves et le propriétaire par dessus le ma ché, les votes et l'honneur, la Bible et les consciences. Tout appartient au plus fort enchérisseur. Mais comme l'esprit doit avoir une pâture quelconque, ils le nour¬ rissent avec de la blague, et tout d'un coup leur esprit se trouve bien plus enrichi que celui des pauvres ignares qui se croient obligés d'apprendre pour savoir, puisqu'il suffit de savoir le nom d'une chose pour en déblatérer.</p>
+         <p>Souvent, je me suis demandé, stupéfait en face de cette Amérique si respectée abroad (au dehors), si peu res¬ pectable au dedans, où sont donc ces progrès néces¬ saires que chaque peuple doit accomplir dans son évolution. On dirait vraiment que tout se réduit à un développement dans l’espace, accompli par cette migration continuelle de l'Atlantique au Pacifique, à un progrès dans le temps, puisque l'Américain entre dans la vie active au sortir de l'enfance, et à un pro¬ grès dans ce qui est vie végétative de l'homme, puis¬ que tous ont un morceau de pain sous la dent. Mais le grand progrès est presque totalement indépendant de leur volonté, ce progrès est forcé par suite des nou¬ veaux rapports de l'homme à la Terre et des races aux races ; car ces nouveaux rapports ont posé à l'huma¬ nité de nouvelles questions qu'il faut résoudre, bon gré, mal gré. Heureusement que chaque problème contient en soi-même sa propre solution, et certes ce ne sera pas la faute des Américains si le mé¬ lange des races s’opère, si nègre, Indien et blanc finissent par se ressembler au physique comme au moral et à se fondre dans une même nation. Ce serait une étude curieuse à faire que d’examiner jusqu'à quel point le nègre du sud est devenu créole et le nègre du nord yankee, de vérifier dans quelle proportion le planteur a pris les habitudes et le caractère des nègres desquels il a déjà pris le langage, combien de pas nègres et yankees ont faits pour s'acheminer vers cette nuance cuivrée qui est le type du visage américain.</p>
+         <p>Il y a là un sujet d'études très intéressant pour nous et que nous poursuivrons quand nous serons ensemble.</p>
+         <p>Cependant, les Américains ont fait accomplir à l’humanité bien des progrès auxquels je ne réfléchissais pas, il n’y a qu'un instant. Dans cette époque de recons¬ truction sociale où nous sommes, il faut que la nature humaine soit explorée jusque dans ses bas fonds, et c'est ce que les Américains se chargent de faire pour certains vices avec un bonheur rare ; ils explorent le mensonge et l'impudence avec une indomptable énergie, ils transportent les montagnes à force de menteries, car, aujourd'hui que la foi est ébranlée, c'est à l'hypo crisie d'accomplir des miracles. C'est merveille que de les entendre. Tous les Yankees sont des apôtres de la civilisation. Un ange de paix est enfermé dans chaque balle de coton ; une douce parole d'évangile est gravée sur chaque lame de bowie-knife, le goddam qu'ils ont sans cesse à la bouche, c'est le shibboleth des nations.</p>
+         <p>Société, indépendance, civilisation, liberté, ne sont que des mots, mais, après tout, les mots ont une certaine valeur. Livré à lui seul, l'enfant, ainsi que tu me l'as fait toi-même observer, commence par les idées les plus vraies et les plus philosophiques, il dessine d'abord le tronc, puis les branches, puis les feuilles ; mais l'homme qui instruit l'enfant commence par l'autre extrême, il s'attache à la forme, à l'apparence extérieure et se dirige du dehors au dedans ; il enseigne les noms et n'oublie que les choses, tandis que la nature enseigne les choses et n' oublie que les noms ; ainsi les deux édu¬ cations se complètent et se pénètrent. L'éducation des Américains ressemble à celle que nous donnent les pédants de chez nous, ils savent le nom des choses ; ils parlent du fait brutal à la terre entière et, plus tard, nous viendrons montrer l'idée du fait : pour me servir d'une comparaison anglo-saxonne, ils mettent les verres sur la table en attendant que nous venions les rem¬ plir... eh !</p>
+         <p>Un fait qui t'intéressera sans doute, c'est que toutes les sympathies du peuple américain sont au service de la Russie, tout le monde raffole de Nicolas; les ministres du saint Evangile prient pour lui ; les femmes soupirent à son intention ; les hardis vont servir dans son armée.</p>
+         <p>C'est fameux que les signes du temps !</p>
+         <p>Salut ô homme.</p>
+         <p>Dis à <persName type="mention">Herzen</persName> que c’est un brave.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

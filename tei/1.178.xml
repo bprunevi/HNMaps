@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.178">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Sans date. 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 178</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date when="1858-01-01">Sans date. 1858</date>.</p>
+         <p>Amis,</p>
+         <p>Le voyage des Landes que j'ai fait avec Onésime a été l'un des plus instructifs de ma vie... J'ai vu les dunes dans toute leur magnificence, celle d'Aldos haute, puissante, inexorable, qui de sa masse de sables recouvre un port, une ville et des campagnes, celles de Mimizan, qui entourent la ville comme une falaise circulaire et n'ont pu être arrêtées qu'après avoir déjà enseveli nombre de maisons.</p>
+         <p>Jamais non plus je n’ai vu la mer si belle qu'à la barre de l'Adour et à celle du vieux Boucau. Vue du haut d'une dune, la mer semblait un tournoiement du Niagara. Là, aussi loin que l'œil pouvait les atteindre, les vagues blanches se poussaient, se dressaient l'une contre l'autre et s'écroulaient par une succession de cataractes. A chaque nouvel écroulement des flots, un espace de plus de cent mètres de large se couvrait d'une eau blanche comme le lait, puis aussitôt la vague se ramenait sur elle-même et se redressait pour prendre un nouvel élan. Chaque coup de mer arrachait le sable du fond et nous avons vu deux vagues remplacer une dune assez profonde par une petite presqu'ile d'un hectare de superficie. L'écume s'amoncelait sur les bords comme un champ de neige et le vent la faisait envoler par tourbillons blancs, de sorte qu'il était souvent diffi¬ cile de distinguer les vols des goélands et ceux des flo¬ cons. Puis c’étaient des fumées, des brouillards d’eau brisée qui éclataient, tourbillonnaient, s’évanouissaient dans le vent et se confondaient avec les nuages déchirés suspendus sur la mer. L'Adour s'avançait petit et tran¬ quille au devant de cette mer rugissante et l'on voyait son eau verte monter lentement de vague en vague au dessus de toutes les cataractes d'écume... C’était bel.</p>
+         <p>L'ancienne embouchure de l'Adour devait être encore bien plus magnifique que l'embouchure actuelle: Large de deux kilomètres au moins, retenue par de hautes falaises de sable, elle était vraiment digne de donner passage à un grand fleuve. Louis de Foix nous a rendu un mauvais service en forçant l'Adour de se jeter dans la mer près de Bayonne.</p>
+         <p>Ecrivez promptement.</p>
+         <p>En souvenir de moi, aimez-vous bien tous les trois.</p>
+         <p>Salut, mes bons</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>
+ 

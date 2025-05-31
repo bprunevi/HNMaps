@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.167">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Riohacha, 1et juillet 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 167</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieRelcus" type="recepteur"><surname>Elie</surname> <forename>Reclus</forename></persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1857-07-01">1er juillet 1857</date>.</p>
+         <p><persName xml:id="ElieRelcus"><addName>Hermanissimos</addName></persName>,</p>
+         <p>Je pars aujourd'hui, 1er juillet, par le navire la Providence, fin voilier de Bordeaux, du port de cent soixante dix tonnes, à destination du Havre.</p>
+         <p>J'espère être avec vous vers le 15 août. En fait de curiosités à vous apporter, je n'ai guère que ma propre personne, qui est grasse, ronde, riante et heureuse.</p>
+         <p>Il va sans dire que la veille de mon départ, on s'est mis à m'apprécier avec ardeur; on devait me faire des rentes, m'engraisser comme un bœuf. Merci.</p>
+         <p>Je ne sais pas si Laborde a encore reçu tes 1.050 fr., mais il a voulu me les avancer à toute force ; je le félicite de la bonne action et j'en profite.</p>
+         <p>Je te salue et vais prendre à Calancala un de mes derniers bains, piquer une dernière tête.</p>
+         <p>Qu'en arrivant au Havre, je trouve une lettre poste restante, m'indiquant ton adresse à Paris.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

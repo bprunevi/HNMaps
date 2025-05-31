@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.208">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère Sans date, 1860.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 208</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName></p>
+         <p>Sans date, <date when="1860-01-01">1860</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Comme tu le sais sans doute, il y a environ une quinzaine de jours que je suis en voyage avec Ernest Ar¬ douin à travers glaciers, forêts, monts et vaux. Jusqu’ici le voyage s'est fait d'une manière très heureuse, si ce n’est que nous avons été écorchés çà et là dans de mauvaises auberges ; nous ne sommes pas trop fatigués ; nous portons le havre-sac sans murmurer et, le soir, quand nous arrivons dans quelque village de Savoie, de France ou de Piémont, nous faisons amplement honneur au macaroni, aux salades et aux pêches, et nous dormons d'un excellent sommeil. Quelquefois, quand mon compagnon est un peu fatigué, nous nous donnons rendez-vous dans quelque village où il se rend en voiture tandis que je m’y rends en passant à pied un col ou un sommet : c’est ainsi que j’ai fait seul l'ascension de Roche-Melon et du Mont-Chaberton ; mais nous avons gravi ensemble le mont Thabor et les glaciers de la Grave. Grâce à la reverbération du soleil sur les neiges éblouissantes, nous y avons pris tous les deux un coup de soleil sur la figure et, pour ma part, c'est à peine si le lendemain je pouvais ouvrir les yeux; main¬ tenant nous changeons de peau comme les erpents, nous sabons, diraient, je crois, les Rochelais.</p>
+         <p>J'aime beaucoup ce genre de vie : se lever avant jour ou bien lorsque les nuages commencent à rougir un peu ; marcher au milieu des forêts, des sentiers dans les herbes fraîches de rosée, s'arrêter sur le bord d'une fontaine sous les rochers pour manger son pain et son fromage, gravir à travers les pierres qui s'écroulent et vont bondir à plusieurs centaines de mètres plus bas, se souvenir qu'on a été nourri par une chèvre en escaladant les rochers, monter sur un pic pour contempler un admirable horizon de montagnes, puis redescendre sur le gazon des pentes, quelquefois aussi sur les chemins pierreux pour gagner son dîner à la sueur de son front, tout cela me plaît infiniment. De ma maladie plus de traces, je ne sens plus ni rate ni foie, et, depuis mon départ de Paris, je suis complètement guéri. Il nous manque des livres, mais notre havre-sac est déjà bien assez lourd sans emporter une bibliothèque avec nous. Aujourd’hui ou demain nous attendons Elie (1) qui a obtenu un congé de quinze jours.</p>
+         <p>Je t'écris de Cézanne, village piémontais d'une saleté incomparable, situé dans une charmante position sur la route du Mont-Genèvre au pic du Mont-Chaberton (2).</p>
+         <p>Je t'embrasse, chère mère, ainsi que mon père et vous tous que j'aime,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>   
+         <p>(1) Ce fut au cours de ce voyage qu'arriva au frère aîné un fâcheux acccident. Il fit une chute dangereuse sur une pente du Glacier Noir, dans le massif du Pelvoux. Heureusement re¬ tenu par une saillie du roc, Elie fut relevé vivant. Sa main droite, cruellement meurtrie, resta paralysée pendant de longues années.</p>
+         <p>(2) Voir Tour du Monde, 1860, p. 402 : Excursions dans le Dau¬ phiné, par ELISÉE RECLUS.</p>
+      </body>
+   </text>
+</TEI>
+
+

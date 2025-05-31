@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.318">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Elie Reclus en Espagne. Sans date. Janvier 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.318-319</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, en <placeName xml:id="Espagne" type='receiver'>Espagne</placeName>.</p>
+            <p>Sans date. <date when="1868-01-01">Janvier 1868</date>.</p>
+            <p>En l’absence de <persName type="mention"><forename>Noémi</forename></persName>, j'ai reçu et ouvert la lettre par laquelle tu nous annonces la bonne nouvelle de ton retour pour le 16 ou le 17 de ce mois-ci. <persName type="mention"><forename>Noémi</forename></persName> t'attendait plus tôt et tu sai: probablement par une de ses lettres qu'elle était à <placeName xml:id="Bordeaux" type="mention">Bordeaux</placeName> où l'avait appelée a maladie, puis la mort de son père.</p>
+            <p>Je n’ai point de dé ails à te donner sur ce qui s'est passé à <placeName xml:id="Bordeaux" type="mention">Bordeaux</placeName>, car <persName type="mention"><forename>Noémi</forename></persName> ne nous a envoyé qu'un simple petit billet ; mais j'ai à te donne de <placeName xml:id="Paris" type="mention">Paris</placeName> une assez triste nouvelle. Le pauvre <persName type="mention"><surname>Hickel</surname></persName> a été renversé dans la rue par une forte attaque, qui, sans être un coup d'apoplexie caractérisé, n'en est pas moins fort grave : sa langue est très embarrassée et je ne comprends pas toujours ce qu'il veut dire. Du reste, le brave ami regarde son état avec la philosophie que tu lui connais : il irait mieux s'il n'avait autour de lui de ces persécuteurs intimes qui lui parlent du salut de son âme. Il sera certainement bien heureux de te revoir.</p>
+            <p>Pourquoi <persName type="mention"><surname>Garrido</surname></persName> ou toi, à son défaut ne me répondez-vous pas au sujet de la traduction de son livre et au sujet de la correspondance offerte par la Presse Libre? Les lettres où je vous ai parlé de ces deux affaires se sont-elles perdues? Je ne pense pas. Répondez-moi donc, à moins que tu ne rapportes la réponse toi-même de vive voix.</p>
+            <p><persName type="mention"><forename>Clarisse</forename></persName> est bien fatiguée : son rhume ne l'a pas abandonnée et quelquefois [...]mplique de fièvre; elle m'a fort inquiété à diverses reprises, surtout depuis le départ de <persName type="mention"><forename>Noémi</forename></persName>, car elle ne comprend pas qu'une malade doit se reposer, et elle ne cesse de vaquer à tous les petits travaux du ménage. Enfin le moment décisif approche.</p>
+            <p>Rien de nouveau du Crédit.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

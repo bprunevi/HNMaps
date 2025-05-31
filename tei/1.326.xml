@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.326">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Orthez, Sans date. printemps 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.326</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Orthez" type='sender'>Orthez</placeName>, Sans date. printemps <date when="1869-01-01">1869</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère sœur</addName></persName>,</p>
+            <p>Je me prépare à partir lundi pour <placeName xml:id="Bayonne" type="mention">Bayonne</placeName>, avec notre <persName type="mention"><forename>Loana</forename></persName> et, s’il fait beau, avec la petite <persName type="mention"><forename>Magali</forename></persName>. Toutefois, je dois le dire, on ne m'encourage pas à aller habiter <placeName xml:id="Bayonne" type="mention">Bayonne</placeName>. <persName type="mention">M. <surname>Curie</surname></persName> (1) pense que cette station est trop humide ; il en veut même beaucoup à <placeName xml:id="Orthez" type="mention">Orthez</placeName>, sous ce rapport, et me conseillerait plutôt <placeName xml:id="Nice" type="mention">Nice</placeName> ou toute autre ville abritée du littoral méditerranéen. Ma mère aussi, emportée surtout par son amour inné du lointain, préfèrerait voir <persName type="mention"><forename>Loana</forename></persName> à Nice que la savoir à <placeName xml:id="Bayonne" type="mention">Bayonne</placeName>. J'ai écrit à <persName type="mention">Négrin</persName> pour avoir des renseignement, puis nous aviserons pendant l'été qui vient.</p>
+            <p>Certainement, l'hiver que nous venons de passer à
+            <placeName xml:id="Orthez" type="mention">Orthez</placeName> n'est pas encourageant. Il neigeait encore ce matin.</p>
+            <p>Rien de particulier à vous dire. Ici les santés sont bonnes.</p>
+            <p>Je vous embrasse bien tendrement.</p>
+            <p><persName type="emetteur">Elisée</persName>.</p>
+            <p>(1) Médecin à <placeName xml:id="Orthez" type="mention">Orthez</placeName>,</p>
+        </body>
+    </text>
+</TEI>
+

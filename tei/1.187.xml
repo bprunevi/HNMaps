@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.187">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Paris, 16 décembre 1858.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 187</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName>.</p>
+         <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1858-12-16">16 décembre 1858</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Très chère mère</addName></persName>,</p>
+         <p>Clarisse et moi sommes arrivés à Paris depuis mercredi soir. Notre voyage a été parfaitement heureux et maintenant nous sommes très bien installés.</p>
+         <p>D'ailleurs, tout va bien. On me fait espérer que, dans quinze jours, je pourrai entrer dans mon bureau de la maison Hachette : c'est à la fois un plaisir et la régularisation de mes travaux : c'est une case.</p>
+         <p>Nous allons tous bien.</p>
+         <p>Je t'embrasse, chère mère.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename> <surname>RECLUS</surname></persName>.</p>         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.194">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aux Elie Reclus. Berlin. Sans date. Août 1859.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 194</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Aux <persName xml:id="CoupleElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Berlin" type='sender'>Berlin</placeName>. <date when="1859-08-01">Sans date. Août 1859</date>.</p>
+         <p><persName xml:id="CoupleElieReclus"><addName>Mes excellents</addName></persName>,</p>
+         <p>Je désire vivement que ma lettre ne vous trouve pas à Paris et qu'à l'heure où le facteur sonnera, vous soyez dans les flots de la Manche, occupés à faire des brassées. Si vous n’alliez pas prendre un peu de bon temps quelque part dans les forêts ou sur les falaises, vous me donneriez un vrai remords de voir tant de choses : il ne faut pas que je sois le seul à écarquiller les yeux, à ouvrir les poumons, à respirer et à jouir.</p>
+         <p>Depuis ma dernière lettre, nous avons vu Furstenstein dans le Riesengebierge, Dresde et la Suisse saxonne, les amis Dugerdil et Armin Früh. Furstenstein est un énorme chaudron creusé dans la montagne et semblable au cratère d’un volcan. Seulement ses parois sont de granit et revêtues d'arbres magnifiques. Les collines de la Suisse saxonne sont peut-être les plus curieuses que j'ai jamais vues ; je crois qu'elles tirent leur grandiose surtout de la comparaison qu'on établit forcément entre leurs tours, leurs citadelles, leurs bas¬ tions et les ouvrages de l'homme. C'est au pont de la Bastei que les superpositions de tours nous ont paru le plus gigantesques. C'est bien là cette Babel déme¬ surée dont parle Victor Hugo dans son feu du ciel. Nous avons gravi le Lilienstein, la colline la plus élevée de toute la contrée, puis nous avons monté sur la ter rasse de la Bastei, et de là nous sommes redescendus par l'Ottenwalder Grund, étroite fissure entre deux parvis de quatre-vingts mètres de haut. Cette fissure est même en trois endroits complètement voûtée par des blocs retenus entre les deux murailles du roc ; des sapins se balancent sur le tout : c'est à peine si l'on aperçoit un petit lambeau carré du ciel, des goutte¬ lettes tombent de la voûte humide avec la régularité d’un balancier.</p>
+         <p>Dugerdil est devenu plus gros, plus mou et, par suite de son long célibat compliqué de pédagogie, beaucoup plus occupé de sa propre personne. C'est toujours un Samson qu'une brebis pourrait tondre. Il a toujours une poigne à assommer un bœuf, une chevelure à tisser des cordages de navires, mais à quinze degrés de chaleur déjà, il devient poussif et change cinq fois de chemise par jour. A force de douceur, il a pris une voix flûtée et imperceptible à laquelle se mêle parfois, quand on l'excite, un rire sonore comme le bourdon d'une grosse cloche. Il ne sait plus rien penser, ni faire, ni vouloir. «Que faut-il faire, partir, rester, se marier, retourner en Suisse, se lancer dans la littérature, dessiner ? » Il est pieux et sait qu'il a tort, il est monarchiste, mais il se croit républicain. Il a toute la faiblesse morale d'un Hercule ou d'un Samson, mais il n'a pas eu comme ceux-ci son Omphale ou sa Dalila.</p>
+         <p>Armin m'a reçu avec enthousiasme: Ach ! du altes Haus, treue Seele (1), et il me tapait sur l'épaule, sur la cuisse, sur le ventre. Immédiatement, il a fallu kneipen gehen (2), car sans Kneipe, la manifestation, la tendresse d'un Allemand ont toujours quelque chose d'incomplet, rien n'est doux, à ce qu'il paraît, comme de plonger son museau-dans une grande choppe et de faire déborder l'écume sur ses joues tout en regardant ein gemuthliches altes Haus wie den Elisée Reclus aus Paris (3). Plusieurs politiques de renom étaient attablés en même temps que nous et, comme de juste, il a fallu ricoiner les vieilles ricoines. Comme de juste aussi, on s'entendait pour mépriser les Français et pour s'honorer soi-même. Oui, disait triomphalement l'un d'eux, la différence entre les Français et nous, c'est que vous obéissez à un maître parvenu, tandis que nous, au moins, nous obéis¬ sons à des maîtres de vieille souche. C'est cela, ajoute ironiquement Armin vous n'avez qu'un simple baudet mais les Allemands ont des baudets de race, anges¬ tammte Eseln.</p>
+         <p>Cependant, il m'a semblé que tout n'était pas mort en Allemagne comme en France : il est certain qu'on s’y occupe encore beaucoup d'art et de sciences. Cela pro¬ vient sans doute de l'adaptation facile de l'Allemand à tous les milieux qui l'entourent. Là où le Français mourrait, il trouve encore de l'air vital, il végète assez bien dans le fumier. A ce peuple panthéiste, toute divi¬ nité est bonne : pourvu qu'il adore, que ce soit le roi Cliquot ou bien la Liberté, n'importe ! Ses yeux se mouilleront toujours de larmes sincères.</p>
+         <p>J'ai reçu aujourd’hui vos lettres.</p>
+         <p>Voici mon itinéraire supposé à partir du 5 septembre.</p>
+         <p>5 Wurzbourg.</p>
+         <p>6 Francfort.</p>
+         <p>7 ...?</p>
+         <p>8 Strasbourg.</p>
+         <p>9 Walsdhut.</p>
+         <p>10 Berne.</p>
+         <p>11 Interlaken..??</p>
+         <p>En tout cas, envoyez-y les lettres d'avance. Elles peuvent m'attendre, tandis que je ne puis les attendre.</p>
+         <p>Parlez-moi de Bébé.</p>
+         <p>A vous,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>  
+         <p>(1) Ma vieille branche ,âme sincère.</p>
+         <p>(2) Aller boire.</p>
+         <p>(3) La bonne vieille branche de Parisien, Elisée.</p>
+      </body>
+   </text>
+</TEI>

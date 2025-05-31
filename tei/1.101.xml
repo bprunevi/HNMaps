@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Plantation Fortier, près de la Nouvelle-Orléans. Sans date. 1855.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p.101</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="NouvelleOrleans" type='sender'>Plantation Fortier, près de la Nouvelle-Orléans</placeName>. <date when="1855-01-01">Sans date. 1855.</date>.</p>
+         <p>Que deviens-tu mon brave ? Depuis de longs mois, je n'en sais absolument rien. La dernière lettre que j'ai reçue de toi te laissait à Paris, auprès de l'ami Hickel, faisant de la photographie et du mysticisme. Depuis, une phrase d'une lettre de ma mère m'a fait supposer que tu étais retourné en Angleterre, mais cette suppo¬ sition ne me suffit pas. Où es-tu? A Paris, à Berlin, à Londres, à Genève, à New-York, je n’en sais absolu¬ ment rien et tant que je serai dans l'incertitude à ton sujet et à celui de Noémi (1), je le- serai au mien propre. Ne sachant nullement ce que tu fais, je ne sais moi-même que faire. Ecris donc, non pas une lettre, car la poste américaine fait métier de perdre les lettres, mais deux, trois, quatre, jusqu'à ce qu'enfin je sache par quel trou tu es passé.</p>
+         <p>Mon genre de vie est toujours à peu près le même. Papa Fortier m’a prié de rester eñcore une année dans sa famille aux mêmes conditions que par le passé, et moi je n’ai accepté que sous la supposition qu'il ne me plairait pas de m'envoler un beau matin pour le Mexique ou la Nouvelle-Grenade. Si tu viens, il est bien entendu avec M. Fortier que je puis m'en aller quand je voudrai. Du reste, je suis toujours avec les parents un étranger qu'on estime, qu'on aime même un peu, mais je suis loin d'être un ami, on me traite avec la plus grande politesse, tout en ignorant ce que c'est que la cordialité : ils me croient un peu fou ou, comme ils le disent poliment, monomane. Quant aux enfants ils m'aiment beaucoup, et il ne m'est pas difficile de comprendre que les parents trouvent cette affection des enfants peu convenable, pour l'aînée de mes élèves surtout, jeune fille aux grands yeux qui entre dans sa quatorzième année. Tout ce qu'on me demande, c'est d'être en classe un dictionnaire ambulant et à table un bon diable ; par malheur je suis quelque chose de plus. Tout cela n'empêche pas qu'on serait assez vexé si je partais, parce qu'il serait assez difficile de me rem¬ placer. Voilà... voilà. Du reste pour te donner un insight (vue intérieure) dans le caractère des créoles, il me suffit de te dire que la Faye, le brave homme qui m'a sauvé dé la gueule de la mort, est resté pen¬ dant six ans dans le pays sans faire un ami, et pour¬ tant c'est un homme chaud, dévoué, hardi, savant et excentrique, et tu sais que l'originalité fait pour le moins autant d'amis que d'ennemis ; mais, comme le brave la Faye n'appartient à aucune tribu créole, il lui serait aussi difficile de trouver un ami qu'il l'aurait été à Kedar Lahomer de devenir l'intime du père Abraham. Ici on a encore l’esprit de classe qui est inférieur à celui de caste.</p>
+         <p>Ecris pour que je sache de quel côté il faut que je me tourne.</p>
+         <p>Et Noémi? Quant à Mannering, il est un peu niais. Il veut à toute force avoir une genteel occupation, et il n'en trouve guère, il ne connaît pas le premier mot de la science des gueux et, en attendant une place, il passe son temps à dormir, à chiquer du tabac et à s'ennuyer, mais on ne s'ennuie pas gratis à la Nouvelle-Orléans. C’est ce qui t'explique pourquoi je n'ai pas d'argent... Au revoir, dans ... mois? années?</p>
+         <p>Ton brave <persName type='emetteur'><forename>Élisée.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

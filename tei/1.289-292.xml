@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.289">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Paris, 11 octobre 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.289-291</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+           <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1868-11-11">11 octobre 1868</date>.</p>
+           <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>J'ai fait ce matin, en compagnie de <persName type="mention"><surname>Rey</surname></persName>, la connaissance d'un excellent ouvrier, gérant de la Revendication de Puteaux, jeune homme plein d'enthousiasme, de dévouement, de sincérité, de pureté, à l'esprit toujours ouvert, à la parole douce et pénétrante, bien qu'il soit malheureusement bègue. Dans quelques jours, il va se rendre en prison pour y faire les trois mois auxquels il a été condamné pour l'affaire de l'Internationale.</p>
+           <p> L'histoire de cette société (1) est des plus curieuses.</p>
+            <p>Le premier bureau, composé de <persName type="mention"><surname>Tolain</surname></persName>, <persName type="mention"><surname>Chemalé</surname></persName> et autres qui leur ressemblaient, voulait dissoudre la société après leur condamnation : exclus par la loi, ils ne voulaient pas avoir de successeurs, parce qu'ils se défiaient de l'allure plus sincère, plus libre, plus révolutionnaire de ceux qui allaient les suivre. Et en effet, les nouveaux, parmi lesquels <persName type="mention"><surname>Malon</surname></persName>, le revendicateur, se sont mis si énergiquement à la besogne que, pendant la grève de Genève, ils ont envoyé en Suisse sept ou huit fois plus d'argent que les travailleurs de Londres : ils ont laissé de côté le système de jalousies et de taquineries personnelles, et <persName type="mention"><surname>Malon</surname></persName>, du moins, a fait alliance sincère avec le Crédit, <persName type="mention"><surname>Beluze</surname></persName>, <persName type="mention"><persName type="mention">Davaud</persName></persName> et tous nos amis. Devant le tribunal, sa défense a été aussi bien autrement énergique que celle de <persName type="mention">Tolain</persName> et des autres. Aussitôt après que l'appel sera repoussé, un troisième bureau surgira, puis un quatrième jusqu'à ce qu'il soit bien prouvé que les travailleurs sont aussi bons républicains que socialistes. J'ai été enchanté de faire la connaissance de <persName type="mention"><surname>Malon</surname></persName>, lui a été content de faire la mienne et d'apprendre par moi que tu n'étais pas « ce patriarche antisocialiste et anti-révolutionnaire » que lui avaient dépeint les gens de l'Internationale. Il te croyait mon père et t'en voulait aussi de m'avoir appelé <persName type="mention"><surname>Elisée</surname></persName> par ressouvenir biblique.</p>
+            <p><persName type="mention"><forename>Albert</forename></persName> (2) est sans cesse harcelé par la police. Peut-être pourrait-on l'expulser un de ces jours. On lui a demandé, parmi les griefs, s'il était vrai qu'il nous connût.</p>
+            <p>Je n'ai guère lu les journaux et ne puis t'envoyer que le journal de Brisson, un peu lourd, ce me semble. La Ligue de la Paix (3) a été inaugurée par deux discours où <addName type="nickname" nymRef="Napoleon">Boustrapa</addName> a été glorifié pour son amour de la paix et où le Congrès de Genève (4) était dénoncé à la pitié du monde intelligent et honnête.</p>
+            <p>Dis à <persName type="mention"><forename>Jeanne</forename></persName> (5), qu'une demoiselle de dix-sept ans, qu'on tentait vainement de décourager, vient d'obtenir l'autorisation de suivre les cours de dissection zoologique au Museum. Une ligue se forme entre femmes pour la revendication de leurs droits sociaux, politiques, scientifiques. Enfin, toujours pour <persName type="mention"><surname>Jeanne</surname></persName>, <persName type="mention"><surname>MM. Coudereau</surname></persName> et <persName type="mention"><surname>Asseline</surname></persName> recueillent des documents d'un livre où ils prouveront l’égalité de la femme au point de vue intellectuel et moral.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) On verra sur cette Société, qui portait le nom de Bureau de Paris, les renseignements les plus circonstanciés dans le tome ler, p. 64, du précieux ouvrage de <persName type="mention"><forename>JAMES</forename> <surname>GUILLAUME</surname></persName>, L'Internationale, Documents et Souvenirs. Paris, Société Nouvelle de Librairie et d’Edition, 17, rue Cujas.</p>
+            <p>(2) <persName type="mention"><forename>Albert</forename></persName>, ex-officier russe (<persName type="mention"><forename>Wladimir</forename> <surname>Ozerov</surname></persName>), qui gagnait sa vie comme cordonnier, L’Internationale, I, p. 150.</p>
+            <p>(3) La ligue de la Paix, société fondée par <persName type="mention"><forename>Frédéric</forename> <surname>Passy</surname></persName>, qui fit l'éloge de <persName nymRef="Napoleon"><surname>Napoléon</surname> <addName type="epithet">III</addName></persName> pour son amour de la Paix et blâma le Congrès de Genève « républicain et anti-clérical ».</p>
+            <p>(4) Congrès international des Travailleurs, tenu à Genève le 8 septembre 1866. Voir L'Internationale, t. I, p. 4.</p>
+           <p> (5) <persName type="mention"><forename>Jeanne</forename></persName>, fille aînée de <surname><forename>Dumesnil</forename></surname>.</p>
+        </body>
+    </text>
+</TEI>
+         

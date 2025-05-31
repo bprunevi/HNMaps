@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.320">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A sa sœur Louise, à Vascœuil. Sans date. Février 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.320</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A sa sœur <persName xml:id="LouiseReclus" type="recepteur"><forename>Louise</forename></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <date when="1868-02-01">Février 1868</date>.</p>
+            <p><persName xml:id="LouiseReclus"><addName>Ma chère sœur</addName></persName>,</p>
+            <p>J'ai à t'annoncer une bonne nouvelle. La petite <persName type="mention"><forename>Anna</forename></persName> vient de faire son apparition dans les brumes de <placeName xml:id="Paris" type="mention">Paris</placeName>. Espérons qu'à ces brumes succèderont de beaux jours de soleil. Espérons que la vie de la nouvelle venue sera heureuse ! Jusqu'à présent, elle semble très bien disposée, elle a même été assez aimable pour ne pas faire souffrir sa mère en venant au monde.</p>
+            <p>A vous de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>
+

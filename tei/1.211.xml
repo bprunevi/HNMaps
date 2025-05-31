@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.211">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 211</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="CoupleReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Figueras" type='sender'>Figueras</placeName>, <date when="1861-09-05">5 septembre 1861</date>.</p>
+         <p><persName xml:id="CoupleReclus"><addName>Mes très chers</addName></persName>,</p>
+         <p>Me voici dans un cul-de-sac, assez embarrassé de ma personne, je redoute de m'aventurer à pied par les chemins poudreux de l'Espagne (1) où l'on cuit dans son jus comme un poulet dans le rôtissoir et, pourtant, il n'y a ni diligence ni mules pour me rendre à Castel¬ follet où je voudrais aller : je serai forcé de faire un détour ridicule par Gérone. N'importe, quel que soit mon embarras, dans une heure une décision quelconque m'aura tiré d'affaire.</p>
+         <p>Je me suis séparé d'avec Goy (2) après avoir eu le plai¬ sir de voyager deux ou trois jours seulement en sa compagnie. Le pauvre diable avait la nostalgie, aidée d'un violent mal d'estomac, aussi son voyage a-t-il été presque triste. Le souvenir du foyer l'empêchait de jouir de la beauté des montagnes, et les plus admirables spectacles, le puissant Canigou, les vagues paisibles de la Méditerranée, le ciel profond du midi ne servaient qu'à augmenter sa mélancolie. Avant de nous quitter, nous nous sommes baignés dans l'anse de Banyuls, à l'heure même peut-être où vous nagiez dans celle de Saint-Jean de Luz, et nous nous sommes dit adieu avec émotion, lui revenant vers le foyer sacré, moi allant encore demander l'hospitalité sous des sites étrangers.</p>
+         <p>La tristesse de Goy ne m'a pas gagné plus que sa maladie, et, cependant, il me tarde de revoir des visages amis : ainsi toi, mon frère en la foi, bien que mon frère en la chair, toi ma Noémi chérie, plus que ma sœur, et le cher petit peureux (3) qui tremble devant les vagues et le marmot (4) qui sourit dans les bras de sa mère. Quant au désir profond qui me ramène vers Clarisse et Magali (5), je n'en dis rien : c'est inutile.</p>
+         <p>En France, on me prenait tantôt pour un facteur de la poste aux lettres, tantôt pour un marchand de thériaque ou d'orviétan, tantôt pour un employé des télégraphes ; à Prades on a même été assez aimable pour affirmer que j'étais le jeune premier du théâtre de Perpignan. Ici les parements rouges de ma blouse me font prendre pour un déserteur : aussi les paysans m'accueillent-ils avec sympathie ; mais avant-hier un poste tout entier avait quitté le fort de Bellegarde avec  armes et bagages. Les deux tiers des soldats parlent de déserter, mais ils sont retenus par l'amour du foyer, le désir de servir les vieux parents et l'idolâtrie du coin de terre qu’ils recevront en héritage.</p>
+         <p>Le vôtre,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p> 
+         <p>(1) Voyage entrepris dans les Pyténées françaises et espagnoles, afin de préparer le Guide Joanne, qui parut l'année suivante.</p>
+         <p>(2) Le pasteur et professeur Goy, de Sainte-Foy, qui voulait l'accompagner dans ce voyage, pout-être trop mouvementé pour des grimpeurs moins hardis qu'Elisée.</p>
+         <p>(3 et 4) Paul et André, fils d'Elic.</p>
+         <p>(5) Magali, filic aînée d'Elisée.</p>
+      </body>
+   </text>
+</TEI>

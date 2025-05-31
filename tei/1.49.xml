@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.49">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A M. Richard Heath. 2 mars 1852.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 49</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="RichardHeath" type='recepteur'>M. <forename>Richard</forename> <surname>Heath</surname></persName>.</p>
+         <p><placeName xml:id="Londres" type='sender'>26 Tichborne Street, Edeware Road</placeName>, <date when='1852-03-02'>2 mars 1852</date>.</p>
+         <p>Monsieur,</p>
+         <p>Je suis très faché de ne pas m'être trouvé à la maison pour recevoir votre lettre et votre visite ; si j'avais connu les heures auxquelles vous êtes libre, j'aurais été vous voir pour vous épargner la longue course que vous avez faite.</p>
+         <p>Mais, d'après votre lettre d'aujourd'hui, je suppose que c'est des heures de la soirée que vous pouvez disposer, et c'est au temps que vous avez indiqué vous- même, à sept heures et demie, que j'aurai le plaisir de vous visiter, lundi soir, 22.</p>
+         <p>Je réitère encore une fois, Monsieur, l'assurance de mon regret, et vous salue respectueusement.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname>.</persName></p>
+      </body>
+  </text>
+</TEI>

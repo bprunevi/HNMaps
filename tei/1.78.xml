@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.78">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa mère. Sans date. Chez M. Fortier, Nouvelle-Orléans.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 78</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="MereReclus" type='recepteur'>sa mère.</persName>.</p>
+         <p><date>Sans date</date>.<placeName xml:id="NouvelleOrleans" type='sender'>Chez M. Fortier, Nouvelle-Orléans.</placeName></p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Je vois dans ta dernière lettre que tu entretiens toujours des craintes sur mon compte à cause des maladies qui règnent dans le pays. Autrefois, je t'ai donné toutes sortes de raisons que je croyais bonnes pour t'empêcher d'avoir peur à mon sujet ; mais au¬ jourd'hui je puis mettre à néant toutes tes craintes, car je viens de passer au travers de la maladie comme au travers du feu et je n'ai pas été brûlé. Garde-toi bien d’éprouver pour moi une anxiété rétrospective, car je n’ai réellement pas beaucoup souffert, et je n'ai famais craint une issue fatale. La convalescence a bien duré quelque temps, accompagnée de son cortège de maux de tête, battements de cœur et autres infirmités, mais il y a déjà plus de quinze jours que je suis parfaitement bien, et maintenant le « génial » vent du nord raidit mes muscles et aiguise mes forces comme le ferait un exercice gymnastique ; ainsi, chère mère, tu n’as abso¬ lument qu'à te féliciter de ce que j'ai été malade puisque la fièvre jaune ne revient jamais à la charge et que maintenant je puis aller à la Nouvelle-Orléans, à Vera-Cruz, de Vera-Cruz à Rio, et rester dans les foyers d’infection morbide sans courir le moindre danger. Je croyais bien devoir échapper à l'épidémie, car, avant l'année dernière, jamais la fièvre jaune n'avait fait son apparition dans les campagnes, et tout le monde pensait que cette année se conformerait à la règle, mais il en a été autrement. Cependant la fièvre a sauté par dessus des paroisses entières sans y faire une seule victime, tandis qu'elle s'abattait sur quelques planta tions isolées et y causait des malheurs. Je suis le dernier qui ait été malade et, deux ou trois jours après ma convalescence, nous avons eu la première gelée blanche qui détruit d'une manière irrévocable tous les miasmes fièvreux. Inutile de te dire que j'ai été soigné avec autant d'affection que possible. Le médecin, qui, du reste, est le meilleur ami que j'aie en Louisiane, a passé trois nuits dans une chambre à côté de la mienne et M. Fortier m’inventait des besoins pour avoir le plaisir de les satisfaire.</p>
+         <p>Je me trouve parfaitement égoiste de parler aussi longtemps d'une fièvre qui m'a fait à peine souffrir; aussi n'est-ce qu'à toi que je me permets de donner ces détails, parce que si j'étais à Orthez, je sais que tu les réclamerais de moi. Mais, je te prie, encore une fois, ne te figure pas que j'aie souffert le moins du monde ; je n'ai jamais douté un seul instant de ma guérison. Du reste, la maladie est rarement dangereuse pour les Français ; dans l'épidémie de l'année dernière qui, pour les Irlandais et les Allemands rappelle les fameuses pestes du Moyen Age, un Français seulement sur vingt a été attaqué.</p>
+         <p>Ta lettre m'a fait un grand plaisir; je suis heureux de savoir qu'Onésime (1), dont il m'avait été impossible d’avoir des nouvelles pendant trois ans, a fini brillam¬ ment ses études ; il paraît que, maintenant, il est assez irrésolu et ne sait de quel côté se tourner; mais qu'il étudie la médecine ou l'agriculture ou la mécanique, je ne pourrai que m'en réjouir, car, de toutes les ma¬ nières, il peut devenir un homme utile ; pour ma part, toutes mes sympathies se portent vers l'agriculture, mais je ne suis pas assez égoiste pour vouloir entraîner mes frères dans la voie que j'ai choisie. Je croyais, lorsque j'étais en Irlande, être décidément devenu laboureur, mais lorsque j'ai été détrompé et que j'ai cru devoir quitter l'Europe, j'ai dû courir au plus pressé, et c'est pour cela que je suis redevenu précepteur ; mais je n'en continue pas moins mes études agricoles, et, quand mon élève, Michel Fortier, ira au collège et que mes autres élèves deviendront un peu trop grandettes pour que je reste ici, je serai fier et heureux de redevenir ce qu'était mon grand-père. D'après ta lettre, il paraît que l’oncle Reclus a été ulcéré de savoir que j'ai été portefaix ; quant à moi, c'est là un des souvenirs les plus agréables de ma vie aventureuse. Ne te figure pas que j'aie souffert le moins du monde pour me décider à rouler des barils de porc ; bien loin de là : tout sim plement quand ma dernière piastre a été dépensée, j'ai été en gagner une par jour comme homme de peine ; je n'avais pas assez de fausse honte pour me croire obligé de souffrir la faim. Si j'avais été plus fort, j'aurais continué le métier plus longtemps, mais j'avoue que, quelquefois, les sacs de sel faisaient fléchir les reins.</p>       
+         <p>Tout à toi,</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename> <surname>RECLUS</surname></persName></p>
+         <p>(1) Onésime, le troisième des fils Reclus, devonu géographe comme son frère.</p>
+      </body>
+   </text>
+</TEI>

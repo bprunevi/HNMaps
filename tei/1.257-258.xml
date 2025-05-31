@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.258">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Le Boucau, 22 août 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 257-258</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A Mme <persName xml:id="NoemiReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="LeBoucau" type='sender'>Le Boucau</placeName>, <date when="1865-08-22">22 août 1865</date>.</p>
+            <p>Mardi matin.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Chère sœur</addName></persName>,</p>
+            <p>Nous commençons à nous installer d'une manière agréable. <placeName xml:id="Le Boucau" type="mention">Le Boucau</placeName> est vraiment un endroit des plus charmants, à cause des arbres qui entourent chaque maison, des bouquets de platanes et de châtaigniers qui couvrent les premières collines et des grandes dunes en pignadas qui s’étendent vers la mer. La vue est idéale, moins grandiose que celle de <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName> mais infiniment plus douce et plus gracieuse. <placeName xml:id="L'Adour" type="mention">L'Adour</placeName>, les collines si vertes de <placeName xml:id="Bayonne" type="mention">Bayonne</placeName> et les montagnes bleues, tout cela forme un tableau devant lequel Dumesnil sera en perpétuelle extase.</p>
+            <p>Nous sommes descendus à l'hôtel chez <persName type="mention">Mme Gras</persName>. La vieille femme, dont la maison est un bijou de propreté, ne nous écorche pas trop ; mais nous avons hâte de nous installer chez nous. Hier au soir, nous avons  enfin trouvé un home : Cinq grandes chambres non meublées avec la jouissance de plusieurs autres et celle d'un jardin pour 60 francs par mois. Un tapissier de <placeName xml:id="Bayonne" type="mention">Bayonne</placeName> nous fournit les lits et tout l'ameublement indispensable pour 136 francs, les deux mois ; ici nous aurons tout le linge nécessaire pour 20 francs par mois au plus. Ce qui fait que le loyer,tout compris, s'élèvera au plus à 150 franes par mois, c'est-à-dire à 75 francs pour notre groupe (1). C'est moins cher et infiniment mieux qu’à <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName>.</p>
+            <p>La santé générale est très bonne. Il en est qui engraissent déjà visiblement. <persName type="mention"><forename>Paul</forename></persName> est un peu piqué des moustiques. Les cousins proviennent de quelques petits marais voisins dont on sent parfois l'odeur de chez <persName type="mention">Mme <surname>Gras</surname></persName> ; mais la maison que nous avons louée est assez loin du rivage pour que les émanations n'arrivent jamais jusqu’à nous.</p>
+            <p>Nous n'avons point encore pris de bains. La côte est à deux kilomètres et demi, environ. Un jardinier des nos amis s’offre à y conduire nos moutards tous les jours dans sa charrette à bœufs. Nous ferons marché. En tous cas, cette charrette nous coûtera moins cher que les baigneurs de <placeName xml:id="Saint-Jean de Luz" type="mention">Saint-Jean de Luz</placeName> et de <placeName xml:id="Guettary" type="mention">Guettary</placeName>. Les Espagnols affluent dans ces trois endroits tellement que tout est hors de prix.</p>
+            <p>A toi, ma sœur... Tu viendras je pense avec <persName type="mention"><surname>Dumesnil</surname></persName>.</p>
+            <p>(1) Sa sœur <persName type="mention"><forename>Louise</forename></persName> et les deux filles de <persName type="mention"><surname>Dumesnil</surname></persName> devaient composer l'autre groupe.</p>
+          
+        </body>
+    </text>
+</TEI>

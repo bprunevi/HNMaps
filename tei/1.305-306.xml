@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.305">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Elie Reclus. Paris. Sans date. 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.305-306</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Paris" type='sender'>Paris</placeName>. Sans date. <date when="1868-01-01">1868</date>.</p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elias</addName></persName>,</p>
+            <p>Merci de tes bonnes lettres qui nous font vivre en Espagne à tes côtés. Travaillez, travaillez et réussissez. Quand vous aurez besoin d'argent, écrivez-le, soit à Genève, soit à Paris : il faudra bien que nous en trouvions</p>
+            <p>Ici, le vieux train-train. <persName type="mention"><surname>Darimon</surname></persName> (1), ayant osé se présenter dans une réunion populaire, a été hué. On lui a demandé de montrer sa culotte ; on l'a renvoyé aux Tuileries. C'est une affaire bâclée. Il n'osera pas se montrer, je pense.</p>
+            <p><persName type="mention"><surname>Lemonnier</surname></persName> (2), a écrit au Réveil au sujet du Congrès de Berne. Je lui réponds aujourd'hui, je pense que <persName type="mention"><surname>Delescluze</surname></persName> insèrera ma lettre.</p>
+            <p>La réunion dans laquelle <persName type="mention"><surname>Clamageran</surname></persName> (3) a parlé a été des plus tempêtueuses. Les clameurs l'ont inter rompu. Il a dû s'asseoir et c'est <persName type="mention"><surname>Langlois</surname></persName> (4) qui est monté à la tribune, l'a pris par les épaules et lui a fait recommencer son discours. Du reste, il faut le dire, <persName type="mention"><surname>Clamageran</surname></persName> n'a pas été orateur : il n'a point l'habileté de <persName type="mention"><surname>Horn</surname></persName>. Celui-ci hurle maintenant qu'il est matérialiste afin de se faire applaudir.</p>
+            <p>Mes amis, marchez, je vous serre la main.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) <persName type="mention"><forename>A.</forename> <surname>Darimon</surname></persName>, ancien secrétaire de <persName type="mention"><surname>Proudhon</surname></persName> et député de Pa ris, accepta les avances de l'Empire après lui avoir fait une vive opposition et parut à la Cour en culottes courtes de cérémonie. Il fut dès lors en butte à tous les sarcasmes de la presse et des Parisiens (Dict. Larousse).</p>
+            <p>(2) Voir <persName type="mention"><surname>Lemonnier</surname></persName>, p. 183.</p>
+            <p>(3) <persName type="mention"><surname>Clamageran</surname></persName>, avocat à Paris, combattit le gouvernement im périal. Adjoint à la mairie centrale en 1870, il donna sa démission en 71, fut élu au Conseil Municipal en 76 et nommé ministre du ca binet <persName type="mention"><surname>Brisson</surname></persName> en 1885 (Dict. Larousse).</p>
+            <p>(4) <persName type="mention"><surname>Langlois</surname>, <forename>Jérôme</forename><forename>-Amédée</forename></persName>, né en 1819. Ayant adopté les idées de <persName type="mention"><surname>Proudhon</surname></persName>, il donna sa démission d’enseigne de vaisseau en 1848, prit part à la journée du 13 juin 1849 et fut condamné à la trans portation. Rentré en France, il se distingua lors de la guerre franco-allemande aux affaires de la Gare aux bœufs, de Montretout et de Buzenval. Député de la Seine à l'Assemblée nationale, il vota avec l'extrême gauche. N'ayant pas été réélu en 1885, il obtint un poste aux finances (Dict. Larousse).</p>
+         </body>
+    </text>
+</TEI>

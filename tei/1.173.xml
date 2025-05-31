@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.173">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Paris. Sans date. 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 173</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName>.</p>
+         <p><placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1857">Sans date. 1857</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Chère mère</addName></persName>,</p>
+         <p>Mon père est à Paris depuis deux jours et, s'il a le temps de faire toutes ses courses aujourd'hui, il partira demain pour Laroche Chalais...</p>
+         <p>Je n’ai pas besoin de te dire que mon père est enchanté de son voyage et des amis qu'il a vus. Il est probable que son cœur est mieux rempli que sa bourse, cependant je ne sais pas officiellement quel a été le total de sa collecte (1). Mon père a toujours l'air très jeune, il ne porte pas le poids des années.</p>
+         <p> Je ne sais encore rien de définitif au sujet des occupations que je vais entreprendre.</p>
+         <p>M. Elie Broca regrette que je n'aie pas été ici lors de la rentrée des classes, afin de pouvoir entrer dans un lycée quelconque comme professeur ; cependant il m a proposé dernièrement une place de répétiteur dans une maison particulière ; mais les avantages que l'on m'y faisait étaient trop médiocres, et M. Broca lui-même a parfaitement compris mon refus. Je préférerais encore accepter la place de 1.200 francs, que m'offrait M. Fézandié (2).</p>
+         <p>Je n’ai pas encore eu le temps d'aller visiter des membres de la Société de Géographie, mais j’espère voir M. Maury lundi prochain et je lui proposerai une traduction et mes opuscules.</p>
+         <p>Un de mes amis, journaliste de la Nouvelle-Orléans, M. Tacou, m’a écrit pour me demander de rédiger pour son journal une correspondance politique, litté¬ raire, scientifique. Il me priait en même temps de fixer mes appointements comme correspondant régulier de l'Union. Je lui ai fixé la somme de 200 francs par mois et je pense qu’il acceptera. Déjà j'ai commencé à lui expédier par chaque steamer de Liverpool un résumé de la situation européenne. Dans deux mois d'ici, je saurai définitivement à quoi m'en tenir.</p>
+         <pb/>
+         <p>Je t’embrasse, chère mère.</p>
+         <p>A toi.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p> 
+         <p>(1) En faveur d’un asile qu’il avait fondé à Orthez.</p>
+         <p>(2) Fézandié, ancien camarade d'Elisée au collège de Sainte¬ Foy.</p>
+      </body>
+   </text>
+</TEI>

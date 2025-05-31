@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.337">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Alfred Dumesnil, à Vascœuil Sans date. De Nice, dimanche soir, décembre 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.337-340</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body><p>A <persName xml:id="AlfredDumesnil" type="recepteur"><forename>Alfred</forename> <surname>Dumesnil</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName></p>
+            <p>Sans date. De <placeName xml:id="Nice" type='sender'>Nice</placeName>, <date when="1969-12-01">dimanche soir, décembre 1869</date>.</p>
+            <p><persName xml:id="AlfredDumesnil"><addName>Mon bien cher ami</addName></persName>,</p>
+            <p>Je crois avoir trouvé et désormais je ne cherche plus. J’ai trouvé une maison admirable comme position, bien habitée, et meilleur marché que je n'aurais osé l’espérer. Entrons en matière.</p>
+            <p>Après avoir visité tous les quartiers de la ville, qui ont tous des avantages divers, mais où l'on a toujours à se plaindre de l'extrême poussière, je me suis retourné vers la campagne. J'ai parcouru divers vallons du voi¬ sinage de <placeName xml:id="Nice" type="mention">Nice</placeName> et j'ai trouvé de splendides habitations ou d’affreuses bicoques. Pas de milieu et puis il y avait partout difficulté de communications.</p>
+            <p>A la fin, j’ai pensé à <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName> qui est en communication facile avec <placeName xml:id="Nice" type="mention">Nice</placeName> et où tous les avantages matériels se trouvent réunis. Seulement j'espérais peu. Pas de chance, me disais-je : c'est trop beau pour nous. En effet, je marche d'abord d’échec en échec.</p>
+            <p>Enfin, j'arrive à la villa <persName type="mention"><surname>Kolb</surname></persName> dont une partie est à louer. Je me trouve en présence du propriétaire et, d'emblée, nous nous plaisons tous les deux. Le susdit <persName type="mention"><surname>Kolb</surname></persName>, est fils d'Allemand « mort au champ d'honneur » pendant les guerres de l'Empire ; il a lui-même navigué de mer en mer; puis, ayant fait naufrage, s'est installé à <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName> pour y vivre et y mourir. Il vit seul dans sa grande villa avec un fils et une vieille bonne, et il serait enchanté de ne plus être tout à fait seul, car, dit-il, « j'aime les hommes », et puis il ajoute, sans pédantisme : « je suis philanthrope ou plutôt philanthrophe, puisqu’il y a une h; oui, j’aime la philanthropie..phie. » - et moi je corrige doublement...pie. Bref, le bonhomme m’a plu. Sa maison aussi, cela va sans dire. D’abord, la position en est unique, même aux environs de cette <placeName xml:id="Nice" type="mention">Nice</placeName> si belle.</p>
+            <p>Elle est située sur une petite arête, à une trentaine de mètres d'altitude ; d'un côté le golfe de <placeName xml:id="Villefranche" type="mention">Villefranche</placeName>, de l’autre le golfe d'Esa ou de <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName> et la grande mer, jusqu’à <placeName xml:id="Bordighera" type="mention">Bordighera</placeName>, la ville des Palmiers ; au nord les grandes montagnes qui nous abritent des vents froids ; au sud, les collines du cap de Saint-Hospice qui portent le sémaphore et le phare ; autour de nous, les oliviers, les pins, les caroubiers dont les branchages ne sont pas assez entrecroisés pour nout empêcher de voir les deux mers. Le seul vent qui souffle parfois d'une manière désagréable est celui de l'ouest, mais les enfants s'en moqueront en descendant de quelques pas sur le revers oriental de l'arête, et nous, nous fermerons les fenêtres ; du reste, le vent d'est est peu fréquent dans ces parages. Ensuite, jamais de poussière.</p>
+            <p><persName type="mention">M. <surname>Kolb</surname></persName> nous louerait soit le premier étage — six chambres,— soit le deuxième étage — cinq chambres comme il nous plairait, et se prêterait ensuite à toutes les combinaisons qui pourraient nous satisfaire. Les deux étages sont meublés, et <persName type="mention">M. <surname>Kolb</surname></persName> y ajouterait encore tout ce qui peut manquer, descentes de lit, etc. Les placards sont nombreux ; du reste, voici le plan.</p>
+            <p>Au dessus du deuxième étage, belvédère d'où la vue est absolument libre.</p>
+            <p>En prenant cet étage, il faudrait nécessairement
+            que ma sœur, <persName type="mention"><forename>Jeanne</forename></persName>, <persName type="mention"><forename>Camille</forename></persName>, <persName type="mention"><forename>Magali</forename></persName> et <persName type="mention"><forename>Jeannie</forename></persName> couchassent à elles cinq dans deux chambres.</p>
+            <p>Dans le premier étage, l'ordonnance est analogue ; seulement les chambres sont au nombre de six, plus petites par conséquent et l'une d'elles, celle de l'angle, est inutilisée puisqu'elle sert de passage à l’escalier. La cuisine est au rez de chaussée.</p>
+            <p>Le loyer de l'un ou l’autre appartement meublé, y compris l'usage, plus ou moins officieux, du reste, d'un bout de jardin, que vous choisirez vous-mêmes pour y planter à votre aise, et le libre parcours de toute la propriété, est de 1.200 francs, soit 100 francs par mois. Suivant l'habitude locale, le loyer est exigible à l'avance, toutefois, au lieu de demander deux sommes de six cents francs, dont la première en entrant, <persName type="mention">Monsieur <surname>Kolb</surname></persName> accepterait le paiement par trimestres, soit 300 francs en entrant ; et je crois bien qu'au besoin, il ferait des conditions encore meilleures. En outre, dussions-nous rester douze ans à <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName>, il s'engage à ne pas nous augmenter.</p>
+            <p>Voilà, je crois fermement avec le sentiment de ma responsabilité — que nous ferons bien d'ac cepter. Répondez-moi, courrier par courrier à <placeName xml:id="Nîmes" type="mention">Nîmes</placeName>, poste restante, afin que je puisse écrire au bonhomme et lui dire si oui ou non nous devenons ses commensaux. Si la lettre m'arrive à <placeName xml:id="Nîmes" type="mention">Nîmes</placeName> jeudi ou vendredi matin, il sera encore temps. Si le temps ne vous permet pas d'écrire à <placeName xml:id="Nîmes" type="mention">Nîmes</placeName>, adressez la lettre à <placeName xml:id="Sens" type="mention">Sens</placeName>, chez <persName type="mention">Mme <surname>Renard</surname></persName>.</p>
+            <p>J'oubliais : Notre villa est à quatre minutes de la station de <placeName xml:id="Beaulieu" type="mention">Beaulieu</placeName>, à douze minutes de celle de <placeName xml:id="Villefranche" type="mention">Villefranche</placeName>, à sept kilomètres et à dix ou douze sous de la gare de <placeName xml:id="Nice" type="mention">Nice</placeName>, à huit kilomètres de <placeName xml:id="Monaco" type="mention">Monaco</placeName>, à vingt-trois kilomètres de <placeName xml:id="Menton" type="mention">Menton</placeName>. Nous sommes près de tout ce qui est beau. Nous travaillerons à notre aise et nous nous aimerons bien.</p>
+            <p>A vous de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename> <surname>RECLUS</surname></persName>.</p>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.31">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A M. et Mme Reclus, à Orthez, Basses-Pyrénées. Berlin. Sans date. 1851.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 31</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ParentsReclus" type='recepteur'>M. et Mme <surname>Reclus</surname></persName>, à <placeName xml:id="Orthez" type='receiver'>Orthez, Basses-Pyrénées</placeName></p>
+         <p><placeName xml:id="Berlin" type='sender'>Berlin</placeName>. <date when="1851-01-01">Sans date. 1851.</date></p>
+         <p>Chers parents,</p>
+         <p>Je suis dans une université allemande, à Berlin. D'abord, je pensais aller à Leipsig, ou bien à Halle ; mais là je n'aurais trouvé que peu de professeurs réelle¬ ment savants, peu de livres à ma disposition, peu de moyens de me tirer d’affaire. Du reste pour cela, j'ai demandé l'avis de M. Geller, et il m'a conseillé Berlin en première ligne. <persName type="mention">Leipsig</persName> surtout lui déplaisait et maintenant, en effet, je m'estime heureux de n'y avoir pas été. <persName type="mention">M. Geller</persName> m'a donné des lettres de recomman¬ dation pour M. Kleinschmidt, le pasteur des Frères Moraves ; et j'espère, avec le temps, pouvoir donner des leçons, mais ce n'est pas en huit jours qu'on peut trouver beaucoup d'élèves ; aussi j'ai demandé à mon oncle de m'envoyer de quoi vivre les premiers mois, car, en partant de l'Institut sans avoir enseigné pendant une année entière, j'ai perdu tout droit à une portion32 du traitement que M. Geller voulait bien me donner, et dont il m'a néanmoins accordé une partie pour le voyage, tout gratuitement. L'espace qui nous sépare s'est tant soit peu agrandi sur la carte, mais, en réa¬ lité, le chemin de fer et le bon Dieu aidant, en peu de jours la distance peut se franchir. De Paris à Berlin, les trains les plus lents ne mettent pas même deux jours, et j'espère bien que mon escarcelle s'emplira tôt ou tard. Alors je vous reverrai et vous saurez que je vous aime.</p>
+         <p>Cela m'a fait une grande peine de quitter Neuwied, et je l'ai surtout éprouvé lorsque j'ai remarqué que j'étais plus aimé peut-être que je ne pensais. C'est au dernier moment que les cœurs se manifestent avec le plus de vie, et réellement nos adieux ont été touchants. Il y avait aussi dans l'Institut quelques élèves auxquels je m'intéressais grandement et aux progrés desquels j'aurais désiré avoir plus longtemps part. Tous m'ont fait promettre de leur écrire, mais ces correspondances auront le sort des autres, se traineront pendant quel¬ ques mois, puis enfin s'évanouiront. L'amour ne diminuera pas pour cela, mais il se couvrira comme de poussière et attendra un souffle bienfaisant pour le faire reparaître.</p>
+         <p>Mais somme toute, je crois qu'il vaut mieux vivre pour moi de la vie d'étudiant, car je n'avais pas le temps d’apprendre, et quand, pendant toute une journée, de¬ puis cinq heures du matin jusqu'à dix heures du soir, j'avais eu constamment ou bien à parler ou bien à surveiller, j'étais heureux de pouvoir causer loin des livres ou bien de m'enfoncer sous une pile de coussins. Et puis je n'aimais pas à voir mon temps divisé si exacte¬ ment et scrupuleusement en portions égales. Chaque heure qui sonnait semblait dire à la pensée qui se manifestait en moi : "Tu n'iras pas plus loin. A une autre ! " C'était là pour moi un grand ennui sur lequel pouvaient seuls me faire passer les deux rapports de sympathie qui m'unissaient à tel ou tel professeur, à tel ou tel élève. J'ai encore besoin de vivre de la vie de jeune homme et de ne pas endosser l'habit noir de l'homme mur ; car celui dont la jeunesse s'use trop vite peut craindre de la voir reparaître un jour quand elle n'est plus de mise.</p>
+         <p>Pour venir à Bertin, il nous a fallu traverser les contrées les plus tristes que je puisse m'imaginer. Que nos landes sont belles avec leurs bouquets de pins, leurs horizons lointains, la couleur chaude de leur sol et l'odeur embaumée de leurs bruyères. Mais ces landes où les plantes, quand il y en a, ne s'élèvent pas plus haut que les mousses, la plupart du temps ne présentent à l'œil qu'un sable noirâtre, intercepté de distance en distance par de grandes flaques d'eau sale, où se réfléchit une brume fumeuse, pas d'horizon, pour ainsi dire, et puis deux grandes lignes de fer qui traversent le tout sont d'un bien triste aspect ! Berlin aussi vit au milieu des sables, mais cependant il y a deux ou trois tertres qu'on appelle ici des montagnes " Berge" et on a forcé la nature en y plantant des arbres qui qu'en grogne. La ville est d'une régularité maussade et ennuyeuse ; on voit qu'elle est bâtie d'hier. La Sprée, qu'on calomnie tant chez nous, vaut mieux que sa réputation : avant d'entrer à Berlin, elle est presqu'aussi large que le Rhin et a même une certaine profondeur. Ce qu'il y a de singulier, c'est que plus elle approche de son embouchure, plus elle rétrécit, plus aussi son courant s'affaiblit ; sans doute qu'elle s'engloutit quel¬34 que part. Au reste, cette contrée est tellement naturée d'eau que quelques géologues la considèrent comme une espèce d'immense île flottante. On ne peut voir cela sur les cartes, mais, à chaque instant, on est arrêté par un étang, par un marais, par un lac. Près de Pots¬ dam, la Havel se répand comme une mer. Singulier pays, qui a aussi ses beautés, mais pas éblouissantes. L'hiver est du reste, pour un hiver de steppe russe, d’une douceur inouïe : des vieillards ne se rappellent en avoir vu de semblables, ce qui n'empêche pas de geler un peu. Aimez-vous bien là-bas, tous ceux que j'aime, il en rejaillira d'autant plus sur moi.</p>
+         <p>Adieu. Une autre fois des détails sur l'Université.</p>
+         <p><persName type='emetteur'><forename>ELISÉE</forename></persName>.</p>
+      </body>
+  </text>
+</TEI>

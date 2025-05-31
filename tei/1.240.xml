@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.240">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Fréjus, 12 septembre 1864.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 240</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="CoupleReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Frejus" type='sender'>Fréjus</placeName>, <date when="1864-09-12">12 septembre 1864</date>.</p>
+         <p><persName xml:id="CoupleReclus"><addName>Mes chers amis</addName></persName>,</p>
+         <p>Me voici de retour de mon excursion dans les montagnes des Maures. J’ai enfin vu la plage que, sans avoir jamais visitée, j'avais appelée « l'incomparable plage de Cavalaire », et de fait je n’en connais pas de plus belle pour la gracieuse rondeur, les énormes dimensions, l’amphithéâtre des montagnes environnantes. Elle n'a qu'un défaut à mes yeux : elle est trop grande, c'est un monde, il faudrait des heures pour la parcourir, pour notre petit usage personnel — à supposer que, devenus inutiles un jour, nous songions à nous retirer du monde. Je préfère beaucoup nombre d’autres baies que j'ai visitées dans cette excursion, où plages, écueils, rochers falaises, dunes, forêt, colline sont compris dans un tout petit espace et vous font la retraite la plus charmante. Nous y serions tout à fait chez nous, à supposer qu’il nous fût possible de nous bâtir une baraque et de nous y cultiver un jardinet.</p>
+         <p>Au bord d'une de ces baies, j'ai été obligé de faire la connaissance d'un douanier, mais d'un douanier brave homme qui a voulu absolument me faire boire la goutte. C'est un douanier fameux qui sait le latin : « Fugit, fugit irreparabile tempus » m'a-t-il dit d'un air sentencieux. Du reste dans son village « tout le monde est académicien ». Il est de plus honnête. « Si l'intérêt public demande la suppression de la douane, et bien tant pis pour moi, l'intérêt public avant tout ». En outre mon douanier est légumiste. Il a la viande en horreur et ne s'en trouve que mieux. C'est un de ces hommes longs, maigres, tannés, un homme tout en cuir sur lequel la maladie ne peut avoir prise.</p>
+         <p>Le mistral a commencé aujourd'hui. Il m'a soufflé de Fréjus à Saint-Raphael.</p>
+         <p>Soyez heureux, mes amis.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename></persName>.</p>         
+      </body>
+   </text>
+</TEI>
+

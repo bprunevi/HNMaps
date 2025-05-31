@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.327">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Laroche, 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.327-328</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Laroche" type='sender'>Laroche</placeName>, <date when="1869-01-01">1869</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère Noémi</addName></persName>,</p>
+            <p>Je viens d'arriver à <placeName xml:id="Laroche" type="mention">Laroche</placeName> où se trouvent ma mère, mes sœurs et <persName type="mention"><forename>Onésime</forename></persName>. Ma grand'mère est un peu enrhumée, et ma mère qui, elle-même était partie du <placeName xml:id="Béarn" type="mention">Béarn</placeName> à peine convalescente, est revenue pour la soigner.</p>
+            <p>J’ai laissé ma sœur <persName type="mention"><forename>Loana</forename></persName> avec <persName type="mention"><forename>Magali</forename></persName> en bonne santé et en tendre amitié. Le mysticisme chrétien ne mord nullement sur l'enfant, ni du reste sur aucun enfant. Trente années ont fait de singuliers changements dans le milieu. Mon père a été pour moi d'une tendresse exquise. Il ne m'a dit qu'une parole impliquant son désir de nous voir changer de vie, et cette parole était si délicate, elle enveloppait si bien l'exhortation sous la tendresse que moi seul pouvais la comprendre. « Adieu, mon cher fils, souviens-toi que personne ne t'aime plus que moi. » Ma mère est aussi bien affectueuse : elle me suit de chambre en chambre.</p>
+            <p><placeName xml:id="Bayonne" type="mention">Bayonne</placeName> ne saurait nous convenir. Il y a beaucoup de vent et trop d'humidité. Ce climat peut convenir à des valétudinaires vieux, qui veulent respirer un air sédatif, mais les enfants ont besoin de sortir tous les jours ; à <placeName xml:id="Bayonne" type="mention">Bayonne</placeName> ils ne sortiraient qu'un jour sur trois pendant l'hiver. En outre, les fièvres paludéennes sont très fréquentes à cause des eaux qui séjournent dans les fossés, et des débordements de l'<placeName xml:id="Adour" type="mention">Adour</placeName> dans quelques espaces paludéens. Quant à la vie matérielle, elle serait possible. J'ai établi le compte des dépenses pour ma sœur <persName type="mention"><forename>Loana</forename></persName>, les deux enfants et moi : il ressort des calculs. que des amis m'ont fait par le détail que quatre mille francs suffiraient amplement.</p>
+            <p>Restent donc le littoral méditerranéen et peut-être aussi les bords du <placeName xml:id="lac de Genève" type="mention">lac de Genève</placeName>. C'est à cela que nous allons penser cet été.</p>
+            <p>A vous de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.75">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 75</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date>Sans date</date>. <placeName xml:id="NouvelleOrleans" type='sender'>Plantation Fortier Care of Roman and Kenion, 2 New Levee, Nouvelle-Orléans.</placeName></p>
+         <p>Je me suis dérangé tout exprès pour venir chercher la lettre dans laquelle tu me donnais des détails sur de nouveaux amis que tu viens de faire, mais nix. Aussi ne manque pas de ravaler tous les renseignements que ton épitre contenait et réexpectore-les moi par le pro¬ chain courrier.</p>
+         <!-- <hr >-->
+         <p>Quant à tes idées d'avenir américain, je te con¬ seille de rester provisoirement dans le Massachusetts où tu as plus de chances et où on saura mieux t'apprécier ; arrive avec une profusion de lettres et continue à y tâter du professorat jusqu'à ce que nous soyons en fonds pour organiser notre home. En Louisiane, il faut éprouver une difficulté à laquelle je ne m'attendais pas, c'est l'anglais : justement parce qu'on n’y parle la langue officielle que très mal, on exige de la part des professeurs la prononciation la plus irréprochable. En Angleterre, on admirait notre anglais, mais ici, il me semble m'apercevoir qu'on n'est que médiocrement satisfait du mien. Reste donc dans le nord ; là au moins il y a une vie scientifique ; on pense à autre chose qu'à des tierçons et des boucauts.</p>
+         <p>Mais si tu veux absolument venir en Louisiane, tu trouveras bien facilement une place. Il n'y a pas plus de huit jours qu’un médecin, M. de la Faye, brave Mar¬ tiniquais un peu braque, ruiné par la mise en liberté de ses huit cents nègres, et cependant assez courageux pour dire : Ils ont bien fait de me ruiner, m'offrait sa fille Blanche à instruire. Cela m’aurait donné mille fr. de plus, mais j'aurais acheté ces mille francs trop cher, sans compter l'indélicatesse qu'il y aurait eu à donner des leçons hors de chez <persName type="mention">M. Fortier</persName>. Si tu venais ici, M. de la Faye serait ton compère compagnon, ton adorateur. Il y a aussi un des plus grands collèges de la Louisiane où j'ai manqué être répétiteur de géologie, chimie, physique, etc. Nous aurions le privilège d'être à quelques milles l'un de l'autre si tu y acceptais une place de professeur, mais le directeur a l'air d'un perru¬ quier et au fond n’est qu’un rustre. Je me méfie de lui. H y a quinze jours une place s'est trouvée vacante dans la maison du beau-frère de M. Fortier ; si tu avais été là, tu te serais fait donner la place et aurais gobergé 4000 francs d’appointements ; mais de semblables occasions peuvent se retrouver. Autre chose, si tu vas t'établir dans le Texas, le gouvernement te donnera 200 acres de terrain, à condition pour toi de les cultiver et faire fructifier pendant cinq ans. Quand même tout n'irait pas bien en commençant, je pourrais te sustenter, vu les piastres qui me tombent sur la boule. L’ami Fortier m'a fait l'autre jour une proposition qui prouve son bon cœur et que je pourrai utiliser, je l'espère : « Si vous allez vous établir, dit-il, sur les bords de l'Amazone, je vous donnerai 125 piastres pour <persName type="mention"><addName>mon fils Michel</addName></persName> et 400 pour mes autres enfants ; avec ce capital de-3000 francs, vous achèterez des territoires vagues dans un endroit que vous jugerez devoir être important lors de la colonisation future des bords de l'Amazone, et, comme de juste, la moitié de ces terres vous appartiendra. Du reste, je suis on ne peut mieux, on me traite avec autant de politesse qu'un hôte, avec autant d'affection qu'un membre de la famille.</p>
+         <!-- <hr >-->
+         <p>Tâche d'arriver avant la fin de l'année, car de décembre à janvier, j'aurai un mois de vacances que j'espère aller passer dans les montagnes du Mexique ou ailleurs. Et souviens-toi bien qu'il faut faire mentir les dires de toute la parentaille, il faut trouver le sou et procréer en fait d'enfants autre chose que des mendiants.</p>
+         <p>N'oublie pas de me récrire la moelle de la lettre perdue... En fait de signes du temps, sache que toutes les sympathies de l'Amérique sont pour les Cosaques ; pas un démocrate n’oublie le tzar dans ses prières.</p>
+         <p>Salut frère.</p>    
+      </body>
+   </text>
+</TEI>

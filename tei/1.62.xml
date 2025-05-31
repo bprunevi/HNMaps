@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.62">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Kippure Part, Rlossington, Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 62</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Blessington" type='sender'>Kippure Part, Blessington</placeName>. <date>Sans date.</date></p>
+         <p><persName xml:id="ElieReclus"><addName>Ami</addName></persName>,</p>
+         <p>Je te renvoie la lettre de X, car elle est assez pré¬ cieuse pour briller dans la collection. Il faut que mon caractère ressemble encore beaucoup au sien, puisque la mesquinerie de sa conduite éveille en moi une cer¬ taine irritation ; si je ne lui ressemblais que par les rares qualités qu'il possède, je l'étudierais avec le même sang-froid et la même édification que Rubia tinctorium ou Apium petroselinum. Mais plus il fait manceuvrer devant nous ses articulations de pantin. plus j'apprends à connaître certains ressorts cachés de mes propres actions ; c'est un squelette sans muscles et sans peau, voilà pourquoi je suis vexé de le voir pirouetter, je me reconnais en lui, l'auvre homme, il se plaint de ce que nous ne laissions pas crever Pfeifiner tranquillement, ou que, tout au moins, la vie ne soit dispensée au pauvre diable par son charitable ministère. Pour rompre avec nous et nous classer parmi ces êtres mythiques, phénomènes d'ingratitude qui vivent àCORRESPONDANCE D'ÉLISÉE RECLUS Pigeac, département du Lot, il parle d'un esprit de discorde et s'accuse adroitement d'égoisme pour nous accuser de pis encore. I1 nous dit qu'il nous sera tou¬ jours reconnaissant, pour que cette phrase puisse l'ab¬ soudre à tout jamais, même de l'amitié s'il le faut.</p>
+         <p>Il faut tirer Pleifiner de ce mauvais pas, car je prévois que le projet Lisbonne s'est évaporé. J'ai envie de traduire un opuscule du professeur Nay. Nebster pourra m'y être utile. Il va me faire venir des vaches laitières de Quénon. Il m'a acheté de la rèche.</p>
+         <p>Salut ami.</p>
+         <p>Si je m'ennuie par trop ici sans livres, j'irai le pousser une visite un de ces jours, mais n'y compte pas. Salut encore. Tout va bien et très bien. Nebster aimerait que Foumentère fût maître d'école à Kylemore. Il lui donnerait une maisonnette et des champs à cultiver. Qu'en penses-tu ?</p>
+      </body>
+  </text>
+</TEI>

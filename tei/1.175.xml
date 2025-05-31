@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.175">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Orthez. Sans date. 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 175</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><surname>Elie</surname> <forename>Reclus</forename></persName>.</p>
+         <p><placeName xml:id="Orthez" type="sender">Orthez</placeName>. <date when="1857">Sans date. 1857</date>.</p>
+         <p>Mes bons,</p>
+         <p>Si vous désirez que votre lettre me parvienne jeudi matin, car je vais partir ce jour-là pour Laroche et Paris, en passant par les dunes des Landes, vous feriez bien de m'écrire pour faire cesser mon anxiété à propos de X.</p>
+         <p>Je ne me suis pas ennuyé pendant ces quinze jours que je viens de passer à Orthez; la vie est tout à fait originale dans la maison paternelle et, grâce aux sœurs et à Mme P., j’ai pu parler quelquefois selon l'abondance du cœur.</p>
+         <p>Tout s’en va à vau l’eau, dissidence, religion, morale, les livres circulent avec une complète liberté dans la maison. Maman trouve une de ses filles lisant Mlle de Maupin et, sans se douter de rien, feuillette indifféremment ces pages. Une autre fait un cahier de vers, et le premier morceau qu'elle y insère est celui d'Alfred de Musset :</p>
+         <p>O Christ, je ne suis pas de ceux que la prière Dans ton temple muet amène à pas tremblants. Je ne suis pas de ceux qui vont à ton Calvaire A genoux sur le sol baiser tes pieds sanglants !</p>
+         <p>La petite loana (1) se permet de faire des allusions dia¬ phanes à l'amour et aux amoureux, et je puis, en guise de chapitre du soir, lire sans impunité des phrases impies de Toussenel, adressées à l'être profondément immoral qu'on appelle Dieu !</p>
+         <p>Maman a vieilli, sa tête s'est rapetissée. Elle est très bonne pour moi, très confiante...</p>
+         <p>Quant aux autres membres de la famille, tu les connais : il te reste à admirer Pierre Bicaton, domestique idéal, comme mon père seul peut en avoir. Loin de nous servir, il nous patronne : au jour de l'an il envoie des cadeaux aux enfants ; en me voyant, il s'est jeté à mon cou et m'a tiré la barbe. Il travaille aussi peu que possible et gronde ceux qui ne font pas son ouvrage. Un jour, mon père, pour l’exhorter à l’ouvrage d’une manière délicate, prit un rateau pour nettoyer les allées du jardin. Sans peur et sans reproche, Bicaton va droit à mon père et l'encourage dans sa vertueuse occupation. « C'est bien, c'est très bien, monsieur Reclus; vous faites cela beaucoup mieux que moi, continuez. » Et il contemple mon père d'un air souriant et naïf.</p>
+         <p>Les Orthéziens sont de mieux en mieux : ayant le Gave chez eux, ils s'en vont chercher de l'eau pour leurs fontaines au monument du Général Foy, aux sources du Caseloupoup. La population diminue rapidement : il n'y a plus que quatre mille huit cents habitants à Salies où il y a eu neuf mille habitants, il n’y en a plus que deux mille cinq cents.</p>
+         <p>En 1855, il n’y avait pas une batteuse dans l'arrondissement. Aujourd’hui, il y en a six, battant environ six mille hectolitres de froment.</p>
+         <p>L’année prochaine, il y en aura douze.</p>
+         <p>Je vous aime,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p> 
+         <p>(1) <persName type="mention">Ioana</persName>, la plus jeune soeur d'<persName type="mention">Elisée</persName>.</p>
+      </body>
+   </text>
+</TEI>

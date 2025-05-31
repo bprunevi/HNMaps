@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.198">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Gap, 29 septembre 1859.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 198</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Gap" type='sender'>Gap</placeName>, <date when="1859-09-29">29 septembre 1859</date>.</p>
+         <p>Depuis ma dernière lettre, mes pérégrinations ont été nombreuses, si nombreuses que j ai hâte de rentrer au bercail et de savourer notre amitié dans la paix et la tranquillité de notre vie intime. Vous savez sans doute que nous n’avons pas trouvé Hickel à Interlaken, et qu’il n’a pas eu le plaisir de nous faire les honneurs de ses montagnes. Aussi nos promenades se sont-elles bornées à l’ascension du Pilate, du Faulhorn et de la Wengernalp.</p>
+         <p>C'est beau ! Que puis-je dire de plus. Au-dessus des pâturages de la Wengernalp, dont on peut apprécier déjà l'énorme hauteur par le bleu vaporeux qui recouvre la vallée de Lauterbrunnen, se dressent les trois colosses (1), tout couverts de glaciers qui descendent en cataractes sur leurs flancs. Ils sont là si près qu'on croirait pouvoir les toucher de la main, et cependant ils remplissent tout l'horizon, sortent des profondeurs de la terre et montent jusqu'au ciel. Ce qui me frappe cependant dans les trois gigantesques sœurs, ce n'est pas tant la hardiesse de leurs cimes et de leurs rochers ni l'immense entassement de leurs glaces, mais c'est plutôt leur grâce impossible à décrire, leur merveilleuse coquetterie. Avec quel charme n'ont-elles pas jeté leurs draperies et leurs guirlandes de neiges, avec quelle suavité leurs rochers, hauts de cinq cents mètres, ne se soulèvent-ils pas hors de l'étendue blanche, pour faire briller leurs têtes roses à la lumière du soleil ! Le tout est animé d'un mouvement rythmique comme les flots de la mer : on s'attend presque à voir s'agiter de nouveau ces énormes vagues comme aux jours où elles roulaient sur la terre en fusion. De temps en temps, d'énormes blocs se détachent du glacier, se brisent en bas sur les rochers et se transforment en un vaste nuage de poussière nei¬ geuse. Ce nuage est presque dissipé quand on entend tout à coup la formidable voix de l’avalanche, semblable à celle de la foudre, non seulement par les échos et par les roulements lointains mais aussi par les déchi¬ rements de l'air secs et stridents. En entendant cette voix, il est difficile de ne pas se dire que c'est la montagne elle-même qui hurle et gronde ainsi. C'est bien beau. Ne me considérez-vous pas comme traître à l'amitié de voir toutes ces choses, tandis que vous, mes bien aimés, restez à Paris? D'après la teneur de votre dernière lettre, je n'ose pas même être sûr que le rêve de la forêt de Sénart se soit réalisé.</p>
+         <p>La mendicité des Bernois dépasse la limite du croyable. Derrière chaque rocher, au coin de chaque bois, des gaillards herculéens apparaissent tout à coup et, dans leur charabia trilingue, veufent s'imposer comme guides : on les prendrait plutôt pour des bandits. Devant chaque grand rocher, et certes il n'en manque pas en Suisse, est installé un montagnard à l'extrémité d'un immense cor, prolongé d'une grande table d'har¬ monie en bois. Dès que le voyageur paraît, il est assailli par tous les échos du rocher dont l'harmonie plaintive dit clairement : Donnez-moi dix sous ! Donnez-moi dix sous ! Puis des gamins s'accrochent à vos jambes, vous ferment et vous ouvrent des barrières, vous ôtent les touffes d’herbe de dessous les pas, traduisent le ranz des vaches, donnent des explications géologiques sur le soulèvement des montagnes ; si vous avez le mauvais goût de ne pas payer leur exubérante servilité, ils se redressent et vous traitent de voyageur sans le sou. Encore n'ai-je parlé que de ceux qui prétendent rendre service pour service, mais combien de mendiants qui demandent purement et simplement ! Le premier que nous avons vu en Suisse était vraiment effroyable, et son image me poursuit encore. C'était un nabot à la tête énorme, sillonnée de grandes escarres, ses yeux ronds brillaient d'un éclat gras sous une forêt de sour cils ; sa large bouche ricanait d'un rire féroce, ses vêtements massifs, et d'un brun sale comme sa peau, semblaient faire partie de son corps. Dès qu’il nous vit, il se précipita vers nous en grognant comme un tapir et tendit ses deux mains réunies en forme d'écuelle, nous y laissâmes tomber notre sou avec frayeur. Je pense être le 24 à Sainte-Foy.</p>
+         <p>La suite de mon histoire à nos réunions du coin du feu.</p>
+         <p>Votre frère.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>  
+         <p>(1) Jungfrau, Mœnch et Eiger.</p>
+      </body>
+   </text>
+</TEI>
+

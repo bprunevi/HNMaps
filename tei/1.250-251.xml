@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.250">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 250-251</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A Mme <persName xml:id="NoemiReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>. </p>
+            <p><placeName xml:id="Paris" type='sender'>Paris</placeName>. <date>Sans date</date>.</p>
+                <p>Le factotum général qu'<persName type="mention"><forename>Elie</forename></persName> eût eu à consulter s'il avait été à <placeName xml:id="Montauban" type="mention">Montauban</placeName> est le docteur <persName type="mention">L.</persName> Notre commis-voyageur, car nous allons probablement en avoir un, le verra de notre part.</p>
+                <p>La société développe considérablement ses affaires. Une seule chose manque, les fonds : comptes courants et capital commanditaire, nous n'avons guère que 110.000 francs comptant. Mais nous recevons des départements les nouvelles les plus encourageantes. A <placeName xml:id="Lyon" type="mention">Lyon</placeName> se fonde une autre société du Crédit au Travail qui se met sous notre patronage. Parmi les nouvelles associations, il en est une, celle des Tisseurs, qui compte mille huit cents membres et dont le capital souscrit est déjà de 80.000 francs. Ainsi donc bon courage ! On ne parle plus du 20 pour le journal, déjà on a retardé jusqu’au 25.</p>
+                <p><persName type="mention"><surname>Garrido</surname></persName> (1) a un enfant, le jeune <persName type="mention"><forename>Fernando</forename></persName>, non baptisé.</p>
+                <p>Salut mes très chers amis, serrez la main à ceux que nous aimons.</p>
+                <p>Je viens de recevoir une lettre d'un esclavagiste, me qualifiant de « digne successeur de <persName type="mention"><surname>Marat</surname></persName> et de <persName type="mention"><surname>Robespierre</surname></persName> ».</p>
+            <p>Votre <persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+                <p>(1) <persName type="mention"><forename>Fernando</forename><surname>Garrido</surname></persName>, révolutionnaire espagnol, ami des Reclus et très zélé coopérateur.</p>  
+        </body>
+    </text>
+</TEI>

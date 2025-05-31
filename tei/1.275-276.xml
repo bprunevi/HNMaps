@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.275">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus, à Vascœuil. Sans date. Paris. 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.275-276</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1868-06-01">juin 1868</date></p>
+            <p><persName xml:id="ElieReclus"><addName>Mon cher Elie</addName></persName>,</p>
+            <p>Hier a eu lieu la réunion où la dissolution de la société du journal a été prononcée. C'était la première assemblée faite sous l'empire de la nouvelle loi, et jamais de la vie je n'ai assisté à réunion plus bruyante, plus tumultueuse. L’inauguration de la nouvelle loi promet. Le commissaire de police, orné de son écharpe, avait l'air joliment embarrassé. Il s'est levé une fois pour répéter d'une voix entrecoupée les mots de Loi, Loi !</p>
+            <p>La lutte était engagée entre <persName type="mention"><forename>Antide</forename> <surname>Martin</surname></persName> et le groupe du Crédit au Travail d'un côté, et de l'autre <persName type="mention">G.</persName>, le grincheux <persName type="mention">D.</persName>, l'équivoque, <persName type="mention">H.</persName>, le cauteleux. Ceux-ci, furieux d’être évincés par la suppression du journal actuel et par la fondation d'un journal nouveau, voulaient à toute force se faire nommer commissaires d'enquête et liquidateurs, et, pour obtenir ce résultat, il n'est pas de petites intrigues qu'ils n'aient employées. Ils ont accusé <persName type="mention">M.</persName> d'être réélu, ils lui ont reproché d'avoir soutenu le journal de son argent, ce qui était une manière d'insulter à leur misère; et, quant aux petits détails, ils ont même voulu m'empêcher de voter, sous prétexte qu'il ne valait pas la peine d'admettre de nouveaux commanditaires, alors qu'on s'occupait de la dissolution. Enfin, ils ont été battus par deux votes successifs, 33 contre 28, puis 39 contre 24, et sont partis furieux.</p>
+            <p>Ainsi donc, la Coopération est morte. La Coopération qui resauscitera vaudra-t-elle grand chose (1) ? J'en doute pour ma part.</p>
+            <p>La Ligue des Femmes, marche : demain réunion chez <persName type="mention">Mme<surname>Champseix</surname></persName> pour la rédaction définitive du programme (2).</p>
+            <p>Bonne santé générale de la famille et des amis.</p>
+            <p>Je ne sais si je t'ai dit qu'on me demande ma collaboration à l'Encyclopédie.</p>
+            <p>A vous de cœur, bien tendrement.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>(1) On voulut en effet la ressusciter par la création de La Réforme. Voir l'appel aux démocrates, signé <persName type="mention"><forename>Antide</forename> <surname>Martin</surname></persName>, en faveur du nouveau journal de progrès politique et social, 4 juillet 1868.</p>
+            <p>(2) Société de la Revendication des Droits de la Femme où figuraient, entr'autres, les noms d'<persName type="mention"><forename>André</forename> <surname>Léo</surname> (Mme Champseix)</persName>, <persName type="mention"><forename>Elie</forename> <surname>Reclus</surname></persName>, <persName type="mention"><forename>Marthe</forename>-<forename>Noémi</forename> <surname>Reclus</surname></persName>.</p>
+        </body>
+    </text>
+</TEI>
+

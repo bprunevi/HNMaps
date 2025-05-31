@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.163">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Riohacha, 1er juin 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 163</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieRelcus"><surname>Elie</surname> <forename>Reclus</forename></persName>.</p>
+         <p><placeName xml:id="Riohacha" type='sender'>Riohacha</placeName>, <date when="1857-06-01">1er juin 1857</date>.</p>
+         <p>Amis, <persName type="mention"><surname>Lina</surname></persName>, <persName type="mention"><surname>Grimard</surname></persName>, <persName type="mention"><surname>Elie</surname></persName>, <persName type="mention"><surname>Noémi</surname></persName>.</p>
+         <p>Si j'avais quelques petits sous pour traverser le grand fossé dès aujourd'hui, j'irais à bord du navire le Dyson, qui se balance doucement dans la rade et, bientôt, j'aurais la joie de vous voir de mes yeux et de vous toucher comme saint Thomas de biblique mé¬ moire touchait son Christ. Mais je n'ai rien que des dettes. Et voilà pourquoi, dans mes longues, longues journées, je tâche de me persuader que Riohacha est un séjour délicieux, que le soleil est une belle chose et que je suis l'homme le plus heureux du monde de pouvoir absorber des rayons de chaleur par tous les pores, étendu sur le sable, comme un crocodile. Je suis souvent bien triste en pensant à vous, mes très bons, mes très grands, et je déplore que les années de jeunesse que je pourrais si bien employer à vous aimer se pas¬ sent dans une solitude égoiste. Mais l'inexorable bourse le veut ainsi : 300 francs nous séparent ; c'est comme la muraille de diamant ou d'acier qu'élevaient les magi¬ ciens autour des princesses enchantées.</p>
+         <p>Calculons : Je dois 360 francs au Caballero Barliza, pour ma sotte entreprise de la Sierra Nevada ; pour aller dans l'entrepont jusqu'à Liverpool, il me faudrait au moins 280 francs, total 600 francs. Or, mes élèves me rapportent juste de quoi vivre et j'ai calculé que, pour trouver l'argent nécessaire pour filer vers l'Europe, il me faudrait trimer six ans et, pendant cet intervalle, ne pas m'acheter même une paire de souliers. Mes élèves se sont fondus l'un après l’autre, et ma vieille garde ne se compose plus que de cinq imbéciles. Aussi ai-je été obligé d’écrire au sieur Chassaigneux qu'il n’y avait plus d'association possible parce qu'il n'y avait plus un sou à mettre en commun.</p>
+         <p>En somme, mon association avec Chassaigne a été l'épisode le plus inepte de ma vie : justement parce que le dit vieux était bavard, faux, tracassier, acariâtre, j’ai cru qu’il y allait de mon honneur de tout supporter, et j’ai fait de la vertu aussi longtemps que j'ai eu du souffle dans les poumons. Je me suis dévoué au mal et je n’ai réussi qu'à me rendre impossible tout retour vers vous. Mais j'ai bon courage. Ne te figure pas, chère Noémi, que la tristesse me donne un hang-dog look, autrement dit l'air d'un chrétien. Non, j'ai la conscience de ne pas être tout à fait mort, et cette conscience suffit pour me remplir souvent d’une joie profonde. Mais je te disais auparavant que j'étais triste, c'est vrai, et pourtant je suis plus joyeux encore : les deux senti¬ ments se succèdent et parfois se mélangent tellement que je ne sais plus moi-même si je ressens de la joie ou de la peine. Quoi qu'il en soit, vous vivez, ils vivent, je vis moi-même, la terre roule dans l'espace, le soleil pirouette autour d'Alcyone, l'oxygène courtise l'hydro¬ gène, le phosphore coquette avec le soufre et les ondes de l'éther se poursuivent amoureusement. Tout est mouvement et vie, et moi j'irais pleurer. Non, je veux garder pour vous un éclair dans mon œil et de l'énergie dans mon esprit.</p>
+         <p>Revenons à la question des écus. Si vous m'envoyez 300 francs, je pars et je remets le paiement de ma dette à plus tard : si Elie gagne les livres tournois en question, qu'il m'envoie des sommes par le correspondant du vice-consul de l'empire français dans la ville de Rio¬ hacha, et je vous arrive par bateau à vapeur, ce qui me plairait infiniment mieux que de courir des bordées pendant des mois entiers dans un triste navire à voiles. Sinon... eh bien ! tout est pour le mieux dans le meilleur des mondes possibles. A propos, ma santé est à peu près revenue : jamais je ne me suis mieux porté pendant les sept mois qui viennent de s'écouler et ma rate qui avait pris un volume considérable a repris des dimen¬ sions légitimes.</p>
+         <p>D’après votre lettre, il paraît que j'avais mal expliqué mes idées, les revoici :</p>
+         <p>Il va sans dire que l'Amérique est belle, mais il y a aussi cinquante pour cent à parier que l'un de vous y mourrait ; or, tous les pays de la terre sont beaux. Pourquoi donc n'irions-nous pas habiter ensemble dans un de ces beaux pays où les chances de mort sont peu nombreuses ? Ainsi donc le plus simple est de laisser Elisée partir pour Paris, y prendre femme, ce qui lui fera un bien considérable, lui donner du papier à salir et de sales écus à gagner en compagnie de ses bien aimés, n'est-ce pas, Elie? Ce n'est pas que la boue de Paris me plaise, mais les Parisiens me plaisent, et ma Noémi, et Grimard Aldébaran, et tant d’amis incon¬ nus, et ma charmante petite femme à laquelle je parlerai tout doucement ce langage que je ne parle plus depuis que j'aimais Valentine et Esméralda.</p>
+         <p>Adieu, vous tous les miens.</p>
+         <p><persName type="mention"><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

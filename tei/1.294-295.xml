@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.294">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Elie Reclus. Sans date. Octobre 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.294-295</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="ElieReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p>Sans date. <date when="1868-10-01">Octobre 1868</date>.</p>
+            <p><persName ref="ElieReclus"><addName>Mon cher ami</addName></persName>,</p>
+            <p>J’ai envoyé ta lettre à <persName type="mention"><forename>Michel</forename></persName> (1), mais avant de recevoir une réponse, j'ai reçu avis que plusieurs ont l'intention d’aller en Espagne. <persName type="mention"><forename>Aristide</forename></persName> (2) peut-être, et, peut-être aussi, notre ami <persName type="mention"><forename>Fanelli</forename></persName> (3). <persName type="mention"><forename>Michel</forename></persName> désirait beaucoup que j’y allasse, mais j'ai répondu un non bien catégorique.</p>
+            <p><persName type="mention"><forename>Aristide</forename></persName> en partant voudrait être muni d'une adresse républicaine révolutionnaire, signée à la fois par le groupe de l'Internationale, par le groupe républicain rouge (<persName type="mention"><surname>Delescluze</surname></persName> et autres), par le groupe des Libres Penseurs. Trouver le moyen de réunir ces trois groupes me semble bien difficile. Je verrai demain des gens de l'Internationale, aujourd'hui des Libres Penseurs et <persName type="mention"><forename>Germain</forename></persName> (4) va tâter <persName type="mention"><surname>Delescluze</surname></persName> (5). Il va sans dire que, si cette adresse est signée, je t'en enverrai un double. En tout cas, <persName type="mention"><forename>Aristide</forename></persName> ne partirait pas s'il n'avait en main cette adresse « énergique et avec des signatures sérieuses ».</p>
+            <p>On parlait de deux mois de séjour. Ci... 800 francs, car la vie est très chère à Madrid, et la famine la rend certainement plus chère. Plus 200 francs de voyage. Ci... 800 francs. Donc <persName type="mention"><forename>Aristide</forename></persName> irait à ses frais, car, ici, nous ne pourrons pas lui procurer grand'chose. Quant à sacrifier son temps, il est plus en mesure de le faire que toi.</p>
+            <p>Ne te semble-t-il pas que la Révolution se transforme rapidement en une Dictature militaire? J'en ai grand peur. Que les juntes locales se hâtent de créer bien des faits accomplis! car demain, il serait trop tard.</p>
+            <p>Bonne santé parmi les nôtres...</p>
+            <p>Je te serre fraternellement la main.</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            
+            <p>(1) <persName type="mention"><surname>Bakounine</surname></persName>.</p>
+            <p>(2) <persName type="mention"><forename>Aristide</forename> <surname>Rey</surname></persName>.</p>
+            <p>(3) <persName type="mention"><surname>Fanelli</surname></persName>, un Italien, très lié avec <persName type="mention"><surname>Bakounine</surname></persName>.</p>
+            <p>(4) <surname><forename>Germain</forename> <surname>Casse</surname></surname>, beau-frère d'<persName type="mention"><forename>Elisée</forename></persName>.</p>
+            <p>(5) <persName type="mention"><surname>Delescluze</surname> (<forename>Charles</forename>)</persName>. Exilé par le gouvernement de <persName type="mention"><forename>Louis</forename>-<forename>Philippe</forename></persName>, déporté sous celui de <persName type="mention"><surname>Napoléon</surname></persName>, il rédigeait à Paris Le Réveil en 1866, fut élu représentant de la Seine et membre de la Commune. Il dirigea la lutte contre l'armée régulière et se fit tuer sur les barricades. (Dict. Larousse).</p>
+        </body>
+    </text>
+</TEI>

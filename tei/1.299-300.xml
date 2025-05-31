@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.299">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Alfred Dumesnil, à Vascœuil. Sans date. Paris. 1868.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1- p.299-300</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="AlfredDumesnil" type="recepteur"><forename>Alfred</forename> <surname>Dumesnil</surname></persName>, à <placeName xml:id="Vascœuil" type='receiver'>Vascœuil</placeName>.</p>
+            <p>Sans date. <placeName xml:id="Paris" type='sender'>Paris</placeName>. <date when="1868-01-01">1868</date>.</p>
+            <p><persName xml:id="AlfredDumesnil"><addName>Mon cher ami</addName></persName>,</p>
+            <p>Nous avons tenu hier notre séance relative à la situation du Crédit au Travail. Nous étions au nombre d'environ 550, et je crois que le même sentiment de bonne volonté mêlée de tristesse nous unissait tous, car il ne s'est pas fait entendre une seule récrimination et le plus grand ordre n’a cessé de prévaloir.</p>
+            <p>Voici quel est l'état des affaires : 
+                Au mois d'août, tout va bien encore, mais les comptes courants diminuent d'une cinquantaine de mille francs. Le mois de septembre est fatal : on nous réclame 130.000 francs. Ce n'eût été qu'un embarras passager si le Crédit avait eu la libre disposition de tout son capital ; malheureusement, 350.000 francs sont immobilisés dans la Société des Fondeurs en fer. Il importait donc de dégager cet argent en tout ou en partie moyennant un emprunt fait sur cette créance.</p>
+            <p>C'est à la négociation de cet emprunt que <persName xml:id="Beluze">M. <surname>Beluze</surname></persName> a passé le mois d'octobre. Il n'y a pas réussi par une série de contre-temps, et pour éviter que la situation ne devienne désespérée, pour empêcher que la Société ne se liquide, il a dû en venir au grand moyen d'avouer l’état des choses et de convoquer l'Assemblée.</p>
+            <p>Le bilan est bon.</p>
+            <p>L'actif est de 1.029.000 francs, duquel, en défalquant toutes les créances de toute espèce que l'état actuel des choses pourrait empêcher d'encaisser en leur temps, il reste encore 753000 frances parfaitement recouvrables. Le passif est de 652.000 francs. Reste 128.000 francs de commandite.</p>
+            <p>L'important, c'est d'avoir du temps. L'Assemblée l'a compris. A l'unanimité des voix, elle a accepté les comptes, sauf revision par une commission d'enquête qui a été nommée séance tenante. Nul n'a demandé que la Société se mît en liquidation. Tous les créanciers ont consenti à retarder leurs échéances de trois ou de six mois, enfin un grand nombre ont doublé leur commandite. En outre, on a accepté en principe l'idée d'un emprunt sur l'immeuble Brosse, et cet emprunt se fera probablement parce que les créanciers ont un intérêt direct à la prompte conclusion de cet emprunt.</p>
+            <p>Voilà les tristes détails que j'ai à vous donner. Pour ma part, je suis d'autant plus chagrin que je pense à la tristesse qu'en aura <persName xml:id="ElieReclus"><forename>Elie</forename></persName>. En outre, j'ai le malheur d’être, non pas le créancier, mais le débiteur de la Société. Je n’aurai de repos qu’après l’avoir payée.</p>
+            <p>A vous tous de cœur,</p>
+            <p><persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.59">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Kippure Part, Blessington. Irande. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 59</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="Blessington" type='sender'>Kippure Park, Blessington. Irlande</placeName>. <date>Sans date.</date></p>
+         <p><persName xml:id="ElieReclus"><addName>Homme selon mon coeur</addName></persName>,</p>
+         <p>Tu dois savoir à l'heure qu'il est si Pleitiner à réussi ; mais s'il échoue, il faut lui envoyer néanmoins l'argent et le faire venir de force à Dublin ; là, du moins, tu l'auras sous les yeux, et la présence lui sera comme une vingtaine de médecins, jusqu'à ce que le travail et l'air de la campagne le restaurent complètement dans P'ile d’Inisbofin. Ainsi, et moyennant finance, Pleifiner ira à Lisbonne ou viendra former ici avec nous cette corde à trois cordons qui ne rompt pas si vite. Feris au brave Pleifner une lettre toute d'espé¬ rance et d'avenir, c'est un homme tombé à la mer : il à longtemps qu'il lutte avec les vagues ; s'il parvient à se sauver, ce sera un communiste pratique de plus.</p>
+         <p>Quant aux C. je pense que ton envoi aura pu les faire attendre une ou deux semaines et peut-être que l'arrivée de Neshter (1), pourra nous permettre de leur envoyer le restant. J'ai à peu près l0 shellings en argent, mais, dans cette contrée sauvage, il n'y a de money¬ order office (1) ni près ni loin, et de plus je suis à demi nourri par les paysans du lieu : avec eux, il ne serait pas séant de me déclarer insolvable. Ce que tu pourrais faire, ce serait de me rencontrer à un certain lieu et à une certaine heure sur la route de Dublin à Kippure ; je ferais les deux tiers du chemin et j'y viderais la moitié de ma fortune. Tu m'écriras ce que tu en penses et, s’il y a lieu, tu me fixergs lieu, jour et heure.. </p>
+         <p>Tes lettres ont fait le tour du monde. Ecris-moi désormais par Blessington.</p>
+         <p>Ici, tout va bien. J'ai fait une girouette, j'ai béché, hersé, ratissé, semé et surtout j'ai porté des pierres. lei l'agriculture en est à peu près à l'état où elle était au temps des anciens Celtes.</p>         
+         <p>Sur une propriété large comme un pays, il n'y a pas une seule charrue. Le sol ne se compose guère que de tourbe, et c'est à peine si l'on a fait quelques tenta¬ tives de drainage ; rien ne serait plus facile que d'amender les terres au moyen des masses immenses de sable charriées par la Liffex, mais personne n'y a encore réfléchi.</p>
+         <p>La contrée est sauvage et pittoresque ; de ma fenêtre, je vois le géant du lieu, le Mullagh-Cleevaun, que je désire gravir un de ces jours, et j'entends le bruit des cascades de la Liffey ; ses eaux sont noires comme de l'encre et se brisent contre les rochers en écume roussâtre ; dimanche dernier, j'ai remonté son cours jusqu'à l'endroit où elle disparait sous la neige ; j'ai vu aussi les deux Lougdes Bray, et, pour les atteindre, j'ai dû marcher plusieurs lieues à l'aventure dans une neige où mes jambes s'englontissaient partois tout entières. Ce qui te fera juger de l'état du pays, c'est qu'il faut mettre les policemen en réquisition pour avoir les lettres.</p>
+         <p>Pout-être que lundi un homme passera chez toi pour prendre ma veste. Sera-t-elle prétel Clisse un mou¬ choir dans la poche de la veste ainsi que les autres choses que tu voudrais m'envoyer.</p>
+         <p>Mande-moi une recette pour faire du fromage. Ici, on ne sait pas le faire, et il y a 34 têtes de bétail. Tu pourrais demander la recette à Miss Acton.</p>
+      </body>
+  </text>
+</TEI>

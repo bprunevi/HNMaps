@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.203">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Paris, le 7 novembre 1859.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 203</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName></p>
+         <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, le <date when="1859-11-07">7 novembre 1859</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Ma chère mère</addName></persName>,</p>
+         <p>J'ai su par Lois que tu désirais une carte des Etats-Unis ; malheureusement je n'en possédais pas moi-même, et je n’ai pu t’envoyer qu'une petite carte insignifiante. J'ai cru te faire plaisir en t'expédiant par la même occasion quelques doubles qui se trouvaient en ma possession. Si tu voulais d'autres cartes, adresse-toi à moi, et si je les ai, je tâcherai de te les faire parvenir.</p>
+         <p>Depuis mon retour de Laroche, où nous avons été très gracieusement reçus, j'ai fait un autre voyage très agréable malgré la pluie, la boue et le vent. J'ai visité Saint-Nazaire, les Sables d’Olonne. la Rochelle et je suis revenu par Poitiers...</p>
+         <p>Nous allons bien ici. Notre bébé se dévéloppe en intelligence et en force, son gazouillis qui n'est pas en¬ core devenu langage nous réjouit le cœur, il remplit la maison de mouvement et parfois de tapage. Nous l'aimons beaucoup, mais nous tâchons de ne pas le gâter, j’espère que nous y réussirons.</p>
+         <p>Actuellement, mon frère et moi avons beaucoup de travail. Sans compter nos griffonnages au bu¬ reau, nous avons encore à écrire pour la Reoue Germanique, la Revue des Deux Mondes et le Journal des Voyages, nouveau recueil dont le premier numéro doit paraître très prochainement. J'espère donc que tu excuseras la brièveté de ma lettre. Si tu voulais me répondre, tu me rendrais bien heureux, il y a plus de seize mois que j’attends.</p>
+         <p>Embrasse bien notre père et reçois toi-même nos baisers.</p>
+         <p>Ton fils,</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename> <surname>RECLUS</surname></persName>.</p>         
+      </body>
+   </text>
+</TEI>

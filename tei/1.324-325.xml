@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.324">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Orthez, 24 mars 1869.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1-p.324-325</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="Orthez" type='sender'>Orthez</placeName>, <date when="1869-03-24">24 mars 1869</date>.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Ma bien chère sœur</addName></persName>,</p>
+            <p>Je regrette beaucoup de ne pas avoir vu l’ami <persName type="mention"><surname>Dobrowolski</surname></persName>, mais je n’ai reçu ta lettre qu’à <placeName xml:id="Orthez" type="mention">Orthez</placeName>, où je suis arrivé hier mardi. J’ai laissé les Nimois dans la meilleure santé. Le vent froid descendant des neiges des <placeName xml:id="Cévennes" type="mention">Cévennes</placeName> était toujours assez fort, mais, au <placeName xml:id="Quai de la Fontaine" type="mention">Quai de la Fontaine</placeName>, on ne s'en apercevait pas, et chaque jour <persName type="mention"><forename>Marie</forename></persName> et <persName type="mention"><forename>Jeannie</forename></persName> allaient passer plusieurs heures en promenade. Chère <persName type="mention"><forename>Marie</forename></persName>, elle a pris son rôle de mère au sérieux. Elle est tendre, comme vous le savez, et ne gâte nullement l'enfant.</p>
+            <p>A <placeName xml:id="Montpellier" type="mention">Montpellier</placeName>, j'ai vu <persName type="mention">M. <surname>S.</surname></persName> ainsi que ses trois enfants qui sont vraiment une bien belle famille. Grande agitation pour les élections ; grand tumulte de conversations politiques. Le père <persName type="mention"><surname>S.</surname></persName>, qui est rageur, trouve que son fils est un modérantiste, et, tous les soirs après diner, il l'envoie à la guillotine, au grand amusement de la galerie. Les amis de <persName type="mention"><forename>Mijoul</forename></persName>, m'ont admirablement reçu. Si <persName type="mention"><forename>Elie</forename></persName> voit <persName type="mention"><forename>Mijoul</forename></persName> qu'il n'oublie pas de le remercier de ma part. Le directeur du journal démocratique de <placeName xml:id="Montpellier" type="mention">Montpellier</placeName> sera probablement <persName type="mention"><forename>Eugène</forename> <surname>Véron</surname></persName>.</p>
+            <p>Magali me paraît être en bonne santé, elle ne toussille point et gambade à plaisir. C'est elle qui mène le tapage à l'école (1) : d'ailleurs mémé et pépé sont de la plus grande tolérance à cet égard. Il va sans dire que la petite fille a recommencé de gasconner ; mais j'espère que ce n’est point là un vice irrémédiable.</p>
+            <p>Si je vais m'installer à <placeName xml:id="Bayonne" type="mention">Bayonne</placeName>, ou dans toute autre ville du midi, il est probable que ma sœur <persName type="mention"><forename>Loana</forename></persName> m'accompagnera. Ce m'est un élément nouveau et très important dans la question. De cette manière, j'arracherais ma sœur à un milieu qui ne lui vaut rien, et les chances de mariage avec quelque brave homme augmenteraient pour elle. En attendant, mes filles se développeraient d'une manière plus normale. Donnez-moi votre avis à cet égard. <persName type="mention"><forename>Loana</forename></persName> aimerait cette combinaison ; ma mère la propose, mon père ne s’y opposera pas. Qu'en pense <persName type="mention"><forename>Paul</forename></persName>?</p>
+            <p>A vous bien tendrement. Réponse prochaine.</p>
+            <p>Votre <persName type="emetteur"><forename>ELISÉE</forename></persName>.</p>
+            <p>Et le portrait de <persName type="mention"><forename>Clarisse</forename></persName>?</p>
+            <p>(1) A l’Ecole de <persName type="mention">Mme <surname>Reclus</surname></persName>, à <placeName xml:id="Orthez" type="mention">Orthez</placeName>.</p>
+        </body>
+    </text>
+</TEI>

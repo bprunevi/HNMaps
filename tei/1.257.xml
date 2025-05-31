@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.257">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Mme Elie Reclus. Le Boucau, 22 août 1865.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Tome 1 - p. 257</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>A Mme <persName xml:id="NoemiReclus" type="recepteur"><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+            <p><placeName xml:id="LeBoucau" type='sender'>Le Boucau</placeName>, <date when="1865-08-22">22 août 1865</date>.</p>
+            <p>Mardi matin.</p>
+            <p><persName xml:id="NoemiReclus"><addName>Chère sœur</addName></persName>,</p>
+            <p>Nous commençons à nous installer d'une manière agréable. <placeName xml:id="Le Boucau" type="mention">Le Boucau</placeName> est vraiment un endroit des plus charmants, à cause des arbres qui entourent chaque maison, des bouquets de platanes et de châtaigniers qui couvrent les premières collines et des grandes dunes en pignadas qui s’étendent vers la mer. La vue est idéale, moins grandiose que celle de <placeName xml:id="Saint-Georges" type="mention">Saint-Georges</placeName> mais infiniment plus douce et plus gracieuse. <placeName xml:id="L'Adour" type="mention">L'Adour</placeName>, les collines si vertes de <placeName xml:id="Bayonne" type="mention">Bayonne</placeName> et les montagnes bleues, tout cela forme un tableau devant lequel Dumesnil sera en perppétuelle extase.</p>
+            <p>Nous sommes descendus à l'hôtel chez <persName type="mention">Mme Gras</persName>. La vieille femme, dont la maison est un bijou de propreté, ne nous écorche pas trop ; mais nous avons hâte de nous installer chez nous. Hier au soir, nous avons enfin trouvé un home : Cinq grandes chambres non meublées avec la jouissance de plusieurs autres et celle</p>
+           
+        </body>
+    </text>
+</TEI>

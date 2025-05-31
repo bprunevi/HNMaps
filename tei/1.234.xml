@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.234">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mme Elie Reclus. Saint-Georges de Didonne, près Royan. Sans date. 1863.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 234</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="NoemiReclus" type="recepteur">Mme <forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><placeName xml:id="StGeorgesDidonne" type='sender'>Saint-Georges de Didonne</placeName>, près Royan. Sans date. <date when="1863-01-01">1863</date>.</p>
+         <p><persName xml:id="NoemiReclus"><addName>Très chère Noémi</addName></persName>,</p>
+         <p>Dumollet a fait un bon voyage ainsi que toute sa famille : les carrioles et les carrioleurs lui ont été propices et les aubergistes seuls ont fait preuve d'une certaine âpreté, mais avant de partir, Dumollet savait déjà ce qu'il fallait attendre de leur part. En vagon, nous avons rencontré diverses personnes qui ont fait tout leur possible pour nous rendre agréable le communisme forcé d'un compartiment de seconde et, sauf le manque de sommeil, tout a été pour le mieux. A Rochefort, Clarisse était en si bon état que nous avons cru pouvoir continuer la route jusqu'à Royan. Malles et gens, nous sommes entrés ou plutôt nous nous sommes fait enfourner dans un étroit coupé où nous avons haleté pen dant quatre heures. Heureusement que, pour nous éviter le désespoir qui peut s'emparer des malheureux condamnés à la torture, nous nous étions solennellement engagés d'avance à ne pas nous plaindre une seule fois : il nous suffisait de nous jeter les uns aux autres des regards lamentables. Quant à Magali, elle dormait sur une litière de bras, de jambes, de paquets, de paniers. Au soleil couchant la vue était belle. Le fameux clocher de Marennes, dont Mme Ermance est si fière, apparaissait comme une longue ligne noire sur les nuages rouges de la mer. Quand la nuit s'est abaissée sur le ciel, les deux phares de Chassiron et de Cordouan se sont allumés, lançant de temps en temps leurs éclairs comme un œil qui s'ouvre et se referme.</p>
+         <p>A Royan, personne ne nous attendait. Nous avons couru de porte en porte cherchant un logis : les duègnes faisaient leur apparition vêtues de manteaux de lit et portant des bougeoirs à la main et s'empressaient de nous expédier. Enfin une certaine Mme D., au cou tordu, (au physique sjentend) — nous a reçus, uniquement pour nous faire plaisir ; elle nous a fait payer chèrement une chambre, uniquement pour nous faire plaisir, et, toujours pour nous faire plaisir, elle a insisté obséquieusement le lendemain pour nous décider à rester chez elle.</p>
+         <p>...Les enfants Roberty sont contents et courent toute la journée sur la plage : c'est une joie de les voir rouler leurs brouettes, creuser des trous dans le sable, ramasser des coquillages.</p>
+         <p>De la chambre d'où je vous écris maintenant, nous voyons toute l’embouchure de la Gironde jusqu'à la pointe de Grave. La mer est basse et les plages de sable, les rochers chargés d'algues s'étendent au loin, au pied des falaises, vers les barres de sable du fleuve : à travers les branches des tamarins, j'aperçois les enfants qui creusent des trous dans le sable. Seulement la tribu des gens pieux envahit aussi la plage et mêle à l'air si pur je ne sais quelle odeur de moisi...</p>
+         <p>A vous, nos très chers, amour et joie. Hâtez-vous d'aller quelque part. Je n'aime pas jouir quand je sais que la joie n’est pas également chez vous.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename> <surname>RECLUS</surname></persName>.</p>         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.71">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elis Reclus. Sans date.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 71</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type='recepteur'><forename>Elie</forename> <surname>Reclus</surname></persName>.</p>
+         <p><date>Sans date</date>.</p>
+         <p>Tu me crois sur le Great Nestern dansant sur les vagues de l'Atlantique. Point. Je suis encore à Liverpool, et ce n'est qu'à présent même que j'ai cessé de battre le pavé pour me fourrer dans ma niche sur le John Howell en partance pour la Nouvelle-Orléans. Comme tu me le faisais pressentir, j'ai fait une niaiserie de m'engager à partir de Dublin, d'autant plus qu'au lieu d'aller à un agent en chef, j'ai été m'adresser à un sub-sub-agent qui m'a honnètement volé, Arrivé à Liverpool, démarches, marches et contremarches. Quand je me crois sur du passage, je me présente au capitaine du Great Western. "Je ne veux point de Germain", dit le bourru. " Mais je ne suis point Germain", fais-je. "Si fait ", répond le gros, et voila. Du Great Western, je retombe dans le Wide Norld.</p>
+         <p>Autre difficulté : le temps. De sorte que je suis à peu près forcé de partir par le John Howell, ce qui vaut peut-être mieux, toute réflexion faite. Du moins si je me noie, je me noierai dans l'eau chaude, ce qui n'est pas une petite considération. Puis la grande chose, c'est de passer l'hiver à la Nouvelle-Ortéans, je puis le passer au besoin à la blanche étoile ; à New-Vork, je le passerais peut-être chez le sargent. Si jamais tu viens à Liverpool, je te recommande les News Rooms (cabinet de lecture) à un penny, Lord Nelson street, et la Bibliothèque publique, Duke street. </p>
+         <p>Et maintenant, mon unique, je suis à toi.</p>
+         <p><persName type='emetteur'><forename>ÉLISÉE.</forename></persName></p>         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.201">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa Mère. Sainte-Foy, 30 septembre 1859.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 201</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa <persName xml:id="MereReclus" type="recepteur">Mère</persName>.</p>
+         <p><placeName xml:id="SainteFoy" type='sender'>Sainte-Foy</placeName>, <date when="1859-09-30">30 septembre 1859</date>.</p>
+         <p><persName xml:id="MereReclus"><addName>Ma très chère mère</addName></persName>,</p>
+         <p>Je suis revenu depuis quelques jours de mon très long voyage à travers l'Allemagne du nord, la Suisse, la Savoie et le midi de la France. J'ai vu beaucoup de pays qui m'ont vivement intéressé, entre autres, les côtes de la mer du Nord, Rugen et ses falaises, le Riesengebirge, la Suisse saxonne, le Thuringer-Wald, mais tous ces grands spectacles se sont pour ainsi dire évanouis dans mon souvenir sous la splendeur des mon¬ tagnes de la Suisse. Je n’ai traversé l'Oberland qu'en courant, mais cependant j'ai eu le temps de gravir le Pilate et le Faulhorn, de passer le Brunig, de traverser le lac des Quatre Cantons, de voir Meyringen, le Reichenbach, le Giessbach, de nager dans le lac de Brienz, de me faire asperger par le brouillard du Staubbach et de gravir la Wengernalp. Certes j'ai plus vécu pendant une heure d'admiration devant les rochers et les neiges de la Jungfrau que pendant de longues semaines à Paris ou à Sainte-Foy. Je ne puis m'abandonner un instant à mes pensées sans qu'elles me ramènent aus sitôt vers ces beaux pâturages au-dessus desquels se dressent les trois colosses, le Mœnch, l'Eiger et la Jung frau avec leurs pyramides de neige rougissant au soleil, leurs glaciers abrupts, leurs énormes parois aux saillies mouchetées de neiges et leurs avalanches dont le tonnerre se prolonge en échos lointains. Depuis que j'ai vu la Wengernalp, je n’ai plus qu’un vœu : là revoir avec des amis à mon bras.</p>
+         <p>C’est à peine si j'ai vu le lac de Genève : un lourd brouillard pesait sur sa surface et me cachait la vue des montagnes de la Savoie. Ce n'est qu'à Genève même que le nuage de pluie s’est déchiré et que j’ai pu deviner la magnificence du paysage du lac et de ses bords. Heureusement que j'aurai sans doute plus d'une fois l'occasion de revoir la Suisse, car, désormais, je me sens attiré vers elle et ne négligerai aucune occasion d’y revenir.</p>
+         <p>De Genève, je me suis dirigé vers Nîmes par le lac du Bourget, Chambéry, la Chartreuse, Grenoble, la Salette, Gap, Sisteron, Aix, Roquefavour et Tarascon.</p>
+         <pb/>
+         <p>Nous partirons après demain pour Bordeaux où nous avons à régler quelques affaires d'intérêt, affaires où je me sentirai bien novice, puis nous irons embrasser notre grand-mère à la Roche et vers la fin de la semaine nous espérons être de retour à Paris.</p>
+         <p>Tout à toi, chère mère,</p>
+         <p>Ton <persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>  
+      </body>
+   </text>
+</TEI>

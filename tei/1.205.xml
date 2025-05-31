@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.205">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sa sœur Louise (1), en Irlande Paris, 1859.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 205</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A sa sœur <persName xml:id="LouiseReclus" type="recepteur"><forename>Louise</forename></persName> (1), en <placeName xml:id="Irlande" type='receiver'>Irlande</placeName></p>
+         <p><placeName xml:id="Paris" type='sender'>Paris</placeName>, <date when="1859-01-01">1859</date>.</p>
+         <p><persName xml:id="LouiseReclus"><addName>Ma très chère sœur</addName></persName>,</p>
+         <p>C'est ma plume que la communauté a choisie pour t'écrire quelques paroles d'affection. Chacun à notre tour, nous devons te dire que nous t'aimons, que nous te souhaitons bon espoir, courage et bon succès dans la guerre que tu as entreprise contre les traditions, contre les convenances, contre les mièvreries sentimentales pour devenir une fille de la liberté. Nous tous qui voulons être bons, nous sommes comme ces nageurs qui ramons contre le courant : il nous faut non seulement lutter contre l'eau qui nous entraîne, il faut aussi vaincre notre propre lassitude et nos défaillances. Tu es jeune, enthousiaste, généreuse, avance donc le plus que tu pourras, afin que la bonté et l'amour de la vérité deviennent chez toi spontanés, que tu sois parfaite sans faire aucun effort. Aucun de nous n’est autre qu'un milliar dième de l'humanité tout entière ; notre action indi¬ viduelle sur cette énorme masse sera donc bien mi¬ nime et nous n'aurons fait progresser l'effrayante machine que d’un cran d'une petitesse infinitésimale. Nous aurons d'autant plus la satisfaction d'avoir fait notre devoir que nous l'aurons accompli par amour de la justice et que la joie du triomphe y sera rarement pour quelque chose. La vraie générosité ne demande jamais de récompense. C'est en cela que nous différons des chrétiens qui font l'usure avec le bon Dieu et qui mettent dans une balance chacun de leurs actes et les joies du Paradis. S’il nous suffisait d'agir pour remuer le monde, la vanité pourrait nous porter à être bons, mais c'est la conscience de notre devoir, le sentiment de la justice qui seuls doivent nous y pousser. Il est vrai que nous avons aussi la grande satisfaction de travailler de concert et de nous entr'aider par notre amour. Tous les progrès infinitésimaux que nous réalisons ici et là s’ajoutent l’un à l’autre, hâtent le progrès général et vont comme des gouttes d’eau grossir le grand fleuve. Fondons en nous-mêmes et autour de nous de petites républiques. Graduellement ces groupes isolés se rapprocheront comme des cristaux épars et formeront la grande République.</p>
+         <p>Tu as sans doute appris par des lettres d’Orthez ou de Poitiers comment vont les divers membres de la famille. Onésime jouit d’une meilleure santé et il doit pro¬ chainement recommencer à travailler.</p>
+         <p>Quant à notre petite communauté, elle a été plus ou moins grippée, enrhumée, enchiffrenée, attaquée de migraines et autres agréments de la vie. Bébé, grand tapageur, s'il en fut, commence à affirmer sa petite personnalité par des grimaces, des cris d'orgueil, des gestes de Nabuchodonosor en herbe. Une chose nous chagrine : il est peureux.</p>
+         <p>A toi, ma bonne sœur.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE</forename> <surname>RECLUS</surname></persName>.</p>   
+         <p>(1) Louise, sa quatrième soeur, alors institutrice en Irlande.</p>
+      </body>
+   </text>
+</TEI>

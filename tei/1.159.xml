@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L.159">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Elie Reclus. Riohacha, 10 mars 1857.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Tome 1 - p. 159</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A <persName xml:id="ElieReclus" type="recepteur"><surname>Elie</surname> <forename>Reclus</forename></persName>.</p>
+         <p><placeName xml:id="Riohacha" type="sender">Riohacha</placeName>, <date when="1857-03-10">10 mars 1857</date>.</p>
+         <p>Amis,</p>
+         <p>Je n'ai rien à vous dire, si ce n'est que le mal de tête est fort désagréable et que les bourgeois, y compris ma personne, sont des êtres fort insipides. Pour me rendre un peu d'amour au cœur et de force au jarret, ce n'est pas trop de nos longues nuits tropicales avec leurs belles étoiles et la splendeur tranquille de la mer qui les réfléchit. Encore est-ce d'une manière toute passive que je prends ces bains d'air, de lumière et de paix. Etendu sur le sol et le regard sur la Voie lactée, je sens tous mes souvenirs de la journée qui s'évaporent comme des miasmes impurs et, graduellement, mes pensées rêveuses se reportent vers les amis, vers les frères, vers le bien et la beauté. Pour vivre, je remplace l'activité franche et noble par une contemplation bouddhique : ne pouvant donner, j'absorbe.</p>
+         <p>Je crois vous avoir dit que j'allais m'engager par un ignôble contrat à seringuer pendant une année des leçons quelconques à la jeunesse juive et chrétienne de Riohacha. Maintenant c'est une affaire bâclée, et ce qu'il y a de mieux dans l'histoire, c'est que le contrat n'engage que moi et que, dès les premiers jours, il s'est trouvé des récalcitrants qui ont refusé de payer. De plus, mon Juif a gardé les deux copies du contrat et m'a fait signer un reçu mirifique. Ma signature a des lettres d’au moins un demi pied de long.</p>      
+         <p>Malgré tout, je suis enchanté de la logique des choses : la première fois que, par un contrat, je fais acte d'épicier, voilà que les épiciers m'entourent comme l'un des leurs et me volent par fraternité pure. Plat individu que je suis ! Je ne veux pas faire de contrat de mariage alors qu'une simple formalité me donnerait peut-être l'amour et la joie pendant de longues années, et je m'engage à être pédagogue. Voilà ma logique ; on éprouve parfois une joie amère à se renier soi-même et à se ranger dans la catégorie des imbéciles. On se dédouble alors et le moi peut mépriser le moi, c'est un phénomène maladif qui fait diversion à l'uniformité de la vie. Puis l’expérience y gagne, et l'on peut étudier dans ses propres actes ce que c'est que la racaille.</p>
+         <p>C'est une chose intéressante mais très corruptrice que de se voir dans sa nudité et de se connaître soi¬ même. On se voit souvent si vil et si bas, tellement soumis aux fluctuations des événements les plus vul¬ gaires, qu'on finit par en prendre son parti et par se soumettre naïvement à la fatalité. Il en est ainsi du moins pour les esprits faibles, qui ne savent pas géné raliser, retrouver les principes dans les détails et l'infini sous l'infiniment petit. Je suis un de ceux-là et, par suite, l'état de solitude intellectuelle et morale dans laquelle je me trouve et qui me force à retourner sur moi-même une grande partie de mes forces vives, est un malheur pour moi. Je suis devenu égoiste et goinfre, mon estomac trouvant qu'il lui manque quelque chose absorbe, absorbe sans cesse et ne fait que s'affadir davantage. Prends-le au moral comme au physique. J’aurais besoin d'une famille, de la vôtre par exemple car l'indifférence commence à me pétrifier le cœur, il est bien rare qu'un enthousiasme quelconque se réveille en moi, et quand je donne mon cœur, je le donne tellement en détail que je finirai par ne plus savoir aimer...</p>
+         <p>Ce que vous m'avez dit de cette atmosphère de corruption qui pèse aujourd'hui sur la France et de cette hiérarchie de voleurs qui ont tous la main dans la poche l'un de l'autre, ne m'effraie qu'à demi, parce que je n’en souffre pas et que, d'ici, je puis considérer la chose d'une manière un peu générale. Je comprends que, sous bien des rapports, la vie de Paris doit être triste, et moi-même j'en suis tout dégoûté par anticipation, mais, vu de loin, le spectacle de cette corruption a quelque chose de grandiose et donne une magnifique réponse à la question de la concurrence, telle qu'elle a été posée en 1789. Tout s'universalise, et quand ces gigantesques compagnies, organisées pour le gaingner, se seront étendues sur la société tout entière, on saura du moins que c'est par l'union de tous que se font les grandes choses. C'est ce qui m'a frappé dans le rapport d'I. Pereire. Le langage du commerce devient celui de la plus haute philosophie. Laisse donc les scarabées rouler leurs crottes : ils purifient le sol de l'Egypte.</p>
+         <p>Après quarante jours d'attente, j'ai reçu indirectement des nouvelles du vieux Chassaigne et de notre plantation. Tout allait bien et nos aracachas, nos ma¬ langas et nos patates douces étaient magnifiques ; de plus, l'association s'était augmentée de deux poules. Peu à peu, même avec ce lambin de Chassaigne, la plantation va cesser d’être simplement un rêve et quand on aura tué la fièvre jaune ou qu'on saura voler à quatre cents mètres au-dessus d'elle, nous viendrons tous ensemble respirer l'air pur sous les vastes feuilles du bananier.</p>
+         <p>Je continue à prendre des forces. Cependant, je ne puis encore ni courir, ni sauter, ni monter un escalier. Je ne pense pas sans frémir aux marches qu’il me faudra escalader quand j’aurai la joie d’aller vous embrasser. Les maux de tête sont plus rares et, quand j'aurai un lit pour me coucher, une chaise pour m'asseoir et quelque chose de bon pour accompagner mon pain, je pense que la maladie disparaîtra tout à fait. Je commence à avoir besoin de ces aises de la vie qui m'avaient paru inutiles auparavant. Ne m'envoyez pas d’argent, mais j'implore vos livres et vos journaux usés. M. X. et Cle Paris et le Havre, expédiera le tout à M. Laborde, vice-consul à Riohacha. Mes bons Grimard Hickel, Elie, Noémi, vivez heureux.</p>
+         <p><persName type="emetteur"><forename>ÉLISÉE.</forename></persName></p>
+      </body>
+   </text>
+</TEI>
