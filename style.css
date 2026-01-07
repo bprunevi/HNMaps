@@ -7,6 +7,13 @@ html, body, h1, h2, h3, h4, h5, h6, ul{
     position:relative;
 }
 
+.leaflet-control-zoom-out {
+    background-color: #edd7c0 !important;
+}
+.leaflet-control-zoom-in {
+    background-color: #edd7c0 !important;
+}
+
 .marker-list-box {
     /*
     overflow: auto;
@@ -24,7 +31,7 @@ html, body, h1, h2, h3, h4, h5, h6, ul{
 .tab-content{
     margin : 0px;
     padding : 10px;
-    background-color: white;
+    background-color: #fff1dc;
     border : 2px solid rgba(0,0,0,0.2);
     max-width: 40vw;
     max-height: 60vh;
@@ -43,13 +50,26 @@ html, body, h1, h2, h3, h4, h5, h6, ul{
     display: grid;
 }
 
-.marker-highlight {
-    filter: saturate(3);
+.leaflet-marker-icon {
+    filter : invert(0.8)
 }
 
-.tab-selected {
-    color:red;
+.tab-content input {
+    background-color: #edd7c0;
 }
+.marker-highlight {
+    filter: invert(0.9);
+}
+
+.tablink {
+    background-color: #edd7c0;
+}
+.tab-selected {
+    color:#b55b29;
+    background-color: #edd7c0;
+}
+
+
 
 .popuptitle { 
     text-align: center;
@@ -58,14 +78,14 @@ html, body, h1, h2, h3, h4, h5, h6, ul{
     list-style-type: none;
 }
 .popuplesdeux a { 
- color: blue;
+ color: #b55b29;
 }
 .popupreception a { 
  color: green;
 }
 .popupdestinataire a {
- color: blue;
+ color: #b55b29;
 }
 .popupmention a {
- color: skyblue;
+ color: #edd7c0;
 }
