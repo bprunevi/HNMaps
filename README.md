@@ -10,7 +10,7 @@
 Ce projet consiste en l'océrisation d'un nombre important de correspondance du géographe anarchiste [Élisée Reclus](https://fr.wikipedia.org/wiki/%C3%89lis%C3%A9e_Reclus)
 Le travail réalisé comprend : 
 1. la collecte de ses correspondances disponible [sur Gallica](https://gallica.bnf.fr/services/engine/search/sru??operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22Correspondance%20et%20papiers%20d%27%C3%89lis%C3%A9e%20Reclus%20%281830-1905%29%22%29&lang=fr&suggest=0#resultat-id-1)
-2. La détection automatisée du texte qui y était présent (OCR/HCR)
+2. La détection automatisée du texte qui y était présent (OCR/HTR)
 3. Le formatage du texte obtenu dans des fichiers XML-TEI
 4. L'affichage de fichiers XML-TEI dans une carte interactive à partir des métadonnées créées
 
